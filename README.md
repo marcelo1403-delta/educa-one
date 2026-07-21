@@ -1,4 +1,4 @@
-# Clube da Leitura — PWA
+#Educa-One — PWA
 
 Estrutura inicial pronta para receber os conteúdos.
 

@@ -1,0 +1,17 @@
+{
+  "name": "Clube da Leitura — A Droga da Obediência",
+  "short_name": "Clube Leitura",
+  "start_url": "./#/inicio",
+  "display": "standalone",
+  "background_color": "#08122e",
+  "theme_color": "#111b46",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "./assets/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,1943 @@
+{
+  "book": {
+    "title": "A Droga da Obediência",
+    "author": "Pedro Bandeira",
+    "description": "Uma experiência de leitura com capítulos simplificados, vídeos, perguntas interativas, flashcards e acompanhamento de progresso."
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Título do capítulo 1",
+      "subtitle": "Conteúdo aguardando envio para geração dos recursos.",
+      "scenes": [
+        {
+          "title": "Cena de abertura",
+          "text": "O texto simplificado desta cena será inserido quando o conteúdo do capítulo for enviado."
+        },
+        {
+          "title": "Desenvolvimento",
+          "text": "Aqui ficará a continuação da narrativa, preservando o fio condutor da trama."
+        }
+      ],
+      "clues": [
+        "Pista importante a preencher.",
+        "Segunda pista importante a preencher."
+      ],
+      "remember": "Síntese do que o aluno precisa lembrar ao terminar o capítulo.",
+      "questions": [
+        {
+          "question": "Pergunta interativa 1 do capítulo 1",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 2 do capítulo 1",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 3 do capítulo 1",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 4 do capítulo 1",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 5 do capítulo 1",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Flashcard 1: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 2: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 3: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 4: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 5: pergunta",
+          "back": "Resposta do flashcard."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Título do capítulo 2",
+      "subtitle": "Conteúdo aguardando envio para geração dos recursos.",
+      "scenes": [
+        {
+          "title": "Cena de abertura",
+          "text": "O texto simplificado desta cena será inserido quando o conteúdo do capítulo for enviado."
+        },
+        {
+          "title": "Desenvolvimento",
+          "text": "Aqui ficará a continuação da narrativa, preservando o fio condutor da trama."
+        }
+      ],
+      "clues": [
+        "Pista importante a preencher.",
+        "Segunda pista importante a preencher."
+      ],
+      "remember": "Síntese do que o aluno precisa lembrar ao terminar o capítulo.",
+      "questions": [
+        {
+          "question": "Pergunta interativa 1 do capítulo 2",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 2 do capítulo 2",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 3 do capítulo 2",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 4 do capítulo 2",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 5 do capítulo 2",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Flashcard 1: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 2: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 3: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 4: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 5: pergunta",
+          "back": "Resposta do flashcard."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Título do capítulo 3",
+      "subtitle": "Conteúdo aguardando envio para geração dos recursos.",
+      "scenes": [
+        {
+          "title": "Cena de abertura",
+          "text": "O texto simplificado desta cena será inserido quando o conteúdo do capítulo for enviado."
+        },
+        {
+          "title": "Desenvolvimento",
+          "text": "Aqui ficará a continuação da narrativa, preservando o fio condutor da trama."
+        }
+      ],
+      "clues": [
+        "Pista importante a preencher.",
+        "Segunda pista importante a preencher."
+      ],
+      "remember": "Síntese do que o aluno precisa lembrar ao terminar o capítulo.",
+      "questions": [
+        {
+          "question": "Pergunta interativa 1 do capítulo 3",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 2 do capítulo 3",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 3 do capítulo 3",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 4 do capítulo 3",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 5 do capítulo 3",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Flashcard 1: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 2: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 3: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 4: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 5: pergunta",
+          "back": "Resposta do flashcard."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Título do capítulo 4",
+      "subtitle": "Conteúdo aguardando envio para geração dos recursos.",
+      "scenes": [
+        {
+          "title": "Cena de abertura",
+          "text": "O texto simplificado desta cena será inserido quando o conteúdo do capítulo for enviado."
+        },
+        {
+          "title": "Desenvolvimento",
+          "text": "Aqui ficará a continuação da narrativa, preservando o fio condutor da trama."
+        }
+      ],
+      "clues": [
+        "Pista importante a preencher.",
+        "Segunda pista importante a preencher."
+      ],
+      "remember": "Síntese do que o aluno precisa lembrar ao terminar o capítulo.",
+      "questions": [
+        {
+          "question": "Pergunta interativa 1 do capítulo 4",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 2 do capítulo 4",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 3 do capítulo 4",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 4 do capítulo 4",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 5 do capítulo 4",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Flashcard 1: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 2: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 3: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 4: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 5: pergunta",
+          "back": "Resposta do flashcard."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Título do capítulo 5",
+      "subtitle": "Conteúdo aguardando envio para geração dos recursos.",
+      "scenes": [
+        {
+          "title": "Cena de abertura",
+          "text": "O texto simplificado desta cena será inserido quando o conteúdo do capítulo for enviado."
+        },
+        {
+          "title": "Desenvolvimento",
+          "text": "Aqui ficará a continuação da narrativa, preservando o fio condutor da trama."
+        }
+      ],
+      "clues": [
+        "Pista importante a preencher.",
+        "Segunda pista importante a preencher."
+      ],
+      "remember": "Síntese do que o aluno precisa lembrar ao terminar o capítulo.",
+      "questions": [
+        {
+          "question": "Pergunta interativa 1 do capítulo 5",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 2 do capítulo 5",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 3 do capítulo 5",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 4 do capítulo 5",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 5 do capítulo 5",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Flashcard 1: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 2: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 3: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 4: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 5: pergunta",
+          "back": "Resposta do flashcard."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Título do capítulo 6",
+      "subtitle": "Conteúdo aguardando envio para geração dos recursos.",
+      "scenes": [
+        {
+          "title": "Cena de abertura",
+          "text": "O texto simplificado desta cena será inserido quando o conteúdo do capítulo for enviado."
+        },
+        {
+          "title": "Desenvolvimento",
+          "text": "Aqui ficará a continuação da narrativa, preservando o fio condutor da trama."
+        }
+      ],
+      "clues": [
+        "Pista importante a preencher.",
+        "Segunda pista importante a preencher."
+      ],
+      "remember": "Síntese do que o aluno precisa lembrar ao terminar o capítulo.",
+      "questions": [
+        {
+          "question": "Pergunta interativa 1 do capítulo 6",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 2 do capítulo 6",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 3 do capítulo 6",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 4 do capítulo 6",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 5 do capítulo 6",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Flashcard 1: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 2: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 3: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 4: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 5: pergunta",
+          "back": "Resposta do flashcard."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Título do capítulo 7",
+      "subtitle": "Conteúdo aguardando envio para geração dos recursos.",
+      "scenes": [
+        {
+          "title": "Cena de abertura",
+          "text": "O texto simplificado desta cena será inserido quando o conteúdo do capítulo for enviado."
+        },
+        {
+          "title": "Desenvolvimento",
+          "text": "Aqui ficará a continuação da narrativa, preservando o fio condutor da trama."
+        }
+      ],
+      "clues": [
+        "Pista importante a preencher.",
+        "Segunda pista importante a preencher."
+      ],
+      "remember": "Síntese do que o aluno precisa lembrar ao terminar o capítulo.",
+      "questions": [
+        {
+          "question": "Pergunta interativa 1 do capítulo 7",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 2 do capítulo 7",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 3 do capítulo 7",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 4 do capítulo 7",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 5 do capítulo 7",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Flashcard 1: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 2: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 3: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 4: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 5: pergunta",
+          "back": "Resposta do flashcard."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Título do capítulo 8",
+      "subtitle": "Conteúdo aguardando envio para geração dos recursos.",
+      "scenes": [
+        {
+          "title": "Cena de abertura",
+          "text": "O texto simplificado desta cena será inserido quando o conteúdo do capítulo for enviado."
+        },
+        {
+          "title": "Desenvolvimento",
+          "text": "Aqui ficará a continuação da narrativa, preservando o fio condutor da trama."
+        }
+      ],
+      "clues": [
+        "Pista importante a preencher.",
+        "Segunda pista importante a preencher."
+      ],
+      "remember": "Síntese do que o aluno precisa lembrar ao terminar o capítulo.",
+      "questions": [
+        {
+          "question": "Pergunta interativa 1 do capítulo 8",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 2 do capítulo 8",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 3 do capítulo 8",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 4 do capítulo 8",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 5 do capítulo 8",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Flashcard 1: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 2: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 3: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 4: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 5: pergunta",
+          "back": "Resposta do flashcard."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Título do capítulo 9",
+      "subtitle": "Conteúdo aguardando envio para geração dos recursos.",
+      "scenes": [
+        {
+          "title": "Cena de abertura",
+          "text": "O texto simplificado desta cena será inserido quando o conteúdo do capítulo for enviado."
+        },
+        {
+          "title": "Desenvolvimento",
+          "text": "Aqui ficará a continuação da narrativa, preservando o fio condutor da trama."
+        }
+      ],
+      "clues": [
+        "Pista importante a preencher.",
+        "Segunda pista importante a preencher."
+      ],
+      "remember": "Síntese do que o aluno precisa lembrar ao terminar o capítulo.",
+      "questions": [
+        {
+          "question": "Pergunta interativa 1 do capítulo 9",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 2 do capítulo 9",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 3 do capítulo 9",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 4 do capítulo 9",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 5 do capítulo 9",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Flashcard 1: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 2: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 3: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 4: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 5: pergunta",
+          "back": "Resposta do flashcard."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Título do capítulo 10",
+      "subtitle": "Conteúdo aguardando envio para geração dos recursos.",
+      "scenes": [
+        {
+          "title": "Cena de abertura",
+          "text": "O texto simplificado desta cena será inserido quando o conteúdo do capítulo for enviado."
+        },
+        {
+          "title": "Desenvolvimento",
+          "text": "Aqui ficará a continuação da narrativa, preservando o fio condutor da trama."
+        }
+      ],
+      "clues": [
+        "Pista importante a preencher.",
+        "Segunda pista importante a preencher."
+      ],
+      "remember": "Síntese do que o aluno precisa lembrar ao terminar o capítulo.",
+      "questions": [
+        {
+          "question": "Pergunta interativa 1 do capítulo 10",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 2 do capítulo 10",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 3 do capítulo 10",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 4 do capítulo 10",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 5 do capítulo 10",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Flashcard 1: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 2: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 3: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 4: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 5: pergunta",
+          "back": "Resposta do flashcard."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Título do capítulo 11",
+      "subtitle": "Conteúdo aguardando envio para geração dos recursos.",
+      "scenes": [
+        {
+          "title": "Cena de abertura",
+          "text": "O texto simplificado desta cena será inserido quando o conteúdo do capítulo for enviado."
+        },
+        {
+          "title": "Desenvolvimento",
+          "text": "Aqui ficará a continuação da narrativa, preservando o fio condutor da trama."
+        }
+      ],
+      "clues": [
+        "Pista importante a preencher.",
+        "Segunda pista importante a preencher."
+      ],
+      "remember": "Síntese do que o aluno precisa lembrar ao terminar o capítulo.",
+      "questions": [
+        {
+          "question": "Pergunta interativa 1 do capítulo 11",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 2 do capítulo 11",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 3 do capítulo 11",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 4 do capítulo 11",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 5 do capítulo 11",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Flashcard 1: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 2: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 3: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 4: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 5: pergunta",
+          "back": "Resposta do flashcard."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Título do capítulo 12",
+      "subtitle": "Conteúdo aguardando envio para geração dos recursos.",
+      "scenes": [
+        {
+          "title": "Cena de abertura",
+          "text": "O texto simplificado desta cena será inserido quando o conteúdo do capítulo for enviado."
+        },
+        {
+          "title": "Desenvolvimento",
+          "text": "Aqui ficará a continuação da narrativa, preservando o fio condutor da trama."
+        }
+      ],
+      "clues": [
+        "Pista importante a preencher.",
+        "Segunda pista importante a preencher."
+      ],
+      "remember": "Síntese do que o aluno precisa lembrar ao terminar o capítulo.",
+      "questions": [
+        {
+          "question": "Pergunta interativa 1 do capítulo 12",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 2 do capítulo 12",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 3 do capítulo 12",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 4 do capítulo 12",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 5 do capítulo 12",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Flashcard 1: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 2: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 3: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 4: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 5: pergunta",
+          "back": "Resposta do flashcard."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Título do capítulo 13",
+      "subtitle": "Conteúdo aguardando envio para geração dos recursos.",
+      "scenes": [
+        {
+          "title": "Cena de abertura",
+          "text": "O texto simplificado desta cena será inserido quando o conteúdo do capítulo for enviado."
+        },
+        {
+          "title": "Desenvolvimento",
+          "text": "Aqui ficará a continuação da narrativa, preservando o fio condutor da trama."
+        }
+      ],
+      "clues": [
+        "Pista importante a preencher.",
+        "Segunda pista importante a preencher."
+      ],
+      "remember": "Síntese do que o aluno precisa lembrar ao terminar o capítulo.",
+      "questions": [
+        {
+          "question": "Pergunta interativa 1 do capítulo 13",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 2 do capítulo 13",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 3 do capítulo 13",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 4 do capítulo 13",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 5 do capítulo 13",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Flashcard 1: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 2: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 3: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 4: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 5: pergunta",
+          "back": "Resposta do flashcard."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Título do capítulo 14",
+      "subtitle": "Conteúdo aguardando envio para geração dos recursos.",
+      "scenes": [
+        {
+          "title": "Cena de abertura",
+          "text": "O texto simplificado desta cena será inserido quando o conteúdo do capítulo for enviado."
+        },
+        {
+          "title": "Desenvolvimento",
+          "text": "Aqui ficará a continuação da narrativa, preservando o fio condutor da trama."
+        }
+      ],
+      "clues": [
+        "Pista importante a preencher.",
+        "Segunda pista importante a preencher."
+      ],
+      "remember": "Síntese do que o aluno precisa lembrar ao terminar o capítulo.",
+      "questions": [
+        {
+          "question": "Pergunta interativa 1 do capítulo 14",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 2 do capítulo 14",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 3 do capítulo 14",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 4 do capítulo 14",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 5 do capítulo 14",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Flashcard 1: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 2: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 3: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 4: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 5: pergunta",
+          "back": "Resposta do flashcard."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Título do capítulo 15",
+      "subtitle": "Conteúdo aguardando envio para geração dos recursos.",
+      "scenes": [
+        {
+          "title": "Cena de abertura",
+          "text": "O texto simplificado desta cena será inserido quando o conteúdo do capítulo for enviado."
+        },
+        {
+          "title": "Desenvolvimento",
+          "text": "Aqui ficará a continuação da narrativa, preservando o fio condutor da trama."
+        }
+      ],
+      "clues": [
+        "Pista importante a preencher.",
+        "Segunda pista importante a preencher."
+      ],
+      "remember": "Síntese do que o aluno precisa lembrar ao terminar o capítulo.",
+      "questions": [
+        {
+          "question": "Pergunta interativa 1 do capítulo 15",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 2 do capítulo 15",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 3 do capítulo 15",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 4 do capítulo 15",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 5 do capítulo 15",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Flashcard 1: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 2: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 3: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 4: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 5: pergunta",
+          "back": "Resposta do flashcard."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Título do capítulo 16",
+      "subtitle": "Conteúdo aguardando envio para geração dos recursos.",
+      "scenes": [
+        {
+          "title": "Cena de abertura",
+          "text": "O texto simplificado desta cena será inserido quando o conteúdo do capítulo for enviado."
+        },
+        {
+          "title": "Desenvolvimento",
+          "text": "Aqui ficará a continuação da narrativa, preservando o fio condutor da trama."
+        }
+      ],
+      "clues": [
+        "Pista importante a preencher.",
+        "Segunda pista importante a preencher."
+      ],
+      "remember": "Síntese do que o aluno precisa lembrar ao terminar o capítulo.",
+      "questions": [
+        {
+          "question": "Pergunta interativa 1 do capítulo 16",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 2 do capítulo 16",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 3 do capítulo 16",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 4 do capítulo 16",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 5 do capítulo 16",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Flashcard 1: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 2: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 3: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 4: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 5: pergunta",
+          "back": "Resposta do flashcard."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Título do capítulo 17",
+      "subtitle": "Conteúdo aguardando envio para geração dos recursos.",
+      "scenes": [
+        {
+          "title": "Cena de abertura",
+          "text": "O texto simplificado desta cena será inserido quando o conteúdo do capítulo for enviado."
+        },
+        {
+          "title": "Desenvolvimento",
+          "text": "Aqui ficará a continuação da narrativa, preservando o fio condutor da trama."
+        }
+      ],
+      "clues": [
+        "Pista importante a preencher.",
+        "Segunda pista importante a preencher."
+      ],
+      "remember": "Síntese do que o aluno precisa lembrar ao terminar o capítulo.",
+      "questions": [
+        {
+          "question": "Pergunta interativa 1 do capítulo 17",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 2 do capítulo 17",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 3 do capítulo 17",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 4 do capítulo 17",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 5 do capítulo 17",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Flashcard 1: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 2: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 3: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 4: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 5: pergunta",
+          "back": "Resposta do flashcard."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Título do capítulo 18",
+      "subtitle": "Conteúdo aguardando envio para geração dos recursos.",
+      "scenes": [
+        {
+          "title": "Cena de abertura",
+          "text": "O texto simplificado desta cena será inserido quando o conteúdo do capítulo for enviado."
+        },
+        {
+          "title": "Desenvolvimento",
+          "text": "Aqui ficará a continuação da narrativa, preservando o fio condutor da trama."
+        }
+      ],
+      "clues": [
+        "Pista importante a preencher.",
+        "Segunda pista importante a preencher."
+      ],
+      "remember": "Síntese do que o aluno precisa lembrar ao terminar o capítulo.",
+      "questions": [
+        {
+          "question": "Pergunta interativa 1 do capítulo 18",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 2 do capítulo 18",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 3 do capítulo 18",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 4 do capítulo 18",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 5 do capítulo 18",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Flashcard 1: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 2: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 3: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 4: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 5: pergunta",
+          "back": "Resposta do flashcard."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Título do capítulo 19",
+      "subtitle": "Conteúdo aguardando envio para geração dos recursos.",
+      "scenes": [
+        {
+          "title": "Cena de abertura",
+          "text": "O texto simplificado desta cena será inserido quando o conteúdo do capítulo for enviado."
+        },
+        {
+          "title": "Desenvolvimento",
+          "text": "Aqui ficará a continuação da narrativa, preservando o fio condutor da trama."
+        }
+      ],
+      "clues": [
+        "Pista importante a preencher.",
+        "Segunda pista importante a preencher."
+      ],
+      "remember": "Síntese do que o aluno precisa lembrar ao terminar o capítulo.",
+      "questions": [
+        {
+          "question": "Pergunta interativa 1 do capítulo 19",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 2 do capítulo 19",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 3 do capítulo 19",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 4 do capítulo 19",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 5 do capítulo 19",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Flashcard 1: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 2: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 3: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 4: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 5: pergunta",
+          "back": "Resposta do flashcard."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Título do capítulo 20",
+      "subtitle": "Conteúdo aguardando envio para geração dos recursos.",
+      "scenes": [
+        {
+          "title": "Cena de abertura",
+          "text": "O texto simplificado desta cena será inserido quando o conteúdo do capítulo for enviado."
+        },
+        {
+          "title": "Desenvolvimento",
+          "text": "Aqui ficará a continuação da narrativa, preservando o fio condutor da trama."
+        }
+      ],
+      "clues": [
+        "Pista importante a preencher.",
+        "Segunda pista importante a preencher."
+      ],
+      "remember": "Síntese do que o aluno precisa lembrar ao terminar o capítulo.",
+      "questions": [
+        {
+          "question": "Pergunta interativa 1 do capítulo 20",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 2 do capítulo 20",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 3 do capítulo 20",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 4 do capítulo 20",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Pergunta interativa 5 do capítulo 20",
+          "options": [
+            "Alternativa A",
+            "Alternativa B",
+            "Alternativa C",
+            "Alternativa D"
+          ],
+          "answer": 0
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Flashcard 1: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 2: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 3: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 4: pergunta",
+          "back": "Resposta do flashcard."
+        },
+        {
+          "front": "Flashcard 5: pergunta",
+          "back": "Resposta do flashcard."
+        }
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "title": "Vídeo 1 — Capítulos 1 a 5",
+      "duration": "10 min",
+      "description": "Vídeo narrativo reunindo os capítulos 1 a 5."
+    },
+    {
+      "id": 2,
+      "title": "Vídeo 2 — Capítulos 6 a 10",
+      "duration": "10 min",
+      "description": "Vídeo narrativo reunindo os capítulos 6 a 10."
+    },
+    {
+      "id": 3,
+      "title": "Vídeo 3 — Capítulos 11 a 15",
+      "duration": "10 min",
+      "description": "Vídeo narrativo reunindo os capítulos 11 a 15."
+    },
+    {
+      "id": 4,
+      "title": "Vídeo 4 — Capítulos 16 a 20",
+      "duration": "10 min",
+      "description": "Vídeo narrativo reunindo os capítulos 16 a 20."
+    }
+  ],
+  "characters": [
+    {
+      "name": "Miguel",
+      "description": "Ficha aguardando conteúdo."
+    },
+    {
+      "name": "Magrí",
+      "description": "Ficha aguardando conteúdo."
+    },
+    {
+      "name": "Calu",
+      "description": "Ficha aguardando conteúdo."
+    },
+    {
+      "name": "Crânio",
+      "description": "Ficha aguardando conteúdo."
+    },
+    {
+      "name": "Chumbinho",
+      "description": "Ficha aguardando conteúdo."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Termo de exemplo",
+      "definition": "Definição que será substituída pelo glossário real."
+    }
+  ]
+}

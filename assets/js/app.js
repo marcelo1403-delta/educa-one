@@ -1,4 +1,4 @@
-const APP_VERSION='12';
+const APP_VERSION='13';
 const bookRoot=['data','livros','a droga da obediência'];
 const files={chapters:{
 1:{title:'Os Karas',md:['leitura','capitulo 01','01%20-%20Os%20Karas%20simplificado.md'],json:['leitura','capitulo 01','capitulo_01_os_karas_atividades.json']},
@@ -17,9 +17,9 @@ const files={chapters:{
 14:{title:'Quem será o oferecedor',md:['leitura','capitulo 14','14 - Quem será o oferecedor simplificado.md']},
 15:{title:'Os três incompetentes',md:['leitura','capitulo 15','15 - Os três incompetentes simplificado.md']}
 },videos:[
-{title:'Vídeo 1',range:'Capítulos 1 a 5'},
-{title:'Vídeo 2',range:'Capítulos 6 a 10'},
-{title:'Vídeo 3',range:'Capítulos 11 a 15'},
+{title:'Vídeo 1',range:'Capítulos 1 a 5',youtube:'RdctKd8alAQ'},
+{title:'Vídeo 2',range:'Capítulos 6 a 10',youtube:'4xTVZ7Fmtzo'},
+{title:'Vídeo 3',range:'Capítulos 11 a 15',youtube:'7GNpURHoGsM'},
 {title:'Vídeo 4',range:'Capítulos 16 a 20'}
 ]};
 
@@ -69,7 +69,7 @@ async function chapter(id){
   document.querySelector('#finish').onclick=()=>{save(id,100);alert('Capítulo concluído!');chapter(id)};
 }
 
-function videos(){app.innerHTML=`<section class="page"><h1>Vídeos</h1><p class="muted">Os vídeos serão adicionados em links externos para manter o site leve.</p><div class="grid">${files.videos.map(v=>`<article class="card"><span>${esc(v.range)}</span><h2>${esc(v.title)}</h2><p class="muted">Vídeo em preparação.</p><button class="btn secondary" disabled>Em breve</button></article>`).join('')}</div></section>`}
+function videos(){app.innerHTML=`<section class="page"><h1>Vídeos</h1><p class="muted">Assista aos vídeos de apoio por grupo de capítulos.</p><div class="grid">${files.videos.map(v=>`<article class="card"><span>${esc(v.range)}</span><h2>${esc(v.title)}</h2>${v.youtube?`<iframe title="${esc(v.title)}" src="https://www.youtube.com/embed/${v.youtube}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0;border-radius:12px;background:#000;margin:12px 0"></iframe><p><a class="btn primary" href="https://youtu.be/${v.youtube}" target="_blank" rel="noopener">Abrir no YouTube</a></p>`:`<p class="muted">Vídeo em preparação.</p><button class="btn secondary" disabled>Em breve</button>`}</article>`).join('')}</div></section>`}
 function chars(){app.innerHTML=`<section class="page"><h1>Personagens</h1><div class="grid">${S.data.characters.map(c=>`<article class="card"><h2>${esc(c.name)}</h2><p>${esc(c.description)}</p></article>`).join('')}</div></section>`}
 function glossary(){app.innerHTML=`<section class="page"><h1>Glossário</h1><div class="grid">${S.data.glossary.map(g=>`<article class="card"><h2>${esc(g.term)}</h2><p>${esc(g.definition)}</p></article>`).join('')}</div></section>`}
 function progress(){app.innerHTML=`<section class="page"><h1>Meu progresso</h1><div class="panel"><div class="ring" style="--p:${overall()}%">${overall()}%</div><div class="grid">${S.data.chapters.map(row).join('')}</div></div></section>`}

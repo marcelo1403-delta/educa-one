@@ -1,0 +1,14 @@
+/*
+  Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+
+/assets/js/*
+  Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+
+/data/*
+  Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+
+/sw.js
+  Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+
+/reset.html
+  Cache-Control: no-store, no-cache, must-revalidate, max-age=0

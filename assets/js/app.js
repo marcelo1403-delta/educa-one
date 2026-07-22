@@ -1,4 +1,4 @@
-const APP_VERSION='8';
+const APP_VERSION='9';
 const bookRoot=['data','livros','a droga da obediência'];
 const files={chapters:{
 1:{title:'Os Karas',md:['leitura','capitulo 01','01%20-%20Os%20Karas%20simplificado.md'],json:['leitura','capitulo 01','capitulo_01_os_karas_atividades.json']},
@@ -73,7 +73,7 @@ function chars(){app.innerHTML=`<section class="page"><h1>Personagens</h1><div c
 function glossary(){app.innerHTML=`<section class="page"><h1>Glossário</h1><div class="grid">${S.data.glossary.map(g=>`<article class="card"><h2>${esc(g.term)}</h2><p>${esc(g.definition)}</p></article>`).join('')}</div></section>`}
 function progress(){app.innerHTML=`<section class="page"><h1>Meu progresso</h1><div class="panel"><div class="ring" style="--p:${overall()}%">${overall()}%</div><div class="grid">${S.data.chapters.map(row).join('')}</div></div></section>`}
 function notfound(){app.innerHTML='<div class="panel"><h1>Página não encontrada</h1></div>'}
-function route(){try{if(!S.data)return;side.classList.remove('open');ov.classList.remove('show');let [r,id]=(location.hash.replace('#/','')||'inicio').split('/');({inicio:home,livro:home,capitulos:()=>id?chapter(+id):list(),videos,personagens:chars,glossario,progresso:progress}[r]||notfound)();window.scrollTo(0,0)}catch(e){app.innerHTML=`<section class="page"><div class="panel"><h1>Erro ao abrir a página</h1><p>${esc(e.message)}</p></div></section>`;console.error(e)}}
+function route(){try{if(!S.data)return;side.classList.remove('open');ov.classList.remove('show');let [r,id]=(location.hash.replace('#/','')||'inicio').split('/');({inicio:home,livro:home,capitulos:()=>id?chapter(+id):list(),videos,personagens:chars,glossario:glossary,progresso:progress}[r]||notfound)();window.scrollTo(0,0)}catch(e){app.innerHTML=`<section class="page"><div class="panel"><h1>Erro ao abrir a página</h1><p>${esc(e.message)}</p></div></section>`;console.error(e)}}
 
 app.innerHTML='<section class="page"><div class="panel">Carregando educa-one...</div></section>';
 fetch('./data/site.json?v='+APP_VERSION).then(r=>{if(!r.ok)throw new Error('Não consegui carregar data/site.json');return r.json()}).then(d=>{S.data=d;route()}).catch(e=>{app.innerHTML=`<section class="page"><div class="panel"><h1>Erro ao carregar dados</h1><p>${esc(e.message)}</p></div></section>`;console.error(e)});

@@ -1,4 +1,4 @@
-const APP_VERSION='11';
+const APP_VERSION='12';
 const bookRoot=['data','livros','a droga da obediência'];
 const files={chapters:{
 1:{title:'Os Karas',md:['leitura','capitulo 01','01%20-%20Os%20Karas%20simplificado.md'],json:['leitura','capitulo 01','capitulo_01_os_karas_atividades.json']},
@@ -17,9 +17,10 @@ const files={chapters:{
 14:{title:'Quem será o oferecedor',md:['leitura','capitulo 14','14 - Quem será o oferecedor simplificado.md']},
 15:{title:'Os três incompetentes',md:['leitura','capitulo 15','15 - Os três incompetentes simplificado.md']}
 },videos:[
-{title:'Capítulos 01 a 05',range:'Capítulos 1 a 5',src:['videos','01. Capitulos 01 a 05.mp4']},
-{title:'Capítulos 06 a 10',range:'Capítulos 6 a 10',src:['videos','02. Capitulos 06 a 10.mp4']},
-{title:'Capítulos 11 a 15',range:'Capítulos 11 a 15',src:['videos','03. Capitulos 11 a 15.mp4']}
+{title:'Vídeo 1',range:'Capítulos 1 a 5'},
+{title:'Vídeo 2',range:'Capítulos 6 a 10'},
+{title:'Vídeo 3',range:'Capítulos 11 a 15'},
+{title:'Vídeo 4',range:'Capítulos 16 a 20'}
 ]};
 
 const app=document.querySelector('#app'),side=document.querySelector('#sidebar'),ov=document.querySelector('#overlay');
@@ -68,7 +69,7 @@ async function chapter(id){
   document.querySelector('#finish').onclick=()=>{save(id,100);alert('Capítulo concluído!');chapter(id)};
 }
 
-function videos(){const real=files.videos.map(v=>`<article class="card"><span>${esc(v.range)}</span><h2>${esc(v.title)}</h2><video controls preload="metadata" src="${url(v.src)}" style="width:100%;aspect-ratio:16/9;background:#000;border-radius:12px;margin:12px 0"></video><p><a class="btn primary" href="${url(v.src)}" target="_blank" rel="noopener">Abrir vídeo</a></p></article>`).join('');app.innerHTML=`<section class="page"><h1>Vídeos</h1><p class="muted">Os botões agora usam os arquivos MP4 dentro de data/livros.</p><div class="grid">${real}<article class="card"><span>Capítulos 16 a 20</span><h2>Vídeo 4</h2><p class="muted">Arquivo ainda não encontrado em data/livros/a droga da obediência/videos.</p><button class="btn secondary" disabled>Indisponível</button></article></div></section>`}
+function videos(){app.innerHTML=`<section class="page"><h1>Vídeos</h1><p class="muted">Os vídeos serão adicionados em links externos para manter o site leve.</p><div class="grid">${files.videos.map(v=>`<article class="card"><span>${esc(v.range)}</span><h2>${esc(v.title)}</h2><p class="muted">Vídeo em preparação.</p><button class="btn secondary" disabled>Em breve</button></article>`).join('')}</div></section>`}
 function chars(){app.innerHTML=`<section class="page"><h1>Personagens</h1><div class="grid">${S.data.characters.map(c=>`<article class="card"><h2>${esc(c.name)}</h2><p>${esc(c.description)}</p></article>`).join('')}</div></section>`}
 function glossary(){app.innerHTML=`<section class="page"><h1>Glossário</h1><div class="grid">${S.data.glossary.map(g=>`<article class="card"><h2>${esc(g.term)}</h2><p>${esc(g.definition)}</p></article>`).join('')}</div></section>`}
 function progress(){app.innerHTML=`<section class="page"><h1>Meu progresso</h1><div class="panel"><div class="ring" style="--p:${overall()}%">${overall()}%</div><div class="grid">${S.data.chapters.map(row).join('')}</div></div></section>`}

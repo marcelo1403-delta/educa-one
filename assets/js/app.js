@@ -1,3 +1,4 @@
+const APP_VERSION='7';
 const bookRoot=['data','livros','a droga da obediência'];
 const files={chapters:{
 1:{title:'Os Karas',md:['leitura','capitulo 01','01%20-%20Os%20Karas%20simplificado.md'],json:['leitura','capitulo 01','capitulo_01_os_karas_atividades.json']},
@@ -23,7 +24,7 @@ const files={chapters:{
 
 const S={data:null,install:null,progress:JSON.parse(localStorage.getItem('progress')||'{}')};
 const app=document.querySelector('#app'),side=document.querySelector('#sidebar'),ov=document.querySelector('#overlay');
-const url=parts=>'./'+[...bookRoot,...parts].map(encodeURIComponent).join('/');
+const url=(parts,versioned=true)=>'./'+[...bookRoot,...parts].map(encodeURIComponent).join('/')+(versioned?'?v='+APP_VERSION:'');
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const p=id=>S.progress['c'+id]||0;
 const save=(id,v)=>{S.progress['c'+id]=Math.max(p(id),v);localStorage.setItem('progress',JSON.stringify(S.progress))};
@@ -60,7 +61,7 @@ async function chapter(id){
   const questions=(activity?.quiz||[]).map(q=>({question:q.pergunta,options:q.alternativas||[],answer:q.indice_alternativa_correta,explanation:q.explicacao||''}));
   const cards=(activity?.flashcards||[]).map(f=>({front:f.frente,back:f.verso}));
   const content=md?mdToHtml(md):`<div class="scene"><p>${esc(error||'Este capítulo ainda não tem arquivo em data/livros.')}</p></div>`;
-  app.innerHTML=`<div class="layout"><article class="reader"><div class="eyebrow">CAPÍTULO ${id}</div><h1>${esc(f?.title||c.title)}</h1><p class="muted">${f?.md?'Carregado de data/livros':'Aguardando arquivo do capítulo'}</p><section class="markdown">${content}</section><h2>Perguntas interativas</h2>${quizHtml(id,questions)}<h2>Flashcards</h2>${flashHtml(cards)}<p><button class="btn primary" id="finish">Concluir capítulo</button> ${id<S.data.chapters.length?`<a class="btn secondary" href="#/capitulos/${id+1}">Próximo capítulo →</a>`:''}</p></article><aside class="panel"><h3>Neste capítulo</h3><p>📖 Texto ${f?.md?'disponível':'pendente'}</p><p>❔ ${questions.length||0} perguntas</p><p>🗂 ${cards.length||0} flashcards</p><p><a class="btn secondary" href="#/videos">Ver vídeos</a></p></aside></div>`;
+  app.innerHTML=`<div class="layout"><article class="reader"><div class="eyebrow">CAPÍTULO ${id}</div><h1>${esc(f?.title||c.title)}</h1><p class="muted">${f?.md?'Carregado de data/livros':'Aguardando arquivo do capítulo'}</p>${f?.md?`<p><a class="btn secondary" href="${url(f.md)}" target="_blank" rel="noopener">Abrir arquivo do capítulo</a></p>`:''}<section class="markdown">${content}</section><h2>Perguntas interativas</h2>${quizHtml(id,questions)}<h2>Flashcards</h2>${flashHtml(cards)}<p><button class="btn primary" id="finish">Concluir capítulo</button> ${id<S.data.chapters.length?`<a class="btn secondary" href="#/capitulos/${id+1}">Próximo capítulo →</a>`:''}</p></article><aside class="panel"><h3>Neste capítulo</h3><p>📖 Texto ${f?.md?'disponível':'pendente'}</p><p>❔ ${questions.length||0} perguntas</p><p>🗂 ${cards.length||0} flashcards</p><p><a class="btn secondary" href="#/videos">Ver vídeos</a></p></aside></div>`;
   document.querySelectorAll('.flash').forEach(b=>b.onclick=()=>b.classList.toggle('flipped'));
   document.querySelectorAll('.q').forEach(q=>q.onchange=e=>{if(!e.target.matches('input'))return;let ok=+e.target.value===+q.dataset.a,exp=q.dataset.exp;q.querySelector('.fb').textContent=(ok?'Resposta correta! ':'Ainda não. ')+exp;save(id,Math.min(80,p(id)+8))});
   document.querySelector('#finish').onclick=()=>{save(id,100);alert('Capítulo concluído!');chapter(id)};

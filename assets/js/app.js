@@ -1,4 +1,4 @@
-const APP_VERSION='16';
+const APP_VERSION='17';
 const bookRoot=['data','livros','a droga da obediência'];
 const files={chapters:{
 1:{title:'Os Karas',md:['leitura','capitulo 01','01%20-%20Os%20Karas%20simplificado.md'],json:['leitura','capitulo 01','capitulo_01_os_karas_atividades.json']},
@@ -15,7 +15,22 @@ const files={chapters:{
 12:{title:'Assalto ao banco',md:['leitura','capitulo 12','12 - Assalto ao banco simplificado.md']},
 13:{title:'Infeliz reaparecimento',md:['leitura','capitulo 13','13 - Infeliz reaparecimento simplificado.md']},
 14:{title:'Quem será o oferecedor',md:['leitura','capitulo 14','14 - Quem será o oferecedor simplificado.md']},
-15:{title:'Os três incompetentes',md:['leitura','capitulo 15','15 - Os três incompetentes simplificado.md']}
+15:{title:'Os três incompetentes',md:['leitura','capitulo 15','15 - Os três incompetentes simplificado.md']},
+16:{title:'A outra mensagem de Chumbinho',md:['leitura','capitulo 16','16%20-%20A%20outra%20mensagem%20de%20Chumbinho%20simplificado.md']},
+17:{title:'O cadáver mensageiro',md:['leitura','capitulo 17','17%20-%20O%20cad%C3%A1ver%20mensageiro%20simplificado.md']},
+18:{title:'O perigoso espiãozinho',md:['leitura','capitulo 18','18%20-%20O%20perigoso%20espi%C3%A3ozinho%20simplificado.md']},
+19:{title:'Códigos combinados',md:['leitura','capitulo 19','19 - Códigos combinados simplificado.md']},
+20:{title:'Em busca de fortes emoções',md:['leitura','capitulo 20','20 - Em busca de fortes emoções simplificado.md']},
+21:{title:'Um casal de namorados curiosos',md:['leitura','capitulo 21','21%20-%20Um%20casal%20de%20namorados%20curiosos%20simplificado (1).md']},
+22:{title:'Na trilha de um desconhecido',md:['leitura','capitulo 22','22%20-%20Na%20trilha%20de%20um%20desconhecido%20simplificado.md']},
+23:{title:'O delírio do Doutor Q.I.',md:['leitura','capitulo 23','23%20-%20O%20del%C3%ADrio%20do%20Doutor%20Q.I.%20simplificado.md']},
+24:{title:'Zé da Silva, perigoso meliante',md:['leitura','capitulo 24','24%20-%20Z%C3%A9%20da%20Silva%2C%20perigoso%20meliante%20simplificado.md']},
+25:{title:'Dois Karas é melhor do que um só',md:['leitura','capitulo 25','25 - Dois Karas é melhor do que um só simplificado.md']},
+26:{title:'Mocinhos e bandidos',md:['leitura','capitulo 26','26 - Mocinhos e bandidos simplificado.md']},
+27:{title:'Um casal de namorados curiosos',md:['leitura','capitulo 27','21%20-%20Um%20casal%20de%20namorados%20curiosos%20simplificado.md']},
+28:{title:'A capacidade de desobedecer',md:['leitura','capitulo 28','28%20-%20A%20capacidade%20de%20desobedecer%20simplificado.md']},
+29:{title:'E o Doutor Q.I.',md:['leitura','capitulo 29','29%20-%20E%20o%20Doutor%20Q.I.%20simplificado.md']},
+30:{title:'Temos de continuar!',md:['leitura','capitulo 30','30 - Temos de continuar! simplificado.md']}
 },videos:[
 {title:'Vídeo 1',range:'Capítulos 1 a 5',src:'https://pub-b14aacef07d1423ba53cf17a2025b1d3.r2.dev/01.%20cap.%2001%20a%2005.mp4'},
 {title:'Vídeo 2',range:'Capítulos 6 a 10',src:'https://pub-b14aacef07d1423ba53cf17a2025b1d3.r2.dev/02.%20cap.%2006%20a%2010.mp4'},
@@ -30,7 +45,8 @@ const url=(parts,versioned=true)=>'./'+[...bookRoot,...parts].map(encodeURICompo
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const p=id=>S.progress['c'+id]||0;
 const save=(id,v)=>{S.progress['c'+id]=Math.max(p(id),v);localStorage.setItem('progress',JSON.stringify(S.progress))};
-const overall=()=>Math.round(S.data.chapters.reduce((a,c)=>a+p(c.id),0)/S.data.chapters.length);
+const allChapters=()=>Object.keys(files.chapters).map(Number).sort((a,b)=>a-b).map(id=>S.data.chapters.find(c=>c.id===id)||{id,title:files.chapters[id].title,subtitle:''});
+const overall=()=>{let chapters=allChapters();return Math.round(chapters.reduce((a,c)=>a+p(c.id),0)/chapters.length)};
 const chapterTitle=c=>files.chapters[c.id]?.title||c.title;
 const chapterSubtitle=c=>files.chapters[c.id]?.md?'':'Em breve';
 
@@ -52,20 +68,21 @@ function mdToHtml(md){
 }
 
 function row(c){let x=p(c.id),has=files.chapters[c.id]?.md,sub=chapterSubtitle(c);return `<a class="chapter" href="#/capitulos/${c.id}"><span class="dot ${x===100?'done':''}">${x===100?'✓':x?'▶':''}</span><span><b>Capítulo ${c.id} — ${esc(chapterTitle(c))}</b>${sub?`<small class="muted">${esc(sub)}</small>`:''}<div class="bar"><span style="width:${x}%"></span></div></span><span>${has?'Abrir':'Em breve'} ›</span></a>`}
-function home(){let d=S.data,g=d.chapters.slice(0,5),o=overall();app.innerHTML=`<section class="hero"><div><div class="eyebrow">ESTUDO DO LIVRO</div><h1>${esc(d.book.title)}</h1><h2>${esc(d.book.author)}</h2><p>${esc(d.book.description)}</p><p><a class="btn primary" href="#/capitulos/1">▶ Continuar estudando</a> <a class="btn secondary" href="#/capitulos">Ver capítulos</a></p></div><div class="progress-card"><h3>Meu progresso</h3><div class="ring" style="--p:${o}%">${o}%</div><p>📖 ${d.chapters.filter(c=>p(c.id)===100).length} de ${d.chapters.length} capítulos</p><p>❔ Atividades nos capítulos 1 a 3</p><p>🗂 Flashcards nos capítulos 1 a 3</p><p>▶ ${files.videos.length} vídeos disponíveis</p></div></section><section class="quick"><a href="#/capitulos">📖 Capítulos<br><small>Arquivos em data</small></a><a href="#/videos">▶ Vídeos<br><small>MP4 do projeto</small></a><a href="#/capitulos/1">🧠 Quiz<br><small>Atividades reais</small></a><a href="#/capitulos/1">🗂 Flashcards<br><small>Cartões reais</small></a></section><section class="panel"><h2>Capítulos</h2><div class="grid">${g.map(row).join('')}</div></section>`}
-function list(){app.innerHTML=`<section class="page"><h1>Capítulos</h1><p class="muted">Leia, responda e revise.</p><div class="grid">${S.data.chapters.map(row).join('')}</div></section>`}
+function home(){let d=S.data,chapters=allChapters(),g=chapters.slice(0,5),o=overall();app.innerHTML=`<section class="hero"><div><div class="eyebrow">ESTUDO DO LIVRO</div><h1>${esc(d.book.title)}</h1><h2>${esc(d.book.author)}</h2><p>${esc(d.book.description)}</p><p><a class="btn primary" href="#/capitulos/1">▶ Continuar estudando</a> <a class="btn secondary" href="#/capitulos">Ver capítulos</a></p></div><div class="progress-card"><h3>Meu progresso</h3><div class="ring" style="--p:${o}%">${o}%</div><p>📖 ${chapters.filter(c=>p(c.id)===100).length} de ${chapters.length} capítulos</p><p>❔ Atividades nos capítulos 1 a 3</p><p>🗂 Flashcards nos capítulos 1 a 3</p><p>▶ ${files.videos.length} vídeos disponíveis</p></div></section><section class="quick"><a href="#/capitulos">📖 Capítulos<br><small>Arquivos em data</small></a><a href="#/videos">▶ Vídeos<br><small>MP4 do projeto</small></a><a href="#/capitulos/1">🧠 Quiz<br><small>Atividades reais</small></a><a href="#/capitulos/1">🗂 Flashcards<br><small>Cartões reais</small></a></section><section class="panel"><h2>Capítulos</h2><div class="grid">${g.map(row).join('')}</div></section>`}
+function list(){app.innerHTML=`<section class="page"><h1>Capítulos</h1><p class="muted">Leia, responda e revise.</p><div class="grid">${allChapters().map(row).join('')}</div></section>`}
 function quizHtml(id,questions){if(!questions.length)return '<div class="scene"><p>As perguntas deste capítulo ainda não foram adicionadas em data.</p></div>';return questions.map((q,qi)=>`<div class="scene q" data-a="${q.answer}" data-exp="${esc(q.explanation)}"><h3>${qi+1}. ${esc(q.question)}</h3>${q.options.map((o,oi)=>`<label class="option"><input type="radio" name="q${id}-${qi}" value="${oi}"> ${esc(o)}</label>`).join('')}<div class="fb"></div></div>`).join('')}
 function flashHtml(cards){if(!cards.length)return '<div class="scene"><p>Os flashcards deste capítulo ainda não foram adicionados em data.</p></div>';return `<div class="flashgrid">${cards.map(f=>`<button class="flash"><span class="front">${esc(f.front)}</span><span class="back">${esc(f.back)}</span></button>`).join('')}</div>`}
 
 async function chapter(id){
-  let c=S.data.chapters.find(x=>x.id===id),f=files.chapters[id];if(!c)return notfound();save(id,20);
+  let f=files.chapters[id],c=S.data.chapters.find(x=>x.id===id)||{id,title:f?.title,subtitle:''};if(!f)return notfound();save(id,20);
   app.innerHTML='<section class="page"><div class="panel">Carregando arquivos do capítulo...</div></section>';
   let md='',activity=null,error='';if(f?.md){try{md=await getText(f.md)}catch(e){error='Não consegui carregar o arquivo Markdown deste capítulo.'}}if(f?.json){try{activity=await getJson(f.json)}catch(e){}}
   const questions=(activity?.quiz||[]).map(q=>({question:q.pergunta,options:q.alternativas||[],answer:q.indice_alternativa_correta,explanation:q.explicacao||''}));
   const cards=(activity?.flashcards||[]).map(f=>({front:f.frente,back:f.verso}));
   const content=md?mdToHtml(md):`<div class="scene"><p>${esc(error||'Este capítulo ainda não tem arquivo em data/livros.')}</p></div>`;
   const terms=S.bookGlossary.filter(g=>Array.isArray(g.capitulos)&&g.capitulos.includes(id));
-  app.innerHTML=`<div class="layout"><article class="reader"><div class="eyebrow">CAPÍTULO ${id}</div><h1>${esc(f?.title||c.title)}</h1><p class="muted">${f?.md?'Carregado de data/livros':'Aguardando arquivo do capítulo'}</p>${f?.md?`<p><a class="btn secondary" href="${url(f.md)}" target="_blank" rel="noopener">Abrir arquivo do capítulo</a></p>`:''}<section class="markdown">${content}</section><h2>Perguntas interativas</h2>${quizHtml(id,questions)}<h2>Flashcards</h2>${flashHtml(cards)}${terms.length?`<h2>Glossário do capítulo</h2><div class="grid">${terms.map(termCard).join('')}</div>`:''}<p><button class="btn primary" id="finish">Concluir capítulo</button> ${id<S.data.chapters.length?`<a class="btn secondary" href="#/capitulos/${id+1}">Próximo capítulo →</a>`:''}</p></article><aside class="panel"><h3>Neste capítulo</h3><p>📖 Texto ${f?.md?'disponível':'pendente'}</p><p>❔ ${questions.length||0} perguntas</p><p>🗂 ${cards.length||0} flashcards</p><p>ABC ${terms.length||0} termos</p><p><a class="btn secondary" href="#/glossario/${id}">Glossário</a></p><p><a class="btn secondary" href="#/videos">Ver vídeos</a></p></aside></div>`;
+  const maxChapter=Math.max(...Object.keys(files.chapters).map(Number));
+  app.innerHTML=`<div class="layout"><article class="reader"><div class="eyebrow">CAPÍTULO ${id}</div><h1>${esc(f?.title||c.title)}</h1><p class="muted">${f?.md?'Carregado de data/livros':'Aguardando arquivo do capítulo'}</p>${f?.md?`<p><a class="btn secondary" href="${url(f.md)}" target="_blank" rel="noopener">Abrir arquivo do capítulo</a></p>`:''}<section class="markdown">${content}</section><h2>Perguntas interativas</h2>${quizHtml(id,questions)}<h2>Flashcards</h2>${flashHtml(cards)}${terms.length?`<h2>Glossário do capítulo</h2><div class="grid">${terms.map(termCard).join('')}</div>`:''}<p><button class="btn primary" id="finish">Concluir capítulo</button> ${id<maxChapter?`<a class="btn secondary" href="#/capitulos/${id+1}">Próximo capítulo →</a>`:''}</p></article><aside class="panel"><h3>Neste capítulo</h3><p>📖 Texto ${f?.md?'disponível':'pendente'}</p><p>❔ ${questions.length||0} perguntas</p><p>🗂 ${cards.length||0} flashcards</p><p>ABC ${terms.length||0} termos</p><p><a class="btn secondary" href="#/glossario/${id}">Glossário</a></p><p><a class="btn secondary" href="#/videos">Ver vídeos</a></p></aside></div>`;
   document.querySelectorAll('.flash').forEach(b=>b.onclick=()=>b.classList.toggle('flipped'));
   document.querySelectorAll('.q').forEach(q=>q.onchange=e=>{if(!e.target.matches('input'))return;let ok=+e.target.value===+q.dataset.a,exp=q.dataset.exp;q.querySelector('.fb').textContent=(ok?'Resposta correta! ':'Ainda não. ')+exp;save(id,Math.min(80,p(id)+8))});
   document.querySelector('#finish').onclick=()=>{save(id,100);alert('Capítulo concluído!');chapter(id)};
@@ -75,16 +92,16 @@ function videos(){app.innerHTML=`<section class="page"><h1>Vídeos</h1><p class=
 function characterCard(c){return `<article class="card"><span>${esc(c.papel||'personagem')}</span><h2>${esc(c.nome||c.name)}</h2><p>${esc(c.descricao||c.description)}</p>${c.grupo?`<p class="muted">${esc(c.grupo)}</p>`:''}${Array.isArray(c.caracteristicas)?`<p>${c.caracteristicas.slice(0,4).map(esc).join(' · ')}</p>`:''}${Array.isArray(c.capitulos)?`<small class="muted">Capítulos ${c.capitulos.join(', ')}</small>`:''}</article>`}
 function termCard(g){return `<article class="card"><span>${esc(g.categoria||'termo')}</span><h2>${esc(g.termo||g.term)}</h2><p>${esc(g.definicao||g.definition)}</p>${g.exemplo?`<p class="muted">${esc(g.exemplo)}</p>`:''}${Array.isArray(g.capitulos)?`<small class="muted">Capítulos ${g.capitulos.join(', ')}</small>`:''}</article>`}
 function chars(){const items=S.bookCharacters.length?S.bookCharacters:S.data.characters.map(c=>({nome:c.name,descricao:c.description}));app.innerHTML=`<section class="page"><h1>Personagens</h1><p class="muted">Conheça os personagens do livro.</p><div class="grid">${items.map(characterCard).join('')}</div></section>`}
-function glossary(chapterId){let chapter=Number(chapterId),items=S.bookGlossary.length?S.bookGlossary:S.data.glossary.map(g=>({termo:g.term,definicao:g.definition}));if(chapter)items=items.filter(g=>Array.isArray(g.capitulos)&&g.capitulos.includes(chapter));const links=S.data.chapters.slice(0,15).map(c=>`<a class="btn secondary" href="#/glossario/${c.id}">${c.id}</a>`).join(' ');app.innerHTML=`<section class="page"><h1>${chapter?`Glossário do capítulo ${chapter}`:'Glossário'}</h1><p class="muted">${chapter?'Termos ligados a este capítulo.':'Escolha um capítulo ou veja todos os termos do livro.'}</p><p><a class="btn primary" href="#/glossario">Todos</a> ${links}</p><div class="grid">${items.length?items.map(termCard).join(''):'<article class="card"><p>Nenhum termo encontrado para este capítulo.</p></article>'}</div></section>`}
-function progress(){app.innerHTML=`<section class="page"><h1>Meu progresso</h1><div class="panel"><div class="ring" style="--p:${overall()}%">${overall()}%</div><div class="grid">${S.data.chapters.map(row).join('')}</div></div></section>`}
+function glossary(chapterId){let chapter=Number(chapterId),items=S.bookGlossary.length?S.bookGlossary:S.data.glossary.map(g=>({termo:g.term,definicao:g.definition}));if(chapter)items=items.filter(g=>Array.isArray(g.capitulos)&&g.capitulos.includes(chapter));const links=allChapters().map(c=>`<a class="btn secondary" href="#/glossario/${c.id}">${c.id}</a>`).join(' ');app.innerHTML=`<section class="page"><h1>${chapter?`Glossário do capítulo ${chapter}`:'Glossário'}</h1><p class="muted">${chapter?'Termos ligados a este capítulo.':'Escolha um capítulo ou veja todos os termos do livro.'}</p><p><a class="btn primary" href="#/glossario">Todos</a> ${links}</p><div class="grid">${items.length?items.map(termCard).join(''):'<article class="card"><p>Nenhum termo encontrado para este capítulo.</p></article>'}</div></section>`}
+function progress(){app.innerHTML=`<section class="page"><h1>Meu progresso</h1><div class="panel"><div class="ring" style="--p:${overall()}%">${overall()}%</div><div class="grid">${allChapters().map(row).join('')}</div></div></section>`}
 function notfound(){app.innerHTML='<div class="panel"><h1>Página não encontrada</h1></div>'}
 function route(){try{if(!S.data)return;side.classList.remove('open');ov.classList.remove('show');let [r,id]=(location.hash.replace('#/','')||'inicio').split('/');({inicio:home,livro:home,capitulos:()=>id?chapter(+id):list(),videos,personagens:chars,glossario:()=>glossary(id),progresso:progress}[r]||notfound)();window.scrollTo(0,0)}catch(e){app.innerHTML=`<section class="page"><div class="panel"><h1>Erro ao abrir a página</h1><p>${esc(e.message)}</p></div></section>`;console.error(e)}}
 
 app.innerHTML='<section class="page"><div class="panel">Carregando educa-one...</div></section>';
 Promise.all([
   fetch('./data/site.json?v='+APP_VERSION).then(r=>{if(!r.ok)throw new Error('Não consegui carregar data/site.json');return r.json()}),
-  getOptionalJson(['leitura','personagens.json'],{personagens:[]}),
-  getOptionalJson(['leitura','glossario.json'],{glossario:[]})
+  getOptionalJson(['leitura','personagens_completo_cap1_30.json'],{personagens:[]}),
+  getOptionalJson(['leitura','glossario_completo_cap1_30.json'],{glossario:[]})
 ]).then(([d,characters,glossaryData])=>{S.data=d;S.bookCharacters=characters.personagens||[];S.bookGlossary=glossaryData.glossario||[];route()}).catch(e=>{app.innerHTML=`<section class="page"><div class="panel"><h1>Erro ao carregar dados</h1><p>${esc(e.message)}</p></div></section>`;console.error(e)});
 addEventListener('hashchange',route);
 document.querySelector('#menu').onclick=()=>{side.classList.add('open');ov.classList.add('show')};

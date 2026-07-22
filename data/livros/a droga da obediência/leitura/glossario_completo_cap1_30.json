@@ -355,6 +355,68 @@
       "relacionado_a": [
         "droga-da-obediencia"
       ]
+    },
+    {
+      "id": "pain-control",
+      "termo": "Pain Control",
+      "definicao": "Empresa usada como fachada pela organização criminosa para realizar experimentos com a Droga da Obediência.",
+      "exemplo": "Os Karas invadiram a Pain Control para resgatar os estudantes.",
+      "categoria": "organização",
+      "capitulos": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "relacionado_a": [
+        "droga-da-obediencia",
+        "organizacao-criminosa"
+      ]
+    },
+    {
+      "id": "casa-de-forca",
+      "termo": "Casa de força",
+      "definicao": "Local onde fica o sistema que fornece energia elétrica para um prédio ou complexo.",
+      "exemplo": "Desligar a casa de força interrompeu o funcionamento da Pain Control.",
+      "categoria": "lugar",
+      "capitulos": [
+        27,
+        28
+      ],
+      "relacionado_a": []
+    },
+    {
+      "id": "interpol",
+      "termo": "Interpol",
+      "definicao": "Organização internacional que coopera entre as polícias de diferentes países.",
+      "exemplo": "A Interpol ajudou nas investigações.",
+      "categoria": "organização",
+      "capitulos": [
+        30
+      ],
+      "relacionado_a": []
+    },
+    {
+      "id": "anonimato",
+      "termo": "Anonimato",
+      "definicao": "Condição de permanecer sem revelar a identidade.",
+      "exemplo": "Os Karas preferiram manter o anonimato.",
+      "categoria": "expressão",
+      "capitulos": [
+        29
+      ],
+      "relacionado_a": []
     }
   ]
 }

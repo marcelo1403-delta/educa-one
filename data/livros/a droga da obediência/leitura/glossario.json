@@ -1,0 +1,360 @@
+{
+  "glossario": [
+    {
+      "id": "alcapao",
+      "termo": "Alçapão",
+      "definicao": "Pequena abertura no teto ou no chão que permite a passagem para outro espaço.",
+      "exemplo": "O alçapão dava acesso ao espaço acima do teto.",
+      "categoria": "objeto",
+      "capitulos": [
+        1
+      ],
+      "relacionado_a": []
+    },
+    {
+      "id": "autopsia",
+      "termo": "Autópsia",
+      "definicao": "Exame realizado em um corpo para investigar como a pessoa morreu.",
+      "exemplo": "A autópsia ajudou a esclarecer detalhes da morte.",
+      "categoria": "ciência",
+      "capitulos": [
+        13
+      ],
+      "relacionado_a": []
+    },
+    {
+      "id": "beco-sem-saida",
+      "termo": "Beco sem saída",
+      "definicao": "Expressão usada quando uma investigação ou situação parece não ter solução.",
+      "exemplo": "Sem novas pistas, a investigação chegou a um beco sem saída.",
+      "categoria": "expressão",
+      "capitulos": [
+        4
+      ],
+      "relacionado_a": []
+    },
+    {
+      "id": "bioquimico",
+      "termo": "Bioquímico",
+      "definicao": "Cientista que estuda as substâncias e reações químicas dos seres vivos.",
+      "exemplo": "O bioquímico analisou os resultados do experimento.",
+      "categoria": "profissão",
+      "capitulos": [
+        11,
+        12
+      ],
+      "relacionado_a": []
+    },
+    {
+      "id": "capanga",
+      "termo": "Capanga",
+      "definicao": "Pessoa que trabalha para um criminoso, geralmente usando ameaças ou violência.",
+      "exemplo": "Os capangas perseguiram o homem pela cidade.",
+      "categoria": "palavra",
+      "capitulos": [
+        12
+      ],
+      "relacionado_a": []
+    },
+    {
+      "id": "cobaia",
+      "termo": "Cobaia",
+      "definicao": "Ser vivo usado em testes ou experiências.",
+      "exemplo": "Os animais foram usados como cobaias no laboratório.",
+      "categoria": "ciência",
+      "capitulos": [
+        4,
+        10,
+        11,
+        14
+      ],
+      "relacionado_a": []
+    },
+    {
+      "id": "codigo-morse",
+      "termo": "Código Morse",
+      "definicao": "Sistema que representa letras e números por combinações de pontos e traços.",
+      "exemplo": "A mensagem foi escrita com pontos e traços do código Morse.",
+      "categoria": "tecnologia",
+      "capitulos": [
+        9
+      ],
+      "relacionado_a": []
+    },
+    {
+      "id": "complexo",
+      "termo": "Complexo",
+      "definicao": "Conjunto grande de prédios ou instalações ligados entre si.",
+      "exemplo": "O complexo reunia várias salas e corredores.",
+      "categoria": "lugar",
+      "capitulos": [
+        10
+      ],
+      "relacionado_a": []
+    },
+    {
+      "id": "comprimido",
+      "termo": "Comprimido",
+      "definicao": "Medicamento ou substância sólida preparada para ser engolida.",
+      "exemplo": "O comprimido foi colocado sobre a mesa.",
+      "categoria": "objeto",
+      "capitulos": [
+        7,
+        10
+      ],
+      "relacionado_a": []
+    },
+    {
+      "id": "depoimento",
+      "termo": "Depoimento",
+      "definicao": "Relato dado a uma autoridade sobre algo que a pessoa viu ou sabe.",
+      "exemplo": "A testemunha prestou depoimento à polícia.",
+      "categoria": "palavra",
+      "capitulos": [
+        3
+      ],
+      "relacionado_a": []
+    },
+    {
+      "id": "disfarce",
+      "termo": "Disfarce",
+      "definicao": "Mudança de aparência ou comportamento usada para esconder a identidade.",
+      "exemplo": "Ele usou um disfarce para sair sem ser reconhecido.",
+      "categoria": "palavra",
+      "capitulos": [
+        7,
+        12,
+        14
+      ],
+      "relacionado_a": []
+    },
+    {
+      "id": "droga-da-obediencia",
+      "termo": "Droga da Obediência",
+      "definicao": "Substância da história que elimina a vontade própria e faz a pessoa depender de ordens.",
+      "exemplo": "A Droga da Obediência fazia a vítima agir somente quando recebia comandos.",
+      "categoria": "ciência",
+      "capitulos": [
+        10,
+        11,
+        12
+      ],
+      "relacionado_a": [
+        "vontade-propria",
+        "cobaia",
+        "comprimido"
+      ]
+    },
+    {
+      "id": "etica-medica",
+      "termo": "Ética médica",
+      "definicao": "Conjunto de princípios que orienta o que é correto e responsável na prática da medicina.",
+      "exemplo": "A ética médica proíbe experiências que coloquem pessoas em risco.",
+      "categoria": "ciência",
+      "capitulos": [
+        11
+      ],
+      "relacionado_a": [
+        "principio-etico"
+      ]
+    },
+    {
+      "id": "gremio",
+      "termo": "Grêmio",
+      "definicao": "Organização formada por estudantes para representá-los e participar das decisões da escola.",
+      "exemplo": "O Grêmio discutiu assuntos importantes para os alunos.",
+      "categoria": "organização",
+      "capitulos": [
+        1,
+        3
+      ],
+      "relacionado_a": []
+    },
+    {
+      "id": "hipnose",
+      "termo": "Hipnose",
+      "definicao": "Técnica usada para levar uma pessoa a um estado de grande concentração e facilitar lembranças ou sugestões.",
+      "exemplo": "A hipnose ajudou a pessoa a recordar o que tinha visto.",
+      "categoria": "ciência",
+      "capitulos": [
+        4,
+        9
+      ],
+      "relacionado_a": []
+    },
+    {
+      "id": "infiltracao",
+      "termo": "Infiltração",
+      "definicao": "Entrada escondida em um grupo ou lugar para observar ou realizar uma missão.",
+      "exemplo": "A equipe preparou uma infiltração sem chamar atenção.",
+      "categoria": "palavra",
+      "capitulos": [
+        5,
+        14,
+        15
+      ],
+      "relacionado_a": []
+    },
+    {
+      "id": "intercomunicador",
+      "termo": "Intercomunicador",
+      "definicao": "Aparelho usado para conversar entre salas ou setores de um prédio.",
+      "exemplo": "O cientista falou com o chefe pelo intercomunicador.",
+      "categoria": "tecnologia",
+      "capitulos": [
+        11
+      ],
+      "relacionado_a": []
+    },
+    {
+      "id": "medico-legista",
+      "termo": "Médico legista",
+      "definicao": "Médico que examina corpos e ajuda a investigar causas de mortes.",
+      "exemplo": "O médico legista apresentou o resultado do exame.",
+      "categoria": "profissão",
+      "capitulos": [
+        13
+      ],
+      "relacionado_a": []
+    },
+    {
+      "id": "oferecedor",
+      "termo": "Oferecedor",
+      "definicao": "Pessoa encarregada de oferecer a droga aos estudantes dentro das escolas.",
+      "exemplo": "O oferecedor tentou convencer o aluno a aceitar o comprimido.",
+      "categoria": "outro",
+      "capitulos": [
+        5,
+        7,
+        14
+      ],
+      "relacionado_a": [
+        "droga-da-obediencia",
+        "infiltracao"
+      ]
+    },
+    {
+      "id": "organizacao-criminosa",
+      "termo": "Organização criminosa",
+      "definicao": "Grupo estruturado de pessoas que se une para cometer crimes.",
+      "exemplo": "A organização criminosa escondia suas atividades.",
+      "categoria": "outro",
+      "capitulos": [
+        10,
+        12,
+        15
+      ],
+      "relacionado_a": [
+        "quadrilha"
+      ]
+    },
+    {
+      "id": "principio-etico",
+      "termo": "Princípio ético",
+      "definicao": "Regra moral que ajuda a decidir o que é certo ou errado.",
+      "exemplo": "Respeitar a vida é um princípio ético.",
+      "categoria": "expressão",
+      "capitulos": [
+        11
+      ],
+      "relacionado_a": [
+        "etica-medica"
+      ]
+    },
+    {
+      "id": "quadrilha",
+      "termo": "Quadrilha",
+      "definicao": "Grupo de pessoas que se reúne para praticar crimes.",
+      "exemplo": "A polícia investigava uma quadrilha bem organizada.",
+      "categoria": "outro",
+      "capitulos": [
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "relacionado_a": [
+        "organizacao-criminosa"
+      ]
+    },
+    {
+      "id": "resgate",
+      "termo": "Resgate",
+      "definicao": "Valor ou condição exigida para libertar uma pessoa sequestrada.",
+      "exemplo": "Os criminosos não fizeram pedido de resgate.",
+      "categoria": "palavra",
+      "capitulos": [
+        2,
+        4
+      ],
+      "relacionado_a": []
+    },
+    {
+      "id": "sequestro",
+      "termo": "Sequestro",
+      "definicao": "Crime em que alguém é levado ou mantido preso contra a própria vontade.",
+      "exemplo": "A polícia investigava o sequestro dos estudantes.",
+      "categoria": "palavra",
+      "capitulos": [
+        4,
+        7,
+        8,
+        9,
+        10,
+        14
+      ],
+      "relacionado_a": []
+    },
+    {
+      "id": "silhueta",
+      "termo": "Silhueta",
+      "definicao": "Contorno escuro de uma pessoa ou objeto, sem detalhes visíveis.",
+      "exemplo": "Na tela aparecia apenas a silhueta de uma pessoa.",
+      "categoria": "palavra",
+      "capitulos": [
+        10
+      ],
+      "relacionado_a": []
+    },
+    {
+      "id": "substancia",
+      "termo": "Substância",
+      "definicao": "Tipo de matéria com propriedades próprias, como um remédio ou produto químico.",
+      "exemplo": "A substância alterou o comportamento do animal.",
+      "categoria": "ciência",
+      "capitulos": [
+        4
+      ],
+      "relacionado_a": []
+    },
+    {
+      "id": "viatura",
+      "termo": "Viatura",
+      "definicao": "Veículo usado pela polícia ou por outro serviço oficial.",
+      "exemplo": "A viatura saiu da delegacia.",
+      "categoria": "objeto",
+      "capitulos": [
+        8
+      ],
+      "relacionado_a": []
+    },
+    {
+      "id": "vontade-propria",
+      "termo": "Vontade própria",
+      "definicao": "Capacidade de decidir e agir por escolha própria.",
+      "exemplo": "Sem vontade própria, a pessoa esperava uma ordem para agir.",
+      "categoria": "expressão",
+      "capitulos": [
+        3,
+        10,
+        11
+      ],
+      "relacionado_a": [
+        "droga-da-obediencia"
+      ]
+    }
+  ]
+}

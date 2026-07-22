@@ -1,4 +1,4 @@
-const APP_VERSION='15';
+const APP_VERSION='16';
 const bookRoot=['data','livros','a droga da obediência'];
 const files={chapters:{
 1:{title:'Os Karas',md:['leitura','capitulo 01','01%20-%20Os%20Karas%20simplificado.md'],json:['leitura','capitulo 01','capitulo_01_os_karas_atividades.json']},
@@ -25,7 +25,7 @@ const files={chapters:{
 
 const app=document.querySelector('#app'),side=document.querySelector('#sidebar'),ov=document.querySelector('#overlay');
 function readProgress(){try{return JSON.parse(localStorage.getItem('progress')||'{}')}catch(e){localStorage.removeItem('progress');return {}}}
-const S={data:null,install:null,progress:readProgress()};
+const S={data:null,bookCharacters:[],bookGlossary:[],install:null,progress:readProgress()};
 const url=(parts,versioned=true)=>'./'+[...bookRoot,...parts].map(encodeURIComponent).join('/')+(versioned?'?v='+APP_VERSION:'');
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const p=id=>S.progress['c'+id]||0;
@@ -36,6 +36,7 @@ const chapterSubtitle=c=>files.chapters[c.id]?.md?'':'Em breve';
 
 async function getText(parts){const r=await fetch(url(parts));if(!r.ok)throw new Error('Arquivo não encontrado');return r.text()}
 async function getJson(parts){const r=await fetch(url(parts));if(!r.ok)throw new Error('Arquivo não encontrado');return r.json()}
+async function getOptionalJson(parts,fallback){try{return await getJson(parts)}catch(e){return fallback}}
 function inlineMd(s){return esc(s).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>')}
 function mdToHtml(md){
   const lines=md.replace(/\r/g,'').split('\n');let html='',para=[],list=[];
@@ -63,21 +64,28 @@ async function chapter(id){
   const questions=(activity?.quiz||[]).map(q=>({question:q.pergunta,options:q.alternativas||[],answer:q.indice_alternativa_correta,explanation:q.explicacao||''}));
   const cards=(activity?.flashcards||[]).map(f=>({front:f.frente,back:f.verso}));
   const content=md?mdToHtml(md):`<div class="scene"><p>${esc(error||'Este capítulo ainda não tem arquivo em data/livros.')}</p></div>`;
-  app.innerHTML=`<div class="layout"><article class="reader"><div class="eyebrow">CAPÍTULO ${id}</div><h1>${esc(f?.title||c.title)}</h1><p class="muted">${f?.md?'Carregado de data/livros':'Aguardando arquivo do capítulo'}</p>${f?.md?`<p><a class="btn secondary" href="${url(f.md)}" target="_blank" rel="noopener">Abrir arquivo do capítulo</a></p>`:''}<section class="markdown">${content}</section><h2>Perguntas interativas</h2>${quizHtml(id,questions)}<h2>Flashcards</h2>${flashHtml(cards)}<p><button class="btn primary" id="finish">Concluir capítulo</button> ${id<S.data.chapters.length?`<a class="btn secondary" href="#/capitulos/${id+1}">Próximo capítulo →</a>`:''}</p></article><aside class="panel"><h3>Neste capítulo</h3><p>📖 Texto ${f?.md?'disponível':'pendente'}</p><p>❔ ${questions.length||0} perguntas</p><p>🗂 ${cards.length||0} flashcards</p><p><a class="btn secondary" href="#/videos">Ver vídeos</a></p></aside></div>`;
+  const terms=S.bookGlossary.filter(g=>Array.isArray(g.capitulos)&&g.capitulos.includes(id));
+  app.innerHTML=`<div class="layout"><article class="reader"><div class="eyebrow">CAPÍTULO ${id}</div><h1>${esc(f?.title||c.title)}</h1><p class="muted">${f?.md?'Carregado de data/livros':'Aguardando arquivo do capítulo'}</p>${f?.md?`<p><a class="btn secondary" href="${url(f.md)}" target="_blank" rel="noopener">Abrir arquivo do capítulo</a></p>`:''}<section class="markdown">${content}</section><h2>Perguntas interativas</h2>${quizHtml(id,questions)}<h2>Flashcards</h2>${flashHtml(cards)}${terms.length?`<h2>Glossário do capítulo</h2><div class="grid">${terms.map(termCard).join('')}</div>`:''}<p><button class="btn primary" id="finish">Concluir capítulo</button> ${id<S.data.chapters.length?`<a class="btn secondary" href="#/capitulos/${id+1}">Próximo capítulo →</a>`:''}</p></article><aside class="panel"><h3>Neste capítulo</h3><p>📖 Texto ${f?.md?'disponível':'pendente'}</p><p>❔ ${questions.length||0} perguntas</p><p>🗂 ${cards.length||0} flashcards</p><p>ABC ${terms.length||0} termos</p><p><a class="btn secondary" href="#/glossario/${id}">Glossário</a></p><p><a class="btn secondary" href="#/videos">Ver vídeos</a></p></aside></div>`;
   document.querySelectorAll('.flash').forEach(b=>b.onclick=()=>b.classList.toggle('flipped'));
   document.querySelectorAll('.q').forEach(q=>q.onchange=e=>{if(!e.target.matches('input'))return;let ok=+e.target.value===+q.dataset.a,exp=q.dataset.exp;q.querySelector('.fb').textContent=(ok?'Resposta correta! ':'Ainda não. ')+exp;save(id,Math.min(80,p(id)+8))});
   document.querySelector('#finish').onclick=()=>{save(id,100);alert('Capítulo concluído!');chapter(id)};
 }
 
 function videos(){app.innerHTML=`<section class="page"><h1>Vídeos</h1><p class="muted">Assista aos vídeos de apoio por grupo de capítulos.</p><div class="grid">${files.videos.map(v=>`<article class="card"><span>${esc(v.range)}</span><h2>${esc(v.title)}</h2>${v.src?`<video controls preload="metadata" src="${esc(v.src)}" style="width:100%;aspect-ratio:16/9;background:#000;border-radius:12px;margin:12px 0"></video>`:`<p class="muted">Vídeo em preparação.</p><button class="btn secondary" disabled>Em breve</button>`}</article>`).join('')}</div></section>`}
-function chars(){app.innerHTML=`<section class="page"><h1>Personagens</h1><div class="grid">${S.data.characters.map(c=>`<article class="card"><h2>${esc(c.name)}</h2><p>${esc(c.description)}</p></article>`).join('')}</div></section>`}
-function glossary(){app.innerHTML=`<section class="page"><h1>Glossário</h1><div class="grid">${S.data.glossary.map(g=>`<article class="card"><h2>${esc(g.term)}</h2><p>${esc(g.definition)}</p></article>`).join('')}</div></section>`}
+function characterCard(c){return `<article class="card"><span>${esc(c.papel||'personagem')}</span><h2>${esc(c.nome||c.name)}</h2><p>${esc(c.descricao||c.description)}</p>${c.grupo?`<p class="muted">${esc(c.grupo)}</p>`:''}${Array.isArray(c.caracteristicas)?`<p>${c.caracteristicas.slice(0,4).map(esc).join(' · ')}</p>`:''}${Array.isArray(c.capitulos)?`<small class="muted">Capítulos ${c.capitulos.join(', ')}</small>`:''}</article>`}
+function termCard(g){return `<article class="card"><span>${esc(g.categoria||'termo')}</span><h2>${esc(g.termo||g.term)}</h2><p>${esc(g.definicao||g.definition)}</p>${g.exemplo?`<p class="muted">${esc(g.exemplo)}</p>`:''}${Array.isArray(g.capitulos)?`<small class="muted">Capítulos ${g.capitulos.join(', ')}</small>`:''}</article>`}
+function chars(){const items=S.bookCharacters.length?S.bookCharacters:S.data.characters.map(c=>({nome:c.name,descricao:c.description}));app.innerHTML=`<section class="page"><h1>Personagens</h1><p class="muted">Conheça os personagens do livro.</p><div class="grid">${items.map(characterCard).join('')}</div></section>`}
+function glossary(chapterId){let chapter=Number(chapterId),items=S.bookGlossary.length?S.bookGlossary:S.data.glossary.map(g=>({termo:g.term,definicao:g.definition}));if(chapter)items=items.filter(g=>Array.isArray(g.capitulos)&&g.capitulos.includes(chapter));const links=S.data.chapters.slice(0,15).map(c=>`<a class="btn secondary" href="#/glossario/${c.id}">${c.id}</a>`).join(' ');app.innerHTML=`<section class="page"><h1>${chapter?`Glossário do capítulo ${chapter}`:'Glossário'}</h1><p class="muted">${chapter?'Termos ligados a este capítulo.':'Escolha um capítulo ou veja todos os termos do livro.'}</p><p><a class="btn primary" href="#/glossario">Todos</a> ${links}</p><div class="grid">${items.length?items.map(termCard).join(''):'<article class="card"><p>Nenhum termo encontrado para este capítulo.</p></article>'}</div></section>`}
 function progress(){app.innerHTML=`<section class="page"><h1>Meu progresso</h1><div class="panel"><div class="ring" style="--p:${overall()}%">${overall()}%</div><div class="grid">${S.data.chapters.map(row).join('')}</div></div></section>`}
 function notfound(){app.innerHTML='<div class="panel"><h1>Página não encontrada</h1></div>'}
-function route(){try{if(!S.data)return;side.classList.remove('open');ov.classList.remove('show');let [r,id]=(location.hash.replace('#/','')||'inicio').split('/');({inicio:home,livro:home,capitulos:()=>id?chapter(+id):list(),videos,personagens:chars,glossario:glossary,progresso:progress}[r]||notfound)();window.scrollTo(0,0)}catch(e){app.innerHTML=`<section class="page"><div class="panel"><h1>Erro ao abrir a página</h1><p>${esc(e.message)}</p></div></section>`;console.error(e)}}
+function route(){try{if(!S.data)return;side.classList.remove('open');ov.classList.remove('show');let [r,id]=(location.hash.replace('#/','')||'inicio').split('/');({inicio:home,livro:home,capitulos:()=>id?chapter(+id):list(),videos,personagens:chars,glossario:()=>glossary(id),progresso:progress}[r]||notfound)();window.scrollTo(0,0)}catch(e){app.innerHTML=`<section class="page"><div class="panel"><h1>Erro ao abrir a página</h1><p>${esc(e.message)}</p></div></section>`;console.error(e)}}
 
 app.innerHTML='<section class="page"><div class="panel">Carregando educa-one...</div></section>';
-fetch('./data/site.json?v='+APP_VERSION).then(r=>{if(!r.ok)throw new Error('Não consegui carregar data/site.json');return r.json()}).then(d=>{S.data=d;route()}).catch(e=>{app.innerHTML=`<section class="page"><div class="panel"><h1>Erro ao carregar dados</h1><p>${esc(e.message)}</p></div></section>`;console.error(e)});
+Promise.all([
+  fetch('./data/site.json?v='+APP_VERSION).then(r=>{if(!r.ok)throw new Error('Não consegui carregar data/site.json');return r.json()}),
+  getOptionalJson(['leitura','personagens.json'],{personagens:[]}),
+  getOptionalJson(['leitura','glossario.json'],{glossario:[]})
+]).then(([d,characters,glossaryData])=>{S.data=d;S.bookCharacters=characters.personagens||[];S.bookGlossary=glossaryData.glossario||[];route()}).catch(e=>{app.innerHTML=`<section class="page"><div class="panel"><h1>Erro ao carregar dados</h1><p>${esc(e.message)}</p></div></section>`;console.error(e)});
 addEventListener('hashchange',route);
 document.querySelector('#menu').onclick=()=>{side.classList.add('open');ov.classList.add('show')};
 ov.onclick=()=>{side.classList.remove('open');ov.classList.remove('show')};

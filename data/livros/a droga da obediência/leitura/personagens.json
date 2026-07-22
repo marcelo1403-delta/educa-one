@@ -1,0 +1,663 @@
+{
+  "personagens": [
+    {
+      "id": "miguel",
+      "nome": "Miguel",
+      "apelido": null,
+      "descricao": "Presidente do Grêmio, líder dos Karas e coordenador da investigação sobre os desaparecimentos.",
+      "papel": "protagonista",
+      "caracteristicas": [
+        "líder dos Karas",
+        "presidente do Grêmio",
+        "inteligente",
+        "observador",
+        "organiza planos e mensagens secretas"
+      ],
+      "grupo": "Karas",
+      "relacoes": [
+        {
+          "personagem_id": "calu",
+          "tipo": "amigo e integrante dos Karas"
+        },
+        {
+          "personagem_id": "cranio",
+          "tipo": "amigo e integrante dos Karas"
+        },
+        {
+          "personagem_id": "magri",
+          "tipo": "amiga e integrante dos Karas"
+        },
+        {
+          "personagem_id": "chumbinho",
+          "tipo": "aliado e integrante provisório dos Karas"
+        }
+      ],
+      "primeira_aparicao": 1,
+      "capitulos": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        13,
+        14
+      ],
+      "imagem": "assets/images/personagens/miguel.webp"
+    },
+    {
+      "id": "calu",
+      "nome": "Calu",
+      "apelido": null,
+      "descricao": "Integrante dos Karas que usa seu talento como ator para ajudar nas investigações.",
+      "papel": "protagonista",
+      "caracteristicas": [
+        "ator",
+        "criativo",
+        "capaz de imitar vozes",
+        "participa das investigações"
+      ],
+      "grupo": "Karas",
+      "relacoes": [
+        {
+          "personagem_id": "miguel",
+          "tipo": "amigo e integrante dos Karas"
+        },
+        {
+          "personagem_id": "cranio",
+          "tipo": "amigo e integrante dos Karas"
+        },
+        {
+          "personagem_id": "magri",
+          "tipo": "amiga e integrante dos Karas"
+        }
+      ],
+      "primeira_aparicao": 1,
+      "capitulos": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        13,
+        14
+      ],
+      "imagem": "assets/images/personagens/calu.webp"
+    },
+    {
+      "id": "cranio",
+      "nome": "Crânio",
+      "apelido": null,
+      "descricao": "Integrante dos Karas responsável por analisar pistas, reconhecer padrões e decifrar mensagens.",
+      "papel": "protagonista",
+      "caracteristicas": [
+        "muito inteligente",
+        "raciocina com atenção",
+        "joga xadrez",
+        "conhece hipnose",
+        "decifra códigos"
+      ],
+      "grupo": "Karas",
+      "relacoes": [
+        {
+          "personagem_id": "miguel",
+          "tipo": "amigo e integrante dos Karas"
+        },
+        {
+          "personagem_id": "calu",
+          "tipo": "amigo e integrante dos Karas"
+        },
+        {
+          "personagem_id": "magri",
+          "tipo": "amiga e integrante dos Karas"
+        }
+      ],
+      "primeira_aparicao": 1,
+      "capitulos": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        9,
+        14
+      ],
+      "imagem": "assets/images/personagens/cranio.webp"
+    },
+    {
+      "id": "magri",
+      "nome": "Magrí",
+      "apelido": null,
+      "descricao": "Integrante dos Karas que participa ativamente da investigação e demonstra coragem e lealdade ao grupo.",
+      "papel": "protagonista",
+      "caracteristicas": [
+        "joga vôlei",
+        "corajosa",
+        "impaciente em algumas situações",
+        "leal aos amigos"
+      ],
+      "grupo": "Karas",
+      "relacoes": [
+        {
+          "personagem_id": "miguel",
+          "tipo": "amiga e integrante dos Karas"
+        },
+        {
+          "personagem_id": "calu",
+          "tipo": "amiga e integrante dos Karas"
+        },
+        {
+          "personagem_id": "cranio",
+          "tipo": "amiga e integrante dos Karas"
+        }
+      ],
+      "primeira_aparicao": 1,
+      "capitulos": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        9,
+        14
+      ],
+      "imagem": "assets/images/personagens/magri.webp"
+    },
+    {
+      "id": "chumbinho",
+      "nome": "Chumbinho",
+      "apelido": null,
+      "descricao": "Aluno mais novo que descobre o esconderijo dos Karas, ajuda na investigação e enfrenta a quadrilha fingindo estar sob efeito da droga.",
+      "papel": "protagonista",
+      "caracteristicas": [
+        "curioso",
+        "corajoso",
+        "observador",
+        "rápido de raciocínio",
+        "sabe guardar segredos"
+      ],
+      "grupo": "Karas",
+      "relacoes": [
+        {
+          "personagem_id": "miguel",
+          "tipo": "aliado e integrante provisório dos Karas"
+        },
+        {
+          "personagem_id": "bronca",
+          "tipo": "colega que viu antes do desaparecimento"
+        },
+        {
+          "personagem_id": "bino",
+          "tipo": "investigado e identificado em sua mensagem"
+        }
+      ],
+      "primeira_aparicao": 1,
+      "capitulos": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14
+      ],
+      "imagem": "assets/images/personagens/chumbinho.webp"
+    },
+    {
+      "id": "bronca",
+      "nome": "Bronca",
+      "apelido": null,
+      "descricao": "Aluno do Colégio Elite cujo comportamento muda antes de desaparecer e que depois é encontrado entre os jovens usados como cobaias.",
+      "papel": "secundário",
+      "caracteristicas": [
+        "desafiava regras e autoridades",
+        "passou a agir de modo obediente",
+        "foi sequestrado",
+        "foi usado como cobaia"
+      ],
+      "grupo": "Colégio Elite",
+      "relacoes": [
+        {
+          "personagem_id": "chumbinho",
+          "tipo": "conversou com ele antes do desaparecimento"
+        }
+      ],
+      "primeira_aparicao": 2,
+      "capitulos": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        10,
+        15
+      ],
+      "imagem": "assets/images/personagens/bronca.webp"
+    },
+    {
+      "id": "bino",
+      "nome": "Bino",
+      "apelido": null,
+      "descricao": "Falso estudante que se matricula em colégios com dados falsos para oferecer a droga a outros alunos.",
+      "papel": "antagonista",
+      "caracteristicas": [
+        "usa nomes e endereços falsos",
+        "age infiltrado nas escolas",
+        "oferece a droga",
+        "desaparece após cumprir sua missão"
+      ],
+      "grupo": "quadrilha do Doutor Q.I.",
+      "relacoes": [
+        {
+          "personagem_id": "chumbinho",
+          "tipo": "ofereceu um comprimido e participou de seu sequestro"
+        }
+      ],
+      "primeira_aparicao": 2,
+      "capitulos": [
+        2,
+        5,
+        7,
+        9,
+        14
+      ],
+      "imagem": "assets/images/personagens/bino.webp"
+    },
+    {
+      "id": "professor-cardoso",
+      "nome": "Professor Cardoso",
+      "apelido": null,
+      "descricao": "Diretor do Colégio Elite que tenta evitar o pânico durante a investigação do desaparecimento de Bronca.",
+      "papel": "secundário",
+      "caracteristicas": [
+        "diretor do Colégio Elite",
+        "preocupado em manter os estudantes calmos"
+      ],
+      "grupo": "Colégio Elite",
+      "relacoes": [
+        {
+          "personagem_id": "miguel",
+          "tipo": "conversa com ele como presidente do Grêmio"
+        }
+      ],
+      "primeira_aparicao": 3,
+      "capitulos": [
+        3
+      ],
+      "imagem": "assets/images/personagens/professor-cardoso.webp"
+    },
+    {
+      "id": "detetive-andrade",
+      "nome": "Detetive Andrade",
+      "apelido": null,
+      "descricao": "Detetive que investiga os desaparecimentos, trata Miguel com desconfiança e observa os sinais usados pelos Karas.",
+      "papel": "secundário",
+      "caracteristicas": [
+        "agressivo em algumas abordagens",
+        "desconfiado",
+        "muito observador",
+        "pressionado pela imprensa"
+      ],
+      "grupo": "polícia",
+      "relacoes": [
+        {
+          "personagem_id": "detetive-rubens",
+          "tipo": "colega de investigação"
+        },
+        {
+          "personagem_id": "miguel",
+          "tipo": "investiga e considera suspeito"
+        }
+      ],
+      "primeira_aparicao": 3,
+      "capitulos": [
+        3,
+        6,
+        8,
+        13
+      ],
+      "imagem": "assets/images/personagens/detetive-andrade.webp"
+    },
+    {
+      "id": "detetive-rubens",
+      "nome": "Detetive Rubens",
+      "apelido": null,
+      "descricao": "Detetive que participa da investigação e trata Miguel com mais respeito que Andrade.",
+      "papel": "aliado",
+      "caracteristicas": [
+        "respeitoso com Miguel",
+        "demonstra querer resolver o caso"
+      ],
+      "grupo": "polícia",
+      "relacoes": [
+        {
+          "personagem_id": "detetive-andrade",
+          "tipo": "colega de investigação"
+        },
+        {
+          "personagem_id": "miguel",
+          "tipo": "trata com respeito"
+        }
+      ],
+      "primeira_aparicao": 3,
+      "capitulos": [
+        3,
+        6,
+        8,
+        13
+      ],
+      "imagem": "assets/images/personagens/detetive-rubens.webp"
+    },
+    {
+      "id": "dona-rosa",
+      "nome": "Dona Rosa",
+      "apelido": null,
+      "descricao": "Faxineira do Colégio Elite que viu a mensagem deixada no banheiro e ajudou os Karas a recuperá-la por meio da hipnose.",
+      "papel": "aliado",
+      "caracteristicas": [
+        "faxineira",
+        "viu os sinais da mensagem no banheiro"
+      ],
+      "grupo": "Colégio Elite",
+      "relacoes": [
+        {
+          "personagem_id": "cranio",
+          "tipo": "ajudou a recuperar uma lembrança durante a hipnose"
+        }
+      ],
+      "primeira_aparicao": 9,
+      "capitulos": [
+        9
+      ],
+      "imagem": "assets/images/personagens/dona-rosa.webp"
+    },
+    {
+      "id": "doutor-qi",
+      "nome": "Doutor Q.I.",
+      "apelido": null,
+      "descricao": "Líder misterioso da organização que comanda experiências ilegais com a Droga da Obediência.",
+      "papel": "antagonista",
+      "caracteristicas": [
+        "comanda a organização criminosa",
+        "não mostra o rosto inicialmente",
+        "ignora princípios éticos",
+        "ameaça subordinados",
+        "dispõe-se a eliminar ameaças"
+      ],
+      "grupo": "Pain Control",
+      "relacoes": [
+        {
+          "personagem_id": "marius-casperides",
+          "tipo": "chefe e adversário após a descoberta dos testes humanos"
+        },
+        {
+          "personagem_id": "coisa",
+          "tipo": "chefe"
+        },
+        {
+          "personagem_id": "animal",
+          "tipo": "chefe"
+        },
+        {
+          "personagem_id": "fera",
+          "tipo": "chefe"
+        }
+      ],
+      "primeira_aparicao": 10,
+      "capitulos": [
+        10,
+        11,
+        12,
+        15
+      ],
+      "imagem": "assets/images/personagens/doutor-qi.webp"
+    },
+    {
+      "id": "medico-da-organizacao",
+      "nome": "Médico da organização",
+      "apelido": null,
+      "descricao": "Profissional que presta cuidados a Chumbinho dentro do complexo da quadrilha.",
+      "papel": "antagonista",
+      "caracteristicas": [
+        "atua para a organização criminosa",
+        "presta cuidados médicos a Chumbinho"
+      ],
+      "grupo": "quadrilha do Doutor Q.I.",
+      "relacoes": [],
+      "primeira_aparicao": 10,
+      "capitulos": [
+        10
+      ],
+      "imagem": "assets/images/personagens/medico-da-organizacao.webp"
+    },
+    {
+      "id": "funcionarios-da-quadrilha",
+      "nome": "Funcionários da quadrilha",
+      "apelido": null,
+      "descricao": "Pessoas que trabalham no complexo criminoso e ajudam a controlar os jovens sequestrados.",
+      "papel": "antagonista",
+      "caracteristicas": [
+        "trabalham no complexo da quadrilha",
+        "controlam os jovens sequestrados"
+      ],
+      "grupo": "quadrilha do Doutor Q.I.",
+      "relacoes": [],
+      "primeira_aparicao": 10,
+      "capitulos": [
+        10
+      ],
+      "imagem": "assets/images/personagens/funcionarios-da-quadrilha.webp"
+    },
+    {
+      "id": "marius-casperides",
+      "nome": "Márius Caspérides",
+      "apelido": null,
+      "descricao": "Bioquímico da Pain Control que criou e testou a droga, mas se voltou contra seu uso criminoso em jovens saudáveis.",
+      "papel": "aliado",
+      "caracteristicas": [
+        "bioquímico",
+        "inteligente",
+        "preocupado com a ética médica",
+        "contrário aos testes em seres humanos",
+        "usa um disfarce para fugir"
+      ],
+      "grupo": "Pain Control",
+      "relacoes": [
+        {
+          "personagem_id": "doutor-qi",
+          "tipo": "subordinado que passa a enfrentar seus planos"
+        }
+      ],
+      "primeira_aparicao": 11,
+      "capitulos": [
+        11,
+        12,
+        15
+      ],
+      "imagem": "assets/images/personagens/marius-casperides.webp"
+    },
+    {
+      "id": "coisa",
+      "nome": "Coisa",
+      "apelido": null,
+      "descricao": "Segurança da Pain Control enviado para perseguir Márius Caspérides.",
+      "papel": "antagonista",
+      "caracteristicas": [
+        "segurança da Pain Control",
+        "capanga armado",
+        "participa da perseguição a Caspérides"
+      ],
+      "grupo": "Pain Control",
+      "relacoes": [
+        {
+          "personagem_id": "animal",
+          "tipo": "companheiro de equipe"
+        },
+        {
+          "personagem_id": "fera",
+          "tipo": "companheiro de equipe"
+        },
+        {
+          "personagem_id": "doutor-qi",
+          "tipo": "subordinado"
+        }
+      ],
+      "primeira_aparicao": 12,
+      "capitulos": [
+        12,
+        15
+      ],
+      "imagem": "assets/images/personagens/coisa.webp"
+    },
+    {
+      "id": "animal",
+      "nome": "Animal",
+      "apelido": null,
+      "descricao": "Segurança da Pain Control enviado para perseguir Márius Caspérides.",
+      "papel": "antagonista",
+      "caracteristicas": [
+        "segurança da Pain Control",
+        "capanga armado",
+        "participa da perseguição a Caspérides"
+      ],
+      "grupo": "Pain Control",
+      "relacoes": [
+        {
+          "personagem_id": "coisa",
+          "tipo": "companheiro de equipe"
+        },
+        {
+          "personagem_id": "fera",
+          "tipo": "companheiro de equipe"
+        },
+        {
+          "personagem_id": "doutor-qi",
+          "tipo": "subordinado"
+        }
+      ],
+      "primeira_aparicao": 12,
+      "capitulos": [
+        12,
+        15
+      ],
+      "imagem": "assets/images/personagens/animal.webp"
+    },
+    {
+      "id": "fera",
+      "nome": "Fera",
+      "apelido": null,
+      "descricao": "Segurança da Pain Control enviado para perseguir Márius Caspérides.",
+      "papel": "antagonista",
+      "caracteristicas": [
+        "segurança da Pain Control",
+        "capanga armado",
+        "participa da perseguição a Caspérides"
+      ],
+      "grupo": "Pain Control",
+      "relacoes": [
+        {
+          "personagem_id": "coisa",
+          "tipo": "companheiro de equipe"
+        },
+        {
+          "personagem_id": "animal",
+          "tipo": "companheiro de equipe"
+        },
+        {
+          "personagem_id": "doutor-qi",
+          "tipo": "subordinado"
+        }
+      ],
+      "primeira_aparicao": 12,
+      "capitulos": [
+        12,
+        15
+      ],
+      "imagem": "assets/images/personagens/fera.webp"
+    },
+    {
+      "id": "ricardinho-medeiros-tremembe",
+      "nome": "Ricardinho Medeiros Tremembé",
+      "apelido": null,
+      "descricao": "Jovem desaparecido que é encontrado morto durante a investigação.",
+      "papel": "secundário",
+      "caracteristicas": [
+        "estudante desaparecido",
+        "vítima fatal confirmada"
+      ],
+      "grupo": null,
+      "relacoes": [],
+      "primeira_aparicao": 13,
+      "capitulos": [
+        13,
+        14
+      ],
+      "imagem": "assets/images/personagens/ricardinho-medeiros-tremembe.webp"
+    },
+    {
+      "id": "medico-legista",
+      "nome": "Médico legista",
+      "apelido": null,
+      "descricao": "Profissional que realiza a autópsia de Ricardinho e informa que ainda existem dúvidas sobre a causa da morte.",
+      "papel": "secundário",
+      "caracteristicas": [
+        "realiza autópsias",
+        "apresenta informações sobre a morte de Ricardinho"
+      ],
+      "grupo": "polícia",
+      "relacoes": [
+        {
+          "personagem_id": "ricardinho-medeiros-tremembe",
+          "tipo": "realizou sua autópsia"
+        }
+      ],
+      "primeira_aparicao": 13,
+      "capitulos": [
+        13
+      ],
+      "imagem": "assets/images/personagens/medico-legista.webp"
+    },
+    {
+      "id": "detetive-infiltrado",
+      "nome": "Detetive infiltrado",
+      "apelido": null,
+      "descricao": "Homem ligado à organização criminosa que usa sua influência na polícia para proteger os seguranças da Pain Control.",
+      "papel": "antagonista",
+      "caracteristicas": [
+        "detetive",
+        "infiltrado na polícia",
+        "ligado à organização criminosa",
+        "usa influência para encobrir crimes"
+      ],
+      "grupo": "quadrilha do Doutor Q.I.",
+      "relacoes": [
+        {
+          "personagem_id": "coisa",
+          "tipo": "protegeu da prisão"
+        },
+        {
+          "personagem_id": "animal",
+          "tipo": "protegeu da prisão"
+        },
+        {
+          "personagem_id": "fera",
+          "tipo": "protegeu da prisão"
+        }
+      ],
+      "primeira_aparicao": 15,
+      "capitulos": [
+        15
+      ],
+      "imagem": "assets/images/personagens/detetive-infiltrado.webp"
+    }
+  ]
+}

@@ -82,4 +82,4 @@ if(localStorage.getItem('theme')==='light')document.documentElement.classList.ad
 document.querySelector('#search').oninput=e=>{if(!S.data||e.target.value.length<2)return;let t=e.target.value.toLowerCase(),m=S.data.chapters.filter(c=>(chapterTitle(c)+' '+chapterSubtitle(c)).toLowerCase().includes(t));app.innerHTML=`<section class="page"><h1>Resultados</h1><div class="grid">${m.map(row).join('')}</div></section>`};
 addEventListener('beforeinstallprompt',e=>{e.preventDefault();S.install=e;document.querySelector('#install').hidden=false});
 document.querySelector('#install').onclick=()=>S.install?.prompt();
-if('serviceWorker'in navigator)addEventListener('load',()=>navigator.serviceWorker.register('./sw.js'));
+if('serviceWorker'in navigator)addEventListener('load',async()=>{for(const r of await navigator.serviceWorker.getRegistrations())await r.unregister();if('caches'in window)for(const k of await caches.keys())await caches.delete(k)});

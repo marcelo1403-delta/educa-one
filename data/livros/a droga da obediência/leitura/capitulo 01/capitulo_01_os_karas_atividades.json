@@ -1,0 +1,748 @@
+{
+  "capitulo": {
+    "numero": 1,
+    "titulo": "Os Karas"
+  },
+  "quiz": [
+    {
+      "pergunta": "Por que Miguel convocou uma reunião de emergência dos Karas?",
+      "alternativas": [
+        "Porque queria organizar um campeonato de xadrez",
+        "Porque pesquisava o desaparecimento de estudantes",
+        "Porque Chumbinho havia pedido para entrar no grupo",
+        "Porque o diretor chamou todos ao Grêmio"
+      ],
+      "indice_alternativa_correta": 1,
+      "explicacao": "Miguel reuniu reportagens sobre estudantes desaparecidos e chamou os Karas para discutir o assunto."
+    },
+    {
+      "pergunta": "Qual era o sinal secreto usado por Miguel para chamar os Karas?",
+      "alternativas": [
+        "Um K desenhado na palma da mão",
+        "Um assobio feito no corredor",
+        "Uma carta deixada no vestiário",
+        "Uma campainha tocada três vezes"
+      ],
+      "indice_alternativa_correta": 0,
+      "explicacao": "Miguel mostrou a palma da mão com um K desenhado, indicando uma emergência máxima."
+    },
+    {
+      "pergunta": "O que Calu fez para sair do ensaio de teatro?",
+      "alternativas": [
+        "Disse que precisava estudar",
+        "Fingiu estar com dor de cabeça",
+        "Simulou uma torção no tornozelo",
+        "Disse que havia perdido um livro"
+      ],
+      "indice_alternativa_correta": 1,
+      "explicacao": "Calu deixou o ensaio fingindo estar com dor de cabeça."
+    },
+    {
+      "pergunta": "O que Crânio abandonou ao reconhecer o sinal dos Karas?",
+      "alternativas": [
+        "Um treino de vôlei",
+        "Uma reunião do Grêmio",
+        "Uma partida de xadrez",
+        "Um ensaio de teatro"
+      ],
+      "indice_alternativa_correta": 2,
+      "explicacao": "Crânio deixou uma partida de xadrez que estava prestes a vencer."
+    },
+    {
+      "pergunta": "Onde ficava o esconderijo secreto dos Karas?",
+      "alternativas": [
+        "Na biblioteca do Colégio Elite",
+        "Debaixo da quadra de vôlei",
+        "Acima do forro dos vestiários",
+        "Dentro da sala do Grêmio"
+      ],
+      "indice_alternativa_correta": 2,
+      "explicacao": "O esconderijo ficava acima do forro dos vestiários."
+    },
+    {
+      "pergunta": "Como os Karas entravam no esconderijo?",
+      "alternativas": [
+        "Por uma janela atrás da escola",
+        "Por um alçapão escondido no depósito de materiais de limpeza",
+        "Por uma porta secreta na biblioteca",
+        "Por uma escada dentro da quadra"
+      ],
+      "indice_alternativa_correta": 1,
+      "explicacao": "O acesso era feito por um pequeno alçapão escondido em um depósito de materiais de limpeza."
+    },
+    {
+      "pergunta": "O que os Karas fizeram ao ouvir um barulho no alçapão?",
+      "alternativas": [
+        "Chamaram um funcionário",
+        "Correram para fora da escola",
+        "Apagaram os sinais de presença e se esconderam",
+        "Continuaram a reunião normalmente"
+      ],
+      "indice_alternativa_correta": 2,
+      "explicacao": "Eles temeram que o esconderijo tivesse sido descoberto, apagaram os sinais de presença e ficaram escondidos."
+    },
+    {
+      "pergunta": "Quem era o visitante inesperado?",
+      "alternativas": [
+        "O diretor do Colégio Elite",
+        "Um policial",
+        "Chumbinho",
+        "Um funcionário da limpeza"
+      ],
+      "indice_alternativa_correta": 2,
+      "explicacao": "Quem entrou no esconderijo foi Chumbinho, um aluno mais novo e curioso."
+    },
+    {
+      "pergunta": "Como Miguel agiu quando Magrí agarrou Chumbinho pela gola?",
+      "alternativas": [
+        "Mandou Chumbinho embora imediatamente",
+        "Ajudou Magrí a expulsá-lo",
+        "Conteve Magrí e preferiu ouvir o garoto",
+        "Saiu do esconderijo sem dizer nada"
+      ],
+      "indice_alternativa_correta": 2,
+      "explicacao": "Miguel impediu a reação de Magrí e decidiu ouvir Chumbinho antes de tomar uma decisão."
+    },
+    {
+      "pergunta": "O que Chumbinho queria dos Karas?",
+      "alternativas": [
+        "Contar o segredo ao diretor",
+        "Participar de uma partida de xadrez",
+        "Fazer parte do grupo",
+        "Usar o esconderijo sozinho"
+      ],
+      "indice_alternativa_correta": 2,
+      "explicacao": "Chumbinho revelou que havia entrado porque queria fazer parte dos Karas."
+    }
+  ],
+  "flashcards": [
+    {
+      "frente": "Quem é Miguel?",
+      "verso": "Presidente do Grêmio, líder dos Karas e responsável por convocar a reunião de emergência."
+    },
+    {
+      "frente": "Quem é Calu?",
+      "verso": "Integrante dos Karas que saiu do ensaio de teatro fingindo dor de cabeça."
+    },
+    {
+      "frente": "Quem é Crânio?",
+      "verso": "Integrante dos Karas que abandonou uma partida de xadrez que estava prestes a vencer."
+    },
+    {
+      "frente": "Quem é Magrí?",
+      "verso": "Integrante dos Karas que deixou o treino de vôlei simulando uma torção."
+    },
+    {
+      "frente": "Quem é Chumbinho?",
+      "verso": "Aluno mais novo e curioso que descobriu o esconderijo e queria fazer parte dos Karas."
+    },
+    {
+      "frente": "O que significa o K na palma da mão?",
+      "verso": "É o sinal secreto de emergência máxima dos Karas."
+    },
+    {
+      "frente": "Onde fica o esconderijo dos Karas?",
+      "verso": "Acima do forro dos vestiários do Colégio Elite."
+    },
+    {
+      "frente": "Como se chega ao esconderijo?",
+      "verso": "Por um pequeno alçapão escondido em um depósito de materiais de limpeza."
+    },
+    {
+      "frente": "O que Miguel levou para a reunião?",
+      "verso": "Cópias de reportagens sobre o desaparecimento de estudantes."
+    },
+    {
+      "frente": "Por que os Karas se esconderam no escuro?",
+      "verso": "Porque ouviram um barulho no alçapão e temeram que o esconderijo tivesse sido descoberto."
+    },
+    {
+      "frente": "Que segredo Chumbinho já conhecia?",
+      "verso": "Ele conhecia a identidade dos Karas e a localização do esconderijo."
+    },
+    {
+      "frente": "Qual problema aparece no final do capítulo?",
+      "verso": "Os Karas precisam decidir o que fazer com Chumbinho, que conhece seus maiores segredos."
+    }
+  ],
+  "verdadeiro_ou_falso": [
+    {
+      "afirmacao": "Miguel era presidente do Grêmio e líder dos Karas.",
+      "resposta": true,
+      "explicacao": "O capítulo apresenta Miguel nessas duas funções."
+    },
+    {
+      "afirmacao": "O Colégio Elite usava uma campainha para organizar toda a rotina.",
+      "resposta": false,
+      "explicacao": "O texto afirma que os alunos não precisavam de campainha para organizar a rotina."
+    },
+    {
+      "afirmacao": "O K desenhado na palma da mão indicava uma situação muito grave.",
+      "resposta": true,
+      "explicacao": "Esse era o sinal de emergência máxima dos Karas."
+    },
+    {
+      "afirmacao": "Calu saiu de uma partida de xadrez para ir ao esconderijo.",
+      "resposta": false,
+      "explicacao": "Calu saiu do ensaio de teatro; quem deixou a partida de xadrez foi Crânio."
+    },
+    {
+      "afirmacao": "Magrí simulou uma torção no tornozelo para deixar o treino de vôlei.",
+      "resposta": true,
+      "explicacao": "Ela usou essa desculpa para atender ao chamado secreto."
+    },
+    {
+      "afirmacao": "O esconderijo ficava dentro da biblioteca.",
+      "resposta": false,
+      "explicacao": "Ele ficava acima do forro dos vestiários."
+    },
+    {
+      "afirmacao": "Os Karas pensaram que o barulho no alçapão poderia significar que haviam sido descobertos.",
+      "resposta": true,
+      "explicacao": "Por isso apagaram os sinais de presença e se esconderam."
+    },
+    {
+      "afirmacao": "Chumbinho afirmou que já havia contado o segredo dos Karas para outras pessoas.",
+      "resposta": false,
+      "explicacao": "Ele garantiu que nunca havia contado o segredo para ninguém."
+    },
+    {
+      "afirmacao": "Miguel preferiu ouvir Chumbinho antes de decidir o que fazer.",
+      "resposta": true,
+      "explicacao": "Miguel conteve Magrí e decidiu escutar o garoto."
+    },
+    {
+      "afirmacao": "Chumbinho entrou no esconderijo porque queria fazer parte dos Karas.",
+      "resposta": true,
+      "explicacao": "Esse foi o motivo apresentado por ele no final do capítulo."
+    }
+  ],
+  "complete_a_frase": [
+    {
+      "frase": "Miguel era presidente do ________ e líder dos Karas.",
+      "resposta": "Grêmio"
+    },
+    {
+      "frase": "Miguel pesquisava reportagens sobre o desaparecimento de ________.",
+      "resposta": "estudantes"
+    },
+    {
+      "frase": "O sinal secreto era um ________ desenhado na palma da mão.",
+      "resposta": "K"
+    },
+    {
+      "frase": "Calu saiu do ensaio de ________ fingindo dor de cabeça.",
+      "resposta": "teatro"
+    },
+    {
+      "frase": "Crânio abandonou uma partida de ________.",
+      "resposta": "xadrez"
+    },
+    {
+      "frase": "Magrí interrompeu um treino de ________.",
+      "resposta": "vôlei"
+    },
+    {
+      "frase": "O esconderijo ficava acima do forro dos ________.",
+      "resposta": "vestiários"
+    },
+    {
+      "frase": "O acesso ao esconderijo era feito por um pequeno ________.",
+      "resposta": "alçapão"
+    },
+    {
+      "frase": "O visitante inesperado era ________.",
+      "resposta": "Chumbinho"
+    },
+    {
+      "frase": "Chumbinho queria fazer parte dos ________.",
+      "resposta": "Karas"
+    }
+  ],
+  "ordem_cronologica": {
+    "lista_embaralhada": [
+      {
+        "id": "acontecimento_4",
+        "texto": "Os Karas ouvem um barulho no alçapão e se escondem."
+      },
+      {
+        "id": "acontecimento_2",
+        "texto": "Miguel mostra o K desenhado na palma da mão."
+      },
+      {
+        "id": "acontecimento_6",
+        "texto": "Chumbinho diz que quer fazer parte dos Karas."
+      },
+      {
+        "id": "acontecimento_1",
+        "texto": "Miguel reúne reportagens e decide convocar uma reunião."
+      },
+      {
+        "id": "acontecimento_5",
+        "texto": "Chumbinho entra e revela que conhece os segredos do grupo."
+      },
+      {
+        "id": "acontecimento_3",
+        "texto": "Calu, Crânio e Magrí deixam suas atividades e vão ao esconderijo."
+      }
+    ],
+    "ordem_correta": [
+      "acontecimento_1",
+      "acontecimento_2",
+      "acontecimento_3",
+      "acontecimento_4",
+      "acontecimento_5",
+      "acontecimento_6"
+    ]
+  },
+  "relacione": [
+    {
+      "tipo": "personagem_acao",
+      "coluna_a": [
+        {
+          "id": "a1",
+          "texto": "Miguel"
+        },
+        {
+          "id": "a2",
+          "texto": "Calu"
+        },
+        {
+          "id": "a3",
+          "texto": "Crânio"
+        },
+        {
+          "id": "a4",
+          "texto": "Magrí"
+        }
+      ],
+      "coluna_b": [
+        {
+          "id": "b1",
+          "texto": "Saiu do ensaio fingindo dor de cabeça"
+        },
+        {
+          "id": "b2",
+          "texto": "Convocou a reunião de emergência"
+        },
+        {
+          "id": "b3",
+          "texto": "Deixou uma partida de xadrez"
+        },
+        {
+          "id": "b4",
+          "texto": "Simulou uma torção no treino"
+        }
+      ],
+      "gabarito": [
+        {
+          "item_a": "a1",
+          "item_b": "b2"
+        },
+        {
+          "item_a": "a2",
+          "item_b": "b1"
+        },
+        {
+          "item_a": "a3",
+          "item_b": "b3"
+        },
+        {
+          "item_a": "a4",
+          "item_b": "b4"
+        }
+      ]
+    },
+    {
+      "tipo": "objeto_significado",
+      "coluna_a": [
+        {
+          "id": "a1",
+          "texto": "K na palma da mão"
+        },
+        {
+          "id": "a2",
+          "texto": "Reportagens"
+        },
+        {
+          "id": "a3",
+          "texto": "Alçapão"
+        }
+      ],
+      "coluna_b": [
+        {
+          "id": "b1",
+          "texto": "Acesso ao esconderijo"
+        },
+        {
+          "id": "b2",
+          "texto": "Sinal de emergência máxima"
+        },
+        {
+          "id": "b3",
+          "texto": "Informações sobre os desaparecimentos"
+        }
+      ],
+      "gabarito": [
+        {
+          "item_a": "a1",
+          "item_b": "b2"
+        },
+        {
+          "item_a": "a2",
+          "item_b": "b3"
+        },
+        {
+          "item_a": "a3",
+          "item_b": "b1"
+        }
+      ]
+    },
+    {
+      "tipo": "local_descricao",
+      "coluna_a": [
+        {
+          "id": "a1",
+          "texto": "Colégio Elite"
+        },
+        {
+          "id": "a2",
+          "texto": "Esconderijo dos Karas"
+        },
+        {
+          "id": "a3",
+          "texto": "Depósito de materiais de limpeza"
+        },
+        {
+          "id": "a4",
+          "texto": "Vestiários"
+        }
+      ],
+      "coluna_b": [
+        {
+          "id": "b1",
+          "texto": "Lugar onde estava escondido o alçapão"
+        },
+        {
+          "id": "b2",
+          "texto": "Escola frequentada pelos personagens"
+        },
+        {
+          "id": "b3",
+          "texto": "Local cujo forro ficava abaixo do esconderijo"
+        },
+        {
+          "id": "b4",
+          "texto": "Lugar secreto onde o grupo se reuniu"
+        }
+      ],
+      "gabarito": [
+        {
+          "item_a": "a1",
+          "item_b": "b2"
+        },
+        {
+          "item_a": "a2",
+          "item_b": "b4"
+        },
+        {
+          "item_a": "a3",
+          "item_b": "b1"
+        },
+        {
+          "item_a": "a4",
+          "item_b": "b3"
+        }
+      ]
+    },
+    {
+      "tipo": "personagem_caracteristica",
+      "coluna_a": [
+        {
+          "id": "a1",
+          "texto": "Miguel"
+        },
+        {
+          "id": "a2",
+          "texto": "Chumbinho"
+        },
+        {
+          "id": "a3",
+          "texto": "Magrí"
+        },
+        {
+          "id": "a4",
+          "texto": "Crânio"
+        }
+      ],
+      "coluna_b": [
+        {
+          "id": "b1",
+          "texto": "Aluno mais novo e muito curioso"
+        },
+        {
+          "id": "b2",
+          "texto": "Líder que prefere ouvir antes de decidir"
+        },
+        {
+          "id": "b3",
+          "texto": "Jogava uma partida de xadrez"
+        },
+        {
+          "id": "b4",
+          "texto": "Perdeu a paciência com o invasor"
+        }
+      ],
+      "gabarito": [
+        {
+          "item_a": "a1",
+          "item_b": "b2"
+        },
+        {
+          "item_a": "a2",
+          "item_b": "b1"
+        },
+        {
+          "item_a": "a3",
+          "item_b": "b4"
+        },
+        {
+          "item_a": "a4",
+          "item_b": "b3"
+        }
+      ]
+    },
+    {
+      "tipo": "acontecimento_consequencia",
+      "coluna_a": [
+        {
+          "id": "a1",
+          "texto": "Miguel encontra notícias de desaparecimentos"
+        },
+        {
+          "id": "a2",
+          "texto": "Os Karas ouvem um barulho no alçapão"
+        },
+        {
+          "id": "a3",
+          "texto": "Magrí agarra Chumbinho pela gola"
+        },
+        {
+          "id": "a4",
+          "texto": "Chumbinho revela conhecer os segredos"
+        }
+      ],
+      "coluna_b": [
+        {
+          "id": "b1",
+          "texto": "Miguel a contém"
+        },
+        {
+          "id": "b2",
+          "texto": "O grupo precisa decidir o que fazer com ele"
+        },
+        {
+          "id": "b3",
+          "texto": "Miguel convoca uma reunião de emergência"
+        },
+        {
+          "id": "b4",
+          "texto": "O grupo se esconde no escuro"
+        }
+      ],
+      "gabarito": [
+        {
+          "item_a": "a1",
+          "item_b": "b3"
+        },
+        {
+          "item_a": "a2",
+          "item_b": "b4"
+        },
+        {
+          "item_a": "a3",
+          "item_b": "b1"
+        },
+        {
+          "item_a": "a4",
+          "item_b": "b2"
+        }
+      ]
+    }
+  ],
+  "personagens": [
+    {
+      "nome": "Miguel",
+      "descricao_curta": "Presidente do Grêmio, líder dos Karas e responsável por convocar a reunião de emergência."
+    },
+    {
+      "nome": "Calu",
+      "descricao_curta": "Integrante dos Karas que participava de um ensaio de teatro."
+    },
+    {
+      "nome": "Crânio",
+      "descricao_curta": "Integrante dos Karas que jogava uma partida de xadrez."
+    },
+    {
+      "nome": "Magrí",
+      "descricao_curta": "Integrante dos Karas que treinava vôlei e reagiu com irritação à entrada de Chumbinho."
+    },
+    {
+      "nome": "Chumbinho",
+      "descricao_curta": "Aluno mais novo e curioso que descobriu o esconderijo e queria entrar para os Karas."
+    }
+  ],
+  "lugares": [
+    {
+      "nome": "Colégio Elite",
+      "descricao_simples": "Escola onde estudam os personagens e onde os alunos participam das decisões."
+    },
+    {
+      "nome": "Esconderijo dos Karas",
+      "descricao_simples": "Lugar secreto acima do forro dos vestiários onde o grupo realiza suas reuniões."
+    },
+    {
+      "nome": "Vestiários",
+      "descricao_simples": "Parte da escola cujo forro fica abaixo do esconderijo."
+    },
+    {
+      "nome": "Depósito de materiais de limpeza",
+      "descricao_simples": "Local onde fica escondido o alçapão que dá acesso ao esconderijo."
+    },
+    {
+      "nome": "Ensaio de teatro",
+      "descricao_simples": "Atividade da qual Calu saiu para atender ao chamado de Miguel."
+    },
+    {
+      "nome": "Treino de vôlei",
+      "descricao_simples": "Atividade que Magrí interrompeu para ir à reunião."
+    }
+  ],
+  "vocabulario": [
+    {
+      "palavra": "Grêmio",
+      "significado_simples": "Grupo de estudantes que representa os alunos dentro da escola.",
+      "exemplo_de_uso": "Miguel era presidente do Grêmio do Colégio Elite."
+    },
+    {
+      "palavra": "Convocar",
+      "significado_simples": "Chamar pessoas para uma reunião ou atividade importante.",
+      "exemplo_de_uso": "Miguel decidiu convocar os Karas."
+    },
+    {
+      "palavra": "Emergência",
+      "significado_simples": "Situação grave que precisa de atenção rápida.",
+      "exemplo_de_uso": "O K indicava uma reunião de emergência."
+    },
+    {
+      "palavra": "Discretamente",
+      "significado_simples": "De modo cuidadoso, sem chamar atenção.",
+      "exemplo_de_uso": "Os integrantes saíram discretamente de suas atividades."
+    },
+    {
+      "palavra": "Simular",
+      "significado_simples": "Fingir que algo aconteceu.",
+      "exemplo_de_uso": "Magrí precisou simular uma torção."
+    },
+    {
+      "palavra": "Torção",
+      "significado_simples": "Machucado causado quando uma articulação gira ou dobra de modo errado.",
+      "exemplo_de_uso": "Magrí fingiu uma torção no tornozelo."
+    },
+    {
+      "palavra": "Forro",
+      "significado_simples": "Parte que cobre o teto por dentro de um lugar.",
+      "exemplo_de_uso": "O esconderijo ficava acima do forro dos vestiários."
+    },
+    {
+      "palavra": "Alçapão",
+      "significado_simples": "Pequena porta instalada no chão ou no teto.",
+      "exemplo_de_uso": "Os Karas entravam por um alçapão escondido."
+    },
+    {
+      "palavra": "Invasor",
+      "significado_simples": "Pessoa que entra em um lugar sem ter sido convidada.",
+      "exemplo_de_uso": "O suposto invasor era Chumbinho."
+    },
+    {
+      "palavra": "Hesitar",
+      "significado_simples": "Demorar para agir ou responder por estar em dúvida.",
+      "exemplo_de_uso": "Chumbinho respondeu sem hesitar."
+    }
+  ],
+  "desafio_de_observacao": [
+    {
+      "pergunta": "Que atividade Crânio estava prestes a vencer quando recebeu o chamado?",
+      "resposta": "Uma partida de xadrez."
+    },
+    {
+      "pergunta": "Que desculpa Magrí usou para interromper o treino?",
+      "resposta": "Ela simulou uma torção no tornozelo."
+    },
+    {
+      "pergunta": "Onde Miguel espalhou as reportagens durante a reunião?",
+      "resposta": "No chão do esconderijo."
+    },
+    {
+      "pergunta": "O que Chumbinho dizia esperar encontrar no esconderijo?",
+      "resposta": "Verdadeiros aventureiros, e não pessoas escondidas no escuro."
+    },
+    {
+      "pergunta": "Qual foi a primeira reação dos Karas quando ouviram o barulho no alçapão?",
+      "resposta": "Apagaram os sinais de presença e se esconderam na escuridão."
+    }
+  ],
+  "missao_detetive": [
+    {
+      "desafio": "O que indica que o assunto pesquisado por Miguel era muito grave?",
+      "resposta": "Ele convocou uma reunião de emergência e usou o K, o sinal de emergência máxima dos Karas.",
+      "explicacao": "Essas duas ações mostram que Miguel considerava os desaparecimentos uma situação séria."
+    },
+    {
+      "desafio": "Qual pista mostra que Chumbinho observava os Karas havia bastante tempo?",
+      "resposta": "Ele conhecia a identidade dos integrantes, sabia onde ficava o esconderijo e disse que vinha observando o grupo.",
+      "explicacao": "Para descobrir tantos segredos, Chumbinho precisou acompanhar as ações do grupo."
+    },
+    {
+      "desafio": "Por que a entrada de Chumbinho criou um problema para os Karas?",
+      "resposta": "Porque ele conhecia a identidade dos integrantes e a localização do esconderijo secreto.",
+      "explicacao": "O grupo precisava decidir o que fazer com alguém que conhecia seus maiores segredos."
+    }
+  ],
+  "curiosidades": [],
+  "metadados": {
+    "personagens_citados": [
+      "Miguel",
+      "Calu",
+      "Crânio",
+      "Magrí",
+      "Chumbinho"
+    ],
+    "locais_citados": [
+      "Colégio Elite",
+      "Esconderijo dos Karas",
+      "Vestiários",
+      "Depósito de materiais de limpeza",
+      "Ensaio de teatro",
+      "Treino de vôlei"
+    ],
+    "objetos_importantes": [
+      "Reportagens sobre desaparecimentos",
+      "K desenhado na palma da mão",
+      "Alçapão",
+      "Materiais de limpeza"
+    ],
+    "principais_acontecimentos": [
+      "Miguel pesquisa o desaparecimento de estudantes.",
+      "Miguel convoca uma reunião de emergência dos Karas.",
+      "Os integrantes reconhecem o sinal do K e deixam suas atividades.",
+      "Os Karas se reúnem no esconderijo secreto.",
+      "Um barulho no alçapão interrompe a reunião.",
+      "Chumbinho entra no esconderijo e revela conhecer os segredos do grupo.",
+      "Chumbinho diz que deseja fazer parte dos Karas."
+    ],
+    "nivel_estimado_de_dificuldade": 2,
+    "tempo_medio_para_leitura_minutos": 5,
+    "tempo_medio_para_resolver_todas_as_atividades_minutos": 35
+  }
+}

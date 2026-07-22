@@ -1,0 +1,763 @@
+{
+  "capitulo": {
+    "numero": 2,
+    "titulo": "Estranhos acontecimentos"
+  },
+  "quiz": [
+    {
+      "pergunta": "Por que Chumbinho foi aceito provisoriamente pelos Karas?",
+      "alternativas": [
+        "Porque venceu uma prova de coragem",
+        "Porque descobriu o esconderijo do grupo",
+        "Porque era amigo do diretor",
+        "Porque encontrou Bronca"
+      ],
+      "indice_alternativa_correta": 1,
+      "explicacao": "Chumbinho já conhecia o esconderijo, então Miguel decidiu aceitá-lo provisoriamente para evitar que o segredo se espalhasse."
+    },
+    {
+      "pergunta": "O que Miguel inventou para Chumbinho?",
+      "alternativas": [
+        "Uma cerimônia de iniciação",
+        "Uma partida de xadrez",
+        "Uma investigação policial",
+        "Uma prova escolar"
+      ],
+      "indice_alternativa_correta": 0,
+      "explicacao": "Miguel criou uma cerimônia divertida com juramento e promessa de lealdade."
+    },
+    {
+      "pergunta": "O que os outros Karas pensavam fazer mesmo após aceitar Chumbinho?",
+      "alternativas": [
+        "Abandonar o grupo",
+        "Mudar o esconderijo e criar novos códigos",
+        "Contar tudo ao diretor",
+        "Parar de investigar"
+      ],
+      "indice_alternativa_correta": 1,
+      "explicacao": "Eles ainda pensavam em mudar o esconderijo e criar novos códigos de segurança."
+    },
+    {
+      "pergunta": "Quem era o estudante desaparecido do Colégio Elite?",
+      "alternativas": [
+        "Bino",
+        "Calu",
+        "Bronca",
+        "Chumbinho"
+      ],
+      "indice_alternativa_correta": 2,
+      "explicacao": "Miguel revelou que Bronca estava desaparecido."
+    },
+    {
+      "pergunta": "O que tornava os desaparecimentos ainda mais preocupantes?",
+      "alternativas": [
+        "Havia muitos pedidos de resgate",
+        "Não existiam pistas nem pedidos de resgate",
+        "Todos aconteciam fora da cidade",
+        "Os estudantes sempre voltavam no mesmo dia"
+      ],
+      "indice_alternativa_correta": 1,
+      "explicacao": "A cidade estava assustada porque não havia pistas nem pedidos de resgate."
+    },
+    {
+      "pergunta": "Que informação importante Chumbinho contou sobre Bronca?",
+      "alternativas": [
+        "Bronca queria mudar de escola",
+        "Bronca havia encontrado Bino",
+        "Bronca estava agindo de forma muito diferente",
+        "Bronca tinha discutido com Miguel"
+      ],
+      "indice_alternativa_correta": 2,
+      "explicacao": "Chumbinho percebeu que Bronca, antes rebelde, passou a repetir que precisava obedecer às regras."
+    },
+    {
+      "pergunta": "Qual comportamento de Bronca chamou a atenção dos Karas?",
+      "alternativas": [
+        "Ele queria faltar às aulas",
+        "Ele se recusava a obedecer",
+        "Ele passou a obedecer de modo incomum",
+        "Ele queria entrar para os Karas"
+      ],
+      "indice_alternativa_correta": 2,
+      "explicacao": "Bronca era conhecido por desafiar regras, mas de repente passou a insistir que precisava obedecer."
+    },
+    {
+      "pergunta": "Qual missão Miguel deu a Magrí?",
+      "alternativas": [
+        "Investigar a vida pessoal de Bronca",
+        "Observar Bino",
+        "Conversar com os colegas de Bronca",
+        "Visitar os lugares frequentados por Bronca"
+      ],
+      "indice_alternativa_correta": 0,
+      "explicacao": "Magrí ficou responsável por investigar a vida pessoal de Bronca."
+    },
+    {
+      "pergunta": "Quem deveria conversar com os colegas de classe de Bronca?",
+      "alternativas": [
+        "Crânio",
+        "Calu",
+        "Chumbinho",
+        "Bino"
+      ],
+      "indice_alternativa_correta": 1,
+      "explicacao": "Miguel entregou essa missão a Calu."
+    },
+    {
+      "pergunta": "Quem Chumbinho deveria observar discretamente?",
+      "alternativas": [
+        "Miguel",
+        "Bronca",
+        "Bino",
+        "Calu"
+      ],
+      "indice_alternativa_correta": 2,
+      "explicacao": "Miguel mandou Chumbinho observar Bino, um aluno recém-chegado ao Elite."
+    }
+  ],
+  "flashcards": [
+    {
+      "frente": "Por que Chumbinho foi aceito provisoriamente?",
+      "verso": "Porque havia descoberto o esconderijo dos Karas e conhecia o segredo do grupo."
+    },
+    {
+      "frente": "Como foi a iniciação de Chumbinho?",
+      "verso": "Miguel inventou uma cerimônia com juramento e promessa de lealdade."
+    },
+    {
+      "frente": "O que os Karas pensavam mudar?",
+      "verso": "O esconderijo e os códigos de segurança."
+    },
+    {
+      "frente": "Quem desapareceu no Colégio Elite?",
+      "verso": "Bronca."
+    },
+    {
+      "frente": "Quem procurou a direção da escola?",
+      "verso": "Os pais de Bronca, acompanhados por pessoas que pareciam policiais."
+    },
+    {
+      "frente": "O que faltava nos desaparecimentos?",
+      "verso": "Pistas e pedidos de resgate."
+    },
+    {
+      "frente": "Qual foi a última pista deixada por Bronca?",
+      "verso": "A mudança estranha de comportamento e a insistência em obedecer às regras."
+    },
+    {
+      "frente": "Como Bronca costumava agir antes?",
+      "verso": "Ele desafiava regras e autoridades."
+    },
+    {
+      "frente": "Qual missão recebeu Magrí?",
+      "verso": "Investigar a vida pessoal de Bronca."
+    },
+    {
+      "frente": "Qual missão recebeu Calu?",
+      "verso": "Conversar com os colegas de classe de Bronca."
+    },
+    {
+      "frente": "Qual missão Miguel assumiu?",
+      "verso": "Visitar os lugares frequentados por Bronca."
+    },
+    {
+      "frente": "Qual missão recebeu Chumbinho?",
+      "verso": "Observar discretamente Bino."
+    },
+    {
+      "frente": "Quem é Bino?",
+      "verso": "Um aluno recém-chegado ao Colégio Elite."
+    }
+  ],
+  "verdadeiro_ou_falso": [
+    {
+      "afirmacao": "Chumbinho foi aceito definitivamente pelos Karas.",
+      "resposta": false,
+      "explicacao": "Ele foi aceito apenas provisoriamente."
+    },
+    {
+      "afirmacao": "Miguel inventou uma cerimônia de iniciação para Chumbinho.",
+      "resposta": true,
+      "explicacao": "A cerimônia incluía juramento e promessa de lealdade."
+    },
+    {
+      "afirmacao": "Os Karas decidiram manter para sempre o mesmo esconderijo e os mesmos códigos.",
+      "resposta": false,
+      "explicacao": "Eles pensavam em mudar o esconderijo e criar novos códigos."
+    },
+    {
+      "afirmacao": "Bronca era o estudante desaparecido do Colégio Elite.",
+      "resposta": true,
+      "explicacao": "Miguel revelou que o problema havia chegado ao Elite com o desaparecimento de Bronca."
+    },
+    {
+      "afirmacao": "A cidade já conhecia várias pistas sobre os desaparecimentos.",
+      "resposta": false,
+      "explicacao": "Os desaparecimentos aconteciam sem pistas e sem pedidos de resgate."
+    },
+    {
+      "afirmacao": "Bronca costumava desafiar regras e autoridades.",
+      "resposta": true,
+      "explicacao": "Esse era seu comportamento normal antes de desaparecer."
+    },
+    {
+      "afirmacao": "Antes de desaparecer, Bronca aceitou fugir escondido da escola.",
+      "resposta": false,
+      "explicacao": "Ele recusou o convite e disse que precisava obedecer às regras."
+    },
+    {
+      "afirmacao": "Magrí ficou responsável por investigar a vida pessoal de Bronca.",
+      "resposta": true,
+      "explicacao": "Essa foi a missão dada a ela."
+    },
+    {
+      "afirmacao": "Calu deveria observar Bino.",
+      "resposta": false,
+      "explicacao": "Calu investigaria os colegas de Bronca; Chumbinho observaria Bino."
+    },
+    {
+      "afirmacao": "Os Karas iniciaram oficialmente a investigação sobre Bronca.",
+      "resposta": true,
+      "explicacao": "O capítulo termina com as tarefas divididas e a investigação em andamento."
+    }
+  ],
+  "complete_a_frase": [
+    {
+      "frase": "Chumbinho foi aceito ________ pelos Karas.",
+      "resposta": "provisoriamente"
+    },
+    {
+      "frase": "Miguel criou uma cerimônia de ________.",
+      "resposta": "iniciação"
+    },
+    {
+      "frase": "Os Karas pensavam em mudar o ________.",
+      "resposta": "esconderijo"
+    },
+    {
+      "frase": "O estudante desaparecido do Colégio Elite era ________.",
+      "resposta": "Bronca"
+    },
+    {
+      "frase": "Os desaparecimentos aconteciam sem pistas ou pedido de ________.",
+      "resposta": "resgate"
+    },
+    {
+      "frase": "Bronca repetia que precisava ________ às regras.",
+      "resposta": "obedecer"
+    },
+    {
+      "frase": "Magrí investigaria a vida ________ de Bronca.",
+      "resposta": "pessoal"
+    },
+    {
+      "frase": "Calu conversaria com os ________ de classe de Bronca.",
+      "resposta": "colegas"
+    },
+    {
+      "frase": "Miguel visitaria os lugares ________ por Bronca.",
+      "resposta": "frequentados"
+    },
+    {
+      "frase": "Chumbinho deveria observar discretamente ________.",
+      "resposta": "Bino"
+    }
+  ],
+  "ordem_cronologica": {
+    "lista_embaralhada": [
+      {
+        "id": "acontecimento_5",
+        "texto": "Chumbinho conta que Bronca estava agindo de modo estranho."
+      },
+      {
+        "id": "acontecimento_2",
+        "texto": "Miguel cria uma cerimônia de iniciação para Chumbinho."
+      },
+      {
+        "id": "acontecimento_6",
+        "texto": "Miguel divide as tarefas da investigação."
+      },
+      {
+        "id": "acontecimento_1",
+        "texto": "Chumbinho é aceito provisoriamente pelos Karas."
+      },
+      {
+        "id": "acontecimento_4",
+        "texto": "Miguel revela que Bronca desapareceu."
+      },
+      {
+        "id": "acontecimento_3",
+        "texto": "Os Karas pensam em mudar o esconderijo e criar novos códigos."
+      }
+    ],
+    "ordem_correta": [
+      "acontecimento_1",
+      "acontecimento_2",
+      "acontecimento_3",
+      "acontecimento_4",
+      "acontecimento_5",
+      "acontecimento_6"
+    ]
+  },
+  "relacione": [
+    {
+      "tipo": "personagem_missao",
+      "coluna_a": [
+        {
+          "id": "a1",
+          "texto": "Magrí"
+        },
+        {
+          "id": "a2",
+          "texto": "Calu"
+        },
+        {
+          "id": "a3",
+          "texto": "Miguel"
+        },
+        {
+          "id": "a4",
+          "texto": "Chumbinho"
+        }
+      ],
+      "coluna_b": [
+        {
+          "id": "b1",
+          "texto": "Observar discretamente Bino"
+        },
+        {
+          "id": "b2",
+          "texto": "Investigar a vida pessoal de Bronca"
+        },
+        {
+          "id": "b3",
+          "texto": "Visitar os lugares frequentados por Bronca"
+        },
+        {
+          "id": "b4",
+          "texto": "Conversar com os colegas de classe de Bronca"
+        }
+      ],
+      "gabarito": [
+        {
+          "item_a": "a1",
+          "item_b": "b2"
+        },
+        {
+          "item_a": "a2",
+          "item_b": "b4"
+        },
+        {
+          "item_a": "a3",
+          "item_b": "b3"
+        },
+        {
+          "item_a": "a4",
+          "item_b": "b1"
+        }
+      ]
+    },
+    {
+      "tipo": "personagem_caracteristica",
+      "coluna_a": [
+        {
+          "id": "a1",
+          "texto": "Bronca"
+        },
+        {
+          "id": "a2",
+          "texto": "Chumbinho"
+        },
+        {
+          "id": "a3",
+          "texto": "Bino"
+        },
+        {
+          "id": "a4",
+          "texto": "Miguel"
+        }
+      ],
+      "coluna_b": [
+        {
+          "id": "b1",
+          "texto": "Aluno recém-chegado ao Elite"
+        },
+        {
+          "id": "b2",
+          "texto": "Líder que divide as tarefas"
+        },
+        {
+          "id": "b3",
+          "texto": "Garoto aceito provisoriamente"
+        },
+        {
+          "id": "b4",
+          "texto": "Estudante desaparecido"
+        }
+      ],
+      "gabarito": [
+        {
+          "item_a": "a1",
+          "item_b": "b4"
+        },
+        {
+          "item_a": "a2",
+          "item_b": "b3"
+        },
+        {
+          "item_a": "a3",
+          "item_b": "b1"
+        },
+        {
+          "item_a": "a4",
+          "item_b": "b2"
+        }
+      ]
+    },
+    {
+      "tipo": "acontecimento_significado",
+      "coluna_a": [
+        {
+          "id": "a1",
+          "texto": "Cerimônia de iniciação"
+        },
+        {
+          "id": "a2",
+          "texto": "Mudança de Bronca"
+        },
+        {
+          "id": "a3",
+          "texto": "Divisão de tarefas"
+        },
+        {
+          "id": "a4",
+          "texto": "Ausência de resgate"
+        }
+      ],
+      "coluna_b": [
+        {
+          "id": "b1",
+          "texto": "Mostra que a investigação começou de forma organizada"
+        },
+        {
+          "id": "b2",
+          "texto": "Foi criada para manter Chumbinho ligado ao segredo"
+        },
+        {
+          "id": "b3",
+          "texto": "Torna os desaparecimentos ainda mais misteriosos"
+        },
+        {
+          "id": "b4",
+          "texto": "Pode ser uma pista importante"
+        }
+      ],
+      "gabarito": [
+        {
+          "item_a": "a1",
+          "item_b": "b2"
+        },
+        {
+          "item_a": "a2",
+          "item_b": "b4"
+        },
+        {
+          "item_a": "a3",
+          "item_b": "b1"
+        },
+        {
+          "item_a": "a4",
+          "item_b": "b3"
+        }
+      ]
+    },
+    {
+      "tipo": "palavra_contexto",
+      "coluna_a": [
+        {
+          "id": "a1",
+          "texto": "Lealdade"
+        },
+        {
+          "id": "a2",
+          "texto": "Resgate"
+        },
+        {
+          "id": "a3",
+          "texto": "Discretamente"
+        },
+        {
+          "id": "a4",
+          "texto": "Provisoriamente"
+        }
+      ],
+      "coluna_b": [
+        {
+          "id": "b1",
+          "texto": "De modo temporário"
+        },
+        {
+          "id": "b2",
+          "texto": "Sem chamar atenção"
+        },
+        {
+          "id": "b3",
+          "texto": "Fidelidade a alguém ou a um grupo"
+        },
+        {
+          "id": "b4",
+          "texto": "Pagamento ou ação para libertar alguém"
+        }
+      ],
+      "gabarito": [
+        {
+          "item_a": "a1",
+          "item_b": "b3"
+        },
+        {
+          "item_a": "a2",
+          "item_b": "b4"
+        },
+        {
+          "item_a": "a3",
+          "item_b": "b2"
+        },
+        {
+          "item_a": "a4",
+          "item_b": "b1"
+        }
+      ]
+    },
+    {
+      "tipo": "causa_consequencia",
+      "coluna_a": [
+        {
+          "id": "a1",
+          "texto": "Chumbinho descobre o esconderijo"
+        },
+        {
+          "id": "a2",
+          "texto": "Bronca muda de comportamento"
+        },
+        {
+          "id": "a3",
+          "texto": "Bronca desaparece"
+        },
+        {
+          "id": "a4",
+          "texto": "Miguel quer manter Chumbinho ocupado"
+        }
+      ],
+      "coluna_b": [
+        {
+          "id": "b1",
+          "texto": "Os Karas iniciam uma investigação"
+        },
+        {
+          "id": "b2",
+          "texto": "Ele recebe a missão de observar Bino"
+        },
+        {
+          "id": "b3",
+          "texto": "Ele é aceito provisoriamente"
+        },
+        {
+          "id": "b4",
+          "texto": "Os Karas encontram uma possível pista"
+        }
+      ],
+      "gabarito": [
+        {
+          "item_a": "a1",
+          "item_b": "b3"
+        },
+        {
+          "item_a": "a2",
+          "item_b": "b4"
+        },
+        {
+          "item_a": "a3",
+          "item_b": "b1"
+        },
+        {
+          "item_a": "a4",
+          "item_b": "b2"
+        }
+      ]
+    }
+  ],
+  "personagens": [
+    {
+      "nome": "Miguel",
+      "descricao_curta": "Líder dos Karas que revela o desaparecimento de Bronca e divide as tarefas da investigação."
+    },
+    {
+      "nome": "Calu",
+      "descricao_curta": "Integrante dos Karas encarregado de conversar com os colegas de classe de Bronca."
+    },
+    {
+      "nome": "Crânio",
+      "descricao_curta": "Integrante dos Karas presente na reunião sobre o desaparecimento."
+    },
+    {
+      "nome": "Magrí",
+      "descricao_curta": "Integrante dos Karas encarregada de investigar a vida pessoal de Bronca."
+    },
+    {
+      "nome": "Chumbinho",
+      "descricao_curta": "Novo integrante provisório que fornece a pista sobre a mudança de comportamento de Bronca."
+    },
+    {
+      "nome": "Bronca",
+      "descricao_curta": "Aluno desaparecido que passou a agir de forma estranhamente obediente."
+    },
+    {
+      "nome": "Bino",
+      "descricao_curta": "Aluno recém-chegado ao Colégio Elite que seria observado por Chumbinho."
+    }
+  ],
+  "lugares": [
+    {
+      "nome": "Colégio Elite",
+      "descricao_simples": "Escola onde Bronca desapareceu e onde os Karas estudam."
+    },
+    {
+      "nome": "Direção da escola",
+      "descricao_simples": "Local procurado pelos pais de Bronca após o desaparecimento."
+    },
+    {
+      "nome": "Esconderijo dos Karas",
+      "descricao_simples": "Lugar secreto que o grupo pensava em mudar por segurança."
+    },
+    {
+      "nome": "Cidade",
+      "descricao_simples": "Localidade assustada com a sequência de desaparecimentos."
+    }
+  ],
+  "vocabulario": [
+    {
+      "palavra": "Provisoriamente",
+      "significado_simples": "De forma temporária, sem ser definitiva.",
+      "exemplo_de_uso": "Chumbinho foi aceito provisoriamente pelos Karas."
+    },
+    {
+      "palavra": "Iniciação",
+      "significado_simples": "Cerimônia ou etapa de entrada em um grupo.",
+      "exemplo_de_uso": "Miguel inventou uma cerimônia de iniciação."
+    },
+    {
+      "palavra": "Juramento",
+      "significado_simples": "Promessa feita com muita seriedade.",
+      "exemplo_de_uso": "Chumbinho fez um juramento durante a cerimônia."
+    },
+    {
+      "palavra": "Lealdade",
+      "significado_simples": "Fidelidade e compromisso com uma pessoa ou grupo.",
+      "exemplo_de_uso": "Chumbinho prometeu lealdade aos Karas."
+    },
+    {
+      "palavra": "Segurança",
+      "significado_simples": "Conjunto de cuidados usados para evitar perigos.",
+      "exemplo_de_uso": "Os Karas pensavam em criar novos códigos de segurança."
+    },
+    {
+      "palavra": "Resgate",
+      "significado_simples": "Ação ou pagamento usado para libertar alguém.",
+      "exemplo_de_uso": "Não havia pedido de resgate."
+    },
+    {
+      "palavra": "Autoridade",
+      "significado_simples": "Pessoa que tem poder ou responsabilidade para organizar e dar ordens.",
+      "exemplo_de_uso": "Bronca costumava desafiar as autoridades."
+    },
+    {
+      "palavra": "Discretamente",
+      "significado_simples": "Sem chamar atenção.",
+      "exemplo_de_uso": "Chumbinho deveria observar Bino discretamente."
+    },
+    {
+      "palavra": "Hipótese",
+      "significado_simples": "Ideia usada para tentar explicar algo ainda não comprovado.",
+      "exemplo_de_uso": "Os Karas começaram a pensar em uma hipótese preocupante."
+    },
+    {
+      "palavra": "Incomum",
+      "significado_simples": "Diferente do normal ou do que costuma acontecer.",
+      "exemplo_de_uso": "Bronca passou a agir de forma incomum."
+    }
+  ],
+  "desafio_de_observacao": [
+    {
+      "pergunta": "Quem acompanhava os pais de Bronca quando eles procuraram a direção?",
+      "resposta": "Pessoas que pareciam policiais."
+    },
+    {
+      "pergunta": "Que convite Bronca recusou pouco antes de desaparecer?",
+      "resposta": "Um convite para sair escondido da escola."
+    },
+    {
+      "pergunta": "Que palavra repetida por Bronca chamou a atenção dos Karas?",
+      "resposta": "Obedecer."
+    },
+    {
+      "pergunta": "Por que Miguel deu uma missão a Chumbinho?",
+      "resposta": "Para mantê-lo ocupado."
+    },
+    {
+      "pergunta": "Que duas mudanças de segurança os Karas consideraram após a entrada de Chumbinho?",
+      "resposta": "Mudar o esconderijo e criar novos códigos."
+    }
+  ],
+  "missao_detetive": [
+    {
+      "desafio": "O que indica que o comportamento de Bronca era realmente estranho?",
+      "resposta": "Ele era conhecido por desafiar regras e autoridades, mas passou a recusar uma fuga e a dizer que precisava obedecer.",
+      "explicacao": "A mudança era o oposto do comportamento normal de Bronca."
+    },
+    {
+      "desafio": "Qual pista levou os Karas a suspeitar que alguém poderia estar controlando estudantes?",
+      "resposta": "A mudança repentina de Bronca para um comportamento obediente e diferente do normal.",
+      "explicacao": "Essa alteração fez o grupo considerar que alguém poderia estar obrigando os jovens a agir de outra forma."
+    },
+    {
+      "desafio": "Por que dividir as tarefas poderia ajudar a investigação?",
+      "resposta": "Porque cada integrante poderia procurar informações diferentes sobre Bronca ao mesmo tempo.",
+      "explicacao": "Magrí, Calu, Miguel e Chumbinho receberam missões distintas ligadas ao caso."
+    }
+  ],
+  "curiosidades": [],
+  "metadados": {
+    "personagens_citados": [
+      "Miguel",
+      "Calu",
+      "Crânio",
+      "Magrí",
+      "Chumbinho",
+      "Bronca",
+      "Bino"
+    ],
+    "locais_citados": [
+      "Colégio Elite",
+      "Direção da escola",
+      "Esconderijo dos Karas",
+      "Cidade"
+    ],
+    "objetos_importantes": [
+      "Códigos de segurança",
+      "Juramento de iniciação"
+    ],
+    "principais_acontecimentos": [
+      "Chumbinho é aceito provisoriamente pelos Karas.",
+      "Miguel realiza uma cerimônia de iniciação.",
+      "Os Karas consideram mudar o esconderijo e os códigos.",
+      "Miguel revela que Bronca desapareceu.",
+      "Chumbinho conta sobre a mudança de comportamento de Bronca.",
+      "Os Karas identificam a palavra obedecer como uma pista.",
+      "Miguel divide as tarefas da investigação.",
+      "Chumbinho recebe a missão de observar Bino."
+    ],
+    "nivel_estimado_de_dificuldade": 2,
+    "tempo_medio_para_leitura_minutos": 5,
+    "tempo_medio_para_resolver_todas_as_atividades_minutos": 35
+  }
+}

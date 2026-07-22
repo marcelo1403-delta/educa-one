@@ -1,4 +1,4 @@
-#Educa-One — PWA
+# educa-one — PWA
 
 Estrutura inicial pronta para receber os conteúdos.
 

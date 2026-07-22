@@ -1,0 +1,748 @@
+{
+  "capitulo": {
+    "numero": 3,
+    "titulo": "Investigação no Elite"
+  },
+  "quiz": [
+    {
+      "pergunta": "Como estava o Colégio Elite na manhã seguinte ao desaparecimento de Bronca?",
+      "alternativas": [
+        "Mais silencioso que o normal",
+        "Muito mais agitado que o normal",
+        "Fechado para os alunos",
+        "Em clima de festa"
+      ],
+      "indice_alternativa_correta": 1,
+      "explicacao": "A escola estava agitada, com alunos comentando o caso e policiais presentes."
+    },
+    {
+      "pergunta": "Por que a direção tentava evitar o pânico?",
+      "alternativas": [
+        "Porque não queria cancelar as aulas",
+        "Porque temia que o medo aumentasse entre os alunos",
+        "Porque Bronca já havia voltado",
+        "Porque não havia policiais na escola"
+      ],
+      "indice_alternativa_correta": 1,
+      "explicacao": "O diretor acreditava que muitas informações poderiam aumentar o medo e atrapalhar a investigação."
+    },
+    {
+      "pergunta": "Quem chamou Miguel para conversar?",
+      "alternativas": [
+        "Detetive Andrade",
+        "Chumbinho",
+        "Professor Cardoso",
+        "Detetive Rubens"
+      ],
+      "indice_alternativa_correta": 2,
+      "explicacao": "Miguel foi chamado pelo diretor, professor Cardoso."
+    },
+    {
+      "pergunta": "Qual era a opinião de Miguel sobre esconder informações dos estudantes?",
+      "alternativas": [
+        "Isso ajudaria todos a se proteger",
+        "Isso impediria que os estudantes se protegessem",
+        "Isso resolveria o desaparecimento",
+        "Isso faria os policiais irem embora"
+      ],
+      "indice_alternativa_correta": 1,
+      "explicacao": "Miguel acreditava que, sem conhecer os riscos, os estudantes não poderiam se proteger."
+    },
+    {
+      "pergunta": "Quem achava que Bronca poderia ter fugido por vontade própria?",
+      "alternativas": [
+        "Professor Cardoso",
+        "Detetive Rubens",
+        "Detetive Andrade",
+        "Miguel"
+      ],
+      "indice_alternativa_correta": 2,
+      "explicacao": "Andrade considerava a possibilidade de Bronca ter fugido por decisão própria."
+    },
+    {
+      "pergunta": "Qual detetive tratou Miguel com mais respeito?",
+      "alternativas": [
+        "Andrade",
+        "Rubens",
+        "Cardoso",
+        "Bronca"
+      ],
+      "indice_alternativa_correta": 1,
+      "explicacao": "Rubens demonstrou mais respeito por Miguel e interesse verdadeiro em resolver o caso."
+    },
+    {
+      "pergunta": "Por que Chumbinho foi levado para prestar depoimento?",
+      "alternativas": [
+        "Porque havia entrado no esconderijo dos Karas",
+        "Porque era amigo de Bino",
+        "Porque foi a última pessoa a conversar com Bronca",
+        "Porque discutiu com o diretor"
+      ],
+      "indice_alternativa_correta": 2,
+      "explicacao": "A polícia queria ouvi-lo porque ele havia conversado com Bronca pouco antes do desaparecimento."
+    },
+    {
+      "pergunta": "O que Miguel fez antes de Chumbinho responder às perguntas?",
+      "alternativas": [
+        "Contou toda a verdade aos detetives",
+        "Fez discretamente o sinal secreto dos Karas",
+        "Pediu para sair da sala",
+        "Chamou o professor Cardoso"
+      ],
+      "indice_alternativa_correta": 1,
+      "explicacao": "Miguel usou o sinal secreto para orientar Chumbinho a não revelar a conversa importante."
+    },
+    {
+      "pergunta": "Como Chumbinho respondeu ao depoimento?",
+      "alternativas": [
+        "De maneira inocente e vaga",
+        "Com todos os detalhes da conversa",
+        "Recusando-se a falar qualquer palavra",
+        "Acusando Miguel"
+      ],
+      "indice_alternativa_correta": 0,
+      "explicacao": "Ele respondeu de forma vaga e inocente, protegendo o segredo dos Karas."
+    },
+    {
+      "pergunta": "Que informação Chumbinho não revelou aos detetives?",
+      "alternativas": [
+        "Que conhecia Bino",
+        "Que Miguel era presidente do Grêmio",
+        "Que Bronca havia mudado completamente de comportamento",
+        "Que o diretor tentava evitar o pânico"
+      ],
+      "indice_alternativa_correta": 2,
+      "explicacao": "Ele manteve em segredo a mudança estranha de comportamento de Bronca."
+    }
+  ],
+  "flashcards": [
+    {
+      "frente": "Como estava o Colégio Elite após o desaparecimento de Bronca?",
+      "verso": "Muito agitado, com alunos comentando o caso e policiais presentes."
+    },
+    {
+      "frente": "Quem é o professor Cardoso?",
+      "verso": "O diretor do Colégio Elite."
+    },
+    {
+      "frente": "O que Cardoso pediu a Miguel?",
+      "verso": "Que ajudasse a manter os estudantes calmos."
+    },
+    {
+      "frente": "Por que Cardoso não queria divulgar muitas informações?",
+      "verso": "Porque acreditava que isso poderia atrapalhar a investigação e aumentar o medo."
+    },
+    {
+      "frente": "O que Miguel pensava sobre esconder a verdade?",
+      "verso": "Que isso impediria os estudantes de se proteger."
+    },
+    {
+      "frente": "Quem era o detetive Andrade?",
+      "verso": "O detetive que acreditava que Bronca poderia ter fugido e que se irritou com Chumbinho."
+    },
+    {
+      "frente": "Quem era o detetive Rubens?",
+      "verso": "O detetive que tratou Miguel com respeito e parecia querer resolver o caso."
+    },
+    {
+      "frente": "Por que Chumbinho prestou depoimento?",
+      "verso": "Porque foi a última pessoa a conversar com Bronca."
+    },
+    {
+      "frente": "O que Miguel fez durante o depoimento de Chumbinho?",
+      "verso": "Fez discretamente o sinal secreto dos Karas."
+    },
+    {
+      "frente": "Como Chumbinho protegeu a investigação?",
+      "verso": "Respondeu de forma inocente e vaga, sem revelar a mudança de Bronca."
+    },
+    {
+      "frente": "Que pista permaneceu escondida da polícia?",
+      "verso": "A mudança completa de comportamento de Bronca antes de desaparecer."
+    },
+    {
+      "frente": "O que Chumbinho provou neste capítulo?",
+      "verso": "Que sabia guardar os segredos dos Karas e podia ser um aliado importante."
+    }
+  ],
+  "verdadeiro_ou_falso": [
+    {
+      "afirmacao": "O Colégio Elite estava mais agitado após o desaparecimento de Bronca.",
+      "resposta": true,
+      "explicacao": "Os alunos comentavam o caso e havia policiais na escola."
+    },
+    {
+      "afirmacao": "A direção queria aumentar o pânico para obter informações.",
+      "resposta": false,
+      "explicacao": "A direção tentava evitar o pânico."
+    },
+    {
+      "afirmacao": "Miguel foi chamado para conversar com o professor Cardoso.",
+      "resposta": true,
+      "explicacao": "Cardoso era o diretor e falou com Miguel como presidente do Grêmio."
+    },
+    {
+      "afirmacao": "Miguel concordava que a verdade deveria ser escondida dos estudantes.",
+      "resposta": false,
+      "explicacao": "Ele achava que esconder a verdade impediria os alunos de se proteger."
+    },
+    {
+      "afirmacao": "Andrade acreditava que Bronca poderia ter fugido por vontade própria.",
+      "resposta": true,
+      "explicacao": "Essa era uma das hipóteses consideradas por Andrade."
+    },
+    {
+      "afirmacao": "Rubens tratou Miguel com menos respeito que Andrade.",
+      "resposta": false,
+      "explicacao": "Rubens tratou Miguel com mais respeito."
+    },
+    {
+      "afirmacao": "Chumbinho foi ouvido porque havia sido a última pessoa a conversar com Bronca.",
+      "resposta": true,
+      "explicacao": "Esse foi o motivo de seu depoimento."
+    },
+    {
+      "afirmacao": "Miguel pediu que Chumbinho revelasse toda a conversa com Bronca.",
+      "resposta": false,
+      "explicacao": "Miguel fez o sinal para que ele mantivesse silêncio sobre a conversa."
+    },
+    {
+      "afirmacao": "Chumbinho respondeu de forma vaga e irritou Andrade.",
+      "resposta": true,
+      "explicacao": "Ele evitou revelar a pista e deixou Andrade irritado."
+    },
+    {
+      "afirmacao": "No final, Miguel concluiu que podia confiar em todas as pessoas da investigação.",
+      "resposta": false,
+      "explicacao": "Miguel percebeu que nem todas as pessoas envolvidas inspiravam confiança."
+    }
+  ],
+  "complete_a_frase": [
+    {
+      "frase": "O Colégio Elite estava muito mais ________ que o normal.",
+      "resposta": "agitado"
+    },
+    {
+      "frase": "A presença de ________ mostrava que a situação era grave.",
+      "resposta": "policiais"
+    },
+    {
+      "frase": "Miguel era presidente do ________.",
+      "resposta": "Grêmio"
+    },
+    {
+      "frase": "O diretor do Elite era o professor ________.",
+      "resposta": "Cardoso"
+    },
+    {
+      "frase": "Miguel acreditava que os alunos precisavam conhecer os ________.",
+      "resposta": "riscos"
+    },
+    {
+      "frase": "O detetive ________ pensava que Bronca poderia ter fugido.",
+      "resposta": "Andrade"
+    },
+    {
+      "frase": "O detetive ________ tratou Miguel com mais respeito.",
+      "resposta": "Rubens"
+    },
+    {
+      "frase": "Chumbinho foi a última pessoa a conversar com ________.",
+      "resposta": "Bronca"
+    },
+    {
+      "frase": "Miguel fez discretamente o sinal secreto dos ________.",
+      "resposta": "Karas"
+    },
+    {
+      "frase": "Chumbinho respondeu de forma inocente e ________.",
+      "resposta": "vaga"
+    }
+  ],
+  "ordem_cronologica": {
+    "lista_embaralhada": [
+      {
+        "id": "acontecimento_5",
+        "texto": "Miguel faz o sinal secreto para Chumbinho."
+      },
+      {
+        "id": "acontecimento_2",
+        "texto": "Miguel conversa com o professor Cardoso."
+      },
+      {
+        "id": "acontecimento_6",
+        "texto": "Chumbinho responde de maneira vaga e protege a pista."
+      },
+      {
+        "id": "acontecimento_1",
+        "texto": "O Colégio Elite amanhece agitado com o caso de Bronca."
+      },
+      {
+        "id": "acontecimento_4",
+        "texto": "Chumbinho é levado para prestar depoimento."
+      },
+      {
+        "id": "acontecimento_3",
+        "texto": "Os detetives Andrade e Rubens chegam."
+      }
+    ],
+    "ordem_correta": [
+      "acontecimento_1",
+      "acontecimento_2",
+      "acontecimento_3",
+      "acontecimento_4",
+      "acontecimento_5",
+      "acontecimento_6"
+    ]
+  },
+  "relacione": [
+    {
+      "tipo": "personagem_funcao",
+      "coluna_a": [
+        {
+          "id": "a1",
+          "texto": "Miguel"
+        },
+        {
+          "id": "a2",
+          "texto": "Professor Cardoso"
+        },
+        {
+          "id": "a3",
+          "texto": "Andrade"
+        },
+        {
+          "id": "a4",
+          "texto": "Rubens"
+        }
+      ],
+      "coluna_b": [
+        {
+          "id": "b1",
+          "texto": "Diretor do Colégio Elite"
+        },
+        {
+          "id": "b2",
+          "texto": "Detetive que tratou Miguel com respeito"
+        },
+        {
+          "id": "b3",
+          "texto": "Presidente do Grêmio"
+        },
+        {
+          "id": "b4",
+          "texto": "Detetive que considerou a hipótese de fuga"
+        }
+      ],
+      "gabarito": [
+        {
+          "item_a": "a1",
+          "item_b": "b3"
+        },
+        {
+          "item_a": "a2",
+          "item_b": "b1"
+        },
+        {
+          "item_a": "a3",
+          "item_b": "b4"
+        },
+        {
+          "item_a": "a4",
+          "item_b": "b2"
+        }
+      ]
+    },
+    {
+      "tipo": "personagem_acao",
+      "coluna_a": [
+        {
+          "id": "a1",
+          "texto": "Miguel"
+        },
+        {
+          "id": "a2",
+          "texto": "Cardoso"
+        },
+        {
+          "id": "a3",
+          "texto": "Chumbinho"
+        },
+        {
+          "id": "a4",
+          "texto": "Andrade"
+        }
+      ],
+      "coluna_b": [
+        {
+          "id": "b1",
+          "texto": "Pediu ajuda para manter os estudantes calmos"
+        },
+        {
+          "id": "b2",
+          "texto": "Respondeu de forma vaga"
+        },
+        {
+          "id": "b3",
+          "texto": "Fez um sinal secreto"
+        },
+        {
+          "id": "b4",
+          "texto": "Ficou irritado com o depoimento"
+        }
+      ],
+      "gabarito": [
+        {
+          "item_a": "a1",
+          "item_b": "b3"
+        },
+        {
+          "item_a": "a2",
+          "item_b": "b1"
+        },
+        {
+          "item_a": "a3",
+          "item_b": "b2"
+        },
+        {
+          "item_a": "a4",
+          "item_b": "b4"
+        }
+      ]
+    },
+    {
+      "tipo": "ideia_personagem",
+      "coluna_a": [
+        {
+          "id": "a1",
+          "texto": "Professor Cardoso"
+        },
+        {
+          "id": "a2",
+          "texto": "Miguel"
+        },
+        {
+          "id": "a3",
+          "texto": "Andrade"
+        },
+        {
+          "id": "a4",
+          "texto": "Rubens"
+        }
+      ],
+      "coluna_b": [
+        {
+          "id": "b1",
+          "texto": "Parecia realmente querer resolver o caso"
+        },
+        {
+          "id": "b2",
+          "texto": "Muitas informações poderiam aumentar o medo"
+        },
+        {
+          "id": "b3",
+          "texto": "Bronca poderia ter fugido por vontade própria"
+        },
+        {
+          "id": "b4",
+          "texto": "Conhecer os riscos ajudaria os alunos a se proteger"
+        }
+      ],
+      "gabarito": [
+        {
+          "item_a": "a1",
+          "item_b": "b2"
+        },
+        {
+          "item_a": "a2",
+          "item_b": "b4"
+        },
+        {
+          "item_a": "a3",
+          "item_b": "b3"
+        },
+        {
+          "item_a": "a4",
+          "item_b": "b1"
+        }
+      ]
+    },
+    {
+      "tipo": "acao_consequencia",
+      "coluna_a": [
+        {
+          "id": "a1",
+          "texto": "A direção evita divulgar informações"
+        },
+        {
+          "id": "a2",
+          "texto": "Miguel faz o sinal secreto"
+        },
+        {
+          "id": "a3",
+          "texto": "Chumbinho responde de forma vaga"
+        },
+        {
+          "id": "a4",
+          "texto": "Chumbinho guarda o segredo"
+        }
+      ],
+      "coluna_b": [
+        {
+          "id": "b1",
+          "texto": "Andrade fica irritado"
+        },
+        {
+          "id": "b2",
+          "texto": "A pista sobre Bronca não é revelada"
+        },
+        {
+          "id": "b3",
+          "texto": "O objetivo é impedir o aumento do pânico"
+        },
+        {
+          "id": "b4",
+          "texto": "Miguel percebe que ele pode ser um aliado"
+        }
+      ],
+      "gabarito": [
+        {
+          "item_a": "a1",
+          "item_b": "b3"
+        },
+        {
+          "item_a": "a2",
+          "item_b": "b2"
+        },
+        {
+          "item_a": "a3",
+          "item_b": "b1"
+        },
+        {
+          "item_a": "a4",
+          "item_b": "b4"
+        }
+      ]
+    },
+    {
+      "tipo": "termo_significado",
+      "coluna_a": [
+        {
+          "id": "a1",
+          "texto": "Pânico"
+        },
+        {
+          "id": "a2",
+          "texto": "Depoimento"
+        },
+        {
+          "id": "a3",
+          "texto": "Sigilo"
+        },
+        {
+          "id": "a4",
+          "texto": "Vago"
+        }
+      ],
+      "coluna_b": [
+        {
+          "id": "b1",
+          "texto": "Informação mantida em segredo"
+        },
+        {
+          "id": "b2",
+          "texto": "Resposta sem muitos detalhes"
+        },
+        {
+          "id": "b3",
+          "texto": "Relato dado a uma autoridade"
+        },
+        {
+          "id": "b4",
+          "texto": "Medo intenso e descontrolado"
+        }
+      ],
+      "gabarito": [
+        {
+          "item_a": "a1",
+          "item_b": "b4"
+        },
+        {
+          "item_a": "a2",
+          "item_b": "b3"
+        },
+        {
+          "item_a": "a3",
+          "item_b": "b1"
+        },
+        {
+          "item_a": "a4",
+          "item_b": "b2"
+        }
+      ]
+    }
+  ],
+  "personagens": [
+    {
+      "nome": "Miguel",
+      "descricao_curta": "Presidente do Grêmio e líder dos Karas, que discorda de esconder os riscos dos alunos."
+    },
+    {
+      "nome": "Professor Cardoso",
+      "descricao_curta": "Diretor do Colégio Elite, preocupado em evitar pânico e proteger a investigação."
+    },
+    {
+      "nome": "Chumbinho",
+      "descricao_curta": "Última pessoa a conversar com Bronca e aliado que mantém a pista em segredo."
+    },
+    {
+      "nome": "Detetive Andrade",
+      "descricao_curta": "Investigador que acredita na possibilidade de fuga e se irrita com as respostas vagas."
+    },
+    {
+      "nome": "Detetive Rubens",
+      "descricao_curta": "Investigador que trata Miguel com respeito e demonstra interesse em resolver o caso."
+    },
+    {
+      "nome": "Bronca",
+      "descricao_curta": "Aluno desaparecido cuja mudança de comportamento é uma pista importante."
+    }
+  ],
+  "lugares": [
+    {
+      "nome": "Colégio Elite",
+      "descricao_simples": "Escola onde ocorre a investigação e onde o desaparecimento causa preocupação."
+    },
+    {
+      "nome": "Direção do Colégio Elite",
+      "descricao_simples": "Setor comandado pelo professor Cardoso e ligado às decisões sobre as informações do caso."
+    },
+    {
+      "nome": "Escola",
+      "descricao_simples": "Ambiente onde alunos, direção, Karas e policiais acompanham o caso."
+    }
+  ],
+  "vocabulario": [
+    {
+      "palavra": "Pânico",
+      "significado_simples": "Medo muito forte que dificulta pensar e agir com calma.",
+      "exemplo_de_uso": "A direção tentava evitar o pânico entre os estudantes."
+    },
+    {
+      "palavra": "Divulgar",
+      "significado_simples": "Tornar uma informação conhecida por outras pessoas.",
+      "exemplo_de_uso": "Cardoso não queria divulgar muitas informações."
+    },
+    {
+      "palavra": "Investigação",
+      "significado_simples": "Busca organizada de informações para descobrir o que aconteceu.",
+      "exemplo_de_uso": "A polícia continuava a investigação sobre Bronca."
+    },
+    {
+      "palavra": "Depoimento",
+      "significado_simples": "Relato dado a policiais ou outras autoridades.",
+      "exemplo_de_uso": "Chumbinho foi levado para prestar depoimento."
+    },
+    {
+      "palavra": "Discretamente",
+      "significado_simples": "De maneira cuidadosa, sem chamar atenção.",
+      "exemplo_de_uso": "Miguel fez discretamente o sinal dos Karas."
+    },
+    {
+      "palavra": "Sigilo",
+      "significado_simples": "Condição de uma informação que deve permanecer em segredo.",
+      "exemplo_de_uso": "A polícia mantinha a investigação em sigilo."
+    },
+    {
+      "palavra": "Vago",
+      "significado_simples": "Sem detalhes ou sem muita precisão.",
+      "exemplo_de_uso": "Chumbinho deu respostas vagas."
+    },
+    {
+      "palavra": "Inspirar confiança",
+      "significado_simples": "Fazer alguém acreditar que pode confiar em uma pessoa.",
+      "exemplo_de_uso": "Nem todos os envolvidos inspiravam confiança em Miguel."
+    },
+    {
+      "palavra": "Colaborar",
+      "significado_simples": "Ajudar alguém em uma tarefa ou objetivo.",
+      "exemplo_de_uso": "Miguel decidiu colaborar para evitar o pânico."
+    },
+    {
+      "palavra": "Hipótese",
+      "significado_simples": "Possível explicação para algo ainda não confirmado.",
+      "exemplo_de_uso": "Andrade apresentou a hipótese de que Bronca havia fugido."
+    }
+  ],
+  "desafio_de_observacao": [
+    {
+      "pergunta": "Que detalhe mostrava aos alunos que o caso era realmente grave?",
+      "resposta": "A presença de policiais no Colégio Elite."
+    },
+    {
+      "pergunta": "Qual função de Miguel fez com que Cardoso pedisse sua ajuda?",
+      "resposta": "Miguel era presidente do Grêmio."
+    },
+    {
+      "pergunta": "Que diferença de atitude existia entre Andrade e Rubens?",
+      "resposta": "Andrade desconfiava de uma fuga e se irritava, enquanto Rubens tratava Miguel com respeito e queria resolver o caso."
+    },
+    {
+      "pergunta": "Que comportamento de Chumbinho irritou Andrade?",
+      "resposta": "Responder às perguntas de forma inocente e vaga."
+    },
+    {
+      "pergunta": "Qual informação específica Miguel e Chumbinho esconderam dos detetives?",
+      "resposta": "Que Bronca havia mudado completamente de comportamento antes de desaparecer."
+    }
+  ],
+  "missao_detetive": [
+    {
+      "desafio": "O que indica que Miguel não confiava igualmente em todos os envolvidos na investigação?",
+      "resposta": "Ele percebeu atitudes diferentes entre os detetives e decidiu manter uma pista importante em segredo.",
+      "explicacao": "Miguel observou que Andrade e Rubens agiam de maneiras diferentes e não revelou tudo à polícia."
+    },
+    {
+      "desafio": "Por que a mudança de comportamento de Bronca era uma pista tão importante?",
+      "resposta": "Porque aconteceu antes do desaparecimento e era completamente diferente do modo normal de Bronca agir.",
+      "explicacao": "Essa alteração poderia estar ligada à causa do desaparecimento."
+    },
+    {
+      "desafio": "O que poderia acontecer com a investigação dos Karas se Chumbinho revelasse toda a conversa?",
+      "resposta": "Os detetives saberiam da pista secreta, e os Karas poderiam perder o controle sobre uma informação que ainda queriam investigar.",
+      "explicacao": "Miguel orientou Chumbinho a manter silêncio, mostrando que considerava importante proteger a pista."
+    }
+  ],
+  "curiosidades": [],
+  "metadados": {
+    "personagens_citados": [
+      "Miguel",
+      "Professor Cardoso",
+      "Chumbinho",
+      "Detetive Andrade",
+      "Detetive Rubens",
+      "Bronca"
+    ],
+    "locais_citados": [
+      "Colégio Elite",
+      "Direção do Colégio Elite",
+      "Escola"
+    ],
+    "objetos_importantes": [
+      "Sinal secreto dos Karas"
+    ],
+    "principais_acontecimentos": [
+      "O Colégio Elite fica agitado após o desaparecimento de Bronca.",
+      "Miguel conversa com o professor Cardoso sobre informar ou não os estudantes.",
+      "Andrade e Rubens chegam para investigar.",
+      "Chumbinho é chamado para prestar depoimento.",
+      "Miguel faz o sinal secreto para que Chumbinho proteja a pista.",
+      "Chumbinho responde de forma vaga e não revela a mudança de Bronca.",
+      "Miguel percebe que nem todos os envolvidos inspiram confiança.",
+      "Chumbinho prova que consegue guardar os segredos dos Karas."
+    ],
+    "nivel_estimado_de_dificuldade": 2,
+    "tempo_medio_para_leitura_minutos": 5,
+    "tempo_medio_para_resolver_todas_as_atividades_minutos": 35
+  }
+}

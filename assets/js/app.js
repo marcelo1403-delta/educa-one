@@ -1,4 +1,4 @@
-const APP_VERSION='9';
+const APP_VERSION='10';
 const bookRoot=['data','livros','a droga da obediência'];
 const files={chapters:{
 1:{title:'Os Karas',md:['leitura','capitulo 01','01%20-%20Os%20Karas%20simplificado.md'],json:['leitura','capitulo 01','capitulo_01_os_karas_atividades.json']},
@@ -31,7 +31,7 @@ const p=id=>S.progress['c'+id]||0;
 const save=(id,v)=>{S.progress['c'+id]=Math.max(p(id),v);localStorage.setItem('progress',JSON.stringify(S.progress))};
 const overall=()=>Math.round(S.data.chapters.reduce((a,c)=>a+p(c.id),0)/S.data.chapters.length);
 const chapterTitle=c=>files.chapters[c.id]?.title||c.title;
-const chapterSubtitle=c=>files.chapters[c.id]?.md?'Conteúdo disponível em data/livros':'Conteúdo aguardando arquivo em data/livros';
+const chapterSubtitle=c=>files.chapters[c.id]?.md?'':'Em breve';
 
 async function getText(parts){const r=await fetch(url(parts));if(!r.ok)throw new Error('Arquivo não encontrado');return r.text()}
 async function getJson(parts){const r=await fetch(url(parts));if(!r.ok)throw new Error('Arquivo não encontrado');return r.json()}
@@ -49,9 +49,9 @@ function mdToHtml(md){
   flushPara();flushList();return html;
 }
 
-function row(c){let x=p(c.id),has=files.chapters[c.id]?.md;return `<a class="chapter" href="#/capitulos/${c.id}"><span class="dot ${x===100?'done':''}">${x===100?'✓':x?'▶':''}</span><span><b>Capítulo ${c.id} — ${esc(chapterTitle(c))}</b><small class="muted">${esc(chapterSubtitle(c))}</small><div class="bar"><span style="width:${x}%"></span></div></span><span>${has?'Abrir':'Em breve'} ›</span></a>`}
+function row(c){let x=p(c.id),has=files.chapters[c.id]?.md,sub=chapterSubtitle(c);return `<a class="chapter" href="#/capitulos/${c.id}"><span class="dot ${x===100?'done':''}">${x===100?'✓':x?'▶':''}</span><span><b>Capítulo ${c.id} — ${esc(chapterTitle(c))}</b>${sub?`<small class="muted">${esc(sub)}</small>`:''}<div class="bar"><span style="width:${x}%"></span></div></span><span>${has?'Abrir':'Em breve'} ›</span></a>`}
 function home(){let d=S.data,g=d.chapters.slice(0,5),o=overall();app.innerHTML=`<section class="hero"><div><div class="eyebrow">ESTUDO DO LIVRO</div><h1>${esc(d.book.title)}</h1><h2>${esc(d.book.author)}</h2><p>${esc(d.book.description)}</p><p><a class="btn primary" href="#/capitulos/1">▶ Continuar estudando</a> <a class="btn secondary" href="#/capitulos">Ver capítulos</a></p></div><div class="progress-card"><h3>Meu progresso</h3><div class="ring" style="--p:${o}%">${o}%</div><p>📖 ${d.chapters.filter(c=>p(c.id)===100).length} de ${d.chapters.length} capítulos</p><p>❔ Atividades nos capítulos 1 a 3</p><p>🗂 Flashcards nos capítulos 1 a 3</p><p>▶ ${files.videos.length} vídeos disponíveis</p></div></section><section class="quick"><a href="#/capitulos">📖 Capítulos<br><small>Arquivos em data</small></a><a href="#/videos">▶ Vídeos<br><small>MP4 do projeto</small></a><a href="#/capitulos/1">🧠 Quiz<br><small>Atividades reais</small></a><a href="#/capitulos/1">🗂 Flashcards<br><small>Cartões reais</small></a></section><section class="panel"><h2>Capítulos</h2><div class="grid">${g.map(row).join('')}</div></section>`}
-function list(){app.innerHTML=`<section class="page"><h1>Capítulos</h1><p class="muted">Leia, responda e revise usando os arquivos da pasta data.</p><div class="grid">${S.data.chapters.map(row).join('')}</div></section>`}
+function list(){app.innerHTML=`<section class="page"><h1>Capítulos</h1><p class="muted">Leia, responda e revise.</p><div class="grid">${S.data.chapters.map(row).join('')}</div></section>`}
 function quizHtml(id,questions){if(!questions.length)return '<div class="scene"><p>As perguntas deste capítulo ainda não foram adicionadas em data.</p></div>';return questions.map((q,qi)=>`<fieldset class="scene q" data-a="${q.answer}" data-exp="${esc(q.explanation)}"><legend><b>${qi+1}. ${esc(q.question)}</b></legend>${q.options.map((o,oi)=>`<label class="option"><input type="radio" name="q${id}-${qi}" value="${oi}"> ${esc(o)}</label>`).join('')}<div class="fb"></div></fieldset>`).join('')}
 function flashHtml(cards){if(!cards.length)return '<div class="scene"><p>Os flashcards deste capítulo ainda não foram adicionados em data.</p></div>';return `<div class="flashgrid">${cards.map(f=>`<button class="flash"><span class="front">${esc(f.front)}</span><span class="back">${esc(f.back)}</span></button>`).join('')}</div>`}
 

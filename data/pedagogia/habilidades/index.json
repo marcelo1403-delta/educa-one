@@ -1,0 +1,32 @@
+[
+  {
+    "id": "HB-LEI-001",
+    "slug": "localizar-informacao-explicita",
+    "nome": "Localizar informação explícita"
+  },
+  {
+    "id": "HB-LEI-002",
+    "slug": "identificar-personagens",
+    "nome": "Identificar personagens"
+  },
+  {
+    "id": "HB-LEI-007",
+    "slug": "inferir-informacao-implicita",
+    "nome": "Inferir informação implícita"
+  },
+  {
+    "id": "HB-MEM-003",
+    "slug": "recuperar-nomes-personagens",
+    "nome": "Recuperar nomes de personagens"
+  },
+  {
+    "id": "HB-ATE-002",
+    "slug": "atencao-aos-detalhes",
+    "nome": "Atenção aos detalhes"
+  },
+  {
+    "id": "HB-ENG-002",
+    "slug": "concluir-atividades",
+    "nome": "Concluir atividades"
+  }
+]

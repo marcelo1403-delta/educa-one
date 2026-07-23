@@ -1,0 +1,27 @@
+[
+  {
+    "id": "CP-LEI-01",
+    "slug": "compreensao-literal",
+    "nome": "Compreensão Literal"
+  },
+  {
+    "id": "CP-LEI-02",
+    "slug": "compreensao-inferencial",
+    "nome": "Compreensão Inferencial"
+  },
+  {
+    "id": "CP-MEM-01",
+    "slug": "recuperacao-informacoes",
+    "nome": "Recuperação de Informações"
+  },
+  {
+    "id": "CP-ATE-01",
+    "slug": "atencao-sustentada",
+    "nome": "Atenção Sustentada"
+  },
+  {
+    "id": "CP-ENG-01",
+    "slug": "participacao",
+    "nome": "Participação"
+  }
+]

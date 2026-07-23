@@ -1,0 +1,32 @@
+[
+  {
+    "id": "AR-LEI",
+    "slug": "leitura-compreensao-textual",
+    "nome": "Leitura e Compreensão Textual"
+  },
+  {
+    "id": "AR-VOC",
+    "slug": "vocabulario-linguagem",
+    "nome": "Vocabulário e Linguagem"
+  },
+  {
+    "id": "AR-MEM",
+    "slug": "memoria-retencao",
+    "nome": "Memória e Retenção"
+  },
+  {
+    "id": "AR-RAC",
+    "slug": "raciocinio",
+    "nome": "Raciocínio"
+  },
+  {
+    "id": "AR-ATE",
+    "slug": "atencao-autorregulacao",
+    "nome": "Atenção e Autorregulação"
+  },
+  {
+    "id": "AR-ENG",
+    "slug": "engajamento",
+    "nome": "Engajamento"
+  }
+]

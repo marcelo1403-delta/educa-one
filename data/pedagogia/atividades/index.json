@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "quiz",
+    "nome": "Quiz"
+  },
+  {
+    "slug": "flashcard",
+    "nome": "Flashcard"
+  },
+  {
+    "slug": "cloze",
+    "nome": "Cloze"
+  },
+  {
+    "slug": "timeline",
+    "nome": "Timeline"
+  },
+  {
+    "slug": "leitura",
+    "nome": "Leitura"
+  }
+]

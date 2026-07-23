@@ -1,4 +1,4 @@
-const APP_VERSION='17';
+const APP_VERSION='18';
 const bookRoot=['data','livros','a droga da obediência'];
 const files={chapters:{
 1:{title:'Os Karas',md:['leitura','capitulo 01','01%20-%20Os%20Karas%20simplificado.md'],json:['leitura','capitulo 01','capitulo_01_os_karas_atividades.json']},
@@ -35,7 +35,7 @@ const files={chapters:{
 {title:'Vídeo 1',range:'Capítulos 1 a 5',src:'https://pub-b14aacef07d1423ba53cf17a2025b1d3.r2.dev/01.%20cap.%2001%20a%2005.mp4'},
 {title:'Vídeo 2',range:'Capítulos 6 a 10',src:'https://pub-b14aacef07d1423ba53cf17a2025b1d3.r2.dev/02.%20cap.%2006%20a%2010.mp4'},
 {title:'Vídeo 3',range:'Capítulos 11 a 15',src:'https://pub-b14aacef07d1423ba53cf17a2025b1d3.r2.dev/03.%20cap.%2011%20a%2015.mp4'},
-{title:'Vídeo 4',range:'Capítulos 16 a 20'}
+{title:'Vídeo 4',range:'Capítulos 16 a 20',src:'https://pub-b14aacef07d1423ba53cf17a2025b1d3.r2.dev/04.%20cap.%2016%20a%2020.mp4'}
 ]};
 
 const app=document.querySelector('#app'),side=document.querySelector('#sidebar'),ov=document.querySelector('#overlay');

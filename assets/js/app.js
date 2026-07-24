@@ -1,4 +1,4 @@
-const APP_VERSION='24';
+const APP_VERSION='26';
 const bookRoot=['data','conteudos','livros','a-droga-da-obediencia'];
 const files={chapters:{
 1:{title:'Os Karas',md:['leitura','01%20-%20Os%20Karas%20simplificado.md']},
@@ -185,7 +185,16 @@ function parseClozesJson(data){
 
 function row(c){let x=p(c.id),has=files.chapters[c.id]?.md,sub=chapterSubtitle(c);return `<a class="chapter" href="#/capitulos/${c.id}"><span class="dot ${x===100?'done':''}">${x===100?'OK':x?'▶':''}</span><span><b>Capitulo ${c.id} - ${esc(chapterTitle(c))}</b>${sub?`<small class="muted">${esc(sub)}</small>`:''}<div class="bar"><span style="width:${x}%"></span></div></span><span>${has?'Abrir':'Em breve'} ›</span></a>`}
 function home(){let d=S.data,chapters=allChapters(),g=chapters.slice(0,5),o=overall();app.innerHTML=`<section class="hero"><div><div class="eyebrow">ESTUDO DO LIVRO</div><h1>${esc(d.book.title)}</h1><h2>${esc(d.book.author)}</h2><p>${esc(d.book.description)}</p><p><a class="btn primary" href="#/capitulos/1">▶ Continuar estudando</a> <a class="btn secondary" href="#/capitulos">Ver capitulos</a></p></div><div class="progress-card"><h3>Meu progresso</h3><div class="ring" style="--p:${o}%">${o}%</div><p>${chapters.filter(c=>p(c.id)===100).length} de ${chapters.length} capitulos</p><p>${S.videos.length} videos disponiveis</p></div></section><section class="quick"><a href="#/capitulos">Capitulos</a><a href="#/videos">Videos</a><a href="#/capitulos/1">Quiz</a><a href="#/capitulos/1">Flashcards</a></section><section class="panel"><h2>Capitulos</h2><div class="grid">${g.map(row).join('')}</div></section>`}
-function list(){app.innerHTML=`<section class="page"><h1>Capitulos</h1><p class="muted">Leia, responda e revise.</p><div class="grid">${allChapters().map(row).join('')}</div></section>`}
+function chapterStatus(id){const x=p(id);return x===100?'Concluido':x>0?'Em andamento':'Nao iniciado'}
+function netflixChapterCard(c){
+  const x=p(c.id),status=chapterStatus(c.id),statusClass=x===100?'done':x>0?'doing':'idle';
+  return `<a class="nf-card ${statusClass}" href="#/capitulos/${c.id}"><span class="nf-number">${String(c.id).padStart(2,'0')}</span><span class="nf-play">▶</span><span class="nf-title">${esc(chapterTitle(c))}</span><span class="nf-card-bar"><i style="width:${x}%"></i></span><small>${status}</small></a>`;
+}
+function list(){
+  const d=S.data,chapters=allChapters(),o=overall(),done=chapters.filter(c=>p(c.id)===100).length,doing=chapters.filter(c=>p(c.id)>0&&p(c.id)<100).length,notStarted=chapters.length-done-doing;
+  app.innerHTML=`<section class="nf-page"><div class="nf-hero"><div class="nf-cover"><span class="nf-ribbon">Leitura Simplificada</span><b>A Droga da<br>Obediencia</b><small>Pedro Bandeira</small></div><div class="nf-copy"><span class="nf-kicker">A DROGA DA OBEDIENCIA</span><h1>Capitulos</h1><h2>Leia, responda e revise.</h2><p>${esc(d.book.description)}</p><div class="nf-progress"><span>Seu progresso geral</span><div class="bar"><span style="width:${o}%"></span></div><b>${o}%</b></div><div class="nf-meta"><span>▣ ${chapters.length} capitulos</span><span>◷ ~12h de leitura</span><span>★ Conquistas</span></div></div></div><div class="nf-toolbar"><div class="nf-filters"><button class="active" data-filter="all">Todos os capitulos</button><button data-filter="idle">Nao iniciados ${notStarted}</button><button data-filter="doing">Em andamento ${doing}</button><button data-filter="done">Concluidos ${done}</button></div><span>Ordenar: Padrao</span></div><div class="nf-grid">${chapters.map(netflixChapterCard).join('')}</div></section>`;
+  document.querySelectorAll('.nf-filters button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.nf-filters button').forEach(x=>x.classList.toggle('active',x===b));document.querySelectorAll('.nf-card').forEach(card=>{card.style.display=b.dataset.filter==='all'||card.classList.contains(b.dataset.filter)?'flex':'none'})});
+}
 function quizHtml(id,questions,md){if(questions.length)return questions.map((q,qi)=>`<div class="scene q" data-a="${q.answer}" data-exp="${esc(q.explanation)}"><h3>${qi+1}. ${esc(q.question)}</h3>${q.options.map((o,oi)=>`<label class="option"><input type="radio" name="q${id}-${qi}" value="${oi}"> ${esc(o)}</label>`).join('')}<div class="fb"></div></div>`).join('');return `<div class="scene">${mdToHtml(md||'> As perguntas deste capitulo ainda nao foram adicionadas em data.')}</div>`}
 function flashHtml(cards,md){if(cards.length)return `<div class="flashgrid">${cards.map(f=>`<button class="flash"><span class="front">${esc(f.front)}</span><span class="back">${esc(f.back)}</span></button>`).join('')}</div>`;return `<div class="scene">${mdToHtml(md||'> Os flashcards deste capitulo ainda nao foram adicionados em data.')}</div>`}
 function clozeHtml(items,md){if(items.length)return items.map((c,i)=>`<div class="scene cloze" data-answers="${esc(c.answers.join('|'))}"><h3>Cloze ${i+1}</h3><p>${esc(c.text)}</p><input class="cloze-input" placeholder="Digite a resposta"><button class="btn secondary cloze-check">Conferir</button><div class="fb"></div></div>`).join('');return `<div class="scene">${mdToHtml(md||'> Os exercicios deste capitulo ainda nao foram adicionados em data.')}</div>`}
@@ -209,20 +218,22 @@ function objetivosHtml(data){
 
 async function chapter(id){
   let f=files.chapters[id],c=S.data.chapters.find(x=>x.id===id)||{id,title:f?.title,subtitle:''};if(!f)return notfound();save(id,20);
-  app.innerHTML='<section class="page"><div class="panel">Carregando arquivos do capitulo...</div></section>';
   const pad=String(id).padStart(2,'0');
-  let md='',quizMd='',flashMd='',clozeMd='',error='';
-  let quizJson=null,flashJson=null,clozeJson=null,timelineJson=null,vocabJson=null,objetivosJson=null;
-  if(f?.md){try{md=await getText(f.md)}catch(e){error='Nao consegui carregar o arquivo Markdown deste capitulo.'}}
-  quizJson=await getOptionalJson(['quizzes',`cap.${pad}-quizzes.json`]);
-  flashJson=await getOptionalJson(['flashcards',`cap.${pad}-flashcards.json`]);
-  clozeJson=await getOptionalJson(['clozes',`cap.${pad}-clozes.json`]);
-  timelineJson=await getOptionalJson(['timeline',`cap.${pad}-timeline.json`]);
-  vocabJson=await getOptionalJson(['vocabulario',`cap.${pad}-vocabulario.json`]);
-  objetivosJson=await getOptionalJson(['objetivos',`cap.${pad}-objetivos.json`]);
-  if(!quizJson)quizMd=await getOptionalText(['quizzes',`cap.${pad}-quizzes.md`]);
-  if(!flashJson)flashMd=await getOptionalText(['flashcards',`cap.${pad}-flashcards.md`]);
-  if(!clozeJson)clozeMd=await getOptionalText(['clozes',`cap.${pad}-clozes.md`]);
+  let error='';
+  const [mdResult,quizJson,flashJson,clozeJson,timelineJson,vocabJson,objetivosJson,quizMd,flashMd,clozeMd]=await Promise.all([
+    f?.md?getText(f.md).then(text=>({text})).catch(()=>({text:'',error:'Nao consegui carregar o arquivo Markdown deste capitulo.'})):Promise.resolve({text:''}),
+    getOptionalJson(['quizzes',`cap.${pad}-quizzes.json`]),
+    getOptionalJson(['flashcards',`cap.${pad}-flashcards.json`]),
+    getOptionalJson(['clozes',`cap.${pad}-clozes.json`]),
+    getOptionalJson(['timeline',`cap.${pad}-timeline.json`]),
+    getOptionalJson(['vocabulario',`cap.${pad}-vocabulario.json`]),
+    getOptionalJson(['objetivos',`cap.${pad}-objetivos.json`]),
+    getOptionalText(['quizzes',`cap.${pad}-quizzes.md`]),
+    getOptionalText(['flashcards',`cap.${pad}-flashcards.md`]),
+    getOptionalText(['clozes',`cap.${pad}-clozes.md`])
+  ]);
+  const md=mdResult.text;
+  error=mdResult.error||'';
   const questions=quizJson?parseQuizJson(quizJson):parseQuizMarkdown(quizMd);
   const cards=flashJson?parseFlashcardsJson(flashJson):parseFlashcardsMarkdown(flashMd);
   const clozes=clozeJson?parseClozesJson(clozeJson):parseClozesMarkdown(clozeMd);
@@ -247,12 +258,17 @@ function notfound(){app.innerHTML='<div class="panel"><h1>Pagina nao encontrada<
 function route(){try{if(!S.data)return;side.classList.remove('open');ov.classList.remove('show');let [r,id]=(location.hash.replace('#/','')||'inicio').split('/');({inicio:home,livro:home,capitulos:()=>id?chapter(+id):list(),videos,personagens:chars,glossario:()=>glossary(id),progresso:progress}[r]||notfound)();window.scrollTo(0,0)}catch(e){app.innerHTML=`<section class="page"><div class="panel"><h1>Erro ao abrir a pagina</h1><p>${esc(e.message)}</p></div></section>`;console.error(e)}}
 
 app.innerHTML='<section class="page"><div class="panel">Carregando educa-one...</div></section>';
-Promise.all([
-  fetch('./data/site.json?v='+APP_VERSION).then(r=>{if(!r.ok)throw new Error('Nao consegui carregar data/site.json');return r.json()}),
-  getOptionalText(['videos','videos-r2.md']),
-  getOptionalText(['glossario','glossario.md']),
-  Promise.all(characterFiles.map(id=>getOptionalText(['personagens',id+'.md'])))
-]).then(([d,videosMd,glossaryMd,characterMds])=>{S.data=d;S.videos=parseVideos(videosMd);S.bookGlossary=parseGlossary(glossaryMd);S.bookCharacters=characterMds.filter(Boolean).map(parseCharacter);route()}).catch(e=>{app.innerHTML=`<section class="page"><div class="panel"><h1>Erro ao carregar dados</h1><p>${esc(e.message)}</p></div></section>`;console.error(e)});
+fetch('./data/site.json?v='+APP_VERSION).then(r=>{if(!r.ok)throw new Error('Nao consegui carregar data/site.json');return r.json()}).then(d=>{
+  S.data=d;route();
+  return Promise.all([
+    getOptionalText(['videos','videos-r2.md']),
+    getOptionalText(['glossario','glossario.md']),
+    Promise.all(characterFiles.map(id=>getOptionalText(['personagens',id+'.md'])))
+  ]).then(([videosMd,glossaryMd,characterMds])=>{
+    S.videos=parseVideos(videosMd);S.bookGlossary=parseGlossary(glossaryMd);S.bookCharacters=characterMds.filter(Boolean).map(parseCharacter);
+    if(/^#\/(?:videos|personagens|glossario)/.test(location.hash))route();
+  });
+}).catch(e=>{app.innerHTML=`<section class="page"><div class="panel"><h1>Erro ao carregar dados</h1><p>${esc(e.message)}</p></div></section>`;console.error(e)});
 addEventListener('hashchange',route);
 document.querySelector('#menu').onclick=()=>{side.classList.add('open');ov.classList.add('show')};
 ov.onclick=()=>{side.classList.remove('open');ov.classList.remove('show')};

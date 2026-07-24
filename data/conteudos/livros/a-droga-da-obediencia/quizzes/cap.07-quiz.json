@@ -1,0 +1,126 @@
+{
+  "chapter": 7,
+  "title": "Chumbinho valente",
+  "quizzes": [
+    {
+      "id": 1,
+      "question": "Como Chumbinho abordou o oferecedor da Droga da Obediência no pátio do colégio?",
+      "options": [
+        "Chamou a polícia imediatamente com um apito",
+        "Fingiu curiosidade e interesse na pílula para ganhar a confiança do homem",
+        "Começou a gritar no meio da multidão",
+        "Ofereceu dinheiro em troca do comprimido"
+      ],
+      "answerIndex": 1,
+      "explanation": "Chumbinho usou de astúcia ao simular interesse para se aproximar do suspeito sem ser atacado."
+    },
+    {
+      "id": 2,
+      "question": "Qual estratégia Chumbinho adotou para não engolir o comprimido?",
+      "options": [
+        "Fingiu engolir e guardou debaixo da língua na frente do homem",
+        "Pediu para ir ao banheiro tomar com água e jogou a pílula na lixeira do reservado",
+        "Jogou a pílula no chão do pátio e pisou em cima",
+        "Deu a pílula para um cachorro de rua"
+      ],
+      "answerIndex": 1,
+      "explanation": "No reservado do banheiro, longe do olhar do offeredor, ele descartou a pílula no lixo."
+    },
+    {
+      "id": 3,
+      "question": "De que maneira improvisada Chumbinho conseguiu gravar a pista secreta nos azulejos do banheiro?",
+      "options": [
+        "Usou um canetão vermelho que trazia no bolso",
+        "Com a ponta do canivete riscou o rejunte",
+        "Molhou a ponta do dedo no vaso sanitário sem descarga para obter sujeira como tinta",
+        "Usou pasta de dente para escrever"
+      ],
+      "answerIndex": 2,
+      "explanation": "Superando o nojo em prol do grupo, ele utilizou o resíduo do vaso sanitário como 'tinta' nos azulejos."
+    },
+    {
+      "id": 4,
+      "question": "Qual linguagem de código foi utilizada para escrever a mensagem nos azulejos?",
+      "options": [
+        "Código de barras",
+        "Pontos e traços do Código Morse",
+        "Hieróglifos egípcios",
+        "Sinais de trânsito"
+      ],
+      "answerIndex": 1,
+      "explanation": "Chumbinho desenhou combinações de traços e pontos no padrão Morse para ser lido pelos Karas."
+    },
+    {
+      "id": 5,
+      "question": "O que Chumbinho fez antes de sair da cabine do banheiro?",
+      "options": [
+        "Lavou muito bem a mão com água e sabão na pia",
+        "Deixou sua carteira na saboneteira",
+        "Quebrou o espelho do banheiro",
+        "Trancou a porta pelo lado de fora"
+      ],
+      "answerIndex": 0,
+      "explanation": "Após grafar o código, ele higienizou as mãos para não deixar pista de que havia manipulado o vaso."
+    },
+    {
+      "id": 6,
+      "question": "Como Chumbinho se comportou diante do oferecedor ao sair do reservado?",
+      "options": [
+        "Com raiva e encarando o homem nos olhos",
+        "Com cara de idiota, olhar estático e voz apática de quem foi drogado",
+        "Rindo alto e correndo pelo pátio",
+        "Pedindo socorro aos professores"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ele interpretou com perfeição os sintomas da Droga da Obediência para convencer a quadrilha."
+    },
+    {
+      "id": 7,
+      "question": "Qual ordem o oferecedor deu a Chumbinho após o teste de obediência?",
+      "options": [
+        "Voltar para a sala de aula e estudar",
+        "Sair da escola, ir até a praça e esperar na esquina indicada",
+        "Entrar no porta-malas de um táxi na porta da escola",
+        "Subir na árvore do pátio"
+      ],
+      "answerIndex": 1,
+      "explanation": "O offeredor mandou o garoto caminhar obedientemente até o ponto de recolhimento dos sequestradores."
+    },
+    {
+      "id": 8,
+      "question": "Que veículo o esperava na esquina próxima ao Colégio Elite?",
+      "options": [
+        "Um caminhão de lixo",
+        "Uma van preta guiada por um homem enorme",
+        "Uma motocicleta vermelha",
+        "Uma ambulância da cidade"
+      ],
+      "answerIndex": 1,
+      "explanation": "Uma van fechada da quadrilha encostou para recolher a nova vítima."
+    },
+    {
+      "id": 9,
+      "question": "Qual foi a resposta de Chumbinho quando o homem da van mandou ele entrar?",
+      "options": [
+        "Gritou por socorro com força",
+        "Respondeu de forma robótica 'Sim, senhor' e entrou pacificamente",
+        "Tentou chutar a canela do sequestrador",
+        "Exigiu ver sua identidade"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sua submissão ensaiada manteve os criminosos certos de que a droga havia funcionado perfeitamente."
+    },
+    {
+      "id": 10,
+      "question": "Qual qualidade de Chumbinho se destaca neste capítulo?",
+      "options": [
+        "Sua agilidade em lutas de judô",
+        "Sua coragem, autocontrole sob medo extremo e raciocínio de espião",
+        "Sua força física bruta",
+        "Sua habilidade em disfarces de maquiagem"
+      ],
+      "answerIndex": 1,
+      "explanation": "O caçula prova seu valor como Kara ao agir com sangue-frio diante de bandidos perigosos."
+    }
+  ]
+}

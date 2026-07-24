@@ -1,0 +1,66 @@
+{
+  "chapter": 8,
+  "title": "Um Kara nas sombras da noite",
+  "clozes": [
+    {
+      "id": 1,
+      "text": "Após a fuga da viatura, Miguel atravessou quintais e embarcou em um _____ lotado.",
+      "blank": "ônibus",
+      "hint": "Veículo de transporte coletivo urbano"
+    },
+    {
+      "id": 2,
+      "text": "De um telefone público, Miguel ouviu a mãe de Chumbinho chorar pelo _____ do filho.",
+      "blank": "sequestro",
+      "hint": "Crime de privação ilegal de liberdade de alguém"
+    },
+    {
+      "id": 3,
+      "text": "Miguel pediu que Calu imitasse sua _____ ao ligar para sua mãe.",
+      "blank": "voz",
+      "hint": "Som produzido pelas cordas vocais"
+    },
+    {
+      "id": 4,
+      "text": "Calu atendeu os policiais na porta disfarçado de _____ da casa.",
+      "blank": "criado",
+      "hint": "Funcionário doméstico ou mordomo"
+    },
+    {
+      "id": 5,
+      "text": "Para mudar o formato do rosto, Calu colocou chumaços de _____ nas bochechas.",
+      "blank": "algodão",
+      "hint": "Material macio e felpudo usado em curativos e disfarces"
+    },
+    {
+      "id": 6,
+      "text": "À noite, Miguel pulou o _____ do Colégio Elite para se abrigar.",
+      "blank": "muro",
+      "hint": "Estrutura de alvenaria de proteção da escola"
+    },
+    {
+      "id": 7,
+      "text": "Miguel passou a madrugada no _____ do vestiário do colégio.",
+      "blank": "sótão",
+      "hint": "Espaço sob o telhado / esconderijo dos Karas"
+    },
+    {
+      "id": 8,
+      "text": "Sozinho na escuridão, Miguel sentiu forte remorso e _____ pelo sumiço de Chumbinho.",
+      "blank": "culpa",
+      "hint": "Sentimento de responsabilidade por algo ruim"
+    },
+    {
+      "id": 9,
+      "text": "Olhando a lua pelas telhas de vidro, Miguel jurou _____ o caçula dos Karas.",
+      "blank": "salvar",
+      "hint": "Resgatar ou libertar do perigo"
+    },
+    {
+      "id": 10,
+      "text": "Com a polícia no encalço dos amigos, os Karas passaram a agir na _____.",
+      "blank": "clandestinidade",
+      "hint": "Atuação secreta e fora da lei"
+    }
+  ]
+}

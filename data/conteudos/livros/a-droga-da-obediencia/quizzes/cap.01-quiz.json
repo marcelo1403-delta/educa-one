@@ -1,0 +1,126 @@
+{
+  "chapter": 1,
+  "title": "Os Karas",
+  "quizzes": [
+    {
+      "id": 1,
+      "question": "Qual é a função oficial de Miguel no Colégio Elite?",
+      "options": [
+        "Capitão do time de basquete",
+        "Presidente do grêmio estudantil",
+        "Monitor da biblioteca",
+        "Representante dos professores"
+      ],
+      "answerIndex": 1,
+      "explanation": "Miguel ocupa o cargo de presidente do grêmio estudantil do Colégio Elite, posição que lhe dá liderança e acesso a informações."
+    },
+    {
+      "id": 2,
+      "question": "Como Miguel convoca os membros dos Karas para uma reunião de emergência?",
+      "options": [
+        "Mandando uma mensagem via rádio",
+        "Gritando no alto-falante da escola",
+        "Mostrando discretamente a letra 'K' desenhada na palma da mão",
+        "Piscando o sinal de luz do pátio"
+      ],
+      "answerIndex": 2,
+      "explanation": "O sinal secreto de convocação dos Karas é a letra 'K' gravada a tinta preta na palma da mão esquerda de Miguel."
+    },
+    {
+      "id": 3,
+      "question": "O que Calu estava fazendo quando recebeu a convocação de Miguel?",
+      "options": [
+        "Ensaiando uma peça de teatro",
+        "Estudando para a prova de física",
+        "Jogando tênis de mesa",
+        "Comendo no cantina"
+      ],
+      "answerIndex": 0,
+      "explanation": "Calu estava em meio aos ensaios do grupo de teatro no anfiteatro do colégio."
+    },
+    {
+      "id": 4,
+      "question": "Qual foi a atitude de Crânio ao ver o sinal secreto durante sua partida de xadrez?",
+      "options": [
+        "Pediu um tempo para ir ao banheiro",
+        "Derrubou o próprio rei e aceitou a derrota para sair imediatamente",
+        "Apressou a jogada para vencer em dois minutos",
+        "Ignorou o sinal até terminar a partida"
+      ],
+      "answerIndex": 1,
+      "explanation": "Fiel ao compromisso dos Karas, Crânio derrubou voluntariamente seu rei e concedeu o xeque-mate para sair na hora."
+    },
+    {
+      "id": 5,
+      "question": "Qual esporte Magrí estava praticando antes de se juntar ao grupo?",
+      "options": [
+        "Natação",
+        "Ginástica artística",
+        "Vôlei",
+        "Handebol"
+      ],
+      "answerIndex": 2,
+      "explanation": "Magrí estava no ginásio durante um treino intenso de vôlei, tendo acabado de realizar uma cortada perfeita."
+    },
+    {
+      "id": 6,
+      "question": "Onde se localiza o esconderijo secreto conhecido como a 'Central dos Karas'?",
+      "options": [
+        "No porão atrás da caldeira da escola",
+        "No sótão / forro acima do quartinho de vassouras do vestiário",
+        "Numa sala abandonada na biblioteca",
+        "Em uma casa na árvore perto do colégio"
+      ],
+      "answerIndex": 1,
+      "explanation": "O esconderijo fica no forro do telhado do vestiário, acessível apenas por um alçapão no teto do quartinho de vassouras."
+    },
+    {
+      "id": 7,
+      "question": "O que Miguel espalhou no chão do esconderijo para mostrar aos companheiros?",
+      "options": [
+        "Fotografias de suspeitos",
+        "Recortes de jornais sobre o desaparecimento de estudantes",
+        "Um mapa da cidade de São Paulo",
+        "Seringas e frascos de remédios"
+      ],
+      "answerIndex": 1,
+      "explanation": "Miguel reuniu diversos recortes de jornais informando sobre o misterioso sumiço de alunos em várias escolas de elite."
+    },
+    {
+      "id": 8,
+      "question": "Qual instrumento musical Crânio utiliza para expressar seus momentos de reflexão?",
+      "options": [
+        "Violino",
+        "Gaita de boca",
+        "Flauta doce",
+        "Ukulele"
+      ],
+      "answerIndex": 1,
+      "explanation": "Crânio carrega uma gaita de boca cromada que sopra suavemente em momentos de raciocínio intenso."
+    },
+    {
+      "id": 9,
+      "question": "Qual é a principal caracterização dramática de Calu no início da história?",
+      "options": [
+        "Sua seriedade extrema e falta de humor",
+        "Seu talento teatral, capacidade de inventar desculpas e usar disfarces",
+        "Sua agilidade física em artes marciais",
+        "Sua paixão por robótica e informática"
+      ],
+      "answerIndex": 1,
+      "explanation": "Calu é o mestre dos disfarces e da interpretação dramática, usando suas habilidades para enganar professores e criar saídas rápidas."
+    },
+    {
+      "id": 10,
+      "question": "Como termina o Capítulo 1, criando o gancho de suspense (narrative hook)?",
+      "options": [
+        "A polícia invade o esconderijo e prende Miguel",
+        "O diretor do colégio demite os membros do grêmio",
+        "Um barulho metálico brusco soa no alçapão, indicando um invasor subindo",
+        "Magrí descobre uma carta de ameaça debaixo da porta"
+      ],
+      "answerIndex": 2,
+      "explanation": "O capítulo se encerra dramaticamente quando um ruído no alçapão alerta o grupo de que alguém está tentando entrar na Central dos Karas."
+    }
+  ]
+}

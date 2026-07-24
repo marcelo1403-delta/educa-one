@@ -1,0 +1,48 @@
+{
+  "chapter": 9,
+  "title": "Decifrando a mensagem",
+  "timeline": [
+    {
+      "order": 1,
+      "event": "Calu chega ao esconderijo do vestiário vestindo o disfarce de criado antigo e relata como enganou os policiais na véspera.",
+      "location": "Central dos Karas (Forro do Vestiário)",
+      "charactersInvolved": ["Calu", "Miguel"]
+    },
+    {
+      "order": 2,
+      "event": "Magrí chega ao esconderijo e avisa que a faxineira Dona Rosa reclamava de riscos e pontos desenhados no reservado.",
+      "location": "Central dos Karas",
+      "charactersInvolved": ["Magrí", "Miguel", "Calu", "Crânio"]
+    },
+    {
+      "order": 3,
+      "event": "O grupo descobre que Dona Rosa já limpara o azulejo, apagando a mensagem visual do banheiro.",
+      "location": "Banheiro do Vestiário / Central",
+      "charactersInvolved": ["Magrí", "Crânio"]
+    },
+    {
+      "order": 4,
+      "event": "Crânio conduz Dona Rosa ao quartinho das vassouras e a coloca em transe hipnótico para acessar sua memória.",
+      "location": "Quartinho das Vassouras do Elite",
+      "charactersInvolved": ["Crânio", "Dona Rosa", "Miguel", "Magrí", "Calu"]
+    },
+    {
+      "order": 5,
+      "event": "Dona Rosa dita os formatos de pontos e traços armazenados em seu subconsciente, revelando as letras K, B e C.",
+      "location": "Quartinho das Vassouras do Elite",
+      "charactersInvolved": ["Dona Rosa", "Crânio", "Miguel"]
+    },
+    {
+      "order": 6,
+      "event": "Os Karas retornam ao sótão; Miguel decodifica o código Morse e interpreta a sigla K-B-C como Karas-Bino-Chumbinho.",
+      "location": "Central dos Karas",
+      "charactersInvolved": ["Miguel", "Crânio", "Calu", "Magrí"]
+    },
+    {
+      "order": 7,
+      "event": "O grupo confirma que Bino faltou à aula e Miguel compreende que a cota do Colégio Elite foi completada pela quadrilha.",
+      "location": "Central dos Karas",
+      "charactersInvolved": ["Miguel", "Calu", "Magrí", "Crânio"]
+    }
+  ]
+}

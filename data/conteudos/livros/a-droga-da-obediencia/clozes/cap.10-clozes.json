@@ -1,0 +1,66 @@
+{
+  "chapter": 10,
+  "title": "Meninos obedientes",
+  "clozes": [
+    {
+      "id": 1,
+      "text": "Chumbinho foi levado para o complexo da empresa Pain _____.",
+      "blank": "Control",
+      "hint": "Nome da empresa de fachada do Doutor Q.I."
+    },
+    {
+      "id": 2,
+      "text": "No cativeiro, o caçula dos Karas recebeu a identificação de cobaia D.O._____.",
+      "blank": "20",
+      "hint": "Número atribuído a Chumbinho"
+    },
+    {
+      "id": 3,
+      "text": "Todos os jovens sequestrados vestiam macacão de cor _____.",
+      "blank": "azul",
+      "hint": "Cor do uniforme das cobaias"
+    },
+    {
+      "id": 4,
+      "text": "A autópsia da cobaia número 6 revelou que o garoto morreu por ruptura _____.",
+      "blank": "física",
+      "hint": "Colapso do corpo e dos órgãos por esforço extremo"
+    },
+    {
+      "id": 5,
+      "text": "O líder criminoso Doutor _____ dava ordens através de uma tela de monitor.",
+      "blank": "Q.I.",
+      "hint": "Sigla do vilão que remete a Quociente de Inteligência"
+    },
+    {
+      "id": 6,
+      "text": "Chumbinho desmaiou de horror ao ver o estado apático dos jovens no _____ de testes.",
+      "blank": "salão",
+      "hint": "Grande ambiente de testes do laboratório"
+    },
+    {
+      "id": 7,
+      "text": "No jantar, o garoto escondeu o comprimido de reforço na manga do _____.",
+      "blank": "macacão",
+      "hint": "Peça única de vestuário azul"
+    },
+    {
+      "id": 8,
+      "text": "O efeito de uma dose da Droga da Obediência dura cerca de _____ horas.",
+      "blank": "oito",
+      "hint": "Número de horas de duração do efeito químico"
+    },
+    {
+      "id": 9,
+      "text": "À noite, Chumbinho levantou-se do _____ para explorar os corredores.",
+      "blank": "beliche",
+      "hint": "Cama sobreposta usada em dormitórios"
+    },
+    {
+      "id": 10,
+      "text": "A coragem do garoto ao fingir ser cobaia permitiu investigar o cativeiro por _____.",
+      "blank": "dentro",
+      "hint": "Posição interna no coração do esconderijo inimigo"
+    }
+  ]
+}

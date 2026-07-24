@@ -1,0 +1,27 @@
+{
+  "chapter": 9,
+  "title": "Decifrando a mensagem",
+  "dramaticObjective": "Demonstrar a aplicação de habilidades intelectuais (código Morse e hipnose) para desvendar mistérios e avançar na trama.",
+  "pedagogicalObjectives": [
+    {
+      "type": "BNCC",
+      "code": "EF89LP06",
+      "description": "Analisar os recursos de coesão, coerência e decodificação na construção de sentidos em textos complexos e enigmáticos."
+    },
+    {
+      "type": "Competência Socioemocional",
+      "code": "Trabalho em Equipe e Complementaridade",
+      "description": "Reconhecer que cada indivíduo possui talentos singulares (hipnose, dedução, atuação, liderança) vitais para o êxito coletivo."
+    }
+  ],
+  "learningGoals": [
+    "Compreender o conceito de memória fotográfica inconsciente e o funcionamento da hipnose em investigações.",
+    "Aprender a decodificar siglas contextuais com base na análise de fatos e ausências (falta de Bino).",
+    "Valorizar a persistência investigativa mesmo quando as evidências primárias parecem apagadas."
+  ],
+  "checkpoints": {
+    "topic": "Linguagem em Código e Método Dedutivo",
+    "reflectionQuestion": "Como o talento individual de cada membro dos Karas (como a hipnose de Crânio) contribui para o sucesso da equipe?",
+    "activityProposal": "Atividade de Tradução Morse: Criar mensagens enigmáticas para que colegas as decifrem."
+  }
+}

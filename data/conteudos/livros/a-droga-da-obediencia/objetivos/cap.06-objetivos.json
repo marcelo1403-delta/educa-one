@@ -1,0 +1,27 @@
+{
+  "chapter": 6,
+  "title": "Um encontro inesperado",
+  "dramaticObjective": "Criar um forte momento de suspense com a abordagem policial, a revelação do sequestro do caçula e a fuga corajosa de Miguel.",
+  "pedagogicalObjectives": [
+    {
+      "type": "BNCC",
+      "code": "EF89LP04",
+      "description": "Identificar argumentos, posicionamentos e recursos de persuasão em textos dramáticos e narrativos de ação."
+    },
+    {
+      "type": "Competência Socioemocional",
+      "code": "Tomada de Decisão Sob Extrema Pressão",
+      "description": "Analisar reações de coragem, avaliação de riscos e agilidade mental diante de perigos iminentes e dilemas morais."
+    }
+  ],
+  "learningGoals": [
+    "Analisar o contraste de atitudes entre figuras policiais (Andrade truculento x Rubens negociador).",
+    "Compreender como a revelação de um fato crítico (o sumiço de Chumbinho) transforma os objetivos do protagonista.",
+    "Avaliar técnicas físicas de sobrevivência e fuga narrativa em textos de ação infantojuvenil."
+  ],
+  "checkpoints": {
+    "topic": "Tomada de Decisão sob Pressão",
+    "reflectionQuestion": "Por que Miguel decided arriscar a vida e saltar da viatura em movimento ao saber do desaparecimento de Chumbinho?",
+    "activityProposal": "Dramatização de Cena: Encenar a conversa dentro da viatura e debater os sentimentos do protagonista ao receber a notícia."
+  }
+}

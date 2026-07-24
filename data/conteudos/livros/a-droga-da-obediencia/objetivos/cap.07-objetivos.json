@@ -1,0 +1,27 @@
+{
+  "chapter": 7,
+  "title": "Chumbinho valente",
+  "dramaticObjective": "Destacar a bravura e a esperteza do menor dos Karas ao criar um rastro em código antes de ser capturado.",
+  "pedagogicalObjectives": [
+    {
+      "type": "BNCC",
+      "code": "EF89LP05",
+      "description": "Analisar os efeitos de sentido decorrentes do uso de recursos persuasivos e narrativos em textos dramáticos/ficcionais."
+    },
+    {
+      "type": "Competência Socioemocional",
+      "code": "Autocontrole e Criatividade em Situações de Risco",
+      "description": "Reconhecer o poder do pensamento inventivo para improvisar soluções práticas com os recursos disponíveis no ambiente."
+    }
+  ],
+  "learningGoals": [
+    "Compreender a estratégia de infiltração voluntária como recurso de espionagem e investigação.",
+    "Aprender os princípios elementares do Código Morse (pontos e traços) aplicados à literatura de suspense.",
+    "Avaliar o senso de sacrifício e determinação de Chumbinho ao colocar o bem do grupo acima do próprio pavor."
+  ],
+  "checkpoints": {
+    "topic": "Astúcia e Códigos de Comunicação",
+    "reflectionQuestion": "De que maneira Chumbinho usou a própria inteligência para transformar a captura em uma oportunidade de investigação?",
+    "activityProposal": "Oficina de Código Morse: Desenhar e decifrar frases curtas em pontos e traços como na mensagem deixada no banheiro."
+  }
+}

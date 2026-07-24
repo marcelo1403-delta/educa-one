@@ -1,0 +1,66 @@
+{
+  "chapter": 5,
+  "title": "O plano de Miguel",
+  "clozes": [
+    {
+      "id": 1,
+      "text": "Miguel mentiu dizendo que ia estudar _____ para proteger Chumbinho do perigo.",
+      "blank": "matemática",
+      "hint": "Disciplina escolar mencionada como disfarce"
+    },
+    {
+      "id": 2,
+      "text": "As instruções secretas foram escondidas em livros na _____ do Colégio Elite.",
+      "blank": "biblioteca",
+      "hint": "Local de guarda e consulta de livros na escola"
+    },
+    {
+      "id": 3,
+      "text": "Calu encontrou seu papel cifrado na página 112 do livro 'O Auto da _____'.",
+      "blank": "Compadecida",
+      "hint": "Obra teatral clássica de Ariano Suassuna"
+    },
+    {
+      "id": 4,
+      "text": "Os Karas veteranos receberam a tarefa de visitar as _____ dos alunos sumidos.",
+      "blank": "famílias",
+      "hint": "Núcleo familiar e de parentes das vítimas"
+    },
+    {
+      "id": 5,
+      "text": "Miguel calculou que a quadrilha usava 1 oferecedor por escola durante _____ semana.",
+      "blank": "uma",
+      "hint": "Período de sete dias"
+    },
+    {
+      "id": 6,
+      "text": "No entardecer, Miguel estava no bairro Jardim _____ quando foi abordado.",
+      "blank": "Europa",
+      "hint": "Bairro nobre da cidade de São Paulo"
+    },
+    {
+      "id": 7,
+      "text": "Uma viatura da _____ encostou bruscamente ao lado da bicicleta de Miguel.",
+      "blank": "polícia",
+      "hint": "Força policial de segurança pública"
+    },
+    {
+      "id": 8,
+      "text": "O Detetive _____ agarrou o braço de Miguel e o forçou a entrar na viatura.",
+      "blank": "Andrade",
+      "hint": "Policial corpulento e estressado"
+    },
+    {
+      "id": 9,
+      "text": "O uso de menções a outros livros dentro da história chama-se _____.",
+      "blank": "intertextualidade",
+      "hint": "Diálogo entre diferentes textos literários"
+    },
+    {
+      "id": 10,
+      "text": "A prisão inesperada do líder criou um forte _____ no final do capítulo.",
+      "blank": "cliffhanger",
+      "hint": "Gancho de suspense para manter o leitor instigado"
+    }
+  ]
+}

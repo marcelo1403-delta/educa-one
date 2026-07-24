@@ -1,0 +1,48 @@
+{
+  "chapter": 6,
+  "title": "Um encontro inesperado",
+  "timeline": [
+    {
+      "order": 1,
+      "event": "Miguel estaciona sua bicicleta na calçada de uma mansão no Jardim Europa para investigar o sumiço de um aluno do Dante.",
+      "location": "Jardim Europa (Rua)",
+      "charactersInvolved": ["Miguel"]
+    },
+    {
+      "order": 2,
+      "event": "A viatura policial encosta bruscamente e o Detetive Andrade salta, agarrando o braço de Miguel com violência.",
+      "location": "Jardim Europa (Rua)",
+      "charactersInvolved": ["Miguel", "Detetive Andrade"]
+    },
+    {
+      "order": 3,
+      "event": "O Detetive Rubens tenta pacificar o conflito, mas Andrade exige que ele fique cuidando da bicicleta na calçada.",
+      "location": "Jardim Europa (Rua)",
+      "charactersInvolved": ["Detetive Rubens", "Detetive Andrade", "Miguel"]
+    },
+    {
+      "order": 4,
+      "event": "Andrade conduz a viatura e questiona Miguel sobre o código de silêncio usado na diretoria.",
+      "location": "Viatura Policial em Movimento",
+      "charactersInvolved": ["Detetive Andrade", "Miguel"]
+    },
+    {
+      "order": 5,
+      "event": "Andrade revela a notícia devastadora de que Chumbinho foi sequestrado e também desapareceu.",
+      "location": "Viatura Policial em Movimento",
+      "charactersInvolved": ["Detetive Andrade", "Miguel"]
+    },
+    {
+      "order": 6,
+      "event": "A viatura perde velocidade ao subir uma ladeira íngreme; Miguel abre a porta e salta no asfalto.",
+      "location": "Ladeira no Jardim Europa",
+      "charactersInvolved": ["Miguel", "Detetive Andrade"]
+    },
+    {
+      "order": 7,
+      "event": "Miguel rola no chão, levanta-se rapidamente e corre para escapar da polícia e salvar o caçula.",
+      "location": "Rua / Ladeira no Jardim Europa",
+      "charactersInvolved": ["Miguel"]
+    }
+  ]
+}

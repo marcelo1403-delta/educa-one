@@ -1,0 +1,27 @@
+{
+  "chapter": 3,
+  "title": "Investigação no Elite",
+  "dramaticObjective": "Demonstrar a cumplicidade e eficácia dos códigos dos Karas sob pressão policial e expor o conflito ético institucional (escola x verdade).",
+  "pedagogicalObjectives": [
+    {
+      "type": "BNCC",
+      "code": "EF89LP04",
+      "description": "Identificar e avaliar posicionamentos éticos e ideológicos em discursos de autoridades e mídias."
+    },
+    {
+      "type": "Competência Socioemocional",
+      "code": "Integridade Ética e Resiliência",
+      "description": "Analisar tomadas de decisão baseadas em valores morais e na busca da verdade contra pressões hierárquicas."
+    }
+  ],
+  "learningGoals": [
+    "Avaliar o choque entre a preservação da imagem institucional e o dever de proteger a comunidade escolar.",
+    "Compreender a aplicação prática de códigos de comunicação em contextos de risco ou interrogatório.",
+    "Diferenciar estilos de liderança (paternalista/manipulador x ético/transparente)."
+  ],
+  "checkpoints": {
+    "topic": "Linguagem Corporal e Ética de Liderança",
+    "reflectionQuestion": "A atitude do Diretor Cardoso em esconder o fato da comunidade escolar é justificável?",
+    "activityProposal": "Simulação de Júri Simulado: Alunos divididos entre a defesa da Imagem da Escola (Cardoso) e o Direito à Informação (Miguel)."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "chapter": 9,
+  "title": "Decifrando a mensagem",
+  "clozes": [
+    {
+      "id": 1,
+      "text": "Magrí ouviu a faxineira Dona Rosa reclamar da sujeira de traços e _____ na parede.",
+      "blank": "pontos",
+      "hint": "Símbolo circular menor do código Morse"
+    },
+    {
+      "id": 2,
+      "text": "Os Karas não puderam ler a parede porque Dona Rosa já havia _____ a sujeira.",
+      "blank": "limpado",
+      "hint": "Removido os resíduos com bucha e sabão"
+    },
+    {
+      "id": 3,
+      "text": "Crânio usou a técnica de _____ para acessar a memória da faxineira.",
+      "blank": "hipnose",
+      "hint": "Transe induzido para acessar o subconsciente"
+    },
+    {
+      "id": 4,
+      "text": "A sessão de hipnose foi realizada dentro do quartinho das _____.",
+      "blank": "vassouras",
+      "hint": "Local de guarda de material de limpeza na escola"
+    },
+    {
+      "id": 5,
+      "text": "Em transe, a faxineira descreveu os símbolos do código _____ desenhados por Chumbinho.",
+      "blank": "Morse",
+      "hint": "Sistema de transmissão telegráfica por pontos e traços"
+    },
+    {
+      "id": 6,
+      "text": "As três letras ditadas por Dona Rosa foram K, B e _____.",
+      "blank": "C",
+      "hint": "Terceira letra do alfabeto"
+    },
+    {
+      "id": 7,
+      "text": "A sigla K-B-C foi decifrada por Miguel como Karas, Bino e _____.",
+      "blank": "Chumbinho",
+      "hint": "Nome do caçula dos Karas"
+    },
+    {
+      "id": 8,
+      "text": "Bino era o colega de classe que havia faltado à _____ do Colégio Elite.",
+      "blank": "aula",
+      "hint": "Período de estudos escolares diários"
+    },
+    {
+      "id": 9,
+      "text": "Calu chegou ao esconderijo vestindo disfarce de _____ doméstico.",
+      "blank": "criado",
+      "hint": "Acompanhante ou funcionário antigo da família"
+    },
+    {
+      "id": 10,
+      "text": "Ao entender o aviso de Chumbinho, o grupo descobriu que a pista levava aos dois _____ capturados.",
+      "blank": "estudantes",
+      "hint": "Alunos do colégio levados pela quadrilha"
+    }
+  ]
+}

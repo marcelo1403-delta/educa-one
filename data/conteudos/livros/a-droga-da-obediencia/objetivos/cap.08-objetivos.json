@@ -1,0 +1,27 @@
+{
+  "chapter": 8,
+  "title": "Um Kara nas sombras da noite",
+  "dramaticObjective": "Explorar o isolamento e o peso da responsabilidade de Miguel como líder ao atuar na clandestinidade para salvar um amigo.",
+  "pedagogicalObjectives": [
+    {
+      "type": "BNCC",
+      "code": "EF89LP03",
+      "description": "Analisar os efeitos de sentido resultantes do uso de recursos de linguagem dramática e monólogos em textos narrativos."
+    },
+    {
+      "type": "Competência Socioemocional",
+      "code": "Responsabilidade e Resiliência Emocional",
+      "description": "Compreender a gestão da culpa, o compromisso moral ético e a persistência do líder diante de adversidades extremas."
+    }
+  ],
+  "learningGoals": [
+    "Analisar o monólogo interior do protagonista em momentos de crise e isolamento.",
+    "Compreender a função estratégica do disfarce (Calu) e do anonimato na proteção da equipe.",
+    "Avaliar o impacto psicológico da responsabilidade de liderança em adolescentes."
+  ],
+  "checkpoints": {
+    "topic": "Liderança e Responsabilidade Emocional",
+    "reflectionQuestion": "Como o sentimento de culpa de Miguel afeta sua determinação em resolver o mistério da Droga da Obediência?",
+    "activityProposal": "Redação Reflexiva: Escrever um diário de bordo sob a perspectiva de Miguel durante sua noite no esconderijo secreto."
+  }
+}

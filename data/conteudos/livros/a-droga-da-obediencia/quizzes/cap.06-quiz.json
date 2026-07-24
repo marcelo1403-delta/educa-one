@@ -1,0 +1,126 @@
+{
+  "chapter": 6,
+  "title": "Um encontro inesperado",
+  "quizzes": [
+    {
+      "id": 1,
+      "question": "Onde Miguel estava parado quando foi cercado pelo carro da polícia?",
+      "options": [
+        "Na porta do Colégio Elite",
+        "Em frente à mansão de um estudante desaparecido do Colégio Dante",
+        "Na estação de metrô da Paulista",
+        "Em uma lanchonete no centro"
+      ],
+      "answerIndex": 1,
+      "explanation": "Miguel checava o endereço da família de um aluno do Colégio Dante sumido no Jardim Europa."
+    },
+    {
+      "id": 2,
+      "question": "Como os detetives reagiram de formas diferentes ao abordarem Miguel?",
+      "options": [
+        "Ambos começaram a rir de Miguel",
+        "Andrade foi truculento e agarrou seu braço, enquanto Rubens tentou agir com calma",
+        "Rubens sacou a arma e Andrade defendeu Miguel",
+        "Ambos pediram autógrafo para o presidente do grêmio"
+      ],
+      "answerIndex": 1,
+      "explanation": "Andrade agiu de forma agressiva e autoritária, ao passo que Rubens tentou adotar um tom reconciliador."
+    },
+    {
+      "id": 3,
+      "question": "O que o Detetive Andrade fez para afastar Rubens do interrogatório?",
+      "options": [
+        "Mandou Rubens ir comprar café",
+        "Mandou Rubens ficar na calçada tomando conta da bicicleta de Miguel",
+        "Pediu para Rubens ir à delegacia a pé",
+        "Mandou Rubens ligar para o diretor"
+      ],
+      "answerIndex": 1,
+      "explanation": "Andrade isolou Miguel no carro obrigando Rubens a permanecer na rua vigiando a bicicleta."
+    },
+    {
+      "id": 4,
+      "question": "O que Andrade queria saber de Miguel durante o trajeto na viatura?",
+      "options": [
+        "Se ele sabia dirigir carros",
+        "O motivo de ter feito o sinal de silêncio para Chumbinho na sala do diretor",
+        "Quanto custava a mensalidade do Elite",
+        "Se ele conhecia o prefeito da cidade"
+      ],
+      "answerIndex": 1,
+      "explanation": "Andrade desconfiava que Miguel ocultava segredos e influenciou a atitude de Chumbinho perante a polícia."
+    },
+    {
+      "id": 5,
+      "question": "Qual foi a trágica revelação feita por Andrade que abalou Miguel?",
+      "options": [
+        "O Colégio Elite havia sido fechado",
+        "Chumbinho havia desaparecido também",
+        "O diretor fora preso",
+        "Magrí havia sofrido um acidente de carro"
+      ],
+      "answerIndex": 1,
+      "explanation": "A notícia de que o caçula Chumbinho também fora capturado deixou Miguel desesperado."
+    },
+    {
+      "id": 6,
+      "question": "Qual foi a reação imediata e arriscada de Miguel ao saber do sumiço de Chumbinho?",
+      "options": [
+        "Começou a chorar e pediu para ir para casa",
+        "Abriu a porta do carro da polícia em movimento e saltou no asfalto",
+        "Afastou-se do motorista e tentou roubar o volante",
+        "Apoiou a cabeça no banco e dormiu"
+      ],
+      "answerIndex": 1,
+      "explanation": "Impulsionado pelo senso de dever e desespero de salvar o amigo, Miguel pulou da viatura em movimento."
+    },
+    {
+      "id": 7,
+      "question": "Qual fator da pista facilitou a decisão e o salto de Miguel sem morrer na queda?",
+      "options": [
+        "O carro estava parado no sinal vermelho",
+        "A viatura reduziu significativamente a velocidade ao subir uma ladeira",
+        "Havia um monte de palha na calçada",
+        "O carro estava sem motor"
+      ],
+      "answerIndex": 1,
+      "explanation": "A perda de velocidade na ladeira deu a oportunidade exata para o salto com rolamento no asfalto."
+    },
+    {
+      "id": 8,
+      "question": "Por que Miguel sentiu culpa em relação ao desaparecimento de Chumbinho?",
+      "options": [
+        "Porque ele havia brigado com Chumbinho no dia anterior",
+        "Porque colocou o caçula no grupo sem prever que a quadrilha o visaria rapidamente",
+        "Porque tomou o lanche de Chumbinho",
+        "Porque não deixou Chumbinho jogar xadrez"
+      ],
+      "answerIndex": 1,
+      "explanation": "Miguel sentiu a responsabilidade do líder por ter envolvido o garoto de 12 anos em uma investigação perigosa."
+    },
+    {
+      "id": 9,
+      "question": "O que a fuga de Miguel provocou no Detetive Andrade?",
+      "options": [
+        "Pânico e fúria ao ver a testemunha escapar rolando pela rua",
+        "Alegria por não ter que levá-lo à delegacia",
+        "Sonolência e indiferença",
+        "Um pedido de desculpas público"
+      ],
+      "answerIndex": 0,
+      "explanation": "Andrade ficou enfurecido ao ver Miguel arriscar a vida e escapar de suas mãos no meio do trânsito."
+    },
+    {
+      "id": 10,
+      "question": "Para onde Miguel precisa ir desesperadamente após fugir da polícia?",
+      "options": [
+        "Para o cinema da cidade",
+        "Para a Central dos Karas para reunir o grupo e organizar o resgate de Chumbinho",
+        "Para a praia descansar",
+        "Para a delegacia entregar-se"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sua única prioridade é encontrar os Karas no esconderijo para decifrar as pistas e salvar o caçula."
+    }
+  ]
+}

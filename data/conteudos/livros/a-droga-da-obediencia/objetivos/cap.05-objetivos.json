@@ -1,0 +1,27 @@
+{
+  "chapter": 5,
+  "title": "O plano de Miguel",
+  "dramaticObjective": "Criar o clímax dos capítulos iniciais com o aprisionamento de Miguel e a introdução de mensagens cifradas em obras literárias.",
+  "pedagogicalObjectives": [
+    {
+      "type": "BNCC",
+      "code": "EF89LP33",
+      "description": "Ler textos de literatura infantojuvenil reconhecendo elementos de intertextualidade e recursos de suspense."
+    },
+    {
+      "type": "Competência Socioemocional",
+      "code": "Proteção e Responsabilidade com os Mais Jovens",
+      "description": "Avaliar o dever de cuidado demonstrado por Miguel em relação a Chumbinho e a prudência em situações de perigo."
+    }
+  ],
+  "learningGoals": [
+    "Reconhecer o conceito e a aplicação da intertextualidade através da citação de clássicos da literatura brasileira.",
+    "Compreender como o recurso de suspense 'cliffhanger' prende a atenção do leitor ao fechar capítulos.",
+    "Analisar mecanismos de comunicação indireta e criptografia textual."
+  ],
+  "checkpoints": {
+    "topic": "Intertextualidade e Construção de Tensão (Cliffhanger)",
+    "reflectionQuestion": "Por que Miguel usou livros da biblioteca para passar ordens secretas aos veteranos?",
+    "activityProposal": "Oficina de Criptografia Literária: Criar uma mensagem secreta usando o número da página, linha e palavra de um livro adotado na turma."
+  }
+}

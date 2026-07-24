@@ -1,0 +1,48 @@
+{
+  "chapter": 8,
+  "title": "Um Kara nas sombras da noite",
+  "timeline": [
+    {
+      "order": 1,
+      "event": "Após saltar da viatura, Miguel atravessa quintais de casas e pega um ônibus lotado para despistar a polícia.",
+      "location": "Ruas do Centro / Ônibus Urbano",
+      "charactersInvolved": ["Miguel"]
+    },
+    {
+      "order": 2,
+      "event": "De um orelhão público em uma lanchonete, Miguel liga para a casa de Chumbinho e ouve o choro da mãe confirmando o sumiço.",
+      "location": "Lanchonete (Telefone Público)",
+      "charactersInvolved": ["Miguel", "Mãe de Chumbinho"]
+    },
+    {
+      "order": 3,
+      "event": "Miguel telefona para Calu e orienta o amigo a imitar sua voz ao ligar para a casa do líder.",
+      "location": "Lanchonete / Casa de Calu",
+      "charactersInvolved": ["Miguel", "Calu"]
+    },
+    {
+      "order": 4,
+      "event": "Os detetives Andrade e Rubens batem na casa de Calu; Calu os atende disfarçado de criado e os engana.",
+      "location": "Casa de Calu (Entrada)",
+      "charactersInvolved": ["Calu", "Detetive Andrade", "Detetive Rubens"]
+    },
+    {
+      "order": 5,
+      "event": "À noite, Miguel pula o muro do Colégio Elite e se abriga no esconderijo do telhado do vestiário.",
+      "location": "Colégio Elite (Muro e Sótão)",
+      "charactersInvolved": ["Miguel"]
+    },
+    {
+      "order": 6,
+      "event": "No escuro do sótão, Miguel trata seus machucados e reflete com remorso sobre o destino do caçula.",
+      "location": "Central dos Karas (Forro do Vestiário)",
+      "charactersInvolved": ["Miguel"]
+    },
+    {
+      "order": 7,
+      "event": "Olhando a luz do luar, Miguel faz o juramento solene de resgatar Chumbinho e derrotar os vilões.",
+      "location": "Central dos Karas",
+      "charactersInvolved": ["Miguel"]
+    }
+  ]
+}

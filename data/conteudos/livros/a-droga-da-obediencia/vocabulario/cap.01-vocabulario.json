@@ -1,59 +1,46 @@
 {
-  "schema_version": 1,
-  "livro_id": "a-droga-da-obediencia",
-  "livro": "A Droga da Obediência",
-  "capitulo": 1,
-  "titulo_capitulo": "Os Karas",
-  "fonte": "Capítulo 1 simplificado fornecido pelo usuário",
-  "tipo_atividade": "vocabulario",
-  "termos": [
+  "chapter": 1,
+  "title": "Os Karas",
+  "vocabulary": [
     {
-      "id": "voc-cap01-001",
-      "termo": "Grêmio",
-      "definicao": "Organização formada por estudantes para representar os alunos e participar de decisões da escola.",
-      "exemplo_contextual": "Miguel era presidente do Grêmio do Colégio Elite."
+      "word": "Alçapão",
+      "meaning": "Porta de madeira ou metal embutida no teto ou no chão, geralmente utilizada para acessar sótãos ou porões.",
+      "contextInChapter": "Utilizado pelos Karas como entrada secreta para o esconderijo localizado no forro do vestiário."
     },
     {
-      "id": "voc-cap01-002",
-      "termo": "Convocar",
-      "definicao": "Chamar pessoas para uma reunião ou ação importante.",
-      "exemplo_contextual": "Miguel convocou os Karas para uma reunião de emergência."
+      "word": "Grêmio Estudantil",
+      "meaning": "Organização gerida por alunos que representa os interesses dos estudantes perante a direção da escola.",
+      "contextInChapter": "Miguel é o presidente do grêmio do Colégio Elite, o que lhe dá visibilidade e liderança."
     },
     {
-      "id": "voc-cap01-003",
-      "termo": "Discretamente",
-      "definicao": "De modo cuidadoso, sem chamar atenção.",
-      "exemplo_contextual": "Os integrantes deixaram suas atividades discretamente."
+      "word": "Xeque-mate",
+      "meaning": "Lance decisivo no jogo de xadrez em que o rei do adversário é encurralado sem chance de fuga.",
+      "contextInChapter": "Crânio derruba seu próprio rei durante uma partida para conceder o xeque-mate ao oponente e sair apressado."
     },
     {
-      "id": "voc-cap01-004",
-      "termo": "Alçapão",
-      "definicao": "Pequena porta ou abertura feita no piso ou no teto para dar acesso a outro espaço.",
-      "exemplo_contextual": "Os Karas chegavam ao esconderijo por um alçapão."
+      "word": "Cortada",
+      "meaning": "Golpe de ataque rápido e potente no voleibol em que a bola é batida para baixo por cima da rede.",
+      "contextInChapter": "Magrí executa uma cortada perfeita durante o treino de vôlei antes de simular uma lesão para sair."
     },
     {
-      "id": "voc-cap01-005",
-      "termo": "Forro",
-      "definicao": "Parte que reveste ou cobre internamente um teto.",
-      "exemplo_contextual": "O esconderijo ficava acima do forro dos vestiários."
+      "word": "Enxaqueca",
+      "meaning": "Dor de cabeça intensa, latejante e frequentemente acompanhada de sensibilidade à luz e náuseas.",
+      "contextInChapter": "Desculpa dramática inventada por Calu para convencer a professora a liberá-lo do ensaio de teatro."
     },
     {
-      "id": "voc-cap01-006",
-      "termo": "Invasor",
-      "definicao": "Pessoa que entra em um lugar sem autorização.",
-      "exemplo_contextual": "No início, os Karas não sabiam quem era o invasor."
+      "word": "Forro",
+      "meaning": "Revestimento interior que cobre o teto de um cômodo, deixando um espaço oco (sótão) abaixo do telhado.",
+      "contextInChapter": "Espaço escuro e poeirento acima do vestiário transformado na Central dos Karas."
     },
     {
-      "id": "voc-cap01-007",
-      "termo": "Hesitar",
-      "definicao": "Demonstrar dúvida ou demora antes de agir ou responder.",
-      "exemplo_contextual": "Chumbinho respondeu sem hesitar."
+      "word": "Gaita de boca",
+      "meaning": "Pequeno instrumento musical de sopro munido de palhetas metálicas que produzem notas ao soprar ou aspirar.",
+      "contextInChapter": "Instrumento característico de Crânio, soprado em momentos de meditação e raciocínio investigativo."
     },
     {
-      "id": "voc-cap01-008",
-      "termo": "Simular",
-      "definicao": "Fingir uma situação ou comportamento.",
-      "exemplo_contextual": "Magrí simulou uma torção no tornozelo para sair do treino."
+      "word": "Emergência máxima",
+      "meaning": "Estado de alerta mais elevado que exige mobilização imediata e total de uma equipe diante de grave perigo.",
+      "contextInChapter": "Sinal emitido por Miguel convocando os Karas com urgência para iniciar a investigação dos sequestros."
     }
   ]
 }

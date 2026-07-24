@@ -1,0 +1,66 @@
+{
+  "chapter": 7,
+  "title": "Chumbinho valente",
+  "clozes": [
+    {
+      "id": 1,
+      "text": "No pátio do Elite, Chumbinho fingiu interesse na _____ oferecida pelo suspeito.",
+      "blank": "pílula",
+      "hint": "Pequeno comprimido da Droga da Obediência"
+    },
+    {
+      "id": 2,
+      "text": "Chumbinho convenceu o homem a deixá-lo ir ao banheiro do _____.",
+      "blank": "vestiário",
+      "hint": "Local com duchas e cabines na área de esportes"
+    },
+    {
+      "id": 3,
+      "text": "Dentro do reservado, Chumbinho jogou a pílula no cesto de _____.",
+      "blank": "lixo",
+      "hint": "Recipiente de descarte de resíduos"
+    },
+    {
+      "id": 4,
+      "text": "Para obter tinta improvisada, enfia o dedo no vaso sanitário sem _____.",
+      "blank": "descarga",
+      "hint": "Mecanismo de fluxo de água do sanitário"
+    },
+    {
+      "id": 5,
+      "text": "Com a sujeira na ponta do dedo, desenhou traços e pontos do código _____ nos azulejos.",
+      "blank": "Morse",
+      "hint": "Sistema de transmissão por pontos e traços"
+    },
+    {
+      "id": 6,
+      "text": "Antes de sair do reservado, Chumbinho lavou cuidadosamente a mão na _____.",
+      "blank": "pia",
+      "hint": "Bacia de higienização das mãos com torneira"
+    },
+    {
+      "id": 7,
+      "text": "Ao sair do reservado, o caçula fingiu estar totalmente _____ sob efeito da droga.",
+      "blank": "idiotizado",
+      "hint": "Apatia e falta de reação mental"
+    },
+    {
+      "id": 8,
+      "text": "O offeredor mandou o garoto ir até a _____ do colégio.",
+      "blank": "esquina",
+      "hint": "Cruzamento de duas ruas"
+    },
+    {
+      "id": 9,
+      "text": "Na esquina, um homem enorme ordenou que Chumbinho entrasse na _____ preta.",
+      "blank": "van",
+      "hint": "Veículo utilitário fechado de transporte"
+    },
+    {
+      "id": 10,
+      "text": "A atitude de Chumbinho revelou imensa bravura ao aceitar ser levado ao _____ do inimigo.",
+      "blank": "cativeiro",
+      "hint": "Local de aprisionamento de reféns"
+    }
+  ]
+}

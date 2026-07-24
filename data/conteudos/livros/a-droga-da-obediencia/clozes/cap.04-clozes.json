@@ -1,0 +1,66 @@
+{
+  "chapter": 4,
+  "title": "Crânio raciocina",
+  "clozes": [
+    {
+      "id": 1,
+      "text": "Com o sumiço de Bronca, o número total de estudantes desaparecidos subiu para _____.",
+      "blank": "28",
+      "hint": "Número exato após o 27º"
+    },
+    {
+      "id": 2,
+      "text": "Crânio notou um padrão numérico de exatamente _____ alunos por colégio de elite.",
+      "blank": "3",
+      "hint": "Número de alunos sequestrados de cada escola"
+    },
+    {
+      "id": 3,
+      "text": "Para Crânio, a seleção rigorosa de vítimas caracterizava uma _____ científica.",
+      "blank": "amostragem",
+      "hint": "Seleção de uma parcela para estudo/experimento"
+    },
+    {
+      "id": 4,
+      "text": "Os criminosos não queriam dinheiro, mas sim coletar _____ humanas para testes.",
+      "blank": "cobaias",
+      "hint": "Seres usados para testes de laboratório"
+    },
+    {
+      "id": 5,
+      "text": "Crânio descartou a hipótese de _____ por ser um método falho em algumas pessoas.",
+      "blank": "hipnose",
+      "hint": "Técnica psicológica de indução ao transe"
+    },
+    {
+      "id": 6,
+      "text": "A substância administrada às vítimas destruía a vontade e impunha a _____ absoluta.",
+      "blank": "obediência",
+      "hint": "Ato de acatar e cumprir ordens sem questionar"
+    },
+    {
+      "id": 7,
+      "text": "Miguel deduziu que a substância foi dada a Bronca por um _____ infiltrado na escola.",
+      "blank": "oferecedor",
+      "hint": "Pessoa responsável por distribuir ou aplicar a droga"
+    },
+    {
+      "id": 8,
+      "text": "As vítimas escolhidas eram sempre jovens sadios, atléticos e _____.",
+      "blank": "inteligentes",
+      "hint": "Com capacidade intelectual elevada"
+    },
+    {
+      "id": 9,
+      "text": "Crânio usava sua _____ de boca entre uma dedução e outra para organizar o pensamento.",
+      "blank": "gaita",
+      "hint": "Pequeno instrumento musical de sopro"
+    },
+    {
+      "id": 10,
+      "text": "A descoberta revelou que o inimigo agia dentro do próprio Colégio _____.",
+      "blank": "Elite",
+      "hint": "Nome da escola onde os Karas estudam"
+    }
+  ]
+}

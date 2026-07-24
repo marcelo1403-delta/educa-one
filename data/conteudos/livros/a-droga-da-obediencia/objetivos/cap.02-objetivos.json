@@ -1,0 +1,27 @@
+{
+  "chapter": 2,
+  "title": "Estranhos acontecimentos",
+  "dramaticObjective": "Introduzir Chumbinho no grupo e expor a anomalia do caso: alunos rebeldes se tornando submissos antes do sequestro.",
+  "pedagogicalObjectives": [
+    {
+      "type": "BNCC",
+      "code": "EF67LP28",
+      "description": "Ler e analisar textos dramáticos observando conflitos, motivações e atitudes dos personagens."
+    },
+    {
+      "type": "Competência Socioemocional",
+      "code": "Gestão de Crises e Liderança",
+      "description": "Desenvolver o raciocínio tático na mediação de imprevistos e na inclusão construtiva de novos membros."
+    }
+  ],
+  "learningGoals": [
+    "Compreender a diferença entre liderança impositiva e liderança integradora (como Miguel acolheu Chumbinho).",
+    "Identificar os indícios de alteração psicológica impostos pela 'Droga da Obediência' no comportamento de Bronca.",
+    "Reconhecer o método investigativo de divisão de tarefas em investigações em equipe."
+  ],
+  "checkpoints": {
+    "topic": "Gestão de Conflito e Psicologia de Personagem",
+    "reflectionQuestion": "Por que o comportamento obediente do Bronca causou tanto estranhamento nos amigos?",
+    "activityProposal": "Análise comparativa: listar traços normais do Bronca vs traços sob efeito da alteração comportamental."
+  }
+}

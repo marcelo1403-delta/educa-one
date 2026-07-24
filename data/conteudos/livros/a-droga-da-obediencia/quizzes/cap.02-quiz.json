@@ -1,0 +1,126 @@
+{
+  "chapter": 2,
+  "title": "Estranhos acontecimentos",
+  "quizzes": [
+    {
+      "id": 1,
+      "question": "Quem era o invasor que surgiu no alçapão do esconderijo?",
+      "options": [
+        "O inspetor de alunos",
+        "O detetive Andrade",
+        "Chumbinho, um aluno mais novo",
+        "O diretor Cardoso"
+      ],
+      "answerIndex": 2,
+      "explanation": "Chumbinho, um garoto audacioso da escola, descobriu o esconderijo após espionar os Karas por meses."
+    },
+    {
+      "id": 2,
+      "question": "Como Miguel neutralizou a ameaça de Chumbinho revelar o segredo dos Karas?",
+      "options": [
+        "Expulsou-o da escola com a ajuda do diretor",
+        "Inventou um juramento de sangue na hora e o iniciou no grupo",
+        "Ofereceu dinheiro para ele manter silêncio",
+        "Trancou o alçapão para ele não sair"
+      ],
+      "answerIndex": 1,
+      "explanation": "Miguel improvisou uma cerimônia solene com juramento de sangue para comprometer Chumbinho com o segredo da ordem."
+    },
+    {
+      "id": 3,
+      "question": "Quantos colégios de elite de São Paulo já tinham estudantes desaparecidos?",
+      "options": [
+        "3 colégios",
+        "5 colégios",
+        "9 colégios",
+        "15 colégios"
+      ],
+      "answerIndex": 2,
+      "explanation": "Os recortes de jornal indicavam 27 estudantes desaparecidos em 9 escolas de alto padrão da capital paulista."
+    },
+    {
+      "id": 4,
+      "question": "Qual aspecto intrigante diferenciava esses desaparecimentos de sequestros comuns?",
+      "options": [
+        "Os sequestradores deixavam bilhetes em verso",
+        "Não havia qualquer pedido de resgate em dinheiro",
+        "Apenas meninas eram levadas",
+        "Todos os sumiços ocorriam dentro da biblioteca"
+      ],
+      "answerIndex": 1,
+      "explanation": "A ausência de pedidos de resgate intrigava a polícia e os Karas, sugerindo um motivo muito mais nefasto."
+    },
+    {
+      "id": 5,
+      "question": "Como era conhecido o aluno do Colégio Elite que havia acabado de desaparecer?",
+      "options": [
+        "Magrão",
+        "Bronca",
+        "Bino",
+        "Chumbinho"
+      ],
+      "answerIndex": 1,
+      "explanation": "Bronca era o apelido do aluno do Elite sequestrado, famoso por ser explosivo e rebelde."
+    },
+    {
+      "id": 6,
+      "question": "O que Chumbinho notou de estranho em Bronca na última sexta-feira no fliperama?",
+      "options": [
+        "Bronca estava chorando sem parar",
+        "Bronca recusou o convite e agia de forma servil e obediente, dizendo que tudo era proibido",
+        "Bronca estava vendendo ingressos de show",
+        "Bronca não o reconheceu"
+      ],
+      "answerIndex": 1,
+      "explanation": "Antes de sumir, Bronca perdeu sua agressividade natural e passou a repetir passivamente que devia obedecer a ordens."
+    },
+    {
+      "id": 7,
+      "question": "Por que o comportamento prévio de Bronca causou tanto espanto em Calu?",
+      "options": [
+        "Porque Bronca era o garoto mais calmo da escola",
+        "Porque Bronca era a pessoa mais rebelde e esquentada do colégio",
+        "Porque Bronca nunca jogava fliperama",
+        "Porque Bronca não falava português"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ver o garoto mais valente e rebelde agir como um 'carneirinho submisso' indicava uma alteração psicológica forçada."
+    },
+    {
+      "id": 8,
+      "question": "Qual tarefa ficou definida para Magrí na investigação?",
+      "options": [
+        "Sondar as garotas e namoradas ligadas a Bronca",
+        "Seguir os policiais pela cidade",
+        "Fazer uma varredura no laboratório de química",
+        "Examinar as câmeras de segurança"
+      ],
+      "answerIndex": 0,
+      "explanation": "Magrí recebeu a missão de usar sua sensibilidade social para obter informações com as alunas próximas de Bronca."
+    },
+    {
+      "id": 9,
+      "question": "Qual é a missão específica dada ao novo membro, Chumbinho?",
+      "options": [
+        "Limpar o esconderijo",
+        "Monitorar o aluno novato chamado Bino",
+        "Atender os telefones do grêmio",
+        "Comprar lanches para o grupo"
+      ],
+      "answerIndex": 1,
+      "explanation": "Chumbinho ficou responsável por observar os passos de Bino, o aluno recém-chegado à escola."
+    },
+    {
+      "id": 10,
+      "question": "Qual método de trabalho Miguel aplicou para conduzir as investigações?",
+      "options": [
+        "Todos deveriam andar juntos o tempo todo",
+        "Dividir tarefas específicas entre cada membro e reunir as pistas depois",
+        "Deixar a polícia resolver tudo sem interferir",
+        "Denunciar os suspeitos anonimamente"
+      ],
+      "answerIndex": 1,
+      "explanation": "Miguel agiu como estrategista, dividindo os focos de atuação para cobrir todas as frentes de investigação."
+    }
+  ]
+}

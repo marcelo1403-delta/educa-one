@@ -1,0 +1,66 @@
+{
+  "chapter": 2,
+  "title": "Estranhos acontecimentos",
+  "clozes": [
+    {
+      "id": 1,
+      "text": "Ao ser descoberto no esconderijo, Chumbinho disse que queria ser um _____.",
+      "blank": "Kara",
+      "hint": "Membro do grupo secreto de estudantes"
+    },
+    {
+      "id": 2,
+      "text": "Para selar o pacto de segredo com Chumbinho, Miguel exigiu um juramento de _____.",
+      "blank": "sangue",
+      "hint": "Fluido vital usado em ritos de fidelidade"
+    },
+    {
+      "id": 3,
+      "text": "Miguel informou ao grupo que _____ estudantes haviam sumido em São Paulo.",
+      "blank": "27",
+      "hint": "Número total de alunos sequestrados de 9 escolas"
+    },
+    {
+      "id": 4,
+      "text": "Nenhum pedido de _____ havia sido feito pelos sequestradores dos estudantes.",
+      "blank": "resgate",
+      "hint": "Valor cobrado em dinheiro por um sequestrado"
+    },
+    {
+      "id": 5,
+      "text": "O aluno do Colégio Elite que acabou de desaparecer chamava-se _____.",
+      "blank": "Bronca",
+      "hint": "Apelido do estudante rebelde sequestrado"
+    },
+    {
+      "id": 6,
+      "text": "Antes de desaparecer, Bronca agia como um carneirinho assustado e extremamente _____.",
+      "blank": "obediente",
+      "hint": "Que cumpre ordens sem questionar"
+    },
+    {
+      "id": 7,
+      "text": "Magrí ficou encarregada de investigar as _____ de Bronca no colégio.",
+      "blank": "namoradas",
+      "hint": "Relacionamentos afetivos do estudante"
+    },
+    {
+      "id": 8,
+      "text": "Calu devia sondar os colegas de _____ de Bronca para levantar pistas.",
+      "blank": "classe",
+      "hint": "Turma de alunos da mesma sala"
+    },
+    {
+      "id": 9,
+      "text": "Chumbinho recebeu a missão especial de vigiar o aluno novato chamado _____.",
+      "blank": "Bino",
+      "hint": "Nome do novo aluno suspeito"
+    },
+    {
+      "id": 10,
+      "text": "Miguel assumiu a responsabilidade de investigar os _____ que Bronca frequentava.",
+      "blank": "locais",
+      "hint": "Estabelecimentos e pontos da cidade"
+    }
+  ]
+}

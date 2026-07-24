@@ -1,0 +1,27 @@
+{
+  "chapter": 10,
+  "title": "Meninos obedientes",
+  "dramaticObjective": "Revelar a natureza sinistra da Droga da Obediência (D.O.) e os testes em cobaias humanas, destacando a resistência e dissimulação de Chumbinho.",
+  "pedagogicalObjectives": [
+    {
+      "type": "BNCC",
+      "code": "EF89LP07",
+      "description": "Analisar os limites éticos, dilemas morais e impactos sociais da manipulação científica representados em obras ficcionais."
+    },
+    {
+      "type": "Competência Socioemocional",
+      "code": "Autonomia e Preservação da Dignidade Humana",
+      "description": "Refletir sobre o valor inviolável do livre-arbítrio, da consciência moral e do direito de dizer não contra a opressão."
+    }
+  ],
+  "learningGoals": [
+    "Identificar os perigos do controle mental e da ausência de ética em experimentos biológicos com seres humanos.",
+    "Compreender como a dissimulação estratégica pode ser usada como recurso legítimo de sobrevivência contra o crime.",
+    "Avaliar o cálculo temporal (efeito de 8 horas) na elaboração de planos de fuga em narrativas de suspense."
+  ],
+  "checkpoints": {
+    "topic": "Ética na Ciência e Autonomia do Indivíduo",
+    "reflectionQuestion": "O que as atitudes do Doutor Q.I. revelam sobre a falta de limites éticos e o perigo do controle absoluto?",
+    "activityProposal": "Debate sobre Ética Científica: Discutir em sala a diferença entre avanços científicos legítimos e o uso perigoso da ciência para dominação."
+  }
+}

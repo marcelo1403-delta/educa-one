@@ -1,0 +1,126 @@
+{
+  "chapter": 8,
+  "title": "Um Kara nas sombras da noite",
+  "quizzes": [
+    {
+      "id": 1,
+      "question": "Como Miguel conseguiu se deslocar pelo centro da cidade sem ser pego pelas viaturas?",
+      "options": [
+        "Usou um táxi caro",
+        "Atravessou quintais e pulou no meio da multidão de um ônibus público lotado",
+        "Pegou um metrô na estação fria",
+        "Escondeu-se numa caçamba de lixo por cinco horas"
+      ],
+      "answerIndex": 1,
+      "explanation": "A mistura com a multidão do transporte coletivo permitiu a Miguel desaparecer do campo de visão da polícia."
+    },
+    {
+      "id": 2,
+      "question": "De onde Miguel fez as ligações urgentes para a família de Chumbinho e para Calu?",
+      "options": [
+        "Do seu telefone celular particular",
+        "De um telefone público (orelhão) em uma lanchonete",
+        "Do orelhão da delegacia de polícia",
+        "Do telefone fixo do diretor"
+      ],
+      "answerIndex": 1,
+      "explanation": "Usar um orelhão de lanchonete garantia o anonimato da ligação e impedia o rastreamento da sua localização exata."
+    },
+    {
+      "id": 3,
+      "question": "O que Miguel pediu para Calu fazer em relação à sua mãe?",
+      "options": [
+        "Avisar que Miguel fora preso",
+        "Imitar a voz de Miguel ao telefone e avisar que iria dormir na casa de Calu para estudar",
+        "Pedir dinheiro emprestado para o resgate",
+        "Mandar guardar o jantar"
+      ],
+      "answerIndex": 1,
+      "explanation": "A imitação perfeita feita por Calu tranquilizou a mãe de Miguel sem revelar a perseguição policial."
+    },
+    {
+      "id": 4,
+      "question": "Quem bateu na porta da casa de Calu enquanto os garotos se organizavam?",
+      "options": [
+        "O diretor do colégio",
+        "Os detetives Andrade e Rubens procurando por Miguel e pelos Karas",
+        "O motorista da van do cativeiro",
+        "A mãe de Chumbinho"
+      ],
+      "answerIndex": 1,
+      "explanation": "Andrade e Rubens foram à residência de Calu na tentativa de localizar os membros da rede investigativa."
+    },
+    {
+      "id": 5,
+      "question": "Como Calu conseguiu atender a polícia na porta sem ser reconhecido ou preso?",
+      "options": [
+        "Fingiu estar dormindo e não abriu a porta",
+        "Caracterizou-se de criado doméstico antigo, usando óculos grandes e algodão nas bochechas",
+        "Pulou a janela dos fundos assim que os policiais tocaram a campainha",
+        "Fez voz de mulher e disse que não havia ninguém em casa"
+      ],
+      "answerIndex": 1,
+      "explanation": "Com sua maestria cênica e adereços improvisados, Calu interpretou o servente da casa enganando os detetives."
+    },
+    {
+      "id": 6,
+      "question": "Onde Miguel buscou refúgio para passar a madrugada em segurança?",
+      "options": [
+        "Em um hotel barato no centro",
+        "No esconderijo secreto no sótão do Colégio Elite",
+        "Na casa de Magrí",
+        "Sob uma ponte da marginal"
+      ],
+      "answerIndex": 1,
+      "explanation": "O forro do vestiário da escola permaneceu o único porto seguro inexplorado pelas autoridades."
+    },
+    {
+      "id": 7,
+      "question": "Como Miguel entrou no Colégio Elite no meio da noite sem ser visto pelos guardas?",
+      "options": [
+        "Subiu pelo portão principal com a chave do grêmio",
+        "Escalou o muro dos fundos e entrou diretamente pela abertura do telhado do vestiário",
+        "Subornou o vigia noturno",
+        "Escondeu-se no caminhão de lixo"
+      ],
+      "answerIndex": 1,
+      "explanation": "Miguel usou suas habilidades físicas para pular o muro e acessar o sótão pelas telhas do vestiário."
+    },
+    {
+      "id": 8,
+      "question": "O que Miguel fez para cuidar dos ferimentos sofridos durante a queda da viatura?",
+      "options": [
+        "Foi a um pronto-socorro particular",
+        "Lavou os arranhões no escuro e limpou o sangue no esconderijo",
+        "Pediu ajuda à enfermeira do colégio",
+        "Ignorou os machucados sem fazer nada"
+      ],
+      "answerIndex": 1,
+      "explanation": "No isolamento do sótão, cuidou dos próprios machucados para não deixar vestígios nem chamar atenção."
+    },
+    {
+      "id": 9,
+      "question": "Qual conflito interno atormentou o pensamento de Miguel durante a noite solitária no sótão?",
+      "options": [
+        "O medo de tirar nota baixa nas provas de matemática",
+        "O remorso e a responsabilidade pelo sequestro de Chumbinho",
+        "A vontade de desistir do grêmio estudantil",
+        "O raiva de ter perdido sua bicicleta"
+      ],
+      "answerIndex": 1,
+      "explanation": "Como idealizador dos Karas, Miguel carregou o peso emocional de ter exposto um garoto de 12 anos à quadrilha."
+    },
+    {
+      "id": 10,
+      "question": "Qual promessa encerra o monólogo solitário de Miguel diante da lua no esconderijo?",
+      "options": [
+        "Prometeu que nunca mais entraria em investigações policiais",
+        "Jurou resgatar Chumbinho e derrotar a quadrilha a qualquer custo",
+        "Prometeu fugir da cidade no dia seguinte",
+        "Jurou entregar os Karas à polícia"
+      ],
+      "answerIndex": 1,
+      "explanation": "A dor da culpa se transformou no compromisso inabalável de salvar o caçula das mãos do Doutor Q.I."
+    }
+  ]
+}

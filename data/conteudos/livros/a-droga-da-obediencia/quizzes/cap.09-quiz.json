@@ -1,0 +1,126 @@
+{
+  "chapter": 9,
+  "title": "Decifrando a mensagem",
+  "quizzes": [
+    {
+      "id": 1,
+      "question": "Como os Karas souberam que Chumbinho havia deixado uma pista escrita no banheiro?",
+      "options": [
+        "Acharam um bilhete jogado no chão",
+        "Magrí ouviu a faxineira Dona Rosa reclamar de traços e pontos desenhados no reservado",
+        "Chumbinho mandou uma mensagem de texto",
+        "O inspetor da escola contou para a turma"
+      ],
+      "answerIndex": 1,
+      "explanation": "Dona Rosa comentou furiosa sobre ter tido trabalho para lavar a sujeira estranha deixada no reservado."
+    },
+    {
+      "id": 2,
+      "question": "Qual foi a complicação imediata enfrentada pelo grupo ao tentar ver a mensagem?",
+      "options": [
+        "O banheiro estava trancado pela diretoria",
+        "Dona Rosa já havia limpado e esfregado totalmente o azulejo com sabão",
+        "O prédio do vestiário fora demolido",
+        "A mensagem estava escrita em espanhol"
+      ],
+      "answerIndex": 1,
+      "explanation": "Como a faxineira lavara o azulejo, a mensagem visual desaparecera completamente do banheiro."
+    },
+    {
+      "id": 3,
+      "question": "Qual solução brilhante Crânio propôs para recuperar o conteúdo da mensagem limpa?",
+      "options": [
+        "Usar luz negra na parede",
+        "Hipnotizar Dona Rosa para resgatar a imagem gravada em sua memória fotográfica inconsciente",
+        "Pedir para a polícia fazer perícia química",
+        "Reescrever o texto por intuição"
+      ],
+      "answerIndex": 1,
+      "explanation": "Crânio sabia que a visão da faxineira registrara o formato dos símbolos na mente inconsciente antes da limpeza."
+    },
+    {
+      "id": 4,
+      "question": "Onde foi realizada a sessão de hipnose com Dona Rosa?",
+      "options": [
+        "No meio da quadra de esportes",
+        "No quartinho das vassouras do colégio, longe de olhares curiosos",
+        "Na sala de professores",
+        "Dentro da viatura de Andrade"
+      ],
+      "answerIndex": 1,
+      "explanation": "O quartinho das vassouras garantia a penumbra e o silêncio necessários para a indução ao transe."
+    },
+    {
+      "id": 5,
+      "question": "O que Dona Rosa ditou pausadamente enquanto estava em transe hipnótico?",
+      "options": [
+        "A receita de um bolo de cenoura",
+        "As sequências de riscos e pontos correspondentes ao código Morse",
+        "Os nomes dos professores de matemática",
+        "Números da loteria da semana"
+      ],
+      "answerIndex": 1,
+      "explanation": "Em transe, ela descreveu exatamente a forma dos traços e pontos que vira no azulejo."
+    },
+    {
+      "id": 6,
+      "question": "Quais foram as três letras obtidas ao traduzir os sinais Morse ditados por Dona Rosa?",
+      "options": [
+        "S - O - S",
+        "K - B - C",
+        "D - O - Q",
+        "E - L - I"
+      ],
+      "answerIndex": 1,
+      "explanation": "A tradução do código Morse revelou a sequência de letras K-B-C."
+    },
+    {
+      "id": 7,
+      "question": "Como Miguel interpretou o significado da sigla K-B-C?",
+      "options": [
+        "Karatê, Basquete e Ciclismo",
+        "Karas - Bino - Chumbinho",
+        "King, Boss e Commander",
+        "Kilo, Byte e Computador"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tratava-se do alerta de Chumbinho aos Karas indicando que ele e Bino haviam sido capturados."
+    },
+    {
+      "id": 8,
+      "question": "Quem era Bino e qual detalhe confirmou sua captura pela quadrilha?",
+      "options": [
+        "Um garoto de outra escola que mandou uma carta",
+        "Colega de classe de Chumbinho que havia faltado à aula no Colégio Elite no mesmo dia",
+        "O cachorro do vigia da escola",
+        "O filho do Detetive Andrade"
+      ],
+      "answerIndex": 1,
+      "explanation": "Bino era o terceiro aluno do Elite (junto a Bronca e Chumbinho) selecionado para completar a cota da amostragem."
+    },
+    {
+      "id": 9,
+      "question": "Como Calu reapareceu diante dos Karas pela manhã no vestiário?",
+      "options": [
+        "Acompanhado pela polícia",
+        "Disfarçado com trajes de criado antigo, relatando como enganou a polícia na véspera",
+        "Chorando e pedindo para desistir",
+        "Vestido com o uniforme de futebol do colégio"
+      ],
+      "answerIndex": 1,
+      "explanation": "Calu manteve seu disfarce para caminhar até a escola sem ser pego pela polícia."
+    },
+    {
+      "id": 10,
+      "question": "O que a resolução da mensagem nos azulejos permitiu aos Karas saberem?",
+      "options": [
+        "Apenas a hora do almoço",
+        "Que Chumbinho agiu com lucidez e deixou uma pista consciente confirmando seu cativeiro com Bino",
+        "Que a polícia resolveria tudo sem os Karas",
+        "Que o Diretor Cardoso era o chefe do crime"
+      ],
+      "answerIndex": 1,
+      "explanation": "O código decifrado provou que Chumbinho não fora dominado mentalmente e estava lutando de dentro do cativeiro."
+    }
+  ]
+}

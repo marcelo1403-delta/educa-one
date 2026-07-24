@@ -1,16 +1,16 @@
-const APP_VERSION='33';
+const APP_VERSION='34';
 const bookRoot=['data','conteudos','livros','a-droga-da-obediencia'];
 const files={chapters:{
-1:{title:'Os Karas',md:['leitura','01%20-%20Os%20Karas%20simplificado.md']},
-2:{title:'Estranhos acontecimentos',md:['leitura','02 - Estranhos acontecimentos simplificado.md']},
-3:{title:'Investiga\u00e7\u00e3o no Elite',md:['leitura','03%20-%20Investiga%C3%A7%C3%A3o%20no%20Elite%20simplificado.md']},
-4:{title:'Cr\u00e2nio raciocina',md:['leitura','04%20-%20Cr%C3%A2nio%20raciocina%20simplificado.md']},
-5:{title:'O plano de Miguel',md:['leitura','05%20-%20O%20plano%20de%20Miguel%20simplificado.md']},
-6:{title:'Um encontro inesperado',md:['leitura','06%20-%20Um%20encontro%20inesperado%20simplificado.md']},
-7:{title:'Chumbinho valente',md:['leitura','07%20-%20Chumbinho%20valente%20simplificado.md']},
-8:{title:'Um Kara nas sombras da noite',md:['leitura','08 - Um Kara nas sombras da noite simplificado.md']},
-9:{title:'Decifrando a mensagem',md:['leitura','09 - Decifrando a mensagem simplificado.md']},
-10:{title:'Meninos obedientes',md:['leitura','10 - Meninos obedientes simplificado.md']},
+1:{title:'Os Karas',md:['leitura','cap.01-leitura.md']},
+2:{title:'Estranhos acontecimentos',md:['leitura','cap.02-leitura.md']},
+3:{title:'Investiga\u00e7\u00e3o no Elite',md:['leitura','cap.03-leitura.md']},
+4:{title:'Cr\u00e2nio raciocina',md:['leitura','cap.04-leitura.md']},
+5:{title:'O plano de Miguel',md:['leitura','cap.05-leitura.md']},
+6:{title:'Um encontro inesperado',md:['leitura','cap.06-leitura.md']},
+7:{title:'Chumbinho valente',md:['leitura','cap.07-leitura.md']},
+8:{title:'Um Kara nas sombras da noite',md:['leitura','cap.08-leitura.md']},
+9:{title:'Decifrando a mensagem',md:['leitura','cap.09-leitura.md']},
+10:{title:'Meninos obedientes',md:['leitura','cap.10-leitura.md']},
 11:{title:'Uma droga mais que perfeita',md:['leitura','11 - Uma droga mais que perfeita simplificado.md']},
 12:{title:'Assalto ao banco',md:['leitura','12 - Assalto ao banco simplificado.md']},
 13:{title:'Infeliz reaparecimento',md:['leitura','13 - Infeliz reaparecimento simplificado.md']},
@@ -61,6 +61,7 @@ async function getText(parts){const r=await fetch(contentUrl(parts));if(!r.ok)th
 async function getOptionalText(parts,fallback=''){try{return await getText(parts)}catch(e){return fallback}}
 async function getJson(parts){const r=await fetch(contentUrl(parts));if(!r.ok)throw new Error('Arquivo nao encontrado');return r.json()}
 async function getOptionalJson(parts,fallback=null){try{return await getJson(parts)}catch(e){return fallback}}
+async function getFirstOptionalJson(list,fallback=null){for(const parts of list){const data=await getOptionalJson(parts,null);if(data)return data}return fallback}
 function inlineMd(s){return esc(s).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/`([^`]+)`/g,'<code>$1</code>')}
 function mdToHtml(md){
   const lines=stripFrontMatter(md).replace(/\r/g,'').split('\n');let html='',para=[],list=[];
@@ -163,10 +164,11 @@ function parseClozesMarkdown(md){
   }).filter(Boolean);
 }
 function parseQuizJson(data){
-  return (data?.questoes||data?.quiz||[]).map(q=>{
+  return (data?.questoes||data?.quiz||data?.quizzes||[]).map(q=>{
     const options=(q.alternativas||q.options||[]).map(a=>typeof a==='string'?a:a.texto);
+    const indexed=Number(q.answerIndex??q.respostaIndex);
     const key=String(q.resposta_correta??q.answer??'').toLowerCase();
-    const answer=/^[a-d]$/.test(key)?key.charCodeAt(0)-97:options.findIndex(o=>normalizeAnswer(o)===normalizeAnswer(key));
+    const answer=Number.isInteger(indexed)?indexed:/^[a-d]$/.test(key)?key.charCodeAt(0)-97:options.findIndex(o=>normalizeAnswer(o)===normalizeAnswer(key));
     return {question:q.enunciado||q.pergunta||q.question,options,answer:answer<0?0:answer,explanation:q.explicacao||q.explanation||''};
   }).filter(q=>q.question&&q.options.length);
 }
@@ -181,6 +183,7 @@ function parseClozesJson(data){
   });
   const itemItems=(data?.itens||data?.clozes||[]).map(item=>{
     const answers=(item.lacunas||[]).flatMap(l=>l.respostas_aceitas||l.answers||[]).filter(Boolean);
+    if(!answers.length&&item.blank)answers.push(item.blank);
     return {text:item.texto||item.text||'',answers};
   });
   return [...componentItems,...itemItems].filter(x=>x.text&&x.answers.length);
@@ -205,18 +208,18 @@ function flashHtml(cards,md){if(cards.length)return `<div class="flashgrid">${ca
 function clozeHtml(items,md){if(items.length)return items.map((c,i)=>`<div class="scene cloze" data-answers="${esc(c.answers.join('|'))}"><h3>Cloze ${i+1}</h3><p>${esc(c.text)}</p><input class="cloze-input" placeholder="Digite a resposta"><button class="btn secondary cloze-check">Conferir</button><div class="fb"></div></div>`).join('');return `<div class="scene">${mdToHtml(md||'> Os exercicios deste capitulo ainda nao foram adicionados em data.')}</div>`}
 function tabButton(id,label,active=false){return `<button class="chapter-tab ${active?'active':''}" data-tab="${id}" type="button" aria-selected="${active}">${label}</button>`}
 function timelineHtml(data){
-  const events=(data?.eventos||[]).slice().sort((a,b)=>(a.ordem||0)-(b.ordem||0));
+  const events=(data?.eventos||data?.timeline||[]).slice().sort((a,b)=>(a.ordem||a.order||0)-(b.ordem||b.order||0));
   if(!events.length)return '<div class="scene"><p>Timeline deste capitulo ainda nao foi adicionada em data.</p></div>';
-  return `<ol class="timeline-list">${events.map(ev=>`<li><b>${esc(ev.titulo)}</b><p>${esc(ev.descricao)}</p></li>`).join('')}</ol>${data?.atividade_ordenacao?.instrucao?`<div class="scene"><p>${esc(data.atividade_ordenacao.instrucao)}</p></div>`:''}`;
+  return `<ol class="timeline-list">${events.map(ev=>`<li><b>${esc(ev.titulo||`Evento ${ev.ordem||ev.order||''}`)}</b><p>${esc(ev.descricao||ev.event||'')}</p>${ev.location?`<p class="muted">${esc(ev.location)}</p>`:''}</li>`).join('')}</ol>${data?.atividade_ordenacao?.instrucao?`<div class="scene"><p>${esc(data.atividade_ordenacao.instrucao)}</p></div>`:''}`;
 }
 function vocabHtml(data,terms){
-  const items=(data?.termos||[]).map(t=>({termo:t.termo,definicao:t.definicao,exemplo:t.exemplo_contextual}));
+  const items=[...(data?.termos||[]).map(t=>({termo:t.termo,definicao:t.definicao,exemplo:t.exemplo_contextual})),...(data?.vocabulary||[]).map(t=>({termo:t.word,definicao:t.meaning,exemplo:t.contextInChapter}))];
   const list=items.length?items:terms.map(t=>({termo:t.termo||t.term,definicao:t.definicao||t.definition,exemplo:t.exemplo}));
   if(!list.length)return '<div class="scene"><p>Vocabulario deste capitulo ainda nao foi adicionado em data.</p></div>';
   return `<div class="grid">${list.map(termCard).join('')}</div>`;
 }
 function objetivosHtml(data){
-  const objetivos=data?.objetivos||[],criterios=data?.criterios_de_sucesso||[];
+  const objetivos=[...(data?.objetivos||[]),...(data?.pedagogicalObjectives||[]).map(o=>({descricao:o.description,prioridade:o.code||o.type}))],criterios=data?.criterios_de_sucesso||data?.learningGoals||[];
   if(!objetivos.length&&!criterios.length)return '<div class="scene"><p>Objetivos deste capitulo ainda nao foram adicionados em data.</p></div>';
   return `${objetivos.length?`<div class="grid">${objetivos.map(o=>`<article class="card"><span>${esc(o.prioridade||'objetivo')}</span><h2>${esc(o.descricao)}</h2></article>`).join('')}</div>`:''}${criterios.length?`<div class="scene"><h3>Criterios de sucesso</h3><ul>${criterios.map(c=>`<li>${esc(c)}</li>`).join('')}</ul></div>`:''}`;
 }
@@ -227,7 +230,7 @@ async function chapter(id){
   let error='';
   const [mdResult,quizJson,flashJson,clozeJson,timelineJson,vocabJson,objetivosJson,quizMd,flashMd,clozeMd]=await Promise.all([
     f?.md?getText(f.md).then(text=>({text})).catch(()=>({text:'',error:'Nao consegui carregar o arquivo Markdown deste capitulo.'})):Promise.resolve({text:''}),
-    getOptionalJson(['quizzes',`cap.${pad}-quizzes.json`]),
+    getFirstOptionalJson([['quizzes',`cap.${pad}-quiz.json`],['quizzes',`cap.${pad}-quizzes.json`]]),
     getOptionalJson(['flashcards',`cap.${pad}-flashcards.json`]),
     getOptionalJson(['clozes',`cap.${pad}-clozes.json`]),
     getOptionalJson(['timeline',`cap.${pad}-timeline.json`]),
@@ -245,7 +248,7 @@ async function chapter(id){
   const content=md?mdToHtml(md):`<div class="scene"><p>${esc(error||'Este capitulo ainda nao tem arquivo em data/conteudos.')}</p></div>`;
   const terms=S.bookGlossary.filter(g=>Array.isArray(g.capitulos)&&g.capitulos.includes(id));
   const maxChapter=Math.max(...Object.keys(files.chapters).map(Number));
-  app.innerHTML=`<div class="layout"><article class="reader"><div class="eyebrow">CAPITULO ${id}</div><h1>${esc(f?.title||c.title)}</h1>${f?.md?'':`<p class="muted">Aguardando arquivo do capitulo</p>`}<div class="chapter-tabs" role="tablist">${tabButton('leitura','📖 Leitura',true)}${tabButton('quiz','❔ Quiz')}${tabButton('cloze','🧩 Cloze')}${tabButton('flashcards','🃏 Flashcards')}${tabButton('timeline','🗓️ Timeline')}${tabButton('vocabulario','📘 Vocabulario')}${tabButton('objetivos','⭐ Objetivos')}</div><section class="tab-panel active" data-panel="leitura"><section class="markdown">${content}</section></section><section class="tab-panel" data-panel="quiz" hidden><h2>Perguntas interativas</h2>${quizHtml(id,questions,quizMd)}</section><section class="tab-panel" data-panel="cloze" hidden><h2>Cloze</h2>${clozeHtml(clozes,clozeMd)}</section><section class="tab-panel" data-panel="flashcards" hidden><h2>Flashcards</h2>${flashHtml(cards,flashMd)}</section><section class="tab-panel" data-panel="timeline" hidden><h2>Timeline</h2>${timelineHtml(timelineJson)}</section><section class="tab-panel" data-panel="vocabulario" hidden><h2>Vocabulario</h2>${vocabHtml(vocabJson,terms)}</section><section class="tab-panel" data-panel="objetivos" hidden><h2>Objetivos</h2>${objetivosHtml(objetivosJson)}</section><p><button class="btn primary" id="finish">Concluir capitulo</button> ${id<maxChapter?`<a class="btn secondary" href="#/capitulos/${id+1}">Proximo capitulo -></a>`:''}</p></article><aside class="panel"><h3>Neste capitulo</h3><p>Texto ${f?.md?'disponivel':'pendente'}</p><p>Quiz ${questions.length||0} perguntas</p><p>Flashcards ${cards.length||0} cartoes</p><p>Cloze ${clozes.length||0} exercicios</p><p>Timeline ${(timelineJson?.eventos||[]).length} eventos</p><p>Vocabulario ${(vocabJson?.termos||terms).length} termos</p><p>Objetivos ${(objetivosJson?.objetivos||[]).length} itens</p><p><a class="btn secondary" href="#/glossario/${id}">Glossario geral</a></p><p><a class="btn secondary" href="#/videos">Ver videos</a></p></aside></div>`;
+  app.innerHTML=`<div class="layout"><article class="reader"><div class="eyebrow">CAPITULO ${id}</div><h1>${esc(f?.title||c.title)}</h1>${f?.md?'':`<p class="muted">Aguardando arquivo do capitulo</p>`}<div class="chapter-tabs" role="tablist">${tabButton('leitura','📖 Leitura',true)}${tabButton('quiz','❔ Quiz')}${tabButton('cloze','🧩 Cloze')}${tabButton('flashcards','🃏 Flashcards')}${tabButton('timeline','🗓️ Timeline')}${tabButton('vocabulario','📘 Vocabulario')}${tabButton('objetivos','⭐ Objetivos')}</div><section class="tab-panel active" data-panel="leitura"><section class="markdown">${content}</section></section><section class="tab-panel" data-panel="quiz" hidden><h2>Perguntas interativas</h2>${quizHtml(id,questions,quizMd)}</section><section class="tab-panel" data-panel="cloze" hidden><h2>Cloze</h2>${clozeHtml(clozes,clozeMd)}</section><section class="tab-panel" data-panel="flashcards" hidden><h2>Flashcards</h2>${flashHtml(cards,flashMd)}</section><section class="tab-panel" data-panel="timeline" hidden><h2>Timeline</h2>${timelineHtml(timelineJson)}</section><section class="tab-panel" data-panel="vocabulario" hidden><h2>Vocabulario</h2>${vocabHtml(vocabJson,terms)}</section><section class="tab-panel" data-panel="objetivos" hidden><h2>Objetivos</h2>${objetivosHtml(objetivosJson)}</section><p><button class="btn primary" id="finish">Concluir capitulo</button> ${id<maxChapter?`<a class="btn secondary" href="#/capitulos/${id+1}">Proximo capitulo -></a>`:''}</p></article><aside class="panel"><h3>Neste capitulo</h3><p>Texto ${f?.md?'disponivel':'pendente'}</p><p>Quiz ${questions.length||0} perguntas</p><p>Flashcards ${cards.length||0} cartoes</p><p>Cloze ${clozes.length||0} exercicios</p><p>Timeline ${(timelineJson?.eventos||[]).length} eventos</p><p>Vocabulario ${(vocabJson?.termos||vocabJson?.vocabulary||terms).length} termos</p><p>Objetivos ${(objetivosJson?.objetivos||[]).length} itens</p><p><a class="btn secondary" href="#/glossario/${id}">Glossario geral</a></p><p><a class="btn secondary" href="#/videos">Ver videos</a></p></aside></div>`;
   document.querySelectorAll('.chapter-tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.chapter-tab').forEach(x=>{const selected=x===b;x.classList.toggle('active',selected);x.setAttribute('aria-selected',selected?'true':'false')});document.querySelectorAll('.tab-panel').forEach(p=>{const show=p.dataset.panel===b.dataset.tab;p.hidden=!show;p.classList.toggle('active',show)});window.scrollTo({top:0,behavior:'smooth'})});
   document.querySelectorAll('.flash').forEach(b=>b.onclick=()=>b.classList.toggle('flipped'));
   document.querySelectorAll('.q').forEach(q=>q.onchange=e=>{if(!e.target.matches('input'))return;let ok=+e.target.value===+q.dataset.a,exp=q.dataset.exp;q.querySelector('.fb').textContent=(ok?'Resposta correta! ':'Ainda nao. ')+exp;save(id,Math.min(80,p(id)+8))});

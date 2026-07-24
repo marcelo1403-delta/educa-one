@@ -1,0 +1,42 @@
+{
+  "chapter": 4,
+  "title": "Crânio raciocina",
+  "timeline": [
+    {
+      "order": 1,
+      "event": "Os Karas se reúnem na Central para cruzar os dados colhidos na investigação e ler as últimas notícias de jornal.",
+      "location": "Central dos Karas (Forro do Vestiário)",
+      "charactersInvolved": ["Crânio", "Miguel", "Calu", "Magrí", "Chumbinho"]
+    },
+    {
+      "order": 2,
+      "event": "Crânio toca sua gaita de boca, analisa os recortes e aponta o total exato de 28 estudantes sumidos em São Paulo.",
+      "location": "Central dos Karas",
+      "charactersInvolved": ["Crânio"]
+    },
+    {
+      "order": 3,
+      "event": "Crânio demonstra que a distribuição de exatamente 3 alunos por colégio de elite constitui uma amostragem científica.",
+      "location": "Central dos Karas",
+      "charactersInvolved": ["Crânio", "Magrí", "Miguel"]
+    },
+    {
+      "order": 4,
+      "event": "O grupo descarta o interesse financeiro e descobre que as vítimas são coletadas como cobaias humanas.",
+      "location": "Central dos Karas",
+      "charactersInvolved": ["Crânio", "Calu", "Magrí", "Miguel"]
+    },
+    {
+      "order": 5,
+      "event": "Crânio descarta hipnose e revela a existência de um composto sintético: a Droga da Obediência.",
+      "location": "Central dos Karas",
+      "charactersInvolved": ["Crânio", "Miguel", "Chumbinho"]
+    },
+    {
+      "order": 6,
+      "event": "Miguel e Crânio concluem que o oferecedor da droga está infiltrado e operando ativamente dentro do Colégio Elite.",
+      "location": "Central dos Karas",
+      "charactersInvolved": ["Miguel", "Crânio", "Calu", "Magrí", "Chumbinho"]
+    }
+  ]
+}

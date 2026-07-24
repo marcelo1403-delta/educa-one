@@ -1,133 +1,56 @@
 {
-  "schema_version": 1,
-  "livro_id": "a-droga-da-obediencia",
-  "livro": "A Droga da Obediência",
-  "capitulo": 1,
-  "titulo_capitulo": "Os Karas",
-  "fonte": "Capítulo 1 simplificado fornecido pelo usuário",
-  "tipo_atividade": "flashcards",
+  "chapter": 1,
+  "title": "Os Karas",
   "flashcards": [
     {
-      "id": "fc-cap01-001",
-      "frente": "Quem liderava os Karas?",
-      "verso": "Miguel.",
-      "tags": [
-        "personagens"
-      ]
+      "id": 1,
+      "front": "Quem é Miguel na estrutura do Colégio Elite e dos Karas?",
+      "back": "Miguel é o presidente do grêmio estudantil do Colégio Elite e o líder fundador do grupo secreto Os Karas."
     },
     {
-      "id": "fc-cap01-002",
-      "frente": "Qual cargo Miguel ocupava no Colégio Elite?",
-      "verso": "Presidente do Grêmio.",
-      "tags": [
-        "personagens",
-        "colegio"
-      ]
+      "id": 2,
+      "front": "Qual é o sinal secreto usado para convocar os Karas em emergência máxima?",
+      "back": "O sinal secreto é a letra 'K' gravada ou desenhada na palma da mão esquerda de Miguel."
     },
     {
-      "id": "fc-cap01-003",
-      "frente": "Por que Miguel convocou uma reunião de emergência?",
-      "verso": "Porque investigava o desaparecimento de estudantes em vários colégios.",
-      "tags": [
-        "misterio"
-      ]
+      "id": 3,
+      "front": "Qual desculpa Calu utilizou para sair do ensaio de teatro?",
+      "back": "Calu fingiu uma enxaqueca insuportável e disse que precisava tomar um remédio imediatamente."
     },
     {
-      "id": "fc-cap01-004",
-      "frente": "Qual era o sinal secreto dos Karas?",
-      "verso": "Um K desenhado na palma da mão.",
-      "tags": [
-        "sinal-secreto"
-      ]
+      "id": 4,
+      "front": "Como Crânio reagiu ao ver o sinal secreto durante a partida de xadrez?",
+      "back": "Crânio abandonou a partida imediatamente, derrubando o próprio rei e dando xeque-mate a favor do adversário."
     },
     {
-      "id": "fc-cap01-005",
-      "frente": "O que o sinal do K significava?",
-      "verso": "Que a situação era extremamente grave.",
-      "tags": [
-        "sinal-secreto"
-      ]
+      "id": 5,
+      "front": "Qual desculpa Magrí usou para sair do treino de vôlei e ir ao esconderijo?",
+      "back": "Magrí fingiu ter torcido o tornozelo após realizar uma cortada perfeita no treino."
     },
     {
-      "id": "fc-cap01-006",
-      "frente": "O que Calu abandonou para atender ao chamado?",
-      "verso": "Um ensaio de teatro.",
-      "tags": [
-        "personagens"
-      ]
+      "id": 6,
+      "front": "Onde fica localizado o esconderijo secreto dos Karas?",
+      "back": "Fica no forro do telhado (sótão), localizado acima do quartinho de vassouras do vestiário do Colégio Elite."
     },
     {
-      "id": "fc-cap01-007",
-      "frente": "O que Crânio abandonou para atender ao chamado?",
-      "verso": "Uma partida de xadrez que estava prestes a vencer.",
-      "tags": [
-        "personagens"
-      ]
+      "id": 7,
+      "front": "Qual é a habilidade marcante do personagem Crânio?",
+      "back": "Crânio é o gênio intelectual do grupo, campeão de xadrez, excelente em raciocínio dedutivo e toca gaita de boca."
     },
     {
-      "id": "fc-cap01-008",
-      "frente": "O que Magrí abandonou para atender ao chamado?",
-      "verso": "Um treino de vôlei.",
-      "tags": [
-        "personagens"
-      ]
+      "id": 8,
+      "front": "Qual é o talento principal de Calu dentro do grupo?",
+      "back": "Calu é o ator do grupo, mestre da interpretação, do improviso, dos disfarces e do humor."
     },
     {
-      "id": "fc-cap01-009",
-      "frente": "Onde ficava o esconderijo dos Karas?",
-      "verso": "Acima do forro dos vestiários.",
-      "tags": [
-        "cenario"
-      ]
+      "id": 9,
+      "front": "Qual é a principal característica e papel de Magrí?",
+      "back": "Magrí é a campeã de ginástica/vôlei, dotada de extrema agilidade física, reflexos olímpicos e grande empatia."
     },
     {
-      "id": "fc-cap01-010",
-      "frente": "Como se chegava ao esconderijo?",
-      "verso": "Por um pequeno alçapão escondido em um depósito de materiais de limpeza.",
-      "tags": [
-        "cenario"
-      ]
-    },
-    {
-      "id": "fc-cap01-011",
-      "frente": "Quem entrou inesperadamente no esconderijo?",
-      "verso": "Chumbinho.",
-      "tags": [
-        "personagens"
-      ]
-    },
-    {
-      "id": "fc-cap01-012",
-      "frente": "O que Chumbinho já sabia sobre os Karas?",
-      "verso": "A identidade dos integrantes e a localização do esconderijo.",
-      "tags": [
-        "segredo"
-      ]
-    },
-    {
-      "id": "fc-cap01-013",
-      "frente": "Como Magrí reagiu à presença de Chumbinho?",
-      "verso": "Perdeu a paciência e o agarrou pela gola.",
-      "tags": [
-        "conflito"
-      ]
-    },
-    {
-      "id": "fc-cap01-014",
-      "frente": "Como Miguel reagiu à atitude de Magrí?",
-      "verso": "Conteve Magrí e decidiu ouvir Chumbinho.",
-      "tags": [
-        "lideranca"
-      ]
-    },
-    {
-      "id": "fc-cap01-015",
-      "frente": "O que Chumbinho queria?",
-      "verso": "Fazer parte dos Karas.",
-      "tags": [
-        "objetivo",
-        "final"
-      ]
+      "id": 10,
+      "front": "O que interrompe a reunião de emergência no esconderijo dos Karas?",
+      "back": "Um barulho metálico brusco vindo do alçapão de acesso ao esconderijo, indicando que alguém está subindo."
     }
   ]
 }

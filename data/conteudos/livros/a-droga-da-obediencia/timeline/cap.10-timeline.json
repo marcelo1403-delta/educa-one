@@ -1,0 +1,48 @@
+{
+  "chapter": 10,
+  "title": "Meninos obedientes",
+  "timeline": [
+    {
+      "order": 1,
+      "event": "Chumbinho é desembarcado da van no complexo industrial da empresa de fachada Pain Control.",
+      "location": "Instalações da Pain Control",
+      "charactersInvolved": ["Chumbinho", "Homem da Van"]
+    },
+    {
+      "order": 2,
+      "event": "O garoto veste um macacão azul e recebe a numeração oficial de Cobaia D.O.20.",
+      "location": "Vestiário de Entrada / Pain Control",
+      "charactersInvolved": ["Chumbinho", "Enfermeiros do Cativeiro"]
+    },
+    {
+      "order": 3,
+      "event": "No salão de testes, Chumbinho reconhece Bronca (Cobaia D.O.19) e descobre que há apenas 20 prisioneiros no local.",
+      "location": "Salão Principal de Testes",
+      "charactersInvolved": ["Chumbinho", "Bronca", "Outras Cobaias"]
+    },
+    {
+      "order": 4,
+      "event": "Um médico relata em vídeo para a tela do Doutor Q.I. a morte da cobaia 6 por esforço físico sem dor.",
+      "location": "Salão de Testes / Tela do Doutor Q.I.",
+      "charactersInvolved": ["Médico de Avental", "Doutor Q.I.", "Chumbinho"]
+    },
+    {
+      "order": 5,
+      "event": "Chumbinho desmaia diante da cena de horror, é socorrido na enfermaria e levado ao refeitório.",
+      "location": "Enfermaria / Refeitório da Pain Control",
+      "charactersInvolved": ["Chumbinho", "Enfermeiros"]
+    },
+    {
+      "order": 6,
+      "event": "No jantar, finge tomar o comprimido de reforço e esconde a pílula na manga do macacão.",
+      "location": "Refeitório da Pain Control",
+      "charactersInvolved": ["Chumbinho", "Guardas"]
+    },
+    {
+      "order": 7,
+      "event": "Na calada da noite, Chumbinho levanta-se do beliche no dormitório e inicia sua exploração clandestina.",
+      "location": "Dormitório das Cobaias",
+      "charactersInvolved": ["Chumbinho"]
+    }
+  ]
+}

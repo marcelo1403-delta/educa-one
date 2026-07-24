@@ -1,0 +1,27 @@
+{
+  "chapter": 4,
+  "title": "Crânio raciocina",
+  "dramaticObjective": "Revelar a premissa central de sci-fi/thriller da obra (Droga da Obediência / Cobaias Humanas) por meio do raciocínio lógico-dedutivo de Crânio.",
+  "pedagogicalObjectives": [
+    {
+      "type": "BNCC",
+      "code": "EF07MA35",
+      "description": "Compreender e interpretar dados estatísticos e padrões de amostragem em contextos reais e ficcionais."
+    },
+    {
+      "type": "Competência Socioemocional",
+      "code": "Pensamento Crítico e Análise Científica",
+      "description": "Desenvolver a habilidade de testar hipóteses, descartar explicações simplistas e apoiar deduções em evidências concretas."
+    }
+  ],
+  "learningGoals": [
+    "Compreender o conceito de amostragem estatística aplicado a uma investigação narrativo-ficcional.",
+    "Identificar como a biotecnologia e a química podem ser representadas como ameaças éticas na literatura de suspense.",
+    "Diferenciar teorias de conspiração sem provas do raciocínio dedutivo fundamentado em padrão de fatos."
+  ],
+  "checkpoints": {
+    "topic": "Raciocínio Lógico e Análise de Dados",
+    "reflectionQuestion": "Qual método Crânio utilizou para descartar a hipótese de sequestro comum por dinheiro?",
+    "activityProposal": "Exercício de Investigação Guiada: fornecer pistas dispersas em texto para os alunos deduzirem a solução usando o método de Crânio."
+  }
+}

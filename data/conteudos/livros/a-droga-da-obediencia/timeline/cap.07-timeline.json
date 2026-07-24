@@ -1,0 +1,48 @@
+{
+  "chapter": 7,
+  "title": "Chumbinho valente",
+  "timeline": [
+    {
+      "order": 1,
+      "event": "Chumbinho identifica o offeredor da droga no pátio do Colégio Elite e simula interesse para obter o comprimido.",
+      "location": "Pátio do Colégio Elite",
+      "charactersInvolved": ["Chumbinho", "Oferecedor da Droga"]
+    },
+    {
+      "order": 2,
+      "event": "Chumbinho convence o homem a deixá-lo ir ao reservado do banheiro do vestiário para tomar o remédio.",
+      "location": "Vestiário do Colégio Elite",
+      "charactersInvolved": ["Chumbinho", "Oferecedor da Droga"]
+    },
+    {
+      "order": 3,
+      "event": "Na cabine, Chumbinho descarta a pílula no cesto de lixo.",
+      "location": "Banheiro do Vestiário (Reservado)",
+      "charactersInvolved": ["Chumbinho"]
+    },
+    {
+      "order": 4,
+      "event": "Superando a repulsa, usa resíduos da privada sem descarga para desenhar mensagens em Código Morse nos azulejos.",
+      "location": "Banheiro do Vestiário (Azulejos)",
+      "charactersInvolved": ["Chumbinho"]
+    },
+    {
+      "order": 5,
+      "event": "Chumbinho lava as mãos na pia e sai do banheiro cambaleando, fingindo estar sob efeito da droga.",
+      "location": "Banheiro do Vestiário",
+      "charactersInvolved": ["Chumbinho", "Oferecedor da Droga"]
+    },
+    {
+      "order": 6,
+      "event": "Atendendo às ordens do offeredor, caminha com olhar estático até a esquina próxima à escola.",
+      "location": "Rua / Esquina próxima ao Colégio Elite",
+      "charactersInvolved": ["Chumbinho"]
+    },
+    {
+      "order": 7,
+      "event": "Uma van preta encosta; um homem enorme manda Chumbinho entrar e o garoto obedece para dar início à infiltração.",
+      "location": "Esquina perto da Praça",
+      "charactersInvolved": ["Chumbinho", "Homem da Van"]
+    }
+  ]
+}

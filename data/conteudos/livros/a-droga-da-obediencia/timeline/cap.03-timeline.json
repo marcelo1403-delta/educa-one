@@ -1,0 +1,48 @@
+{
+  "chapter": 3,
+  "title": "Investigação no Elite",
+  "timeline": [
+    {
+      "order": 1,
+      "event": "A polícia chega ao Colégio Elite com os detetives Andrade e Rubens para investigar o sumiço de Bronca.",
+      "location": "Pátio do Colégio Elite",
+      "charactersInvolved": ["Detetive Andrade", "Detetive Rubens", "Alunos"]
+    },
+    {
+      "order": 2,
+      "event": "O Diretor Cardoso convoca Miguel ao gabinete e exige que o caso seja abafado perante a escola.",
+      "location": "Gabinete do Diretor Cardoso",
+      "charactersInvolved": ["Diretor Cardoso", "Miguel"]
+    },
+    {
+      "order": 3,
+      "event": "Miguel confronta a postura paternalista do diretor, defendendo o direito dos alunos à verdade e proteção.",
+      "location": "Gabinete do Diretor Cardoso",
+      "charactersInvolved": ["Miguel", "Diretor Cardoso"]
+    },
+    {
+      "order": 4,
+      "event": "Os detetives Andrade e Rubens entram no gabinete acompanhados por Chumbinho para colher seu depoimento.",
+      "location": "Gabinete do Diretor Cardoso",
+      "charactersInvolved": ["Detetive Andrade", "Detetive Rubens", "Chumbinho", "Miguel", "Diretor Cardoso"]
+    },
+    {
+      "order": 5,
+      "event": "Miguel cruza os braços na sala, transmitindo a Chumbinho o sinal secreto dos Karas para 'Cale-se'.",
+      "location": "Gabinete do Diretor Cardoso",
+      "charactersInvolved": ["Miguel", "Chumbinho"]
+    },
+    {
+      "order": 6,
+      "event": "Chumbinho interpreta um garoto tolo e focado em fliperama, desarmando o interrogatório de Andrade.",
+      "location": "Gabinete do Diretor Cardoso",
+      "charactersInvolved": ["Chumbinho", "Detetive Andrade", "Miguel"]
+    },
+    {
+      "order": 7,
+      "event": "Detetive Andrade perde a paciência, expulsa Chumbinho da sala e repreende a postura de Miguel.",
+      "location": "Gabinete do Diretor Cardoso",
+      "charactersInvolved": ["Detetive Andrade", "Chumbinho", "Miguel"]
+    }
+  ]
+}

@@ -1,57 +1,27 @@
 {
-  "schema_version": 1,
-  "livro_id": "a-droga-da-obediencia",
-  "livro": "A Droga da Obediência",
-  "capitulo": 1,
-  "titulo_capitulo": "Os Karas",
-  "fonte": "Capítulo 1 simplificado fornecido pelo usuário",
-  "tipo_atividade": "objetivos",
-  "objetivos": [
+  "chapter": 1,
+  "title": "Os Karas",
+  "dramaticObjective": "Apresentar os quatro protagonistas centrais (Os Karas) definindo visualmente suas habilidades únicas e estabelecendo o mistério dos desaparecimentos escolares.",
+  "pedagogicalObjectives": [
     {
-      "id": "obj-cap01-001",
-      "descricao": "Identificar os personagens apresentados no capítulo e suas funções no grupo.",
-      "prioridade": "principal"
+      "type": "BNCC",
+      "code": "EF69LP47",
+      "description": "Analisar formas de apresentação de personagens e recursos de construção do suspense em textos dramáticos/narrativos."
     },
     {
-      "id": "obj-cap01-002",
-      "descricao": "Compreender por que Miguel convocou uma reunião de emergência.",
-      "prioridade": "principal"
-    },
-    {
-      "id": "obj-cap01-003",
-      "descricao": "Reconhecer o significado do sinal secreto dos Karas.",
-      "prioridade": "secundaria"
-    },
-    {
-      "id": "obj-cap01-004",
-      "descricao": "Localizar e descrever o esconderijo secreto do grupo.",
-      "prioridade": "secundaria"
-    },
-    {
-      "id": "obj-cap01-005",
-      "descricao": "Relacionar cada personagem à ação que realizou ao receber o chamado.",
-      "prioridade": "principal"
-    },
-    {
-      "id": "obj-cap01-006",
-      "descricao": "Inferir por que a entrada de Chumbinho representa um risco para os Karas.",
-      "prioridade": "principal"
-    },
-    {
-      "id": "obj-cap01-007",
-      "descricao": "Comparar as atitudes impulsiva de Magrí e cautelosa de Miguel.",
-      "prioridade": "secundaria"
-    },
-    {
-      "id": "obj-cap01-008",
-      "descricao": "Perceber como o final cria suspense para o capítulo seguinte.",
-      "prioridade": "principal"
+      "type": "Competência Socioemocional",
+      "code": "Trabalho em Equipe e Autonomia",
+      "description": "Reconhecer como a diversidade de talentos individuais (estratégico, artístico, intelectual e atlético) fortalece a cooperação coletiva."
     }
   ],
-  "criterios_de_sucesso": [
-    "Acertar pelo menos 8 das 10 questões do quiz.",
-    "Ordenar corretamente pelo menos 6 dos 8 eventos da timeline.",
-    "Responder corretamente a pelo menos 12 dos 15 flashcards.",
-    "Completar pelo menos 6 dos 8 clozes."
-  ]
+  "learningGoals": [
+    "Identificar as características psicológicas e comportamentais dos quatro membros fundadores dos Karas.",
+    "Compreender o uso de símbolos não-verbais (a marca 'K') para comunicação secreta.",
+    "Analisar o gancho narrativo (cliffhanger) como recurso de manutenção da curiosidade do leitor."
+  ],
+  "checkpoints": {
+    "topic": "Identificação de Habilidades e Leitura de Códigos",
+    "reflectionQuestion": "Como o autor diferencia as personalidades dos Karas antes mesmo deles falarem?",
+    "activityProposal": "Dramatização em grupo: criar um código secreto visual para uma equipe hipotética e simular uma convocação sem usar palavras."
+  }
 }

@@ -1,0 +1,126 @@
+{
+  "chapter": 10,
+  "title": "Meninos obedientes",
+  "quizzes": [
+    {
+      "id": 1,
+      "question": "Qual é a fachada industrial usada pelo Doutor Q.I. para abrigar o cativeiro dos estudantes?",
+      "options": [
+        "Fábrica de Brinquedos Esperança",
+        "Empresa farmacêutica Pain Control",
+        "Distribuidora de Água Mineral",
+        "Usina de Açúcar e Álcool"
+      ],
+      "answerIndex": 1,
+      "explanation": "A empresa Pain Control servia de fachada para as instalações secretas de testes biológicos do Doutor Q.I."
+    },
+    {
+      "id": 2,
+      "question": "Qual código de numeração Chumbinho recebeu ao dar entrada nas instalações?",
+      "options": [
+        "Cobaia D.O.01",
+        "Cobaia D.O.20",
+        "Cobaia D.O.29",
+        "Cobaia D.O.100"
+      ],
+      "answerIndex": 1,
+      "explanation": "Chumbinho recebeu o número 20, marcando sua posição na contagem dos sequestrados reais."
+    },
+    {
+      "id": 3,
+      "question": "Qual inconsistência numérica Chumbinho percebeu e celebrou ao contar os prisioneiros?",
+      "options": [
+        "Descobriu que havia 50 garotos e ficou assustado",
+        "Constatou que havia apenas 20 cobaias no local, provando que 9 sumiços eram farsas fabricadas para iludir a polícia",
+        "Viu que era o único garoto no prédio",
+        "Percebeu que só havia meninas no local"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ao contar 20 cobaias em vez das 29 divulgadas nos jornais, deduziu que a quadrilha usara 'falsos desaparecidos'."
+    },
+    {
+      "id": 4,
+      "question": "O que causou a morte estarrecedora da cobaia número 6 relatada pelos médicos?",
+      "options": [
+        "Ataque de envenenamento por comida estragada",
+        "Ruptura física e colapso cardíaco devido ao esforço extremo sem sentir dor sob efeito da droga",
+        "Picada de escorpião no dormitório",
+        "Queda da janela do quinto andar"
+      ],
+      "answerIndex": 1,
+      "explanation": "A Droga da Obediência anula o sinal biológico de dor e cansaço, levando o corpo ao colapso fatal sob esforço contínuo."
+    },
+    {
+      "id": 5,
+      "question": "De que maneira a figura do Doutor Q.I. comandava a equipe no salão de testes?",
+      "options": [
+        "Presente fisicamente em uma cadeira de rodas",
+        "Por meio de uma tela gigante que exibia sua silhueta com voz sintetizada e fria",
+        "Através de bilhetes manuscritos enviados por pombos",
+        "Por chamadas de rádio amador"
+      ],
+      "answerIndex": 1,
+      "explanation": "O mistério em torno da identidade do vilão era mantido pelo uso de projeções com voz alterada."
+    },
+    {
+      "id": 6,
+      "question": "O que levou Chumbinho a desmaiar durante a apresentação dos testes?",
+      "options": [
+        "O calor excessivo da sala",
+        "O horror absoluto de ver o estado robótico dos colegas e ouvir sobre a morte da cobaia 6",
+        "Falta de alimentação no dia anterior",
+        "Um golpe dado pelo guarda na sua cabeça"
+      ],
+      "answerIndex": 1,
+      "explanation": "O choque psicológico de testemunhar a crueldade do experimento biológico superou sua resistência emocional."
+    },
+    {
+      "id": 7,
+      "question": "Como Chumbinho conseguiu escapar do efeito da pílula de reforço servida à noite?",
+      "options": [
+        "Pediu ao médico para não tomar",
+        "Fingiu colocar na boca e escondeu o comprimido na manga do macacão azul",
+        "Cuspiu o remédio na cara do enfermeiro",
+        "Jogou a pílula no prato do vizinho de beliche"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sua habilidade manual permitiu enganar os vigilantes na hora da administração do medicamento."
+    },
+    {
+      "id": 8,
+      "question": "Quanto tempo dura o efeito da Droga da Obediência administrada em cada dose?",
+      "options": [
+        "Apenas 10 minutos",
+        "Aproximadamente 8 horas de controle absoluto",
+        "Uma semana inteira",
+        "Para sempre sem necessidade de reforço"
+      ],
+      "answerIndex": 1,
+      "explanation": "Os cientistas precisavam aplicar doses periódicas a cada 8 horas para manter o controle mental das cobaias."
+    },
+    {
+      "id": 9,
+      "question": "Qual atitude corajosa Chumbinho tomou na calada da noite no dormitório?",
+      "options": [
+        "Começou a gritar no corredor pedindo ajuda",
+        "Levantou-se do beliche em silêncio para explorar o prédio e buscar saídas",
+        "Decidiu dormir até a manhã seguinte",
+        "Tentou acordar Bronca à força chacoalhando sua cama"
+      ],
+      "answerIndex": 1,
+      "explanation": "Aproveitando a escuridão e o sono dos vigilantes, o garoto saiu do dormitório para espionar as instalações."
+    },
+    {
+      "id": 10,
+      "question": "O que a conduta de Chumbinho prova neste momento culminante da história?",
+      "options": [
+        "Que ele era um garoto mimado",
+        "Que sua inteligência, perspicácia e lealdade aos Karas o tornaram um verdadeiro herói da investigação",
+        "Que ele preferia ficar no cativeiro a voltar para a escola",
+        "Que ele queria se tornar assistente do Doutor Q.I."
+      ],
+      "answerIndex": 1,
+      "explanation": "Chumbinho demonstrou ser um legítimo Kara, arriscando tudo por inteligência e bravura para desmantelar a quadrilha."
+    }
+  ]
+}

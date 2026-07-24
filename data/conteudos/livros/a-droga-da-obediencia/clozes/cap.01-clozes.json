@@ -1,214 +1,66 @@
 {
-  "schema_version": 1,
-  "livro_id": "a-droga-da-obediencia",
-  "capitulo": 1,
-  "tipo": "clozes",
-  "atividades": [
+  "chapter": 1,
+  "title": "Os Karas",
+  "clozes": [
     {
-      "id": "cl-cap01-001",
-      "titulo": "Cloze 1",
-      "habilidades": [
-        "recuperar-informacao-explicita"
-      ],
-      "componentes": [
-        {
-          "tipo": "texto",
-          "conteudo": "Miguel era presidente do "
-        },
-        {
-          "tipo": "lacuna",
-          "id": "1",
-          "placeholder": "Digite a resposta",
-          "respostas_aceitas": [
-            "Grêmio",
-            "grêmio"
-          ]
-        },
-        {
-          "tipo": "texto",
-          "conteudo": " e líder dos Karas."
-        }
-      ]
+      "id": 1,
+      "text": "Miguel convoca o grupo secreto mostrando a letra _____ gravada na palma da mão.",
+      "blank": "K",
+      "hint": "Primeira letra do nome do grupo"
     },
     {
-      "id": "cl-cap01-002",
-      "titulo": "Cloze 2",
-      "habilidades": [
-        "recuperar-informacao-explicita"
-      ],
-      "componentes": [
-        {
-          "tipo": "texto",
-          "conteudo": "O sinal secreto dos Karas era um "
-        },
-        {
-          "tipo": "lacuna",
-          "id": "1",
-          "placeholder": "Digite a resposta",
-          "respostas_aceitas": [
-            "K",
-            "k"
-          ]
-        },
-        {
-          "tipo": "texto",
-          "conteudo": " desenhado na palma da mão."
-        }
-      ]
+      "id": 2,
+      "text": "Para abandonar o ensaio de teatro, Calu alegou estar com uma forte _____.",
+      "blank": "enxaqueca",
+      "hint": "Tipo de dor de cabeça intensa"
     },
     {
-      "id": "cl-cap01-003",
-      "titulo": "Cloze 3",
-      "habilidades": [
-        "associar-personagem-e-acao"
-      ],
-      "componentes": [
-        {
-          "tipo": "texto",
-          "conteudo": "Crânio deixou uma partida de "
-        },
-        {
-          "tipo": "lacuna",
-          "id": "1",
-          "placeholder": "Digite a resposta",
-          "respostas_aceitas": [
-            "xadrez"
-          ]
-        },
-        {
-          "tipo": "texto",
-          "conteudo": " para atender ao chamado."
-        }
-      ]
+      "id": 3,
+      "text": "Crânio estava jogando uma partida de _____ quando recebeu a convocação de emergência.",
+      "blank": "xadrez",
+      "hint": "Jogo de tabuleiro estratégico"
     },
     {
-      "id": "cl-cap01-004",
-      "titulo": "Cloze 4",
-      "habilidades": [
-        "associar-personagem-e-acao"
-      ],
-      "componentes": [
-        {
-          "tipo": "texto",
-          "conteudo": "Magrí interrompeu um treino de "
-        },
-        {
-          "tipo": "lacuna",
-          "id": "1",
-          "placeholder": "Digite a resposta",
-          "respostas_aceitas": [
-            "vôlei",
-            "volei"
-          ]
-        },
-        {
-          "tipo": "texto",
-          "conteudo": "."
-        }
-      ]
+      "id": 4,
+      "text": "Ao ver o sinal de Miguel, Crânio derrubou o próprio _____ e abandonou a partida.",
+      "blank": "rei",
+      "hint": "Peça principal do jogo de xadrez"
     },
     {
-      "id": "cl-cap01-005",
-      "titulo": "Cloze 5",
-      "habilidades": [
-        "identificar-cenario"
-      ],
-      "componentes": [
-        {
-          "tipo": "texto",
-          "conteudo": "O esconderijo ficava acima do forro dos "
-        },
-        {
-          "tipo": "lacuna",
-          "id": "1",
-          "placeholder": "Digite a resposta",
-          "respostas_aceitas": [
-            "vestiários",
-            "vestiarios"
-          ]
-        },
-        {
-          "tipo": "texto",
-          "conteudo": "."
-        }
-      ]
+      "id": 5,
+      "text": "Magrí fingiu ter lesionado o _____ para poder sair do treino de vôlei.",
+      "blank": "tornozelo",
+      "hint": "Articulação do pé com a perna"
     },
     {
-      "id": "cl-cap01-006",
-      "titulo": "Cloze 6",
-      "habilidades": [
-        "identificar-personagem"
-      ],
-      "componentes": [
-        {
-          "tipo": "texto",
-          "conteudo": "O visitante inesperado era o aluno mais novo chamado "
-        },
-        {
-          "tipo": "lacuna",
-          "id": "1",
-          "placeholder": "Digite a resposta",
-          "respostas_aceitas": [
-            "Chumbinho"
-          ]
-        },
-        {
-          "tipo": "texto",
-          "conteudo": "."
-        }
-      ]
+      "id": 6,
+      "text": "O esconderijo secreto dos Karas fica no _____ do vestiário do Colégio Elite.",
+      "blank": "forro",
+      "hint": "Parte superior / sótão acima do teto"
     },
     {
-      "id": "cl-cap01-007",
-      "titulo": "Cloze 7",
-      "habilidades": [
-        "identificar-assunto-central"
-      ],
-      "componentes": [
-        {
-          "tipo": "texto",
-          "conteudo": "Miguel pesquisava o desaparecimento de "
-        },
-        {
-          "tipo": "lacuna",
-          "id": "1",
-          "placeholder": "Digite a resposta",
-          "respostas_aceitas": [
-            "estudantes",
-            "alunos"
-          ]
-        },
-        {
-          "tipo": "texto",
-          "conteudo": " em vários colégios."
-        }
-      ]
+      "id": 7,
+      "text": "Para entrar no esconderijo, os membros sobem por um _____ localizado no quarto de vassouras.",
+      "blank": "alçapão",
+      "hint": "Porta de alçapão no teto"
     },
     {
-      "id": "cl-cap01-008",
-      "titulo": "Cloze 8",
-      "habilidades": [
-        "identificar-intencao-de-personagem"
-      ],
-      "componentes": [
-        {
-          "tipo": "texto",
-          "conteudo": "Chumbinho queria fazer parte dos "
-        },
-        {
-          "tipo": "lacuna",
-          "id": "1",
-          "placeholder": "Digite a resposta",
-          "respostas_aceitas": [
-            "Karas",
-            "karas"
-          ]
-        },
-        {
-          "tipo": "texto",
-          "conteudo": "."
-        }
-      ]
+      "id": 8,
+      "text": "Miguel espalhou recortes de _____ no chão do esconderijo para mostrar aos amigos.",
+      "blank": "jornais",
+      "hint": "Mídia impressa sobre notícias"
+    },
+    {
+      "id": 9,
+      "text": "A convocação de Miguel era uma emergência _____ para investigar o sumiço dos alunos.",
+      "blank": "máxima",
+      "hint": "Nível mais alto de alerta do grupo"
+    },
+    {
+      "id": 10,
+      "text": "Crânio costuma tocar sua _____ de boca em momentos de profunda reflexão.",
+      "blank": "gaita",
+      "hint": "Instrumento musical de sopro pequeno"
     }
   ]
 }

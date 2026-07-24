@@ -1,0 +1,46 @@
+{
+  "chapter": 4,
+  "title": "Crânio raciocina",
+  "vocabulary": [
+    {
+      "word": "Amostragem",
+      "meaning": "Processo de seleção de um grupo representativo extraído de uma população maior para fins de pesquisa ou teste.",
+      "contextInChapter": "Termo estatístico usado por Crânio para explicar a escolha fixa de 3 alunos de cada colégio."
+    },
+    {
+      "word": "Cobaia",
+      "meaning": "Pessoa ou animal submetido a experiências e testes científicos ou de laboratório.",
+      "contextInChapter": "Papel estarrecedor para o qual os estudantes sequestrados estavam sendo destinados pela quadrilha."
+    },
+    {
+      "word": "Droga da Obediência",
+      "meaning": "Substância neuroquímica fictícia capaz de anular o livre-arbítrio e impor submissão absoluta às ordens recebidas.",
+      "contextInChapter": "O grande motor sintético e perigo central da trama descoberto por Crânio."
+    },
+    {
+      "word": "Oferecedor",
+      "meaning": "Agente infiltrado encarregado de distribuir e convencer as vítimas a ingerirem o produto ou droga.",
+      "contextInChapter": "Suspeito não identificado que atua dentro dos muros do Colégio Elite entregando pílulas aos alunos."
+    },
+    {
+      "word": "Extorsão",
+      "meaning": "Crime que consiste em obrigar alguém a fazer ou entregar algo (como dinheiro) sob ameaça ou violência.",
+      "contextInChapter": "Hipótese de sequestro financeiro descartada pelos Karas devido à ausência de pedidos de resgate."
+    },
+    {
+      "word": "Dedução",
+      "meaning": "Raciocínio lógico que parte de premissas e fatos observáveis para chegar a uma conclusão necessária.",
+      "contextInChapter": "Método mental utilizado por Crânio para resolver enigmas sem sair do esconderijo."
+    },
+    {
+      "word": "Infalível",
+      "meaning": "Aquilo que não erra, não falha e possui garantia absoluta de sucesso ou precisão.",
+      "contextInChapter": "A exigência dos cientistas criminosos ao optarem por uma droga em vez da hipnose humana."
+    },
+    {
+      "word": "Infiltrado",
+      "meaning": "Indivíduo introduzido secretamente em uma organização ou ambiente para espionar ou agir de forma disfarçada.",
+      "contextInChapter": "A condição do oferecedor da droga operando camuflado entre os alunos e funcionários do Elite."
+    }
+  ]
+}

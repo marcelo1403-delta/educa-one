@@ -1,72 +1,48 @@
 {
-  "schema_version": 1,
-  "livro_id": "a-droga-da-obediencia",
-  "livro": "A Droga da Obediência",
-  "capitulo": 1,
-  "titulo_capitulo": "Os Karas",
-  "fonte": "Capítulo 1 simplificado fornecido pelo usuário",
-  "tipo_atividade": "timeline",
-  "eventos": [
+  "chapter": 1,
+  "title": "Os Karas",
+  "timeline": [
     {
-      "id": "ev-cap01-001",
-      "ordem": 1,
-      "titulo": "Miguel pesquisa os desaparecimentos",
-      "descricao": "Miguel reúne reportagens sobre estudantes desaparecidos em vários colégios."
+      "order": 1,
+      "event": "Miguel percorre diferentes ambientes do Colégio Elite (anfiteatro, sala de xadrez, ginásio) e exibe o símbolo 'K' na palma da mão.",
+      "location": "Colégio Elite (Áreas Comuns)",
+      "charactersInvolved": ["Miguel", "Calu", "Crânio", "Magrí"]
     },
     {
-      "id": "ev-cap01-002",
-      "ordem": 2,
-      "titulo": "O sinal de emergência",
-      "descricao": "Miguel mostra o K desenhado na palma da mão para convocar os Karas."
+      "order": 2,
+      "event": "Calu simula uma enxaqueca dramática no ensaio de teatro para ser liberado pela professora.",
+      "location": "Anfiteatro do Colégio Elite",
+      "charactersInvolved": ["Calu"]
     },
     {
-      "id": "ev-cap01-003",
-      "ordem": 3,
-      "titulo": "Os integrantes deixam suas atividades",
-      "descricao": "Calu, Crânio e Magrí abandonam discretamente o que estavam fazendo."
+      "order": 3,
+      "event": "Crânio derruba seu rei na partida de xadrez e abandona o jogo imediatamente.",
+      "location": "Sala de Jogos",
+      "charactersInvolved": ["Crânio"]
     },
     {
-      "id": "ev-cap01-004",
-      "ordem": 4,
-      "titulo": "Reunião no esconderijo",
-      "descricao": "O grupo se reúne acima do forro dos vestiários e observa as reportagens."
+      "order": 4,
+      "event": "Magrí executa uma cortada no vôlei e finge uma torção no tornozelo para ir ao vestiário.",
+      "location": "Ginásio de Esportes",
+      "charactersInvolved": ["Magrí"]
     },
     {
-      "id": "ev-cap01-005",
-      "ordem": 5,
-      "titulo": "Barulho no alçapão",
-      "descricao": "Os Karas apagam os sinais de presença e se escondem na escuridão."
+      "order": 5,
+      "event": "Os quatro amigos se encontram no esconderijo secreto no forro do vestiário através do alçapão.",
+      "location": "Central dos Karas (Forro do Vestiário)",
+      "charactersInvolved": ["Miguel", "Calu", "Crânio", "Magrí"]
     },
     {
-      "id": "ev-cap01-006",
-      "ordem": 6,
-      "titulo": "Chumbinho aparece",
-      "descricao": "O aluno mais novo entra e revela que conhece o esconderijo e os integrantes."
+      "order": 6,
+      "event": "Miguel apresenta recortes de jornal revelando a onda de desaparecimento de estudantes de escolas de elite.",
+      "location": "Central dos Karas",
+      "charactersInvolved": ["Miguel", "Calu", "Crânio", "Magrí"]
     },
     {
-      "id": "ev-cap01-007",
-      "ordem": 7,
-      "titulo": "Conflito com Magrí",
-      "descricao": "Magrí agarra Chumbinho pela gola, mas Miguel a impede."
-    },
-    {
-      "id": "ev-cap01-008",
-      "ordem": 8,
-      "titulo": "O pedido de Chumbinho",
-      "descricao": "Chumbinho declara que quer fazer parte dos Karas, criando um novo problema."
+      "order": 7,
+      "event": "Um barulho metálico súbito no alçapão alerta o grupo de que alguém está invadindo o esconderijo.",
+      "location": "Central dos Karas",
+      "charactersInvolved": ["Miguel", "Calu", "Crânio", "Magrí", "Invasor Misterioso"]
     }
-  ],
-  "atividade_ordenacao": {
-    "instrucao": "Coloque os acontecimentos na ordem em que ocorreram no capítulo.",
-    "ids_eventos": [
-      "ev-cap01-005",
-      "ev-cap01-002",
-      "ev-cap01-008",
-      "ev-cap01-001",
-      "ev-cap01-006",
-      "ev-cap01-003",
-      "ev-cap01-007",
-      "ev-cap01-004"
-    ]
-  }
+  ]
 }

@@ -1,0 +1,126 @@
+{
+  "chapter": 4,
+  "title": "Crânio raciocina",
+  "quizzes": [
+    {
+      "id": 1,
+      "question": "Qual método Crânio aplicou para analisar os dados dos desaparecimentos?",
+      "options": [
+        "Adivinhação por cartas",
+        "Método científico-dedutivo e análise de padrões estatísticos",
+        "Leitura de horóscopo dos jornais",
+        "Consulta a depoimentos de redes sociais"
+      ],
+      "answerIndex": 1,
+      "explanation": "Crânio utilizou a lógica matemática, estatística e o método dedutivo rigoroso para enxergar o padrão por trás das notícias."
+    },
+    {
+      "id": 2,
+      "question": "Quantos estudantes haviam sido sequestrados em cada uma das 9 escolas de elite antes de Bronca sumir?",
+      "options": [
+        "1 estudante por escola",
+        "3 estudantes por escola",
+        "5 estudantes por escola",
+        "10 estudantes por escola"
+      ],
+      "answerIndex": 1,
+      "explanation": "A contagem matemática revelava exatamente 3 estudantes por instituição em 9 colégios paulistanos."
+    },
+    {
+      "id": 3,
+      "question": "Por que Crânio concluiu que os sequestradores não estavam interessados em extorsão financeira?",
+      "options": [
+        "Porque os alunos eram de famílias pobres",
+        "Porque não houve nenhum pedido de resgate enviado aos pais",
+        "Porque a polícia já havia pago o resgate",
+        "Porque os sequestradores eram bilionários"
+      ],
+      "answerIndex": 1,
+      "explanation": "Em dois meses de sumiço de dezenas de jovens ricos, nenhuma ligação ou carta cobrando resgate foi feita."
+    },
+    {
+      "id": 4,
+      "question": "O que a expressão 'cobaias humanas' significa na revelação feita por Crânio?",
+      "options": [
+        "Jovens usados no trabalho escravo de uma fábrica",
+        "Pessoas utilizadas para testar os efeitos de um experimento químico ou biológico",
+        "Alunos escalados para representar a escola em olimpíadas",
+        "Modelos para fotos de catálogos de uniforme"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cobaia é o ser utilizado em laboratório para testar reações a medicamentos ou compostos antes de sua aplicação geral."
+    },
+    {
+      "id": 5,
+      "question": "Por que a hipótese de hipnose em massa foi descartada por Crânio?",
+      "options": [
+        "Porque ninguém mais praticava hipnose na cidade",
+        "Porque a hipnose é um processo lento e ineficiente em parte das pessoas, e o inimigo queria 100% de precisão",
+        "Porque os alunos não sabiam o que era transe",
+        "Porque hipnose não funciona em jovens"
+      ],
+      "answerIndex": 1,
+      "explanation": "A hipnose possui margem de resistência psicológica individual, ao passo que uma substância química age diretamente no cérebro."
+    },
+    {
+      "id": 6,
+      "question": "Como passou a ser chamada a substância química misteriosa manipulada pela quadrilha?",
+      "options": [
+        "Droga do Sono",
+        "Droga da Obediência",
+        "Soro da Verdade",
+        "Pílula do Crescimento"
+      ],
+      "answerIndex": 1,
+      "explanation": "Trata-se do composto sintético 'Droga da Obediência' (D.O.), capaz de subjugar a vontade da vítima."
+    },
+    {
+      "id": 7,
+      "question": "Onde o 'oferecedor' da droga estava atuando, segundo o raciocínio de Miguel e Crânio?",
+      "options": [
+        "Em um hospital do centro da cidade",
+        "Dentro do próprio ambiente do Colégio Elite",
+        "Nas estações de metrô de São Paulo",
+        "Através de entregas de correio"
+      ],
+      "answerIndex": 1,
+      "explanation": "Como Bronca aceitou a droga espontaneamente, o oferecedor devia ser alguém de dentro da escola em quem os alunos confiavam."
+    },
+    {
+      "id": 8,
+      "question": "Quais perfil e características as cobaias selecionadas apresentavam em comum?",
+      "options": [
+        "Alunos com notas baixas e histórico de violência",
+        "Jovens sadios, de boa estatura, atléticos, inteligentes e de alto nível social",
+        "Estudantes que moravam sozinhos",
+        "Crianças do ensino infantil"
+      ],
+      "answerIndex": 1,
+      "explanation": "O experimento exigia exemplares perfeitos da juventude para testar a potência máxima de controle e resistência da droga."
+    },
+    {
+      "id": 9,
+      "question": "O que o grupo precisa descobrir com urgência para interromper o plano da quadrilha?",
+      "options": [
+        "A receita do lanche da cantina",
+        "A identidade do oferecedor que distribui a droga na escola",
+        "O preço da mensalidade do Elite",
+        "Onde comprar uma bússola nova"
+      ],
+      "answerIndex": 1,
+      "explanation": "Identificar o oferecedor infiltration é a chave para chegar ao laboratório e salvar os estudantes sequestrados."
+    },
+    {
+      "id": 10,
+      "question": "Qual é a atmosfera dramática predominante na cena do esconderijo durante a explicação de Crânio?",
+      "options": [
+        "Comédia pastelão com piadas constantes",
+        "Tensão profunda, choque e conscientização do grande perigo que enfrentam",
+        "Festiva e comemorativa",
+        "Romântica e melancólica"
+      ],
+      "answerIndex": 1,
+      "explanation": "A revelação de que colegas estão sendo usados como cobaias transforma o mistério em um thriller de sobrevivência e investigação."
+    }
+  ]
+}

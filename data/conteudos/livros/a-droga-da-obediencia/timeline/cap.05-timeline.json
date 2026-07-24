@@ -1,0 +1,42 @@
+{
+  "chapter": 5,
+  "title": "O plano de Miguel",
+  "timeline": [
+    {
+      "order": 1,
+      "event": "Miguel finge encerrar a reunião no esconderijo para afastar Chumbinho dos perigos da investigação.",
+      "location": "Central dos Karas (Forro do Vestiário)",
+      "charactersInvolved": ["Miguel", "Chumbinho", "Calu", "Crânio", "Magrí"]
+    },
+    {
+      "order": 2,
+      "event": "Miguel anuncia publicamente que vai estudar matemática na biblioteca, ativando o código de senha dos Karas.",
+      "location": "Central dos Karas",
+      "charactersInvolved": ["Miguel", "Chumbinho"]
+    },
+    {
+      "order": 3,
+      "event": "Calu, Crânio e Magrí vão à biblioteca e encontram bilhetes cifrados em livros como 'O Auto da Compadecida'.",
+      "location": "Biblioteca do Colégio Elite",
+      "charactersInvolved": ["Calu", "Crânio", "Magrí"]
+    },
+    {
+      "order": 4,
+      "event": "Os Karas veteranos iniciam as visitas investigativas às famílias dos estudantes sumidos nos bairros nobres.",
+      "location": "Bairros Nobres de São Paulo",
+      "charactersInvolved": ["Calu", "Crânio", "Magrí", "Famílias das Vítimas"]
+    },
+    {
+      "order": 5,
+      "event": "Ao entardecer, Miguel percorre de bicicleta as ruas do Jardim Europa investigando a mansão de Bronca.",
+      "location": "Jardim Europa (Rua)",
+      "charactersInvolved": ["Miguel"]
+    },
+    {
+      "order": 6,
+      "event": "Uma viatura da polícia fecha a bicicleta de Miguel e o Detetive Andrade o agarra, colocando-o no carro.",
+      "location": "Jardim Europa (Rua)",
+      "charactersInvolved": ["Miguel", "Detetive Andrade"]
+    }
+  ]
+}

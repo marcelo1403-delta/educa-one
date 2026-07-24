@@ -1,0 +1,66 @@
+{
+  "chapter": 3,
+  "title": "Investigação no Elite",
+  "clozes": [
+    {
+      "id": 1,
+      "text": "O Diretor Cardoso exigia que o escândalo fosse abafado para proteger a reputação do Colégio _____.",
+      "blank": "Elite",
+      "hint": "Nome da prestigiosa escola da trama"
+    },
+    {
+      "id": 2,
+      "text": "Miguel afirmou ao diretor que a _____ não pode ser escondida da comunidade escolar.",
+      "blank": "verdade",
+      "hint": "O oposto da mentira ou ocultação"
+    },
+    {
+      "id": 3,
+      "text": "O Detetive _____ vivia enxugando o suor da careca e chacoalhando chaves.",
+      "blank": "Andrade",
+      "hint": "Nome do investigador irritadiço"
+    },
+    {
+      "id": 4,
+      "text": "Ao contrário de Andrade, o Detetive _____ apresentava-se polido e elegante.",
+      "blank": "Rubens",
+      "hint": "Nome do segundo policial"
+    },
+    {
+      "id": 5,
+      "text": "Chumbinho foi trazido ao gabinete para dar seu _____ à polícia.",
+      "blank": "depoimento",
+      "hint": "Declaração de testemunha sobre um fato"
+    },
+    {
+      "id": 6,
+      "text": "Ao cruzar os braços, Miguel acionou o código secreto que significa '_____'.",
+      "blank": "cale-se",
+      "hint": "Ordem de fazer silêncio"
+    },
+    {
+      "id": 7,
+      "text": "Chumbinho alegou ter dito apenas '_____' a Bronca no fliperama.",
+      "blank": "oi",
+      "hint": "Saudação simples de duas letras"
+    },
+    {
+      "id": 8,
+      "text": "Irritado com a suposta tolice de Chumbinho, o Detetive Andrade mandou-o _____ da sala.",
+      "blank": "sair",
+      "hint": "Verbo de retirar-se do ambiente"
+    },
+    {
+      "id": 9,
+      "text": "A atitude do diretor revelou a preferência pela conveniência em vez da _____.",
+      "blank": "ética",
+      "hint": "Princípio moral de conduta correta"
+    },
+    {
+      "id": 10,
+      "text": "A polícia tentava descobrir qual _____ havia sido visto com Bronca antes do sumiço.",
+      "blank": "suspeito",
+      "hint": "Pessoa sob desconfiança de crime"
+    }
+  ]
+}

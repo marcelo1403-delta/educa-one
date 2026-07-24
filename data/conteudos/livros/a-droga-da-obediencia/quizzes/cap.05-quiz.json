@@ -1,0 +1,126 @@
+{
+  "chapter": 5,
+  "title": "O plano de Miguel",
+  "quizzes": [
+    {
+      "id": 1,
+      "question": "Por que Miguel decidiu fingir que estava encerrando a reunião dos Karas?",
+      "options": [
+        "Porque ficou com preguiça de continuar",
+        "Para afastar Chumbinho da investigação e proteger o caçula dos perigos",
+        "Porque o sinal do celular havia caído",
+        "Porque o inspetor estava batendo na porta"
+      ],
+      "answerIndex": 1,
+      "explanation": "Preocupado com a pouca idade e o entusiasmo imprudente de Chumbinho, Miguel preferiu simular o fim dos trabalhos."
+    },
+    {
+      "id": 2,
+      "question": "Como os Karas veteranos souberam que deveriam ir à biblioteca?",
+      "options": [
+        "Receberam um e-mail de Miguel",
+        "Entenderam a senha 'vou estudar matemática na biblioteca' dita por Miguel",
+        "Encontraram um bilhete colado na lousa",
+        "Tiveram uma intuição ao mesmo tempo"
+      ],
+      "answerIndex": 1,
+      "explanation": "A frase dita por Miguel sobre a biblioteca continha o código previamente combinado para missões de comunicação indireta."
+    },
+    {
+      "id": 3,
+      "question": "Onde exatamente os bilhetes com instruções estavam escondidos?",
+      "options": [
+        "Dentro de estojos na sala de aula",
+        "Entre páginas marcadas de livros específicos na biblioteca",
+        "Debaixo do tapete da diretoria",
+        "Colados atrás do quadro de avisos"
+      ],
+      "answerIndex": 1,
+      "explanation": "Miguel distribuiu anotações em páginas específicas de obras literárias e científicas acervadas na biblioteca."
+    },
+    {
+      "id": 4,
+      "question": "Qual obra literária de Ariano Suassuna foi usada como suporte para as ordens de Calu?",
+      "options": [
+        "Vidas Secas",
+        "O Auto da Compadecida",
+        "O Cortiço",
+        "Dom Casmurro"
+      ],
+      "answerIndex": 1,
+      "explanation": "Calu encontrou seu bilhete de instruções na página 112 de 'O Auto da Compadecida'."
+    },
+    {
+      "id": 5,
+      "question": "Qual era o objetivo das tarefas enviadas a Calu, Crânio e Magrí?",
+      "options": [
+        "Fazer compras para o grêmio",
+        "Visitar os endereços das famílias dos alunos sumidos e coletar novas pistas",
+        "Pedir autógrafos aos detetives",
+        "Pintar o esconderijo do vestiário"
+      ],
+      "answerIndex": 1,
+      "explanation": "Miguel determinou que cada um levantasse informações com os parentes e funcionários das casas dos 28 alunos."
+    },
+    {
+      "id": 6,
+      "question": "Qual padrão logístico sobre a quadrilha Miguel deduziu antes de ir às ruas?",
+      "options": [
+        "A quadrilha agia apenas aos domingos",
+        "A quadrilha escalava 1 oferecedor por colégio atuando durante 1 semana",
+        "Os criminosos usavam helicópteros",
+        "Os sequestradores moravam na escola"
+      ],
+      "answerIndex": 1,
+      "explanation": "Miguel calculou a rotatividade dos oferecedores para entender por que ninguém conseguia identificá-los a tempo."
+    },
+    {
+      "id": 7,
+      "question": "O que Miguel usava para se locomover enquanto investigava as casas dos desaparecidos?",
+      "options": [
+        "Sua bicicleta",
+        "O ônibus da linha escolar",
+        "Um skate elétrico",
+        "O carro do pai"
+      ],
+      "answerIndex": 0,
+      "explanation": "Miguel percorria as ruas do bairro Jardim Europa em sua bicicleta para averiguar os endereços."
+    },
+    {
+      "id": 8,
+      "question": "Quem abordou Miguel bruscamente ao entardecer na rua?",
+      "options": [
+        "O oferecedor de drogas",
+        "O Detetive Andrade em uma viatura preta da polícia",
+        "O garoto Bronca",
+        "A faxineira Dona Rosa"
+      ],
+      "answerIndex": 1,
+      "explanation": "A viatura policial encostou bruscamente e Andrade desceu para interceptar o jovem líder."
+    },
+    {
+      "id": 9,
+      "question": "Qual foi a ordem dada pelo Detetive Andrade ao agarrar Miguel pelo braço?",
+      "options": [
+        "Mandar ele ir para casa imediatamente tomar banho",
+        "Mandar entrar na viatura para ser levado à delegacia e prestar esclarecimentos",
+        "Pedir para ele entregar o capacete da bicicleta",
+        "Convidá-lo para tomar um lanche"
+      ],
+      "answerIndex": 1,
+      "explanation": "Andrade conduziu Miguel forçadamente para a viatura para ser interrogado sobre suas rondas suspeitas."
+    },
+    {
+      "id": 10,
+      "question": "O que o conceito de 'cliffhanger' representa no encerramento deste capítulo?",
+      "options": [
+        "Uma explicação científica completa do caso",
+        "Um momento de clímax e suspense interrompido no auge para gerar ansiedade no leitor",
+        "O fim definitivo da história dos Karas",
+        "Um poema lírico sobre a amizade"
+      ],
+      "answerIndex": 1,
+      "explanation": "A captura repentina de Miguel deixa o leitor sem saber o destino do herói, criando tensão dramática."
+    }
+  ]
+}

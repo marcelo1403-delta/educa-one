@@ -1,0 +1,66 @@
+{
+  "chapter": 6,
+  "title": "Um encontro inesperado",
+  "clozes": [
+    {
+      "id": 1,
+      "text": "Miguel estava em frente a uma mansão no bairro Jardim _____ quando a polícia encostou.",
+      "blank": "Europa",
+      "hint": "Bairro nobre de São Paulo"
+    },
+    {
+      "id": 2,
+      "text": "O aluno sumido daquela mansão estudava no Colégio _____.",
+      "blank": "Dante",
+      "hint": "Nome de outro prestigiado colégio paulistano"
+    },
+    {
+      "id": 3,
+      "text": "O Detetive _____ tentou acalmar a situação e afastar a truculência do parceiro.",
+      "blank": "Rubens",
+      "hint": "Nome do policial polido"
+    },
+    {
+      "id": 4,
+      "text": "Andrade mandou Rubens ficar na calçada cuidando da _____ de Miguel.",
+      "blank": "bicicleta",
+      "hint": "Meio de transporte de duas rodas do garoto"
+    },
+    {
+      "id": 5,
+      "text": "Dentro do carro, Andrade interrogou Miguel sobre o sinal de _____ dado na diretoria.",
+      "blank": "silêncio",
+      "hint": "Ato de não falar ou mandar calar a boca"
+    },
+    {
+      "id": 6,
+      "text": "A revelação mais chocante do policial foi que _____ também havia sumido.",
+      "blank": "Chumbinho",
+      "hint": "Nome do membro caçula dos Karas"
+    },
+    {
+      "id": 7,
+      "text": "A viatura reduziu a velocidade enquanto subia uma _____.",
+      "blank": "ladeira",
+      "hint": "Terreno inclinado ou subida de rua"
+    },
+    {
+      "id": 8,
+      "text": "Miguel colocou a mão na _____ da porta e a empurrou para se jogar.",
+      "blank": "maçaneta",
+      "hint": "Pega para abrir a porta do carro"
+    },
+    {
+      "id": 9,
+      "text": "Após saltar do carro, Miguel rolou pelo _____ para escapar de Andrade.",
+      "blank": "asfalto",
+      "hint": "Pavimento da rua"
+    },
+    {
+      "id": 10,
+      "text": "A fuga de Miguel demonstrou sua coragem e extrema lealdade ao caçula do _____.",
+      "blank": "grupo",
+      "hint": "Coletivo de membros dos Karas"
+    }
+  ]
+}

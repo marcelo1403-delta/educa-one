@@ -1,0 +1,46 @@
+{
+  "chapter": 5,
+  "title": "O plano de Miguel",
+  "vocabulary": [
+    {
+      "word": "Criptografia",
+      "meaning": "Técnica de codificar mensagens para que apenas o destinatário pretendido consiga decifrar o conteúdo.",
+      "contextInChapter": "Método usado por Miguel ao esconder instruções em páginas marcadas de livros na biblioteca."
+    },
+    {
+      "word": "Intertextualidade",
+      "meaning": "Recurso literário que consiste na citação, referência ou incorporação de um texto em outro.",
+      "contextInChapter": "O livro cita obras de Ariano Suassuna e clássicos do xadrez dentro da narrativa de Pedro Bandeira."
+    },
+    {
+      "word": "Cliffhanger",
+      "meaning": "Recurso narrativo em que uma cena termina em um momento de grande tensão ou perigo iminente sem resolução imediata.",
+      "contextInChapter": "Usado no final do capítulo quando Miguel é agarrado e colocado à força na viatura pelo Detetive Andrade."
+    },
+    {
+      "word": "Logística",
+      "meaning": "Planejamento e organização de recursos, rotas e prazos para a execução eficiente de uma operação.",
+      "contextInChapter": "A análise feita por Miguel sobre como a quadrilha distribuía os oferecedores pelas escolas."
+    },
+    {
+      "word": "Viatura",
+      "meaning": "Veículo oficial de uso da polícia ou de forças de segurança pública.",
+      "contextInChapter": "Carro policial preto de onde o Detetive Andrade salta para deter Miguel."
+    },
+    {
+      "word": "Disfarce verbal",
+      "meaning": "Uso de frases aparentemente comuns para transmitir ordens ocultas sem despertar suspeitas de terceiros.",
+      "contextInChapter": "A declaração de Miguel sobre estudar matemática usada para acionar os Karas."
+    },
+    {
+      "word": "Averiguação",
+      "meaning": "Ato de investigar, checar ou verificar a veracidade de informações e pistas em campo.",
+      "contextInChapter": "A ronda de bicicleta que Miguel realizava em frente às mansões dos estudantes desaparecidos."
+    },
+    {
+      "word": "Custódia",
+      "meaning": "Condição de quem se encontra sob a guarda, retenção ou responsabilidade de autoridades policiais.",
+      "contextInChapter": "A situação apreensiva em que Miguel é colocado ao ser conduzido à delegacia."
+    }
+  ]
+}

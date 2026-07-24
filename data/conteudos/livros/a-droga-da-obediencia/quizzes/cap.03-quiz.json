@@ -1,0 +1,126 @@
+{
+  "chapter": 3,
+  "title": "Investigação no Elite",
+  "quizzes": [
+    {
+      "id": 1,
+      "question": "Qual argumento o Diretor Cardoso usou para convencer Miguel a não espalhar a notícia do sumiço?",
+      "options": [
+        "A polícia resolveria tudo em 24 horas",
+        "A verdade é relativa e o escândalo prejudicaria a imagem da escola",
+        "Bronca tinha viajado com os pais de férias",
+        "O colégio fecharia as portas se os pais soubessem"
+      ],
+      "answerIndex": 1,
+      "explanation": "O Diretor Cardoso alegou que preservar a reputação do Elite era prioridade e pediu que Miguel evitasse pânico."
+    },
+    {
+      "id": 2,
+      "question": "Qual foi a resposta firme de Miguel diante da chantagem emocional do Diretor?",
+      "options": [
+        "Concordou em manter segredo em troca de boas notas",
+        "Pediu demissão da presidência do grêmio",
+        "Afirmou que só existe um jeito de olhar a verdade e que os alunos deviam ser alertados",
+        "Chamou a imprensa imediatamente para a porta da escola"
+      ],
+      "answerIndex": 2,
+      "explanation": "Miguel demonstrou integridade ética ao defender que a segurança e o direito de alerta dos alunos sobrepunham o prestígio da escola."
+    },
+    {
+      "id": 3,
+      "question": "Como se chamam os dois detetives destacados para investigar o caso no Colégio Elite?",
+      "options": [
+        "Andrade e Rubens",
+        "Silva e Santos",
+        "Pedro e Paulo",
+        "Xavier e Otávio"
+      ],
+      "answerIndex": 0,
+      "explanation": "Os detetives Andrade (corpulento e estressado) e Rubens (polido e compenetrado) assumem a investigação oficial."
+    },
+    {
+      "id": 4,
+      "question": "O que o Detetive Andrade segurava e chacoalhava de forma irritante durante os interrogatórios?",
+      "options": [
+        "Um maço de cigarros",
+        "Um molho de chaves",
+        "Uma caneta esferográfica",
+        "Um terço de contas"
+      ],
+      "answerIndex": 1,
+      "explanation": "Andrade mantinha um ruído mecânico constante e nervoso chacoalhando seu molho de chaves nas mãos."
+    },
+    {
+      "id": 5,
+      "question": "Por que o garoto Chumbinho foi intimado a falar com a polícia no gabinete?",
+      "options": [
+        "Por ter sido pego pichando os muros",
+        "Por ter sido a última pessoa vista conversando com Bronca no fliperama",
+        "Por ser suspeito de roubar o laboratório",
+        "Por ser parente de um dos detetives"
+      ],
+      "answerIndex": 1,
+      "explanation": "Chumbinho fora identificado como o último colega de escola a interagir com Bronca na última sexta-feira."
+    },
+    {
+      "id": 6,
+      "question": "O que Miguel fez no gabinete quando Chumbinho entrou para depor?",
+      "options": [
+        "Piscou o olho direito duas vezes",
+        "Cruzou os braços para emitir o sinal de silêncio dos Karas",
+        "Tossiu alto e apontou para a janela",
+        "Escreveu um bilhete e jogou no chão"
+      ],
+      "answerIndex": 1,
+      "explanation": "Miguel cruzou os braços em gesto solene, emitindo a ordem não-verbal para que Chumbinho não dissesse nada comprometedor."
+    },
+    {
+      "id": 7,
+      "question": "Qual foi a estratégia de atuação de Chumbinho ao captar o sinal de Miguel?",
+      "options": [
+        "Fingiu choro e pediu para ver a mãe",
+        "Ameaçou processar a polícia",
+        "Fingiu ser um menino ingênuo, bobo e focado apenas em videogame",
+        "Inventou que viu um disco voador levar Bronca"
+      ],
+      "answerIndex": 2,
+      "explanation": "Chumbinho usou sua astúcia para interpretar um garoto alienado, irritando os policiais e ocultando a verdade sobre a submissão de Bronca."
+    },
+    {
+      "id": 8,
+      "question": "Qual foi o depoimento fictício de Chumbinho sobre Bronca?",
+      "options": [
+        "Afirmou que Bronca fora levado por homens de preto",
+        "Disse que apenas falou 'oi' e que Bronca respondeu 'oi', voltando ao jogo",
+        "Disse que Bronca comprou uma passagem de ônibus",
+        "Contou que Bronca entrou em um táxi amarelo"
+      ],
+      "answerIndex": 1,
+      "explanation": "A resposta minimalistamente absurda de Chumbinho desarmou o interrogatório do Detetive Andrade."
+    },
+    {
+      "id": 9,
+      "question": "Qual reação o Detetive Andrade teve ao ouvir a resposta infantil de Chumbinho?",
+      "options": [
+        "Começou a rir com o garoto",
+        "Perdeu a paciência, gritou e mandou o garoto sair da sala",
+        "Anotou tudo com cuidado na caderneta",
+        "Prendeu Chumbinho imediatamente por desacato"
+      ],
+      "answerIndex": 1,
+      "explanation": "Andrade explodiu de irritação ao perceber que não tiraria informação nenhuma daquele 'moleque' e o expulsou do gabinete."
+    },
+    {
+      "id": 10,
+      "question": "Por que o sinal de cruzar os braços incomodou o Detetive Andrade no final do interrogatório?",
+      "options": [
+        "Porque achou uma falta de respeito diante de uma autoridade policial",
+        "Porque reconheceu o código de uma gangue perigosa",
+        "Porque Miguel estava escondendo as mãos",
+        "Porque a jaqueta de Miguel estava suja"
+      ],
+      "answerIndex": 0,
+      "explanation": "Incapaz de perceber o significado do código dos Karas, Andrade atribuiu a postura de Miguel a mero desrespeito à autoridade."
+    }
+  ]
+}

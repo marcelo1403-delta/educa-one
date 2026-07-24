@@ -1,0 +1,42 @@
+{
+  "chapter": 2,
+  "title": "Estranhos acontecimentos",
+  "timeline": [
+    {
+      "order": 1,
+      "event": "Chumbinho abre o alçapão e invade a Central dos Karas, revelando que os espionava há meses.",
+      "location": "Central dos Karas (Forro do Vestiário)",
+      "charactersInvolved": ["Chumbinho", "Miguel", "Calu", "Crânio", "Magrí"]
+    },
+    {
+      "order": 2,
+      "event": "Miguel realiza o rito de iniciação com juramento de sangue para integrar Chumbinho aos Karas.",
+      "location": "Central dos Karas",
+      "charactersInvolved": ["Miguel", "Chumbinho", "Calu", "Crânio", "Magrí"]
+    },
+    {
+      "order": 3,
+      "event": "Miguel expõe os dados sobre os 27 alunos de 9 escolas de elite desaparecidos em São Paulo sem resgate.",
+      "location": "Central dos Karas",
+      "charactersInvolved": ["Miguel", "Calu", "Crânio", "Magrí", "Chumbinho"]
+    },
+    {
+      "order": 4,
+      "event": "Chumbinho relata que encontrou Bronca na sexta no fliperama e que o amigo agia de forma assustadoramente submissa.",
+      "location": "Central dos Karas",
+      "charactersInvolved": ["Chumbinho", "Miguel", "Calu", "Crânio", "Magrí"]
+    },
+    {
+      "order": 5,
+      "event": "Calu expressa espanto com a mudança radical na personalidade rebelde de Bronca.",
+      "location": "Central dos Karas",
+      "charactersInvolved": ["Calu", "Miguel", "Chumbinho"]
+    },
+    {
+      "order": 6,
+      "event": "Miguel traça o plano de investigação dividindo as frentes de trabalho entre Magrí, Calu, Chumbinho e ele próprio.",
+      "location": "Central dos Karas",
+      "charactersInvolved": ["Miguel", "Magrí", "Calu", "Chumbinho", "Crânio"]
+    }
+  ]
+}

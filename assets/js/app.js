@@ -1,4 +1,4 @@
-const APP_VERSION='32';
+const APP_VERSION='33';
 const bookRoot=['data','conteudos','livros','a-droga-da-obediencia'];
 const files={chapters:{
 1:{title:'Os Karas',md:['leitura','01%20-%20Os%20Karas%20simplificado.md']},
@@ -255,11 +255,11 @@ async function chapter(id){
 
 function videoCard(v,i){
   const poster=assetUrl(['videos',`video-${String(i+1).padStart(2,'0')}.jpg`]);
-  return `<article class="nf-video-card"><div class="nf-video-media">${v.src?`<video controls preload="metadata" poster="${poster}" src="${esc(v.src)}"></video>`:`<img src="${poster}" alt="" loading="lazy"><span class="nf-video-soon">Em breve</span>`}</div><div class="nf-video-body"><span>${esc(v.range||'Video de apoio')}</span><h2>${esc(v.title||`Video ${i+1}`)}</h2>${v.description?`<p>${esc(v.description)}</p>`:''}</div></article>`;
+  return `<article class="nf-video-card" aria-label="${esc(v.title||`Video ${i+1}`)}"><div class="nf-video-media">${v.src?`<video controls preload="metadata" poster="${poster}" src="${esc(v.src)}"></video>`:`<img src="${poster}" alt="" loading="lazy"><span class="nf-video-soon">Em breve</span>`}</div></article>`;
 }
 function videos(){
   const items=S.videos.length?S.videos:fallbackVideos,hero=assetUrl(['chapters','banner-videos-d-o.png']);
-  app.innerHTML=`<section class="nf-page video-page" style="--hero-img:url('${hero}')"><img class="nf-hero-img" src="${hero}" alt=""><div class="nf-hero video-hero"><div class="nf-copy"><span class="nf-kicker">A DROGA DA OBEDIENCIA</span><h1>Videos</h1><h2>Assista aos resumos por grupo de capitulos.</h2><p>Use os videos como apoio antes ou depois da leitura simplificada.</p><div class="nf-meta"><span>▷ ${items.length} videos</span><span>▣ Capitulos 1 a 30</span><span>★ Revisao guiada</span></div></div></div><div class="nf-toolbar"><div class="nf-filters"><button class="active" type="button">Todos os videos</button></div><span>Ordenar: Padrao</span></div><div class="video-grid">${items.map(videoCard).join('')}</div></section>`;
+  app.innerHTML=`<section class="nf-page video-page"><div class="video-banner"><img src="${hero}" alt="Videos"></div><div class="nf-toolbar"><div class="nf-filters"><button class="active" type="button">Todos os videos</button></div><span>Ordenar: Padrao</span></div><div class="video-grid">${items.map(videoCard).join('')}</div></section>`;
 }
 function characterCard(c){return `<article class="card"><span>${esc(c.papel||'personagem')}</span><h2>${esc(c.nome||c.name)}</h2><p>${esc(c.descricao||c.description)}</p>${c.grupo?`<p class="muted">${esc(c.grupo)}</p>`:''}${Array.isArray(c.caracteristicas)?`<p>${c.caracteristicas.slice(0,4).map(esc).join(' · ')}</p>`:''}${Array.isArray(c.capitulos)?`<small class="muted">Capitulos ${c.capitulos[0]} a ${c.capitulos.at(-1)}</small>`:''}</article>`}
 function termCard(g){const cat=g.categoria||g.category;return `<article class="card">${cat?`<span>${esc(cat)}</span>`:''}<h2>${esc(g.termo||g.term)}</h2><p>${esc(g.definicao||g.definition)}</p>${g.exemplo?`<p class="muted">${esc(g.exemplo)}</p>`:''}${g.primeira_aparicao?`<small class="muted">Desde o capitulo ${g.primeira_aparicao}</small>`:''}</article>`}

@@ -1,4 +1,4 @@
-const APP_VERSION='30';
+const APP_VERSION='31';
 const bookRoot=['data','conteudos','livros','a-droga-da-obediencia'];
 const files={chapters:{
 1:{title:'Os Karas',md:['leitura','01%20-%20Os%20Karas%20simplificado.md']},

@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "livro_id": "a-droga-da-obediencia",
+  "livro": "A Droga da Obediência",
+  "capitulo": 1,
+  "titulo_capitulo": "Os Karas",
+  "fonte": "Capítulo 1 simplificado fornecido pelo usuário",
+  "tipo_atividade": "objetivos",
+  "objetivos": [
+    {
+      "id": "obj-cap01-001",
+      "descricao": "Identificar os personagens apresentados no capítulo e suas funções no grupo.",
+      "prioridade": "principal"
+    },
+    {
+      "id": "obj-cap01-002",
+      "descricao": "Compreender por que Miguel convocou uma reunião de emergência.",
+      "prioridade": "principal"
+    },
+    {
+      "id": "obj-cap01-003",
+      "descricao": "Reconhecer o significado do sinal secreto dos Karas.",
+      "prioridade": "secundaria"
+    },
+    {
+      "id": "obj-cap01-004",
+      "descricao": "Localizar e descrever o esconderijo secreto do grupo.",
+      "prioridade": "secundaria"
+    },
+    {
+      "id": "obj-cap01-005",
+      "descricao": "Relacionar cada personagem à ação que realizou ao receber o chamado.",
+      "prioridade": "principal"
+    },
+    {
+      "id": "obj-cap01-006",
+      "descricao": "Inferir por que a entrada de Chumbinho representa um risco para os Karas.",
+      "prioridade": "principal"
+    },
+    {
+      "id": "obj-cap01-007",
+      "descricao": "Comparar as atitudes impulsiva de Magrí e cautelosa de Miguel.",
+      "prioridade": "secundaria"
+    },
+    {
+      "id": "obj-cap01-008",
+      "descricao": "Perceber como o final cria suspense para o capítulo seguinte.",
+      "prioridade": "principal"
+    }
+  ],
+  "criterios_de_sucesso": [
+    "Acertar pelo menos 8 das 10 questões do quiz.",
+    "Ordenar corretamente pelo menos 6 dos 8 eventos da timeline.",
+    "Responder corretamente a pelo menos 12 dos 15 flashcards.",
+    "Completar pelo menos 6 dos 8 clozes."
+  ]
+}

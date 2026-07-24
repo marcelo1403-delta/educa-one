@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "livro_id": "a-droga-da-obediencia",
+  "livro": "A Droga da Obediência",
+  "capitulo": 1,
+  "titulo_capitulo": "Os Karas",
+  "fonte": "Capítulo 1 simplificado fornecido pelo usuário",
+  "tipo_atividade": "vocabulario",
+  "termos": [
+    {
+      "id": "voc-cap01-001",
+      "termo": "Grêmio",
+      "definicao": "Organização formada por estudantes para representar os alunos e participar de decisões da escola.",
+      "exemplo_contextual": "Miguel era presidente do Grêmio do Colégio Elite."
+    },
+    {
+      "id": "voc-cap01-002",
+      "termo": "Convocar",
+      "definicao": "Chamar pessoas para uma reunião ou ação importante.",
+      "exemplo_contextual": "Miguel convocou os Karas para uma reunião de emergência."
+    },
+    {
+      "id": "voc-cap01-003",
+      "termo": "Discretamente",
+      "definicao": "De modo cuidadoso, sem chamar atenção.",
+      "exemplo_contextual": "Os integrantes deixaram suas atividades discretamente."
+    },
+    {
+      "id": "voc-cap01-004",
+      "termo": "Alçapão",
+      "definicao": "Pequena porta ou abertura feita no piso ou no teto para dar acesso a outro espaço.",
+      "exemplo_contextual": "Os Karas chegavam ao esconderijo por um alçapão."
+    },
+    {
+      "id": "voc-cap01-005",
+      "termo": "Forro",
+      "definicao": "Parte que reveste ou cobre internamente um teto.",
+      "exemplo_contextual": "O esconderijo ficava acima do forro dos vestiários."
+    },
+    {
+      "id": "voc-cap01-006",
+      "termo": "Invasor",
+      "definicao": "Pessoa que entra em um lugar sem autorização.",
+      "exemplo_contextual": "No início, os Karas não sabiam quem era o invasor."
+    },
+    {
+      "id": "voc-cap01-007",
+      "termo": "Hesitar",
+      "definicao": "Demonstrar dúvida ou demora antes de agir ou responder.",
+      "exemplo_contextual": "Chumbinho respondeu sem hesitar."
+    },
+    {
+      "id": "voc-cap01-008",
+      "termo": "Simular",
+      "definicao": "Fingir uma situação ou comportamento.",
+      "exemplo_contextual": "Magrí simulou uma torção no tornozelo para sair do treino."
+    }
+  ]
+}

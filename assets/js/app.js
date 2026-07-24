@@ -1,4 +1,4 @@
-const APP_VERSION='20';
+const APP_VERSION='21';
 const bookRoot=['data','conteudos','livros','a-droga-da-obediencia'];
 const files={chapters:{
 1:{title:'Os Karas',md:['leitura','01%20-%20Os%20Karas%20simplificado.md']},
@@ -56,6 +56,8 @@ const chapterSubtitle=c=>files.chapters[c.id]?.md?'':'Em breve';
 
 async function getText(parts){const r=await fetch(contentUrl(parts));if(!r.ok)throw new Error('Arquivo nao encontrado');return r.text()}
 async function getOptionalText(parts,fallback=''){try{return await getText(parts)}catch(e){return fallback}}
+async function getJson(parts){const r=await fetch(contentUrl(parts));if(!r.ok)throw new Error('Arquivo nao encontrado');return r.json()}
+async function getOptionalJson(parts,fallback=null){try{return await getJson(parts)}catch(e){return fallback}}
 function inlineMd(s){return esc(s).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/`([^`]+)`/g,'<code>$1</code>')}
 function mdToHtml(md){
   const lines=stripFrontMatter(md).replace(/\r/g,'').split('\n');let html='',para=[],list=[];
@@ -104,7 +106,7 @@ function parseCharacter(md){
   const src=stripFrontMatter(md),get=k=>(src.match(new RegExp(`^${k}:\\s*(.+)$`,'m'))?.[1]||'').trim();
   const id=get('id'),nome=get('nome')||id,role=get('tipo')||'personagem';
   const first=Number(get('primeira_aparicao')||1),last=Number(get('ultima_aparicao')||30);
-  const group=(src.match(/^grupo:\s*\n((?:-\s*.+\n?)+)/m)?.[1]||'').split(/\n/).map(x=>x.replace(/^-\s*/,'').trim()).filter(Boolean).join(', ');
+  const grupo=(src.match(/^grupo:\s*\n((?:-\s*.+\n?)+)/m)?.[1]||'').split(/\n/).map(x=>x.replace(/^-\s*/,'').trim()).filter(Boolean).join(', ');
   const traits=(src.match(/^personalidade:\s*\n((?:-\s*.+\n?)+)/m)?.[1]||'').split(/\n/).map(x=>x.replace(/^-\s*/,'').trim()).filter(Boolean);
   const spoilers=[...src.matchAll(/texto:\s*(.+)/g)].map(m=>m[1].trim());
   return {id,nome,papel:role,grupo,caracteristicas:traits,descricao:spoilers.at(-1)||'',capitulos:Array.from({length:last-first+1},(_,i)=>first+i)};
@@ -157,9 +159,26 @@ function parseClozesMarkdown(md){
     return {text:plain(text),answers};
   }).filter(Boolean);
 }
+function parseQuizJson(data){
+  return (data?.questoes||data?.quiz||[]).map(q=>{
+    const options=(q.alternativas||q.options||[]).map(a=>typeof a==='string'?a:a.texto);
+    const key=String(q.resposta_correta??q.answer??'').toLowerCase();
+    const answer=/^[a-d]$/.test(key)?key.charCodeAt(0)-97:options.findIndex(o=>normalizeAnswer(o)===normalizeAnswer(key));
+    return {question:q.enunciado||q.pergunta||q.question,options,answer:answer<0?0:answer,explanation:q.explicacao||q.explanation||''};
+  }).filter(q=>q.question&&q.options.length);
+}
+function parseFlashcardsJson(data){
+  return (data?.flashcards||data?.cards||[]).map(f=>({front:f.frente||f.front,back:f.verso||f.back})).filter(f=>f.front&&f.back);
+}
+function parseClozesJson(data){
+  return (data?.itens||data?.clozes||[]).map(item=>{
+    const answers=(item.lacunas||[]).flatMap(l=>l.respostas_aceitas||l.answers||[]).filter(Boolean);
+    return {text:item.texto||item.text||'',answers};
+  }).filter(x=>x.text&&x.answers.length);
+}
 
 function row(c){let x=p(c.id),has=files.chapters[c.id]?.md,sub=chapterSubtitle(c);return `<a class="chapter" href="#/capitulos/${c.id}"><span class="dot ${x===100?'done':''}">${x===100?'OK':x?'▶':''}</span><span><b>Capitulo ${c.id} - ${esc(chapterTitle(c))}</b>${sub?`<small class="muted">${esc(sub)}</small>`:''}<div class="bar"><span style="width:${x}%"></span></div></span><span>${has?'Abrir':'Em breve'} ›</span></a>`}
-function home(){let d=S.data,chapters=allChapters(),g=chapters.slice(0,5),o=overall();app.innerHTML=`<section class="hero"><div><div class="eyebrow">ESTUDO DO LIVRO</div><h1>${esc(d.book.title)}</h1><h2>${esc(d.book.author)}</h2><p>${esc(d.book.description)}</p><p><a class="btn primary" href="#/capitulos/1">▶ Continuar estudando</a> <a class="btn secondary" href="#/capitulos">Ver capitulos</a></p></div><div class="progress-card"><h3>Meu progresso</h3><div class="ring" style="--p:${o}%">${o}%</div><p>${chapters.filter(c=>p(c.id)===100).length} de ${chapters.length} capitulos</p><p>Quizzes nos arquivos da pasta data/conteudos</p><p>Flashcards nos arquivos da pasta data/conteudos</p><p>${S.videos.length} videos disponiveis</p></div></section><section class="quick"><a href="#/capitulos">Capitulos<br><small>Arquivos em data</small></a><a href="#/videos">Videos<br><small>Links do R2</small></a><a href="#/capitulos/1">Quiz<br><small>Arquivos Markdown</small></a><a href="#/capitulos/1">Flashcards<br><small>Arquivos Markdown</small></a></section><section class="panel"><h2>Capitulos</h2><div class="grid">${g.map(row).join('')}</div></section>`}
+function home(){let d=S.data,chapters=allChapters(),g=chapters.slice(0,5),o=overall();app.innerHTML=`<section class="hero"><div><div class="eyebrow">ESTUDO DO LIVRO</div><h1>${esc(d.book.title)}</h1><h2>${esc(d.book.author)}</h2><p>${esc(d.book.description)}</p><p><a class="btn primary" href="#/capitulos/1">▶ Continuar estudando</a> <a class="btn secondary" href="#/capitulos">Ver capitulos</a></p></div><div class="progress-card"><h3>Meu progresso</h3><div class="ring" style="--p:${o}%">${o}%</div><p>${chapters.filter(c=>p(c.id)===100).length} de ${chapters.length} capitulos</p><p>${S.videos.length} videos disponiveis</p></div></section><section class="quick"><a href="#/capitulos">Capitulos</a><a href="#/videos">Videos</a><a href="#/capitulos/1">Quiz</a><a href="#/capitulos/1">Flashcards</a></section><section class="panel"><h2>Capitulos</h2><div class="grid">${g.map(row).join('')}</div></section>`}
 function list(){app.innerHTML=`<section class="page"><h1>Capitulos</h1><p class="muted">Leia, responda e revise.</p><div class="grid">${allChapters().map(row).join('')}</div></section>`}
 function quizHtml(id,questions,md){if(questions.length)return questions.map((q,qi)=>`<div class="scene q" data-a="${q.answer}" data-exp="${esc(q.explanation)}"><h3>${qi+1}. ${esc(q.question)}</h3>${q.options.map((o,oi)=>`<label class="option"><input type="radio" name="q${id}-${qi}" value="${oi}"> ${esc(o)}</label>`).join('')}<div class="fb"></div></div>`).join('');return `<div class="scene">${mdToHtml(md||'> As perguntas deste capitulo ainda nao foram adicionadas em data.')}</div>`}
 function flashHtml(cards,md){if(cards.length)return `<div class="flashgrid">${cards.map(f=>`<button class="flash"><span class="front">${esc(f.front)}</span><span class="back">${esc(f.back)}</span></button>`).join('')}</div>`;return `<div class="scene">${mdToHtml(md||'> Os flashcards deste capitulo ainda nao foram adicionados em data.')}</div>`}
@@ -170,11 +189,17 @@ async function chapter(id){
   app.innerHTML='<section class="page"><div class="panel">Carregando arquivos do capitulo...</div></section>';
   const pad=String(id).padStart(2,'0');
   let md='',quizMd='',flashMd='',clozeMd='',error='';
+  let quizJson=null,flashJson=null,clozeJson=null;
   if(f?.md){try{md=await getText(f.md)}catch(e){error='Nao consegui carregar o arquivo Markdown deste capitulo.'}}
-  quizMd=await getOptionalText(['quizzes',`cap.${pad}-quizzes.md`]);
-  flashMd=await getOptionalText(['flashcards',`cap.${pad}-flashcards.md`]);
-  clozeMd=await getOptionalText(['clozes',`cap.${pad}-clozes.md`]);
-  const questions=parseQuizMarkdown(quizMd),cards=parseFlashcardsMarkdown(flashMd),clozes=parseClozesMarkdown(clozeMd);
+  quizJson=await getOptionalJson(['quizzes',`cap.${pad}-quizzes.json`]);
+  flashJson=await getOptionalJson(['flashcards',`cap.${pad}-flashcards.json`]);
+  clozeJson=await getOptionalJson(['clozes',`cap.${pad}-clozes.json`]);
+  if(!quizJson)quizMd=await getOptionalText(['quizzes',`cap.${pad}-quizzes.md`]);
+  if(!flashJson)flashMd=await getOptionalText(['flashcards',`cap.${pad}-flashcards.md`]);
+  if(!clozeJson)clozeMd=await getOptionalText(['clozes',`cap.${pad}-clozes.md`]);
+  const questions=quizJson?parseQuizJson(quizJson):parseQuizMarkdown(quizMd);
+  const cards=flashJson?parseFlashcardsJson(flashJson):parseFlashcardsMarkdown(flashMd);
+  const clozes=clozeJson?parseClozesJson(clozeJson):parseClozesMarkdown(clozeMd);
   const content=md?mdToHtml(md):`<div class="scene"><p>${esc(error||'Este capitulo ainda nao tem arquivo em data/conteudos.')}</p></div>`;
   const terms=S.bookGlossary.filter(g=>Array.isArray(g.capitulos)&&g.capitulos.includes(id));
   const maxChapter=Math.max(...Object.keys(files.chapters).map(Number));

@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "livro_id": "a-droga-da-obediencia",
+  "livro": "A Droga da Obediência",
+  "capitulo": 1,
+  "titulo_capitulo": "Os Karas",
+  "fonte": "Capítulo 1 simplificado fornecido pelo usuário",
+  "tipo_atividade": "habilidades",
+  "habilidades": [
+    {
+      "id": "hab-cap01-001",
+      "nome": "Localizar informação explícita",
+      "descricao": "Encontrar no texto informações diretamente apresentadas, como nomes, lugares e ações.",
+      "indicadores_observaveis": [
+        "Identifica Miguel como líder dos Karas.",
+        "Reconhece o K como sinal secreto.",
+        "Localiza o esconderijo acima do forro dos vestiários."
+      ],
+      "atividades_relacionadas": [
+        "quizzes",
+        "flashcards",
+        "clozes"
+      ]
+    },
+    {
+      "id": "hab-cap01-002",
+      "nome": "Identificar personagens e suas ações",
+      "descricao": "Associar cada personagem ao que faz durante a narrativa.",
+      "indicadores_observaveis": [
+        "Relaciona Calu ao ensaio de teatro.",
+        "Relaciona Crânio à partida de xadrez.",
+        "Relaciona Magrí ao treino de vôlei."
+      ],
+      "atividades_relacionadas": [
+        "quizzes",
+        "flashcards",
+        "clozes"
+      ]
+    },
+    {
+      "id": "hab-cap01-003",
+      "nome": "Compreender causa e efeito",
+      "descricao": "Reconhecer por que determinados acontecimentos provocam reações dos personagens.",
+      "indicadores_observaveis": [
+        "Explica por que Miguel convoca a reunião.",
+        "Explica por que os Karas se escondem.",
+        "Compreende por que Chumbinho cria um problema."
+      ],
+      "atividades_relacionadas": [
+        "quizzes",
+        "timeline"
+      ]
+    },
+    {
+      "id": "hab-cap01-004",
+      "nome": "Reconstruir sequência narrativa",
+      "descricao": "Organizar os acontecimentos conforme a ordem em que aparecem no capítulo.",
+      "indicadores_observaveis": [
+        "Ordena a pesquisa de Miguel antes da convocação.",
+        "Coloca a entrada de Chumbinho depois do barulho no alçapão.",
+        "Reconhece o pedido de Chumbinho como evento final."
+      ],
+      "atividades_relacionadas": [
+        "timeline",
+        "quizzes"
+      ]
+    },
+    {
+      "id": "hab-cap01-005",
+      "nome": "Inferir intenções e conflitos",
+      "descricao": "Deduzir objetivos dos personagens e problemas que não são apenas listados como fatos isolados.",
+      "indicadores_observaveis": [
+        "Identifica que Chumbinho deseja entrar no grupo.",
+        "Percebe que conhecer o segredo dá a Chumbinho uma posição delicada.",
+        "Compara a reação impulsiva de Magrí com a postura cautelosa de Miguel."
+      ],
+      "atividades_relacionadas": [
+        "quizzes",
+        "objetivos"
+      ]
+    },
+    {
+      "id": "hab-cap01-006",
+      "nome": "Reconhecer suspense e continuidade",
+      "descricao": "Perceber como o final de um capítulo cria expectativa para o próximo.",
+      "indicadores_observaveis": [
+        "Identifica que a decisão sobre Chumbinho fica em aberto.",
+        "Relaciona o final ao desenvolvimento do mistério."
+      ],
+      "atividades_relacionadas": [
+        "quizzes",
+        "objetivos"
+      ]
+    }
+  ]
+}

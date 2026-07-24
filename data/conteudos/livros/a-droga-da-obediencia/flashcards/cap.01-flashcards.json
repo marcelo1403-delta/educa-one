@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "livro_id": "a-droga-da-obediencia",
+  "livro": "A Droga da Obediência",
+  "capitulo": 1,
+  "titulo_capitulo": "Os Karas",
+  "fonte": "Capítulo 1 simplificado fornecido pelo usuário",
+  "tipo_atividade": "flashcards",
+  "flashcards": [
+    {
+      "id": "fc-cap01-001",
+      "frente": "Quem liderava os Karas?",
+      "verso": "Miguel.",
+      "tags": [
+        "personagens"
+      ]
+    },
+    {
+      "id": "fc-cap01-002",
+      "frente": "Qual cargo Miguel ocupava no Colégio Elite?",
+      "verso": "Presidente do Grêmio.",
+      "tags": [
+        "personagens",
+        "colegio"
+      ]
+    },
+    {
+      "id": "fc-cap01-003",
+      "frente": "Por que Miguel convocou uma reunião de emergência?",
+      "verso": "Porque investigava o desaparecimento de estudantes em vários colégios.",
+      "tags": [
+        "misterio"
+      ]
+    },
+    {
+      "id": "fc-cap01-004",
+      "frente": "Qual era o sinal secreto dos Karas?",
+      "verso": "Um K desenhado na palma da mão.",
+      "tags": [
+        "sinal-secreto"
+      ]
+    },
+    {
+      "id": "fc-cap01-005",
+      "frente": "O que o sinal do K significava?",
+      "verso": "Que a situação era extremamente grave.",
+      "tags": [
+        "sinal-secreto"
+      ]
+    },
+    {
+      "id": "fc-cap01-006",
+      "frente": "O que Calu abandonou para atender ao chamado?",
+      "verso": "Um ensaio de teatro.",
+      "tags": [
+        "personagens"
+      ]
+    },
+    {
+      "id": "fc-cap01-007",
+      "frente": "O que Crânio abandonou para atender ao chamado?",
+      "verso": "Uma partida de xadrez que estava prestes a vencer.",
+      "tags": [
+        "personagens"
+      ]
+    },
+    {
+      "id": "fc-cap01-008",
+      "frente": "O que Magrí abandonou para atender ao chamado?",
+      "verso": "Um treino de vôlei.",
+      "tags": [
+        "personagens"
+      ]
+    },
+    {
+      "id": "fc-cap01-009",
+      "frente": "Onde ficava o esconderijo dos Karas?",
+      "verso": "Acima do forro dos vestiários.",
+      "tags": [
+        "cenario"
+      ]
+    },
+    {
+      "id": "fc-cap01-010",
+      "frente": "Como se chegava ao esconderijo?",
+      "verso": "Por um pequeno alçapão escondido em um depósito de materiais de limpeza.",
+      "tags": [
+        "cenario"
+      ]
+    },
+    {
+      "id": "fc-cap01-011",
+      "frente": "Quem entrou inesperadamente no esconderijo?",
+      "verso": "Chumbinho.",
+      "tags": [
+        "personagens"
+      ]
+    },
+    {
+      "id": "fc-cap01-012",
+      "frente": "O que Chumbinho já sabia sobre os Karas?",
+      "verso": "A identidade dos integrantes e a localização do esconderijo.",
+      "tags": [
+        "segredo"
+      ]
+    },
+    {
+      "id": "fc-cap01-013",
+      "frente": "Como Magrí reagiu à presença de Chumbinho?",
+      "verso": "Perdeu a paciência e o agarrou pela gola.",
+      "tags": [
+        "conflito"
+      ]
+    },
+    {
+      "id": "fc-cap01-014",
+      "frente": "Como Miguel reagiu à atitude de Magrí?",
+      "verso": "Conteve Magrí e decidiu ouvir Chumbinho.",
+      "tags": [
+        "lideranca"
+      ]
+    },
+    {
+      "id": "fc-cap01-015",
+      "frente": "O que Chumbinho queria?",
+      "verso": "Fazer parte dos Karas.",
+      "tags": [
+        "objetivo",
+        "final"
+      ]
+    }
+  ]
+}

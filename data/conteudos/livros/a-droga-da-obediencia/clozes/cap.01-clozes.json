@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "livro_id": "a-droga-da-obediencia",
+  "livro": "A Droga da Obediência",
+  "capitulo": 1,
+  "titulo_capitulo": "Os Karas",
+  "fonte": "Capítulo 1 simplificado fornecido pelo usuário",
+  "tipo_atividade": "clozes",
+  "instrucoes": "Complete cada lacuna com uma das respostas aceitas.",
+  "itens": [
+    {
+      "id": "cl-cap01-001",
+      "texto": "Miguel era presidente do {{1}} e líder dos Karas.",
+      "lacunas": [
+        {
+          "id": 1,
+          "respostas_aceitas": [
+            "Grêmio",
+            "grêmio"
+          ]
+        }
+      ],
+      "habilidades": [
+        "recuperar-informacao-explicita"
+      ]
+    },
+    {
+      "id": "cl-cap01-002",
+      "texto": "O sinal secreto dos Karas era um {{1}} desenhado na palma da mão.",
+      "lacunas": [
+        {
+          "id": 1,
+          "respostas_aceitas": [
+            "K",
+            "k"
+          ]
+        }
+      ],
+      "habilidades": [
+        "recuperar-informacao-explicita"
+      ]
+    },
+    {
+      "id": "cl-cap01-003",
+      "texto": "Crânio deixou uma partida de {{1}} para atender ao chamado.",
+      "lacunas": [
+        {
+          "id": 1,
+          "respostas_aceitas": [
+            "xadrez"
+          ]
+        }
+      ],
+      "habilidades": [
+        "associar-personagem-e-acao"
+      ]
+    },
+    {
+      "id": "cl-cap01-004",
+      "texto": "Magrí interrompeu um treino de {{1}}.",
+      "lacunas": [
+        {
+          "id": 1,
+          "respostas_aceitas": [
+            "vôlei",
+            "volei"
+          ]
+        }
+      ],
+      "habilidades": [
+        "associar-personagem-e-acao"
+      ]
+    },
+    {
+      "id": "cl-cap01-005",
+      "texto": "O esconderijo ficava acima do forro dos {{1}}.",
+      "lacunas": [
+        {
+          "id": 1,
+          "respostas_aceitas": [
+            "vestiários",
+            "vestiarios"
+          ]
+        }
+      ],
+      "habilidades": [
+        "identificar-cenario"
+      ]
+    },
+    {
+      "id": "cl-cap01-006",
+      "texto": "O visitante inesperado era o aluno mais novo chamado {{1}}.",
+      "lacunas": [
+        {
+          "id": 1,
+          "respostas_aceitas": [
+            "Chumbinho"
+          ]
+        }
+      ],
+      "habilidades": [
+        "identificar-personagem"
+      ]
+    },
+    {
+      "id": "cl-cap01-007",
+      "texto": "Miguel pesquisava o desaparecimento de {{1}} em vários colégios.",
+      "lacunas": [
+        {
+          "id": 1,
+          "respostas_aceitas": [
+            "estudantes",
+            "alunos"
+          ]
+        }
+      ],
+      "habilidades": [
+        "identificar-assunto-central"
+      ]
+    },
+    {
+      "id": "cl-cap01-008",
+      "texto": "Chumbinho queria fazer parte dos {{1}}.",
+      "lacunas": [
+        {
+          "id": 1,
+          "respostas_aceitas": [
+            "Karas",
+            "karas"
+          ]
+        }
+      ],
+      "habilidades": [
+        "identificar-intencao-de-personagem"
+      ]
+    }
+  ]
+}

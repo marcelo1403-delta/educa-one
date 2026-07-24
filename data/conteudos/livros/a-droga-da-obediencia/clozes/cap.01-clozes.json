@@ -1,137 +1,213 @@
 {
   "schema_version": 1,
   "livro_id": "a-droga-da-obediencia",
-  "livro": "A Droga da Obediência",
   "capitulo": 1,
-  "titulo_capitulo": "Os Karas",
-  "fonte": "Capítulo 1 simplificado fornecido pelo usuário",
-  "tipo_atividade": "clozes",
-  "instrucoes": "Complete cada lacuna com uma das respostas aceitas.",
-  "itens": [
+  "tipo": "clozes",
+  "atividades": [
     {
       "id": "cl-cap01-001",
-      "texto": "Miguel era presidente do {{1}} e líder dos Karas.",
-      "lacunas": [
+      "titulo": "Cloze 1",
+      "habilidades": [
+        "recuperar-informacao-explicita"
+      ],
+      "componentes": [
         {
-          "id": 1,
+          "tipo": "texto",
+          "conteudo": "Miguel era presidente do "
+        },
+        {
+          "tipo": "lacuna",
+          "id": "1",
+          "placeholder": "Digite a resposta",
           "respostas_aceitas": [
             "Grêmio",
             "grêmio"
           ]
+        },
+        {
+          "tipo": "texto",
+          "conteudo": " e líder dos Karas."
         }
-      ],
-      "habilidades": [
-        "recuperar-informacao-explicita"
       ]
     },
     {
       "id": "cl-cap01-002",
-      "texto": "O sinal secreto dos Karas era um {{1}} desenhado na palma da mão.",
-      "lacunas": [
+      "titulo": "Cloze 2",
+      "habilidades": [
+        "recuperar-informacao-explicita"
+      ],
+      "componentes": [
         {
-          "id": 1,
+          "tipo": "texto",
+          "conteudo": "O sinal secreto dos Karas era um "
+        },
+        {
+          "tipo": "lacuna",
+          "id": "1",
+          "placeholder": "Digite a resposta",
           "respostas_aceitas": [
             "K",
             "k"
           ]
+        },
+        {
+          "tipo": "texto",
+          "conteudo": " desenhado na palma da mão."
         }
-      ],
-      "habilidades": [
-        "recuperar-informacao-explicita"
       ]
     },
     {
       "id": "cl-cap01-003",
-      "texto": "Crânio deixou uma partida de {{1}} para atender ao chamado.",
-      "lacunas": [
+      "titulo": "Cloze 3",
+      "habilidades": [
+        "associar-personagem-e-acao"
+      ],
+      "componentes": [
         {
-          "id": 1,
+          "tipo": "texto",
+          "conteudo": "Crânio deixou uma partida de "
+        },
+        {
+          "tipo": "lacuna",
+          "id": "1",
+          "placeholder": "Digite a resposta",
           "respostas_aceitas": [
             "xadrez"
           ]
+        },
+        {
+          "tipo": "texto",
+          "conteudo": " para atender ao chamado."
         }
-      ],
-      "habilidades": [
-        "associar-personagem-e-acao"
       ]
     },
     {
       "id": "cl-cap01-004",
-      "texto": "Magrí interrompeu um treino de {{1}}.",
-      "lacunas": [
+      "titulo": "Cloze 4",
+      "habilidades": [
+        "associar-personagem-e-acao"
+      ],
+      "componentes": [
         {
-          "id": 1,
+          "tipo": "texto",
+          "conteudo": "Magrí interrompeu um treino de "
+        },
+        {
+          "tipo": "lacuna",
+          "id": "1",
+          "placeholder": "Digite a resposta",
           "respostas_aceitas": [
             "vôlei",
             "volei"
           ]
+        },
+        {
+          "tipo": "texto",
+          "conteudo": "."
         }
-      ],
-      "habilidades": [
-        "associar-personagem-e-acao"
       ]
     },
     {
       "id": "cl-cap01-005",
-      "texto": "O esconderijo ficava acima do forro dos {{1}}.",
-      "lacunas": [
+      "titulo": "Cloze 5",
+      "habilidades": [
+        "identificar-cenario"
+      ],
+      "componentes": [
         {
-          "id": 1,
+          "tipo": "texto",
+          "conteudo": "O esconderijo ficava acima do forro dos "
+        },
+        {
+          "tipo": "lacuna",
+          "id": "1",
+          "placeholder": "Digite a resposta",
           "respostas_aceitas": [
             "vestiários",
             "vestiarios"
           ]
+        },
+        {
+          "tipo": "texto",
+          "conteudo": "."
         }
-      ],
-      "habilidades": [
-        "identificar-cenario"
       ]
     },
     {
       "id": "cl-cap01-006",
-      "texto": "O visitante inesperado era o aluno mais novo chamado {{1}}.",
-      "lacunas": [
+      "titulo": "Cloze 6",
+      "habilidades": [
+        "identificar-personagem"
+      ],
+      "componentes": [
         {
-          "id": 1,
+          "tipo": "texto",
+          "conteudo": "O visitante inesperado era o aluno mais novo chamado "
+        },
+        {
+          "tipo": "lacuna",
+          "id": "1",
+          "placeholder": "Digite a resposta",
           "respostas_aceitas": [
             "Chumbinho"
           ]
+        },
+        {
+          "tipo": "texto",
+          "conteudo": "."
         }
-      ],
-      "habilidades": [
-        "identificar-personagem"
       ]
     },
     {
       "id": "cl-cap01-007",
-      "texto": "Miguel pesquisava o desaparecimento de {{1}} em vários colégios.",
-      "lacunas": [
+      "titulo": "Cloze 7",
+      "habilidades": [
+        "identificar-assunto-central"
+      ],
+      "componentes": [
         {
-          "id": 1,
+          "tipo": "texto",
+          "conteudo": "Miguel pesquisava o desaparecimento de "
+        },
+        {
+          "tipo": "lacuna",
+          "id": "1",
+          "placeholder": "Digite a resposta",
           "respostas_aceitas": [
             "estudantes",
             "alunos"
           ]
+        },
+        {
+          "tipo": "texto",
+          "conteudo": " em vários colégios."
         }
-      ],
-      "habilidades": [
-        "identificar-assunto-central"
       ]
     },
     {
       "id": "cl-cap01-008",
-      "texto": "Chumbinho queria fazer parte dos {{1}}.",
-      "lacunas": [
+      "titulo": "Cloze 8",
+      "habilidades": [
+        "identificar-intencao-de-personagem"
+      ],
+      "componentes": [
         {
-          "id": 1,
+          "tipo": "texto",
+          "conteudo": "Chumbinho queria fazer parte dos "
+        },
+        {
+          "tipo": "lacuna",
+          "id": "1",
+          "placeholder": "Digite a resposta",
           "respostas_aceitas": [
             "Karas",
             "karas"
           ]
+        },
+        {
+          "tipo": "texto",
+          "conteudo": "."
         }
-      ],
-      "habilidades": [
-        "identificar-intencao-de-personagem"
       ]
     }
   ]

@@ -1,4 +1,4 @@
-const APP_VERSION='21';
+const APP_VERSION='22';
 const bookRoot=['data','conteudos','livros','a-droga-da-obediencia'];
 const files={chapters:{
 1:{title:'Os Karas',md:['leitura','01%20-%20Os%20Karas%20simplificado.md']},
@@ -171,10 +171,16 @@ function parseFlashcardsJson(data){
   return (data?.flashcards||data?.cards||[]).map(f=>({front:f.frente||f.front,back:f.verso||f.back})).filter(f=>f.front&&f.back);
 }
 function parseClozesJson(data){
-  return (data?.itens||data?.clozes||[]).map(item=>{
+  const componentItems=(data?.atividades||[]).map(item=>{
+    const text=(item.componentes||[]).map(c=>c.tipo==='lacuna'?'____':(c.conteudo||'')).join('');
+    const answers=(item.componentes||[]).filter(c=>c.tipo==='lacuna').flatMap(c=>c.respostas_aceitas||c.answers||[]).filter(Boolean);
+    return {text,answers};
+  });
+  const itemItems=(data?.itens||data?.clozes||[]).map(item=>{
     const answers=(item.lacunas||[]).flatMap(l=>l.respostas_aceitas||l.answers||[]).filter(Boolean);
     return {text:item.texto||item.text||'',answers};
-  }).filter(x=>x.text&&x.answers.length);
+  });
+  return [...componentItems,...itemItems].filter(x=>x.text&&x.answers.length);
 }
 
 function row(c){let x=p(c.id),has=files.chapters[c.id]?.md,sub=chapterSubtitle(c);return `<a class="chapter" href="#/capitulos/${c.id}"><span class="dot ${x===100?'done':''}">${x===100?'OK':x?'▶':''}</span><span><b>Capitulo ${c.id} - ${esc(chapterTitle(c))}</b>${sub?`<small class="muted">${esc(sub)}</small>`:''}<div class="bar"><span style="width:${x}%"></span></div></span><span>${has?'Abrir':'Em breve'} ›</span></a>`}

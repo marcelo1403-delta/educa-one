@@ -8,6 +8,7 @@ Coloque os arquivos com estes nomes:
 - `assets/img/chapters/cap-01.jpg`: imagem do capitulo 1.
 - `assets/img/chapters/cap-02.jpg`: imagem do capitulo 2.
 - Continue o mesmo padrao ate `cap-30.jpg`.
+- `assets/img/chapters/thumbs-capitulos-d-o.png`: prancha original usada para recortar as thumbs.
 
 Formatos recomendados:
 

@@ -4,7 +4,7 @@ Imagens opcionais da pagina de capitulos
 Coloque os arquivos com estes nomes:
 
 - `assets/img/book-cover.jpg`: capa do livro.
-- `assets/img/netflix-hero.jpg`: imagem larga de fundo do topo da pagina.
+- `assets/img/chapters/banner-capitulos-d-o.png`: imagem larga de fundo do topo da pagina de capitulos.
 - `assets/img/chapters/cap-01.jpg`: imagem do capitulo 1.
 - `assets/img/chapters/cap-02.jpg`: imagem do capitulo 2.
 - Continue o mesmo padrao ate `cap-30.jpg`.

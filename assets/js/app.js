@@ -1,4 +1,4 @@
-const APP_VERSION='22';
+const APP_VERSION='23';
 const bookRoot=['data','conteudos','livros','a-droga-da-obediencia'];
 const files={chapters:{
 1:{title:'Os Karas',md:['leitura','01%20-%20Os%20Karas%20simplificado.md']},
@@ -189,17 +189,37 @@ function list(){app.innerHTML=`<section class="page"><h1>Capitulos</h1><p class=
 function quizHtml(id,questions,md){if(questions.length)return questions.map((q,qi)=>`<div class="scene q" data-a="${q.answer}" data-exp="${esc(q.explanation)}"><h3>${qi+1}. ${esc(q.question)}</h3>${q.options.map((o,oi)=>`<label class="option"><input type="radio" name="q${id}-${qi}" value="${oi}"> ${esc(o)}</label>`).join('')}<div class="fb"></div></div>`).join('');return `<div class="scene">${mdToHtml(md||'> As perguntas deste capitulo ainda nao foram adicionadas em data.')}</div>`}
 function flashHtml(cards,md){if(cards.length)return `<div class="flashgrid">${cards.map(f=>`<button class="flash"><span class="front">${esc(f.front)}</span><span class="back">${esc(f.back)}</span></button>`).join('')}</div>`;return `<div class="scene">${mdToHtml(md||'> Os flashcards deste capitulo ainda nao foram adicionados em data.')}</div>`}
 function clozeHtml(items,md){if(items.length)return items.map((c,i)=>`<div class="scene cloze" data-answers="${esc(c.answers.join('|'))}"><h3>Cloze ${i+1}</h3><p>${esc(c.text)}</p><input class="cloze-input" placeholder="Digite a resposta"><button class="btn secondary cloze-check">Conferir</button><div class="fb"></div></div>`).join('');return `<div class="scene">${mdToHtml(md||'> Os exercicios deste capitulo ainda nao foram adicionados em data.')}</div>`}
+function tabButton(id,label,active=false){return `<button class="chapter-tab ${active?'active':''}" data-tab="${id}" type="button" aria-selected="${active}">${label}</button>`}
+function timelineHtml(data){
+  const events=(data?.eventos||[]).slice().sort((a,b)=>(a.ordem||0)-(b.ordem||0));
+  if(!events.length)return '<div class="scene"><p>Timeline deste capitulo ainda nao foi adicionada em data.</p></div>';
+  return `<ol class="timeline-list">${events.map(ev=>`<li><b>${esc(ev.titulo)}</b><p>${esc(ev.descricao)}</p></li>`).join('')}</ol>${data?.atividade_ordenacao?.instrucao?`<div class="scene"><p>${esc(data.atividade_ordenacao.instrucao)}</p></div>`:''}`;
+}
+function vocabHtml(data,terms){
+  const items=(data?.termos||[]).map(t=>({termo:t.termo,definicao:t.definicao,exemplo:t.exemplo_contextual}));
+  const list=items.length?items:terms.map(t=>({termo:t.termo||t.term,definicao:t.definicao||t.definition,exemplo:t.exemplo}));
+  if(!list.length)return '<div class="scene"><p>Vocabulario deste capitulo ainda nao foi adicionado em data.</p></div>';
+  return `<div class="grid">${list.map(termCard).join('')}</div>`;
+}
+function objetivosHtml(data){
+  const objetivos=data?.objetivos||[],criterios=data?.criterios_de_sucesso||[];
+  if(!objetivos.length&&!criterios.length)return '<div class="scene"><p>Objetivos deste capitulo ainda nao foram adicionados em data.</p></div>';
+  return `${objetivos.length?`<div class="grid">${objetivos.map(o=>`<article class="card"><span>${esc(o.prioridade||'objetivo')}</span><h2>${esc(o.descricao)}</h2></article>`).join('')}</div>`:''}${criterios.length?`<div class="scene"><h3>Criterios de sucesso</h3><ul>${criterios.map(c=>`<li>${esc(c)}</li>`).join('')}</ul></div>`:''}`;
+}
 
-async function chapter(id){
+async function chapterOld(id){
   let f=files.chapters[id],c=S.data.chapters.find(x=>x.id===id)||{id,title:f?.title,subtitle:''};if(!f)return notfound();save(id,20);
   app.innerHTML='<section class="page"><div class="panel">Carregando arquivos do capitulo...</div></section>';
   const pad=String(id).padStart(2,'0');
   let md='',quizMd='',flashMd='',clozeMd='',error='';
-  let quizJson=null,flashJson=null,clozeJson=null;
+  let quizJson=null,flashJson=null,clozeJson=null,timelineJson=null,vocabJson=null,objetivosJson=null;
   if(f?.md){try{md=await getText(f.md)}catch(e){error='Nao consegui carregar o arquivo Markdown deste capitulo.'}}
   quizJson=await getOptionalJson(['quizzes',`cap.${pad}-quizzes.json`]);
   flashJson=await getOptionalJson(['flashcards',`cap.${pad}-flashcards.json`]);
   clozeJson=await getOptionalJson(['clozes',`cap.${pad}-clozes.json`]);
+  timelineJson=await getOptionalJson(['timeline',`cap.${pad}-timeline.json`]);
+  vocabJson=await getOptionalJson(['vocabulario',`cap.${pad}-vocabulario.json`]);
+  objetivosJson=await getOptionalJson(['objetivos',`cap.${pad}-objetivos.json`]);
   if(!quizJson)quizMd=await getOptionalText(['quizzes',`cap.${pad}-quizzes.md`]);
   if(!flashJson)flashMd=await getOptionalText(['flashcards',`cap.${pad}-flashcards.md`]);
   if(!clozeJson)clozeMd=await getOptionalText(['clozes',`cap.${pad}-clozes.md`]);
@@ -210,6 +230,36 @@ async function chapter(id){
   const terms=S.bookGlossary.filter(g=>Array.isArray(g.capitulos)&&g.capitulos.includes(id));
   const maxChapter=Math.max(...Object.keys(files.chapters).map(Number));
   app.innerHTML=`<div class="layout"><article class="reader"><div class="eyebrow">CAPITULO ${id}</div><h1>${esc(f?.title||c.title)}</h1><p class="muted">${f?.md?'Carregado de data/conteudos':'Aguardando arquivo do capitulo'}</p>${f?.md?`<p><a class="btn secondary" href="${contentUrl(f.md)}" target="_blank" rel="noopener">Abrir arquivo do capitulo</a></p>`:''}<section class="markdown">${content}</section><h2>Perguntas interativas</h2>${quizHtml(id,questions,quizMd)}<h2>Flashcards</h2>${flashHtml(cards,flashMd)}<h2>Cloze</h2>${clozeHtml(clozes,clozeMd)}${terms.length?`<h2>Glossario do capitulo</h2><div class="grid">${terms.map(termCard).join('')}</div>`:''}<p><button class="btn primary" id="finish">Concluir capitulo</button> ${id<maxChapter?`<a class="btn secondary" href="#/capitulos/${id+1}">Proximo capitulo →</a>`:''}</p></article><aside class="panel"><h3>Neste capitulo</h3><p>Texto ${f?.md?'disponivel':'pendente'}</p><p>Quiz ${questions.length||0} perguntas</p><p>Flashcards ${cards.length||0} cartoes</p><p>Cloze ${clozes.length||0} exercicios</p><p>ABC ${terms.length||0} termos</p><p><a class="btn secondary" href="#/glossario/${id}">Glossario</a></p><p><a class="btn secondary" href="#/videos">Ver videos</a></p></aside></div>`;
+  document.querySelectorAll('.flash').forEach(b=>b.onclick=()=>b.classList.toggle('flipped'));
+  document.querySelectorAll('.q').forEach(q=>q.onchange=e=>{if(!e.target.matches('input'))return;let ok=+e.target.value===+q.dataset.a,exp=q.dataset.exp;q.querySelector('.fb').textContent=(ok?'Resposta correta! ':'Ainda nao. ')+exp;save(id,Math.min(80,p(id)+8))});
+  document.querySelectorAll('.cloze-check').forEach(b=>b.onclick=()=>{const box=b.closest('.cloze'),value=normalizeAnswer(box.querySelector('.cloze-input').value),answers=box.dataset.answers.split('|').map(normalizeAnswer),ok=answers.includes(value);box.querySelector('.fb').textContent=ok?'Resposta correta!':'Ainda nao. Resposta esperada: '+box.dataset.answers.split('|').join(', ');if(ok)save(id,Math.min(80,p(id)+8))});
+  document.querySelector('#finish').onclick=()=>{save(id,100);alert('Capitulo concluido!');chapter(id)};
+}
+
+async function chapter(id){
+  let f=files.chapters[id],c=S.data.chapters.find(x=>x.id===id)||{id,title:f?.title,subtitle:''};if(!f)return notfound();save(id,20);
+  app.innerHTML='<section class="page"><div class="panel">Carregando arquivos do capitulo...</div></section>';
+  const pad=String(id).padStart(2,'0');
+  let md='',quizMd='',flashMd='',clozeMd='',error='';
+  let quizJson=null,flashJson=null,clozeJson=null,timelineJson=null,vocabJson=null,objetivosJson=null;
+  if(f?.md){try{md=await getText(f.md)}catch(e){error='Nao consegui carregar o arquivo Markdown deste capitulo.'}}
+  quizJson=await getOptionalJson(['quizzes',`cap.${pad}-quizzes.json`]);
+  flashJson=await getOptionalJson(['flashcards',`cap.${pad}-flashcards.json`]);
+  clozeJson=await getOptionalJson(['clozes',`cap.${pad}-clozes.json`]);
+  timelineJson=await getOptionalJson(['timeline',`cap.${pad}-timeline.json`]);
+  vocabJson=await getOptionalJson(['vocabulario',`cap.${pad}-vocabulario.json`]);
+  objetivosJson=await getOptionalJson(['objetivos',`cap.${pad}-objetivos.json`]);
+  if(!quizJson)quizMd=await getOptionalText(['quizzes',`cap.${pad}-quizzes.md`]);
+  if(!flashJson)flashMd=await getOptionalText(['flashcards',`cap.${pad}-flashcards.md`]);
+  if(!clozeJson)clozeMd=await getOptionalText(['clozes',`cap.${pad}-clozes.md`]);
+  const questions=quizJson?parseQuizJson(quizJson):parseQuizMarkdown(quizMd);
+  const cards=flashJson?parseFlashcardsJson(flashJson):parseFlashcardsMarkdown(flashMd);
+  const clozes=clozeJson?parseClozesJson(clozeJson):parseClozesMarkdown(clozeMd);
+  const content=md?mdToHtml(md):`<div class="scene"><p>${esc(error||'Este capitulo ainda nao tem arquivo em data/conteudos.')}</p></div>`;
+  const terms=S.bookGlossary.filter(g=>Array.isArray(g.capitulos)&&g.capitulos.includes(id));
+  const maxChapter=Math.max(...Object.keys(files.chapters).map(Number));
+  app.innerHTML=`<div class="layout"><article class="reader"><div class="eyebrow">CAPITULO ${id}</div><h1>${esc(f?.title||c.title)}</h1><p class="muted">${f?.md?'Carregado de data/conteudos':'Aguardando arquivo do capitulo'}</p><div class="chapter-tabs" role="tablist">${tabButton('leitura','Leitura',true)}${tabButton('quiz','Quiz')}${tabButton('cloze','Cloze')}${tabButton('flashcards','Flashcards')}${tabButton('timeline','Timeline')}${tabButton('vocabulario','Vocabulario')}${tabButton('objetivos','Objetivos')}</div><section class="tab-panel active" data-panel="leitura">${f?.md?`<p><a class="btn secondary" href="${contentUrl(f.md)}" target="_blank" rel="noopener">Abrir arquivo do capitulo</a></p>`:''}<section class="markdown">${content}</section></section><section class="tab-panel" data-panel="quiz" hidden><h2>Perguntas interativas</h2>${quizHtml(id,questions,quizMd)}</section><section class="tab-panel" data-panel="cloze" hidden><h2>Cloze</h2>${clozeHtml(clozes,clozeMd)}</section><section class="tab-panel" data-panel="flashcards" hidden><h2>Flashcards</h2>${flashHtml(cards,flashMd)}</section><section class="tab-panel" data-panel="timeline" hidden><h2>Timeline</h2>${timelineHtml(timelineJson)}</section><section class="tab-panel" data-panel="vocabulario" hidden><h2>Vocabulario</h2>${vocabHtml(vocabJson,terms)}</section><section class="tab-panel" data-panel="objetivos" hidden><h2>Objetivos</h2>${objetivosHtml(objetivosJson)}</section><p><button class="btn primary" id="finish">Concluir capitulo</button> ${id<maxChapter?`<a class="btn secondary" href="#/capitulos/${id+1}">Proximo capitulo -></a>`:''}</p></article><aside class="panel"><h3>Neste capitulo</h3><p>Texto ${f?.md?'disponivel':'pendente'}</p><p>Quiz ${questions.length||0} perguntas</p><p>Flashcards ${cards.length||0} cartoes</p><p>Cloze ${clozes.length||0} exercicios</p><p>Timeline ${(timelineJson?.eventos||[]).length} eventos</p><p>Vocabulario ${(vocabJson?.termos||terms).length} termos</p><p>Objetivos ${(objetivosJson?.objetivos||[]).length} itens</p><p><a class="btn secondary" href="#/glossario/${id}">Glossario geral</a></p><p><a class="btn secondary" href="#/videos">Ver videos</a></p></aside></div>`;
+  document.querySelectorAll('.chapter-tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.chapter-tab').forEach(x=>{const selected=x===b;x.classList.toggle('active',selected);x.setAttribute('aria-selected',selected?'true':'false')});document.querySelectorAll('.tab-panel').forEach(p=>{const show=p.dataset.panel===b.dataset.tab;p.hidden=!show;p.classList.toggle('active',show)});window.scrollTo({top:0,behavior:'smooth'})});
   document.querySelectorAll('.flash').forEach(b=>b.onclick=()=>b.classList.toggle('flipped'));
   document.querySelectorAll('.q').forEach(q=>q.onchange=e=>{if(!e.target.matches('input'))return;let ok=+e.target.value===+q.dataset.a,exp=q.dataset.exp;q.querySelector('.fb').textContent=(ok?'Resposta correta! ':'Ainda nao. ')+exp;save(id,Math.min(80,p(id)+8))});
   document.querySelectorAll('.cloze-check').forEach(b=>b.onclick=()=>{const box=b.closest('.cloze'),value=normalizeAnswer(box.querySelector('.cloze-input').value),answers=box.dataset.answers.split('|').map(normalizeAnswer),ok=answers.includes(value);box.querySelector('.fb').textContent=ok?'Resposta correta!':'Ainda nao. Resposta esperada: '+box.dataset.answers.split('|').join(', ');if(ok)save(id,Math.min(80,p(id)+8))});
